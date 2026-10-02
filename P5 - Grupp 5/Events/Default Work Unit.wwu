@@ -8,7 +8,7 @@
 						<Action Name="" ID="{9A3A69E2-F497-4CBC-80FB-8C5DEE311827}" ShortID="864296988">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="sfx_beep" ID="{2E022FE0-1191-4E72-A8C0-81BBF0764E00}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+									<ObjectRef Name="sfx_beep" ID="{2E022FE0-1191-4E72-A8C0-81BBF0764E00}" WorkUnitID="{FE163F86-E52E-4E9F-9160-802B7EE04005}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
