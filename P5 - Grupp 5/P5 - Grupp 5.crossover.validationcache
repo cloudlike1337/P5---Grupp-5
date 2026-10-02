@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="133">
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Attenuations\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Attenuations\Factory Attenuations.wwu" DateLow="1790921156" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Busses\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Containers\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Containers\Factory Soundseed Air Objects.wwu" DateLow="1790921307" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Containers\Factory Synth One.wwu" DateLow="1790921156" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Control Surface Sessions\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Conversion Settings\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1790921156" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Devices\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory Auro Headphone.wwu" DateLow="1790921309" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory Effects.wwu" DateLow="1790921156" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory iZotope Box Modeler.wwu" DateLow="1790921315" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory iZotope Delay.wwu" DateLow="1790921315" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory iZotope Dynamics.wwu" DateLow="1790921315" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory iZotope Filters.wwu" DateLow="1790921315" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1790921315" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1790921315" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1790921315" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory Mastering Suite.wwu" DateLow="1790921301" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory McDSP Effects.wwu" DateLow="1790921321" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory Reflect Physically-Based.wwu" DateLow="1790921305" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Effects\Factory Reflect.wwu" DateLow="1790921305" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Events\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Game Parameters\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Game Parameters\Factory Soundseed Air Game Syncs.wwu" DateLow="1790921307" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Metadata\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Mixing Sessions\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Modulators\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\P5 - Grupp 5.wproj" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Presets\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Presets\Factory Reflect Physically-Based.wwu" DateLow="1790921305" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Presets\Factory Reflect.wwu" DateLow="1790921305" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Presets\Factory Spatial Audio.wwu" DateLow="1790921156" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Queries\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Queries\Factory Queries.wwu" DateLow="1790921156" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Sidechain Mixes\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\SoundBanks\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\States\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Switches\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Triggers\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Virtual Acoustics\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1790921156" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\WwiseProjects\P5 - Grupp 5\Attenuations\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\WwiseProjects\P5 - Grupp 5\Attenuations\Factory Attenuations.wwu" DateLow="1790921156" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\WwiseProjects\P5 - Grupp 5\Busses\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
@@ -46,5 +92,5 @@
 	<ValidationCacheItem File="Y:\Documents\WwiseProjects\P5 - Grupp 5\Triggers\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\WwiseProjects\P5 - Grupp 5\Virtual Acoustics\Default Work Unit.wwu" DateLow="1790925571" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\WwiseProjects\P5 - Grupp 5\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1790921156" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Library\Application Support\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1788950668" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Library\Application Support\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1790928426" DateHigh="0"/>
 </ValidationCache>

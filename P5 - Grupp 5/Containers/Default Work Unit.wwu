@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}" SchemaVersion="133">
 	<Containers>
-		<WorkUnit Name="Default Work Unit" ID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{3626534C-07B2-4595-865C-62A0C7678215}" ShortID="291340000">
+					<ChildrenList>
+						<Folder Name="Placeholders" ID="{3C95EDC8-2573-409F-B835-264767BEBE2E}" ShortID="1032388905">
+							<ChildrenList>
+								<Sound Name="sfx_beep" ID="{2E022FE0-1191-4E72-A8C0-81BBF0764E00}" ShortID="364785675">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BEEP_Hand Tracker Beeps_PSE_OE_v9rLJ 2" ID="{CA4C43C3-B417-49F0-8CAE-313132B5331A}">
+											<Language>SFX</Language>
+											<AudioFile>BEEP_Hand Tracker Beeps_PSE_OE_v9rLJ 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="343686867"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BEEP_Hand Tracker Beeps_PSE_OE_v9rLJ 2" ID="{CA4C43C3-B417-49F0-8CAE-313132B5331A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Containers>
 </WwiseDocument>

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" SchemaVersion="133">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="play_beep" ID="{1BD70BD9-969F-493F-9E46-2167A01ACACA}">
+					<ChildrenList>
+						<Action Name="" ID="{9A3A69E2-F497-4CBC-80FB-8C5DEE311827}" ShortID="864296988">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sfx_beep" ID="{2E022FE0-1191-4E72-A8C0-81BBF0764E00}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

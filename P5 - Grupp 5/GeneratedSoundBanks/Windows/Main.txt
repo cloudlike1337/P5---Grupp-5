@@ -1,6 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1072569702	play_sfx_test			\Default Work Unit\play_sfx_test	
+	2063165418	play_beep			\Default Work Unit\play_beep	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1020348277	sfx_test_beep	.cache\B5\{B53C2D5D-53E9-FE44-D706-38AC5E517BE2}.wem		\Containers\Default Work Unit\SFX\sfx_test_beep		9080
+	343686867	sfx_beep	.cache\B5\{B53C2D5D-53E9-FE44-D706-38AC5E517BE2}.wem		\Containers\Default Work Unit\SFX\Placeholders\sfx_beep		9080
 
