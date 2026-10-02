@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{E22CD677-9C67-4D88-988A-EE4EF13D1420}",
     "Language": "SFX",
-    "Hash": "{A5FD8864-FF09-27FC-75A4-E0AC16B7A836}",
+    "Hash": "{6273EFB5-F748-4658-D36B-DDDDE476FB06}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -26,9 +26,9 @@
     ],
     "Events": [
      {
-      "Id": "2063165418",
-      "Name": "play_beep",
-      "ObjectPath": "\\Events\\Default Work Unit\\play_beep",
+      "Id": "2150497550",
+      "Name": "play_sfx_beep",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_sfx_beep",
       "GUID": "{1BD70BD9-969F-493F-9E46-2167A01ACACA}",
       "DurationType": "OneShot",
       "DurationMin": "0.046791665",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{BBAAFAAB-FC83-E5CB-8820-9A00BFB9EF88}"
+  "FileHash": "{0C530165-8531-9C27-113C-4AF765AC5816}"
  }
 }

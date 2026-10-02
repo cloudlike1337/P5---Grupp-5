@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="play_beep" ID="{1BD70BD9-969F-493F-9E46-2167A01ACACA}">
+				<Event Name="play_sfx_beep" ID="{1BD70BD9-969F-493F-9E46-2167A01ACACA}">
 					<ChildrenList>
 						<Action Name="" ID="{9A3A69E2-F497-4CBC-80FB-8C5DEE311827}" ShortID="864296988">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="sfx_beep" ID="{2E022FE0-1191-4E72-A8C0-81BBF0764E00}" WorkUnitID="{FE163F86-E52E-4E9F-9160-802B7EE04005}"/>
+									<ObjectRef Name="sfx_beep_01" ID="{2E022FE0-1191-4E72-A8C0-81BBF0764E00}" WorkUnitID="{FE163F86-E52E-4E9F-9160-802B7EE04005}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

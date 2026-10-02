@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{E22CD677-9C67-4D88-988A-EE4EF13D1420}" Language="SFX" Hash="{A5FD8864-FF09-27FC-75A4-E0AC16B7A836}">
+		<SoundBank Id="3161908922" Type="User" GUID="{E22CD677-9C67-4D88-988A-EE4EF13D1420}" Language="SFX" Hash="{6273EFB5-F748-4658-D36B-DDDDE476FB06}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -12,7 +12,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2063165418" Name="play_beep" ObjectPath="\Events\Default Work Unit\play_beep" GUID="{1BD70BD9-969F-493F-9E46-2167A01ACACA}" DurationType="OneShot" DurationMin="0.046791665" DurationMax="0.046791665">
+				<Event Id="2150497550" Name="play_sfx_beep" ObjectPath="\Events\Default Work Unit\play_sfx_beep" GUID="{1BD70BD9-969F-493F-9E46-2167A01ACACA}" DurationType="OneShot" DurationMin="0.046791665" DurationMax="0.046791665">
 					<MediaRefs>
 						<MediaRef Id="343686867"/>
 					</MediaRefs>
@@ -20,5 +20,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EA7BA48A-E4A8-5A34-004E-69D996A51A3F}</FileHash>
+	<FileHash>{27B567CD-80A6-32DF-FA4B-0CFD9EA06C80}</FileHash>
 </SoundBanksInfo>

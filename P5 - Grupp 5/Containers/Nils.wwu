@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<Folder Name="Placeholders" ID="{3C95EDC8-2573-409F-B835-264767BEBE2E}" ShortID="1032388905">
 							<ChildrenList>
-								<Sound Name="sfx_beep" ID="{2E022FE0-1191-4E72-A8C0-81BBF0764E00}" ShortID="364785675">
+								<Sound Name="sfx_beep_01" ID="{2E022FE0-1191-4E72-A8C0-81BBF0764E00}" ShortID="364785675">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
