@@ -17,7 +17,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="BEEP_Hand Tracker Beeps_PSE_OE_v9rLJ 2" ID="{CA4C43C3-B417-49F0-8CAE-313132B5331A}">
+										<AudioFileSource Name="sfx_beep" ID="{CA4C43C3-B417-49F0-8CAE-313132B5331A}">
 											<Language>SFX</Language>
 											<AudioFile>BEEP_Hand Tracker Beeps_PSE_OE_v9rLJ 2.wav</AudioFile>
 											<MediaIDList>
@@ -26,7 +26,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="BEEP_Hand Tracker Beeps_PSE_OE_v9rLJ 2" ID="{CA4C43C3-B417-49F0-8CAE-313132B5331A}" Platform="Linked"/>
+										<ActiveSource Name="sfx_beep" ID="{CA4C43C3-B417-49F0-8CAE-313132B5331A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
