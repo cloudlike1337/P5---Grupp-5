@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
+	<SoundBanks>
+		<SoundBank Id="3161908922" Type="User" GUID="{E22CD677-9C67-4D88-988A-EE4EF13D1420}" Language="SFX" Hash="{A5FD8864-FF09-27FC-75A4-E0AC16B7A836}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="343686867" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BEEP_Hand Tracker Beeps_PSE_OE_v9rLJ 2.wav</ShortName>
+					<CachePath>B5/{B53C2D5D-53E9-FE44-D706-38AC5E517BE2}.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2063165418" Name="play_beep" ObjectPath="\Events\Default Work Unit\play_beep" GUID="{1BD70BD9-969F-493F-9E46-2167A01ACACA}" DurationType="OneShot" DurationMin="0.046791665" DurationMax="0.046791665">
+					<MediaRefs>
+						<MediaRef Id="343686867"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D6FD31D5-885F-75E6-D5AD-D236BD5D3261}</FileHash>
+</SoundBanksInfo>
