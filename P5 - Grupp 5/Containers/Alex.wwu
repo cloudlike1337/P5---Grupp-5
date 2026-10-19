@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{702153A2-94F3-4FB9-9B60-BF83CC802D01}" SchemaVersion="133">
 	<Containers>
-		<WorkUnit Name="Alex" ID="{702153A2-94F3-4FB9-9B60-BF83CC802D01}" PersistMode="Standalone"/>
+		<WorkUnit Name="Alex" ID="{702153A2-94F3-4FB9-9B60-BF83CC802D01}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Test" ID="{FFCC2389-2EB8-4D2F-8A9A-8D308E73E76E}" ShortID="489547140">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Animals, Dog, Dog Sled, Dogs Howling Like Wolves, Husky SND133761" ID="{9B80D5DC-051A-4826-8F8A-C4A0F55A91C2}" ShortID="512030935">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Animals, Dog, Dog Sled, Dogs Howling Like Wolves, Husky SND133761" ID="{4DA72B22-51C9-4DDA-853F-597220615501}">
+									<Language>SFX</Language>
+									<AudioFile>Animals, Dog, Dog Sled, Dogs Howling Like Wolves, Husky SND133761.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="239198302"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Animals, Dog, Dog Sled, Dogs Howling Like Wolves, Husky SND133761" ID="{4DA72B22-51C9-4DDA-853F-597220615501}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</Containers>
 </WwiseDocument>
