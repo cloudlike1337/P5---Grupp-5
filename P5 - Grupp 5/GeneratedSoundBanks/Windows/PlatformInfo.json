@@ -19,7 +19,7 @@
    "SubFoldersForGeneratedFiles": "false",
    "RemoveUnusedGeneratedFiles": "true",
    "SourceControlGeneratedFiles": "false",
-   "GenerateHeaderFile": "false",
+   "GenerateHeaderFile": "true",
    "GenerateContentTxtFile": "true",
    "GenerateMetadataXML": "true",
    "GenerateMetadataJSON": "true",
@@ -33,6 +33,6 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{25CDA020-399C-43D8-7135-B6B0019AF59E}"
+  "FileHash": "{BE4FF05C-1DE1-D825-E5C5-6D554289E0E9}"
  }
 }
