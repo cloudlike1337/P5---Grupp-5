@@ -11,6 +11,55 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Placeholder_Soundbank" ID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Player_Dash" ID="{2822D149-B910-405E-8D54-812A341DAC1B}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Splash_Blood" ID="{149EBA9D-ECAC-405E-BC05-3C937FC8653D}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BirdChirp_Mimic" ID="{5FF81609-C20B-4131-845D-EE9ECAFF4D66}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Boss" ID="{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Boss_Spawning_Popcorn" ID="{4F653F19-142D-41BB-8617-0E7F7BFFD026}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Walk_FleshGround" ID="{31660E0F-87BC-41F9-A5F8-2DC1AE9BF1A1}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Falling_Meteor" ID="{F0E10218-D6C9-4203-81B6-624FE8543AB6}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Abillity_Skill_Cooldown" ID="{7D499584-D945-429A-8C1C-9C203AEDEDB9}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Death" ID="{CC273871-7C99-429C-9438-0A1D584753A1}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Melee_ATK" ID="{423E9773-4675-4301-9023-69E6778B2F43}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NMY_Summon" ID="{D8A006B9-EB1C-443C-8AC4-038C9A8370F3}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Splash_Water" ID="{A76A369D-F1A5-4450-BE56-17568CA5EB75}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Walk_WoodRoots" ID="{478E0459-D1FA-4473-9E62-6B311DBF5C31}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Walk_Dirt_Grass" ID="{6DDB3C4C-5C47-44F6-BB54-FF7123AD3BD9}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BirdChirp_Real" ID="{3CA73EF4-9CC7-4504-8E39-8D6EF7319AE4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Boss_DeathDestroyed" ID="{0126F672-5EAC-461C-B617-87B109D2325F}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Start_Game_Click" ID="{69BEE7C2-9DEB-4656-8D75-2342C3C55110}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Heart_Beating" ID="{59ED373D-C36D-4658-AE30-27B562C2BD6D}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Menu" ID="{FA71029F-185A-466D-A38A-408AF7FBB2D9}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Boss_DeathScream" ID="{DDDC8314-BB32-46B3-AF9E-FFCA65A5C0D0}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NMY_Popcorn_DealDMG" ID="{AEEFC2C2-5CBF-46CC-9F0E-BBFE96258AB5}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Take_Dmg" ID="{96DB461A-D9DC-46F9-8A65-2B16323F89C3}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_LevelTwo" ID="{E06E6279-2809-471A-9694-24EA1FC3C79C}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Cleave_Abillity" ID="{B9C0E051-CB86-477E-A425-58E39046CC35}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Boss_Change_Phase" ID="{67F0AA2E-2D60-47E8-96D6-53BC3D44E5F4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Spell" ID="{7A603BE6-3D70-47EA-91B7-9B281544A9C5}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB_Mutated" ID="{6A61915F-4F09-47FD-9136-D21EFA196623}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB_PreMutation" ID="{2EFB3E02-6EC4-4816-8CC8-5C67A0AE919C}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Vine_Abillity" ID="{1CD89967-515A-481E-89F9-E55BEFCAAD47}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Ranged_ATK" ID="{BADEAE6C-3EF6-48A3-8C34-CF3F035B7228}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Walk_WoodPlanks" ID="{62BE46CF-D798-48B9-83C9-D902D0015007}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NMY_Summoner_TakeDMG" ID="{C4281A83-0FD7-4B38-80AE-919A9ED7AA7B}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NMY_Ranged_AOE_Cast" ID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Ultimate_Channel" ID="{56147B53-1AB4-4B56-9EAA-4CB9EE5BB9AA}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NMY_Popcorn_TakeDMG" ID="{6AC5F07B-01B0-4B59-BE8E-22C4335530DE}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_LevelUp" ID="{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Ultimate" ID="{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Heal" ID="{D5E6260B-3C78-4C78-BB6E-2D78C5A88F38}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Heal_Pickup" ID="{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NMY_Ranged_AOE" ID="{468F71FA-C049-4C9F-BDA3-BDB752FB8052}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Buttons" ID="{23021049-AEB3-4D3E-80FA-3F14EEC17CC3}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="NMY_Ranged_TakeDMG" ID="{2371EB79-B960-4DED-AAC8-C11804550098}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_LevelOne" ID="{B2719B54-351D-4FD8-AFFB-C84AE0D97779}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
