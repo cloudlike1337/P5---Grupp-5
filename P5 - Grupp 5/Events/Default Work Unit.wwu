@@ -72,40 +72,7 @@
 								</Folder>
 								<Folder Name="Enemy" ID="{D82A25BE-83B9-4C54-A599-586D2613A9E7}" ShortID="179121366">
 									<ChildrenList>
-										<Event Name="NMY_Popcorn_TakeDMG" ID="{6AC5F07B-01B0-4B59-BE8E-22C4335530DE}">
-											<ChildrenList>
-												<Action Name="" ID="{4EFFC901-0264-41DE-8A67-2D7AE9743BAC}" ShortID="468364680">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Enemy_Popcorn enemy take damage" ID="{4A6E6D34-A8D2-4B7E-A979-1774A505DC38}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="NMY_Popcorn_DealDMG" ID="{AEEFC2C2-5CBF-46CC-9F0E-BBFE96258AB5}">
-											<ChildrenList>
-												<Action Name="" ID="{B21899E3-E4FE-4719-AC1A-1601730194B8}" ShortID="585591050">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Enemy_Popcorn enemy deal damage" ID="{D4D29CF1-445F-40E2-8F03-5E9AD1B311A6}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="NMY_Summoner_TakeDMG" ID="{C4281A83-0FD7-4B38-80AE-919A9ED7AA7B}">
-											<ChildrenList>
-												<Action Name="" ID="{988A87C2-D06F-42DF-BD11-3B8D9397B09E}" ShortID="979002613">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Enemy_Summoner enemy take damage" ID="{1C92714B-7CE0-4968-A042-0945BBCEBDBE}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="NMY_Ranged_TakeDMG" ID="{2371EB79-B960-4DED-AAC8-C11804550098}">
+										<Event Name="Enemy_Ranged_TakeDMG" ID="{2371EB79-B960-4DED-AAC8-C11804550098}">
 											<ChildrenList>
 												<Action Name="" ID="{27C658FF-FBDC-4230-9A0B-F2A9C12DC36A}" ShortID="345246758">
 													<ReferenceList>
@@ -116,18 +83,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="NMY_Summon" ID="{D8A006B9-EB1C-443C-8AC4-038C9A8370F3}">
-											<ChildrenList>
-												<Action Name="" ID="{9FC0F055-69E9-4076-BE62-E2AEF07A0182}" ShortID="433237577">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Enemy_enemy summon another enemy" ID="{D98EE4C2-6564-4EF1-9CB8-6E4E63FB6E8D}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="NMY_Ranged_AOE" ID="{468F71FA-C049-4C9F-BDA3-BDB752FB8052}">
+										<Event Name="Enemy_Ranged_AOE" ID="{468F71FA-C049-4C9F-BDA3-BDB752FB8052}">
 											<ChildrenList>
 												<Action Name="" ID="{D4F72787-DA83-4314-A1B0-7DD2F0A232BF}" ShortID="1027196534">
 													<ReferenceList>
@@ -138,7 +94,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="NMY_Ranged_AOE_Cast" ID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}">
+										<Event Name="Enemy_Ranged_AOE_Cast" ID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}">
 											<ChildrenList>
 												<Action Name="" ID="{3EE54FD4-0407-4DD5-9330-F71F82643041}" ShortID="338614389">
 													<ReferenceList>
@@ -149,6 +105,80 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Folder Name="Popcorn" ID="{B5803F40-0ED4-4F18-B543-9A1183403CE5}" ShortID="406228844">
+											<ChildrenList>
+												<Event Name="Enemy_Popcron_Walk" ID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}">
+													<ChildrenList>
+														<Action Name="" ID="{A5215951-2303-406F-9A34-7A407107C964}" ShortID="646572449">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Popcorn_Walk" ID="{A9045114-B2BF-4F25-AE8C-C9EBC4918BF7}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Enemy_Popcron_Attack" ID="{7A866C2F-C1E4-425E-80CB-788254038694}">
+													<ChildrenList>
+														<Action Name="" ID="{3C0A9244-A95F-48EF-BFF6-D5543C5B8D9B}" ShortID="109995846">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Popcorn_Attack" ID="{4F112270-4A1E-4F9A-ABF6-526728144C16}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Enemy_Popcorn_Death" ID="{85BDFD62-418B-4491-95FC-05622C98CC20}">
+													<ChildrenList>
+														<Action Name="" ID="{761BFABF-CC2E-4D49-A7F4-66DA2F1F14B6}" ShortID="101136694">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Popcorn_Death" ID="{5CCEC657-18D4-48E6-9329-FF5B93C8673A}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Summoner" ID="{260F2AE1-184F-4F0B-AAA6-64AD7B23A5FE}" ShortID="248240945">
+											<ChildrenList>
+												<Event Name="Enemy_Summoner_Attack" ID="{AC9DFF9A-07CA-4DFD-B1ED-037751ACBA1E}">
+													<ChildrenList>
+														<Action Name="" ID="{E417F938-32C6-41C5-A726-A2F3B3973824}" ShortID="694923553">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Summoner_Attack" ID="{9B63148D-A92A-4717-946E-CAA0DB4C1E59}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Enemy_Summoner_Death" ID="{6596EE04-49C0-47CE-8D8F-1616053065AD}">
+													<ChildrenList>
+														<Action Name="" ID="{398110BF-07DA-4267-A3B9-69C2239970EE}" ShortID="393576292">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Summoner_Death" ID="{467912F4-5633-418E-8890-84AB979A6908}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Enemy_Summoner_Surface" ID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}">
+													<ChildrenList>
+														<Action Name="" ID="{D8D8E944-0002-4C90-981B-250162B4F889}" ShortID="553436559">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Summoner_Surface" ID="{89887965-6A50-43BA-8FDB-DF212472797D}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+											</ChildrenList>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Environment" ID="{7501706A-2453-4591-AE8F-F1855E3832E9}" ShortID="37191935">

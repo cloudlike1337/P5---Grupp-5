@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="133">
-	<ValidationCacheItem File="C:\Users\jedus\AppData\Roaming\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1792483316" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\jedus\AppData\Roaming\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1792499700" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Attenuations\Default Work Unit.wwu" DateLow="1790934939" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Attenuations\Factory Attenuations.wwu" DateLow="1790934939" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Busses\Default Work Unit.wwu" DateLow="1790934939" DateHigh="0"/>
@@ -34,8 +34,8 @@
 	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Metadata\Default Work Unit.wwu" DateLow="1790934939" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Mixing Sessions\Default Work Unit.wwu" DateLow="1790934939" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Modulators\Default Work Unit.wwu" DateLow="1790934939" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\P5 - Grupp 5.jedus.wsettings" DateLow="1792483316" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\P5 - Grupp 5.wproj" DateLow="1790935188" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\P5 - Grupp 5.jedus.wsettings" DateLow="1792499700" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\P5 - Grupp 5.wproj" DateLow="1792500207" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Presets\Default Work Unit.wwu" DateLow="1790934940" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Presets\Factory Reflect Physically-Based.wwu" DateLow="1790934940" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\jedus\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Presets\Factory Reflect.wwu" DateLow="1790934940" DateHigh="0"/>

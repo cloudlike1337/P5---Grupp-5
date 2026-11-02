@@ -539,160 +539,660 @@
 								</Folder>
 								<Folder Name="Enemy" ID="{2D3AA297-C402-4F19-9EBD-20953899B7F8}" ShortID="248063793">
 									<ChildrenList>
-										<Sound Name="Enemy_enemy summon another enemy" ID="{D98EE4C2-6564-4EF1-9CB8-6E4E63FB6E8D}" ShortID="3261329">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
+										<Folder Name="Popcorn" ID="{B7F5140B-7147-4E06-B3AC-F266378A4C12}" ShortID="472761050">
 											<ChildrenList>
-												<AudioFileSource Name="Enemy_enemy summon another enemy" ID="{41DA00E1-7C27-47E9-B215-D2DA13066669}">
-													<Language>SFX</Language>
-													<AudioFile>Enemy_enemy summon another enemy.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="434558649"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<RandomSequenceContainer Name="Popcorn_Walk" ID="{A9045114-B2BF-4F25-AE8C-C9EBC4918BF7}" ShortID="325922136">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Popcorn_Walk_01" ID="{BEB01E38-B58A-48B9-A7AD-98E43FF78945}" ShortID="255468260">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Walk_01" ID="{FD2CF9B2-009D-4400-B3C2-24713E3C2A2D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Walk_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="216748342"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Walk_01" ID="{FD2CF9B2-009D-4400-B3C2-24713E3C2A2D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Walk_02" ID="{561D2FC9-2761-40A0-8530-29A0DFB37064}" ShortID="1061551611">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Walk_02" ID="{0CE9B986-A8DB-4281-9FE8-E28241A39EA6}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Walk_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="552675661"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Walk_02" ID="{0CE9B986-A8DB-4281-9FE8-E28241A39EA6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Walk_03" ID="{821DE91E-D2DA-4741-9E38-48C06B84E82B}" ShortID="531779118">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Walk_03" ID="{7AE77D1E-F9FA-47CC-8271-6B23AF1CA584}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Walk_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="66436734"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Walk_03" ID="{7AE77D1E-F9FA-47CC-8271-6B23AF1CA584}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Walk_04" ID="{6F54C84C-27FB-42F1-8496-75D934E4AAE4}" ShortID="100378906">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Walk_04" ID="{8DF69B68-E95D-45C7-AF0F-BA6C5D5B3427}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Walk_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="36424771"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Walk_04" ID="{8DF69B68-E95D-45C7-AF0F-BA6C5D5B3427}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Walk_05" ID="{BDA2E348-B851-4EAD-B401-0834051C6EF3}" ShortID="793574356">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Walk_05" ID="{E6A89945-A49A-4AA5-89A0-00EC7EE642FE}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Walk_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1019293332"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Walk_05" ID="{E6A89945-A49A-4AA5-89A0-00EC7EE642FE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Walk_06" ID="{8A79918B-3782-4A78-AA07-9BAD10C094E9}" ShortID="903644026">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Walk_06" ID="{086DA0CC-4B1C-432D-B7EE-535E04A5755E}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Walk_06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="551055221"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Walk_06" ID="{086DA0CC-4B1C-432D-B7EE-535E04A5755E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Popcorn_Attack" ID="{4F112270-4A1E-4F9A-ABF6-526728144C16}" ShortID="746794666">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Popcorn_Attack_01" ID="{BCAF6CA0-04B7-4FBA-BE61-45696049BE11}" ShortID="821481051">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Attack_01" ID="{971056BB-D50B-4D72-9D80-6867F37383BB}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Attack_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="327692223"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Attack_01" ID="{971056BB-D50B-4D72-9D80-6867F37383BB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Attack_02" ID="{FBB324DD-FD2B-4E9E-B958-D275214ED410}" ShortID="653535568">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Attack_02" ID="{2AA30123-F790-46CD-B9F2-1E3DF5D74C33}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Attack_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1000892860"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Attack_02" ID="{2AA30123-F790-46CD-B9F2-1E3DF5D74C33}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Attack_03" ID="{B9D54494-F565-4BCB-B093-9E4BF6784EEF}" ShortID="814913992">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Attack_03" ID="{098D5E76-E5AB-4D36-9D3C-A5E62F2CE270}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Attack_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="898166704"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Attack_03" ID="{098D5E76-E5AB-4D36-9D3C-A5E62F2CE270}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Attack_04" ID="{77D7E2CB-E258-486C-BEF0-62CFEAE59940}" ShortID="867139980">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Attack_04" ID="{4700495E-6869-4A7C-BEEF-505EB0D61A92}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Attack_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="294414217"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Attack_04" ID="{4700495E-6869-4A7C-BEEF-505EB0D61A92}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Attack_05" ID="{26BA7FAE-6527-4DBE-A232-96D0D5024F70}" ShortID="938305736">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Attack_05" ID="{C56729C6-E51D-4C57-B406-C288BCD8601C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Attack_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="614794952"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Attack_05" ID="{C56729C6-E51D-4C57-B406-C288BCD8601C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Attack_06" ID="{26AE7135-4C40-49EB-ACA2-8535F5AB09F3}" ShortID="631154144">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Attack_06" ID="{75623956-CF6F-4912-AAC7-047F9D322419}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Attack_06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="668678037"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Attack_06" ID="{75623956-CF6F-4912-AAC7-047F9D322419}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Popcorn_Death" ID="{5CCEC657-18D4-48E6-9329-FF5B93C8673A}" ShortID="459552045">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Popcorn_Death_01" ID="{BFBF5DE7-06F6-4D75-BE59-E9A717173C11}" ShortID="595599915">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Death_01" ID="{D3A2DCBB-9464-4853-8A0A-B0EA9F7AF377}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Death_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="820046013"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Death_01" ID="{D3A2DCBB-9464-4853-8A0A-B0EA9F7AF377}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Death_02" ID="{7A6E003D-83B7-4DE0-BC5B-35C39226A44B}" ShortID="233155746">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Death_02" ID="{26E00448-79B1-43B6-AE66-33CE7CD1B58A}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Death_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="339896044"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Death_02" ID="{26E00448-79B1-43B6-AE66-33CE7CD1B58A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Enemy_enemy summon another enemy" ID="{41DA00E1-7C27-47E9-B215-D2DA13066669}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Enemy_Popcorn enemy deal damage" ID="{D4D29CF1-445F-40E2-8F03-5E9AD1B311A6}" ShortID="343780084">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
+										</Folder>
+										<Folder Name="Summoner" ID="{6E9E420B-2339-4E2E-A7CC-F361772E59FE}" ShortID="65319899">
 											<ChildrenList>
-												<AudioFileSource Name="Enemy_Popcorn enemy deal damage" ID="{E3C80237-ED75-4B89-A7CF-B4C319612B83}">
-													<Language>SFX</Language>
-													<AudioFile>Enemy_Popcorn enemy deal damage.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="844784282"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<RandomSequenceContainer Name="Summoner_Attack" ID="{9B63148D-A92A-4717-946E-CAA0DB4C1E59}" ShortID="953965282">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Summoner_Attack_01" ID="{D44BBE4F-0E30-4CC6-9B5C-8D8BD61A993B}" ShortID="771934287">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Summoner_Attack_01" ID="{A0FB1936-2D00-47AE-B10C-0861E63719E7}">
+																	<Language>SFX</Language>
+																	<AudioFile>Summoner_Attack_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1298052"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Summoner_Attack_01" ID="{A0FB1936-2D00-47AE-B10C-0861E63719E7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Summoner_Attack_02" ID="{1402C638-5F2C-4AC2-ABC2-A258AF128F0C}" ShortID="502053308">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Summoner_Attack_02" ID="{DF16DB20-619A-4961-B06D-60147D0D16C9}">
+																	<Language>SFX</Language>
+																	<AudioFile>Summoner_Attack_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="680489383"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Summoner_Attack_02" ID="{DF16DB20-619A-4961-B06D-60147D0D16C9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Summoner_Attack_03" ID="{FDFAC473-C0CB-4A6B-9BE2-63CD3D74D2F4}" ShortID="837166761">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Summoner_Attack_03" ID="{731C4DA3-755A-40D6-8930-AC00F13C11D6}">
+																	<Language>SFX</Language>
+																	<AudioFile>Summoner_Attack_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1070351173"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Summoner_Attack_03" ID="{731C4DA3-755A-40D6-8930-AC00F13C11D6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Summoner_Attack_04" ID="{3FB82D43-7651-4D6A-A4EE-A8F9C44D3577}" ShortID="656252654">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Summoner_Attack_04" ID="{76DD6B54-40BD-49D0-94F3-34A3C70F0653}">
+																	<Language>SFX</Language>
+																	<AudioFile>Summoner_Attack_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="151501028"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Summoner_Attack_04" ID="{76DD6B54-40BD-49D0-94F3-34A3C70F0653}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="Summoner_Death" ID="{467912F4-5633-418E-8890-84AB979A6908}" ShortID="777855748">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Summoner_Death" ID="{C27B8E5C-5DAB-48D0-A246-D224FF84363D}">
+															<Language>SFX</Language>
+															<AudioFile>Summoner_Death.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="554111737"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Summoner_Death" ID="{C27B8E5C-5DAB-48D0-A246-D224FF84363D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Summoner_Surface" ID="{89887965-6A50-43BA-8FDB-DF212472797D}" ShortID="830802177">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Summoner_Surface" ID="{5DDF9A16-3913-4102-81D5-2009368AE1F4}">
+															<Language>SFX</Language>
+															<AudioFile>Summoner_Surface.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="227956053"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Summoner_Surface" ID="{5DDF9A16-3913-4102-81D5-2009368AE1F4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Enemy_Popcorn enemy deal damage" ID="{E3C80237-ED75-4B89-A7CF-B4C319612B83}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Enemy_Popcorn enemy take damage" ID="{4A6E6D34-A8D2-4B7E-A979-1774A505DC38}" ShortID="282185085">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
+										</Folder>
+										<Folder Name="Placeholder" ID="{D6121BC5-AD35-473E-9C67-7DD1E1254AF5}" ShortID="994678055">
 											<ChildrenList>
-												<AudioFileSource Name="Enemy_Popcorn enemy take damage" ID="{C9783BC7-CB69-40BC-921E-9CA6FDB5A1F5}">
-													<Language>SFX</Language>
-													<AudioFile>Enemy_Popcorn enemy take damage.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="700163403"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Enemy_Popcorn enemy deal damage" ID="{D4D29CF1-445F-40E2-8F03-5E9AD1B311A6}" ShortID="343780084">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_Popcorn enemy deal damage" ID="{E3C80237-ED75-4B89-A7CF-B4C319612B83}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_Popcorn enemy deal damage.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="844784282"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_Popcorn enemy deal damage" ID="{E3C80237-ED75-4B89-A7CF-B4C319612B83}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Enemy_ranged enemy A O E attack" ID="{35D24928-D701-42CA-998A-A34F031166EB}" ShortID="353326234">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_ranged enemy A O E attack" ID="{21696D96-BC55-4CE8-9088-504F9B9BEDC3}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_ranged enemy A O E attack.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="303173632"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_ranged enemy A O E attack" ID="{21696D96-BC55-4CE8-9088-504F9B9BEDC3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Enemy_Popcorn enemy take damage" ID="{4A6E6D34-A8D2-4B7E-A979-1774A505DC38}" ShortID="282185085">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_Popcorn enemy take damage" ID="{C9783BC7-CB69-40BC-921E-9CA6FDB5A1F5}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_Popcorn enemy take damage.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="700163403"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_Popcorn enemy take damage" ID="{C9783BC7-CB69-40BC-921E-9CA6FDB5A1F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Enemy_ranged enemy A O E attack cast" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" ShortID="438904085">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_ranged enemy A O E attack cast.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="862509883"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Enemy_enemy summon another enemy" ID="{D98EE4C2-6564-4EF1-9CB8-6E4E63FB6E8D}" ShortID="3261329">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_enemy summon another enemy" ID="{41DA00E1-7C27-47E9-B215-D2DA13066669}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_enemy summon another enemy.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="434558649"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_enemy summon another enemy" ID="{41DA00E1-7C27-47E9-B215-D2DA13066669}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Enemy_Summoner enemy take damage" ID="{1C92714B-7CE0-4968-A042-0945BBCEBDBE}" ShortID="623498317">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_Summoner enemy take damage" ID="{E7626492-E1B3-450B-8BFB-2F1E50514DF7}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_Summoner enemy take damage.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="724966473"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_Summoner enemy take damage" ID="{E7626492-E1B3-450B-8BFB-2F1E50514DF7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Enemy_Ranged enemy trake damage" ID="{078A25CF-8169-4AD6-A2AB-B907E6D74740}" ShortID="761072674">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_Ranged enemy trake damage" ID="{1B122BCE-4050-466A-A397-CD2C6918CC23}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_Ranged enemy trake damage.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="350426409"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_Ranged enemy trake damage" ID="{1B122BCE-4050-466A-A397-CD2C6918CC23}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Enemy_Popcorn enemy take damage" ID="{C9783BC7-CB69-40BC-921E-9CA6FDB5A1F5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Enemy_ranged enemy A O E attack cast" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" ShortID="438904085">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}">
-													<Language>SFX</Language>
-													<AudioFile>Enemy_ranged enemy A O E attack cast.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="862509883"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Enemy_ranged enemy A O E attack" ID="{35D24928-D701-42CA-998A-A34F031166EB}" ShortID="353326234">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Enemy_ranged enemy A O E attack" ID="{21696D96-BC55-4CE8-9088-504F9B9BEDC3}">
-													<Language>SFX</Language>
-													<AudioFile>Enemy_ranged enemy A O E attack.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="303173632"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Enemy_ranged enemy A O E attack" ID="{21696D96-BC55-4CE8-9088-504F9B9BEDC3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Enemy_Ranged enemy trake damage" ID="{078A25CF-8169-4AD6-A2AB-B907E6D74740}" ShortID="761072674">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Enemy_Ranged enemy trake damage" ID="{1B122BCE-4050-466A-A397-CD2C6918CC23}">
-													<Language>SFX</Language>
-													<AudioFile>Enemy_Ranged enemy trake damage.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="350426409"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Enemy_Ranged enemy trake damage" ID="{1B122BCE-4050-466A-A397-CD2C6918CC23}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Enemy_Summoner enemy take damage" ID="{1C92714B-7CE0-4968-A042-0945BBCEBDBE}" ShortID="623498317">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Enemy_Summoner enemy take damage" ID="{E7626492-E1B3-450B-8BFB-2F1E50514DF7}">
-													<Language>SFX</Language>
-													<AudioFile>Enemy_Summoner enemy take damage.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="724966473"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Enemy_Summoner enemy take damage" ID="{E7626492-E1B3-450B-8BFB-2F1E50514DF7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Boss" ID="{FC65DE1C-4660-4DC1-BEA2-4C599C3D96C2}" ShortID="416355436">
