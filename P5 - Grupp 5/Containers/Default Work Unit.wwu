@@ -3,10 +3,9 @@
 	<Containers>
 		<WorkUnit Name="Default Work Unit" ID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="PlaceholderSounds" ID="{A921921E-0C45-492F-B226-76EE25E4A135}" ShortID="369717371">
+				<Folder Name="Audio" ID="{A921921E-0C45-492F-B226-76EE25E4A135}" ShortID="369717371">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="3"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
 						<Folder Name="SFX" ID="{368A9781-B074-45B5-9E47-A0BEF0EEE3E0}" ShortID="585666742">
@@ -15,125 +14,11 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Folder Name="Environment" ID="{468F4B31-A803-4836-AD3C-22489E27A11B}" ShortID="544782594">
-									<ChildrenList>
-										<Sound Name="Environment_birds chirpign real bird" ID="{BA4566FA-A68D-4D75-B685-CB3E5A01EDFD}" ShortID="361183449">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Environment_birds chirpign real bird" ID="{D8C5AB00-4256-43DD-82E4-76CCC8EC511F}">
-													<Language>SFX</Language>
-													<AudioFile>Environment_birds chirpign real bird.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="667875289"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Environment_birds chirpign real bird" ID="{D8C5AB00-4256-43DD-82E4-76CCC8EC511F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Environment_Birds chirping mimic" ID="{FED7606B-AAA8-4D92-A7AD-8AF6B4F4923F}" ShortID="966652606">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Environment_Birds chirping mimic" ID="{4280C4A7-9934-46D9-9F7E-345C94FBC4B1}">
-													<Language>SFX</Language>
-													<AudioFile>Environment_Birds chirping mimic.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="932550139"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Environment_Birds chirping mimic" ID="{4280C4A7-9934-46D9-9F7E-345C94FBC4B1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Environment_heart beating" ID="{1646B40E-950B-437E-A0B2-8FDF6AA17DEF}" ShortID="1012500553">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Environment_heart beating" ID="{0BD85361-7FFC-4050-AD66-0F520A87FAF9}">
-													<Language>SFX</Language>
-													<AudioFile>Environment_heart beating.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="659193426"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Environment_heart beating" ID="{0BD85361-7FFC-4050-AD66-0F520A87FAF9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Environment_splash blood" ID="{DCA9EFF7-0453-498B-BA62-9B21DC4EBA95}" ShortID="776911128">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Environment_splash blood" ID="{E8DA7022-611F-4E34-ABA1-68BE218288F5}">
-													<Language>SFX</Language>
-													<AudioFile>Environment_splash blood.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="136947208"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Environment_splash blood" ID="{E8DA7022-611F-4E34-ABA1-68BE218288F5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Environment_splash water" ID="{B0DFFDCF-0D05-4A75-98AF-A34B330A733A}" ShortID="860365378">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Environment_splash water" ID="{27E22C39-B95D-493D-9681-DD6B24B07614}">
-													<Language>SFX</Language>
-													<AudioFile>Environment_splash water.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="683635721"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Environment_splash water" ID="{27E22C39-B95D-493D-9681-DD6B24B07614}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</Folder>
 								<Folder Name="Player" ID="{124917EA-8D5D-420D-A5AD-A6627EE0C34B}" ShortID="83993131">
 									<ChildrenList>
 										<Folder Name="Movement" ID="{8798D038-FE95-4A1A-90D4-5508FEDA90FE}" ShortID="535134323">
 											<ChildrenList>
-												<Sound Name="Player_Player dash" ID="{01B27C75-BC79-4500-949E-BB1894787B0E}" ShortID="126221665">
+												<Sound Name="SFX_Player_Dash" ID="{01B27C75-BC79-4500-949E-BB1894787B0E}" ShortID="126221665">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -155,7 +40,7 @@
 														<ActiveSource Name="Player_Player dash" ID="{014D29EF-CD5B-4454-B266-69C42BBD6BA9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player walk dirt grass" ID="{5E7AD80F-EDCA-4E6A-8408-C57DCDE5048F}" ShortID="123360892">
+												<RandomSequenceContainer Name="Player_Footstep_Grass" ID="{AF3F01E5-917E-4BAB-A527-3F13D9C9EDD8}" ShortID="974630431">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -165,19 +50,75 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_Player walk dirt grass" ID="{EC462DCC-733F-4677-82C7-11841D02D915}">
-															<Language>SFX</Language>
-															<AudioFile>Player_Player walk dirt grass.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="594432730"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="SFX_Player_Footstep_Dirt_01" ID="{EA1E93BA-0D52-4CA1-8393-280115A9E005}" ShortID="378061794">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_Player walk dirt grass" ID="{60A7D36F-0D42-4431-9A0E-07FD74B90975}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_Player walk dirt grass.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="594432730"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_Player walk dirt grass" ID="{60A7D36F-0D42-4431-9A0E-07FD74B90975}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Player_Footstep_Dirt_02" ID="{D1BEA1F7-5413-481A-A3AE-FCBD7B4775CD}" ShortID="53242686">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_Player walk dirt grass" ID="{0ED1A8FC-7C81-4E69-96E5-4414D6EDD905}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_Player walk dirt grass.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="594432730"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_Player walk dirt grass" ID="{0ED1A8FC-7C81-4E69-96E5-4414D6EDD905}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="SFX_Player_Footstep_Dirt_03" ID="{7F3B12FB-DF5F-4828-AD48-72DE19BA93F8}" ShortID="608585606">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_Player walk dirt grass" ID="{CBF8ECAB-167C-4BE8-9B5A-CE8BF8A33011}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_Player walk dirt grass.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="594432730"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_Player walk dirt grass" ID="{CBF8ECAB-167C-4BE8-9B5A-CE8BF8A33011}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Player walk dirt grass" ID="{EC462DCC-733F-4677-82C7-11841D02D915}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Player walk fleshy ground" ID="{941B4A86-95F6-4248-AD67-CC6FF03E9F0E}" ShortID="209052018">
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Player_Footstep_Flesh" ID="{8188217F-413D-4B93-AE07-1A001C2DF794}" ShortID="409625184">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -187,19 +128,31 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_Player walk fleshy ground" ID="{E2CD0352-BA90-4C83-B4DA-6714F3AA8905}">
-															<Language>SFX</Language>
-															<AudioFile>Player_Player walk fleshy ground.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="682105862"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="SFX_Player_Footstep_Flesh" ID="{941B4A86-95F6-4248-AD67-CC6FF03E9F0E}" ShortID="209052018">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_Player walk fleshy ground" ID="{E2CD0352-BA90-4C83-B4DA-6714F3AA8905}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_Player walk fleshy ground.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="682105862"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_Player walk fleshy ground" ID="{E2CD0352-BA90-4C83-B4DA-6714F3AA8905}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Player walk fleshy ground" ID="{E2CD0352-BA90-4C83-B4DA-6714F3AA8905}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Player walk wooden planks" ID="{FC7A07EF-A4BB-4E10-B932-8C1866BAD342}" ShortID="825828328">
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Player_Footstep_Roots" ID="{BCC7AA14-233C-470F-95CD-7CBA559CE866}" ShortID="924040696">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -209,19 +162,31 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_Player walk wooden planks" ID="{EEF144AD-35C7-4ED9-AB28-05D254BD637F}">
-															<Language>SFX</Language>
-															<AudioFile>Player_Player walk wooden planks.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="814998650"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="SFX_Player_Footstep_Roots" ID="{EB2685C3-44C5-435A-9A15-EB7229832672}" ShortID="74028032">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_Player walk wooden roots" ID="{7B549D5F-F3FA-48EA-8266-83C2511A2557}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_Player walk wooden roots.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="196817037"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_Player walk wooden roots" ID="{7B549D5F-F3FA-48EA-8266-83C2511A2557}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Player walk wooden planks" ID="{EEF144AD-35C7-4ED9-AB28-05D254BD637F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Player_Player walk wooden roots" ID="{EB2685C3-44C5-435A-9A15-EB7229832672}" ShortID="74028032">
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Player_Footstep_Wood" ID="{FE2E5F78-7D63-4825-A4BC-929D2B45CFC2}" ShortID="605844610">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -231,23 +196,35 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Player_Player walk wooden roots" ID="{7B549D5F-F3FA-48EA-8266-83C2511A2557}">
-															<Language>SFX</Language>
-															<AudioFile>Player_Player walk wooden roots.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="196817037"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="SFX_Player_Footstep_Wood" ID="{FC7A07EF-A4BB-4E10-B932-8C1866BAD342}" ShortID="825828328">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Player_Player walk wooden planks" ID="{EEF144AD-35C7-4ED9-AB28-05D254BD637F}">
+																	<Language>SFX</Language>
+																	<AudioFile>Player_Player walk wooden planks.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="814998650"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Player_Player walk wooden planks" ID="{EEF144AD-35C7-4ED9-AB28-05D254BD637F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Player walk wooden roots" ID="{7B549D5F-F3FA-48EA-8266-83C2511A2557}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Combat" ID="{E21DEE0A-B2B3-4A9A-9AE2-16035A9B3A21}" ShortID="143096536">
 											<ChildrenList>
-												<Sound Name="Player_Player casts a spell" ID="{B03D99ED-6B17-4AEE-AB0E-78E56DD8DA41}" ShortID="604619828">
+												<Sound Name="SFX_Player_Cast_Spell" ID="{B03D99ED-6B17-4AEE-AB0E-78E56DD8DA41}" ShortID="604619828">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -269,7 +246,7 @@
 														<ActiveSource Name="Player_Player casts a spell" ID="{905AD80F-A3D5-48D3-8238-6D746CBDA1A4}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player channel ultimate abillity" ID="{B2ADA9A3-D478-42BB-8D8F-B017E61CFEAE}" ShortID="165185567">
+												<Sound Name="SFX_Player_Channel_Ultimate" ID="{B2ADA9A3-D478-42BB-8D8F-B017E61CFEAE}" ShortID="165185567">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -291,7 +268,7 @@
 														<ActiveSource Name="Player_Player channel ultimate abillity" ID="{CC20E033-34E9-4F88-A334-520B2B44623B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player cleave abillity" ID="{01A3C6E0-9201-462A-955C-BDE8289C2946}" ShortID="285702684">
+												<Sound Name="SFX_Player_Cleave" ID="{01A3C6E0-9201-462A-955C-BDE8289C2946}" ShortID="285702684">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -313,7 +290,7 @@
 														<ActiveSource Name="Player_Player cleave abillity" ID="{D708EC5D-57A1-40B3-89D4-179D0DA1FC52}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player death" ID="{0566D3F9-98F2-47CA-BC81-34DF816AACBE}" ShortID="964224992">
+												<Sound Name="SFX_Player_Death" ID="{0566D3F9-98F2-47CA-BC81-34DF816AACBE}" ShortID="964224992">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -335,7 +312,7 @@
 														<ActiveSource Name="Player_Player death" ID="{ECC99524-63E9-46A8-9AE6-FE16AA16989F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player heal" ID="{969D6D2A-6C22-46ED-BAF3-5098306F348D}" ShortID="259535423">
+												<Sound Name="SFX_Player_Heal" ID="{969D6D2A-6C22-46ED-BAF3-5098306F348D}" ShortID="259535423">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -357,7 +334,7 @@
 														<ActiveSource Name="Player_Player heal" ID="{E7C99DD6-2105-4475-A540-5404973AFE3B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player level up" ID="{D38463F2-2029-426A-82DF-926C8E7B63EF}" ShortID="983971420">
+												<Sound Name="SFX_Player _Level_Up" ID="{D38463F2-2029-426A-82DF-926C8E7B63EF}" ShortID="983971420">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -379,7 +356,7 @@
 														<ActiveSource Name="Player_Player level up" ID="{BD3D5022-3B5D-4AA2-AB92-4E171B8BD140}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player melee attack" ID="{C7964A4B-5E82-48CD-89F2-53E897DBBE00}" ShortID="289184894">
+												<Sound Name="SFX_Player_Melee_Attack" ID="{C7964A4B-5E82-48CD-89F2-53E897DBBE00}" ShortID="289184894">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -401,7 +378,7 @@
 														<ActiveSource Name="Player_Player melee attack" ID="{4D4F78A4-11D7-4363-815F-25DDC4B67F94}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player pickup heal fruit" ID="{84342291-FE87-4118-9087-930293C79D58}" ShortID="973330465">
+												<Sound Name="SFX_Player_Pickup_Heal_Fruit" ID="{84342291-FE87-4118-9087-930293C79D58}" ShortID="973330465">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -423,7 +400,7 @@
 														<ActiveSource Name="Player_Player pickup heal fruit" ID="{0E1EFD95-B389-4DDF-88F2-BF746C43F2AE}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player ranged attack" ID="{E8765794-E02B-4EE4-9282-152F382F06E5}" ShortID="9275228">
+												<Sound Name="SFX_Player Ranged Attack" ID="{E8765794-E02B-4EE4-9282-152F382F06E5}" ShortID="9275228">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -445,7 +422,7 @@
 														<ActiveSource Name="Player_Player ranged attack" ID="{A0108227-2746-4753-8E1B-E5D4866DBFA9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player take damage" ID="{F063973A-BA61-4613-85B3-9235401A2757}" ShortID="747716092">
+												<Sound Name="SFX_Player_Take_Damage" ID="{F063973A-BA61-4613-85B3-9235401A2757}" ShortID="747716092">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -467,7 +444,7 @@
 														<ActiveSource Name="Player_Player take damage" ID="{E7F71208-04BB-4F6B-BB81-D403A1CBEEA8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player ultimate abillity" ID="{FEF76BF3-3A39-4B8A-8FF9-76F2D1DF47F7}" ShortID="290528770">
+												<Sound Name="SFX_Player_Use_Ultimate" ID="{FEF76BF3-3A39-4B8A-8FF9-76F2D1DF47F7}" ShortID="290528770">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -489,7 +466,7 @@
 														<ActiveSource Name="Player_Player ultimate abillity" ID="{0B5CEC26-4F38-4697-BBD0-A8A1E3B85336}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Player_Player vine abillity" ID="{7220D313-815F-49CF-A82B-D5EBB597AFBC}" ShortID="247455446">
+												<Sound Name="SFX_Player_Use_Vine" ID="{7220D313-815F-49CF-A82B-D5EBB597AFBC}" ShortID="247455446">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -511,28 +488,6 @@
 														<ActiveSource Name="Player_Player vine abillity" ID="{4A99AF89-D5C4-4747-B917-6F13A5133C8B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="UI_Abillity skill cooldown" ID="{DD82F42E-D870-4D9E-98CF-05E9CE37F7CE}" ShortID="775325567">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="UI_Abillity skill cooldown" ID="{A614FE7A-D7F2-4A61-AD25-667FD5F305F5}">
-															<Language>SFX</Language>
-															<AudioFile>UI_Abillity skill cooldown.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="877364974"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="UI_Abillity skill cooldown" ID="{A614FE7A-D7F2-4A61-AD25-667FD5F305F5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 											</ChildrenList>
 										</Folder>
 									</ChildrenList>
@@ -541,7 +496,7 @@
 									<ChildrenList>
 										<Folder Name="Popcorn" ID="{B7F5140B-7147-4E06-B3AC-F266378A4C12}" ShortID="472761050">
 											<ChildrenList>
-												<RandomSequenceContainer Name="Popcorn_Walk" ID="{A9045114-B2BF-4F25-AE8C-C9EBC4918BF7}" ShortID="325922136">
+												<RandomSequenceContainer Name="SFX_Popcorn_Walk" ID="{A9045114-B2BF-4F25-AE8C-C9EBC4918BF7}" ShortID="325922136">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -685,7 +640,7 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Popcorn_Attack" ID="{4F112270-4A1E-4F9A-ABF6-526728144C16}" ShortID="746794666">
+												<RandomSequenceContainer Name="SFX_Popcorn_Attack" ID="{4F112270-4A1E-4F9A-ABF6-526728144C16}" ShortID="746794666">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -829,7 +784,7 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<RandomSequenceContainer Name="Popcorn_Death" ID="{5CCEC657-18D4-48E6-9329-FF5B93C8673A}" ShortID="459552045">
+												<RandomSequenceContainer Name="SFX_Popcorn_Death" ID="{5CCEC657-18D4-48E6-9329-FF5B93C8673A}" ShortID="459552045">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -885,11 +840,55 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
+												<Sound Name="SFX_Popcorn_Enemy_Deal_Damage" ID="{D4D29CF1-445F-40E2-8F03-5E9AD1B311A6}" ShortID="343780084">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_Popcorn enemy deal damage" ID="{E3C80237-ED75-4B89-A7CF-B4C319612B83}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_Popcorn enemy deal damage.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="844784282"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_Popcorn enemy deal damage" ID="{E3C80237-ED75-4B89-A7CF-B4C319612B83}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Popcorn_Enemy_Take_Damage" ID="{4A6E6D34-A8D2-4B7E-A979-1774A505DC38}" ShortID="282185085">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_Popcorn enemy take damage" ID="{C9783BC7-CB69-40BC-921E-9CA6FDB5A1F5}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_Popcorn enemy take damage.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="700163403"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_Popcorn enemy take damage" ID="{C9783BC7-CB69-40BC-921E-9CA6FDB5A1F5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Summoner" ID="{6E9E420B-2339-4E2E-A7CC-F361772E59FE}" ShortID="65319899">
 											<ChildrenList>
-												<RandomSequenceContainer Name="Summoner_Attack" ID="{9B63148D-A92A-4717-946E-CAA0DB4C1E59}" ShortID="953965282">
+												<RandomSequenceContainer Name="SFX_Summoner_Attack" ID="{9B63148D-A92A-4717-946E-CAA0DB4C1E59}" ShortID="953965282">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -989,7 +988,7 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<Sound Name="Summoner_Death" ID="{467912F4-5633-418E-8890-84AB979A6908}" ShortID="777855748">
+												<Sound Name="SFX_Summoner_Death" ID="{467912F4-5633-418E-8890-84AB979A6908}" ShortID="777855748">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1011,7 +1010,7 @@
 														<ActiveSource Name="Summoner_Death" ID="{C27B8E5C-5DAB-48D0-A246-D224FF84363D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Summoner_Surface" ID="{89887965-6A50-43BA-8FDB-DF212472797D}" ShortID="830802177">
+												<Sound Name="SFX_Summoner_Surface" ID="{89887965-6A50-43BA-8FDB-DF212472797D}" ShortID="830802177">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1033,121 +1032,7 @@
 														<ActiveSource Name="Summoner_Surface" ID="{5DDF9A16-3913-4102-81D5-2009368AE1F4}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-											</ChildrenList>
-										</Folder>
-										<Folder Name="Placeholder" ID="{D6121BC5-AD35-473E-9C67-7DD1E1254AF5}" ShortID="994678055">
-											<ChildrenList>
-												<Sound Name="Enemy_Popcorn enemy deal damage" ID="{D4D29CF1-445F-40E2-8F03-5E9AD1B311A6}" ShortID="343780084">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Enemy_Popcorn enemy deal damage" ID="{E3C80237-ED75-4B89-A7CF-B4C319612B83}">
-															<Language>SFX</Language>
-															<AudioFile>Enemy_Popcorn enemy deal damage.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="844784282"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Enemy_Popcorn enemy deal damage" ID="{E3C80237-ED75-4B89-A7CF-B4C319612B83}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Enemy_ranged enemy A O E attack" ID="{35D24928-D701-42CA-998A-A34F031166EB}" ShortID="353326234">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Enemy_ranged enemy A O E attack" ID="{21696D96-BC55-4CE8-9088-504F9B9BEDC3}">
-															<Language>SFX</Language>
-															<AudioFile>Enemy_ranged enemy A O E attack.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="303173632"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Enemy_ranged enemy A O E attack" ID="{21696D96-BC55-4CE8-9088-504F9B9BEDC3}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Enemy_Popcorn enemy take damage" ID="{4A6E6D34-A8D2-4B7E-A979-1774A505DC38}" ShortID="282185085">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Enemy_Popcorn enemy take damage" ID="{C9783BC7-CB69-40BC-921E-9CA6FDB5A1F5}">
-															<Language>SFX</Language>
-															<AudioFile>Enemy_Popcorn enemy take damage.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="700163403"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Enemy_Popcorn enemy take damage" ID="{C9783BC7-CB69-40BC-921E-9CA6FDB5A1F5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Enemy_ranged enemy A O E attack cast" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" ShortID="438904085">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}">
-															<Language>SFX</Language>
-															<AudioFile>Enemy_ranged enemy A O E attack cast.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="862509883"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Enemy_enemy summon another enemy" ID="{D98EE4C2-6564-4EF1-9CB8-6E4E63FB6E8D}" ShortID="3261329">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Enemy_enemy summon another enemy" ID="{41DA00E1-7C27-47E9-B215-D2DA13066669}">
-															<Language>SFX</Language>
-															<AudioFile>Enemy_enemy summon another enemy.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="434558649"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Enemy_enemy summon another enemy" ID="{41DA00E1-7C27-47E9-B215-D2DA13066669}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Enemy_Summoner enemy take damage" ID="{1C92714B-7CE0-4968-A042-0945BBCEBDBE}" ShortID="623498317">
+												<Sound Name="SFX_Summoner_Take_Damage" ID="{1C92714B-7CE0-4968-A042-0945BBCEBDBE}" ShortID="623498317">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1169,7 +1054,33 @@
 														<ActiveSource Name="Enemy_Summoner enemy take damage" ID="{E7626492-E1B3-450B-8BFB-2F1E50514DF7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Enemy_Ranged enemy trake damage" ID="{078A25CF-8169-4AD6-A2AB-B907E6D74740}" ShortID="761072674">
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Ranged" ID="{CC01ED0F-E6BE-4607-9E16-AD522B8C006A}" ShortID="1071743840">
+											<ChildrenList>
+												<Sound Name="SFX_Ranged_Enemy_AOE_Attack_Cast" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" ShortID="438904085">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_ranged enemy A O E attack cast.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="862509883"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Ranged_Enemy_Take_Damage" ID="{078A25CF-8169-4AD6-A2AB-B907E6D74740}" ShortID="761072674">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1191,13 +1102,157 @@
 														<ActiveSource Name="Enemy_Ranged enemy trake damage" ID="{1B122BCE-4050-466A-A397-CD2C6918CC23}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="SFX_Ranged_Enemy_AOE_Attack" ID="{35D24928-D701-42CA-998A-A34F031166EB}" ShortID="353326234">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Enemy_ranged enemy A O E attack" ID="{21696D96-BC55-4CE8-9088-504F9B9BEDC3}">
+															<Language>SFX</Language>
+															<AudioFile>Enemy_ranged enemy A O E attack.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="303173632"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Enemy_ranged enemy A O E attack" ID="{21696D96-BC55-4CE8-9088-504F9B9BEDC3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Ranged_Enemy_Death" ID="{17B6C3D8-3ED7-4CC5-BEAF-D7AC58CED8C6}" ShortID="520209259">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Soundly Voice Designer, Abbi 126" ID="{3550C774-08D3-4384-967B-5B05762357B6}">
+															<Language>SFX</Language>
+															<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 126.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="932445624"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Soundly Voice Designer, Abbi 126" ID="{3550C774-08D3-4384-967B-5B05762357B6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Boss" ID="{FC65DE1C-4660-4DC1-BEA2-4C599C3D96C2}" ShortID="416355436">
+											<ChildrenList>
+												<Sound Name="SFX_Boss_Changes_Phase" ID="{F4D002D7-ECA6-4D45-AF89-9DAB3E06A29F}" ShortID="725633013">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_boss changes phase" ID="{23DE71C1-3998-432C-B154-45C3DF9A8C2C}">
+															<Language>SFX</Language>
+															<AudioFile>Boss_boss changes phase.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="220009200"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_boss changes phase" ID="{23DE71C1-3998-432C-B154-45C3DF9A8C2C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Boss Death_Destroyed" ID="{E4DCCCAB-F2D4-42DA-83EF-1D5A4A58458A}" ShortID="32343235">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_boss death destroyed" ID="{D0A13B80-E89B-4BFF-A8F4-49D507365C6F}">
+															<Language>SFX</Language>
+															<AudioFile>Boss_boss death destroyed.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="243430538"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_boss death destroyed" ID="{D0A13B80-E89B-4BFF-A8F4-49D507365C6F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Boss_Death_Scream" ID="{5E071078-D5D7-421C-9BAC-B738AAE8467C}" ShortID="388278797">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_boss death scream" ID="{E805A264-9B85-43B0-B2B3-DE19281F9898}">
+															<Language>SFX</Language>
+															<AudioFile>Boss_boss death scream.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="500720502"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_boss death scream" ID="{E805A264-9B85-43B0-B2B3-DE19281F9898}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Boss_Spawns_Popcorn_Enemy" ID="{A6974784-2343-4AF6-8979-D007E3168469}" ShortID="939037374">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_boss spawning popcorn enemy" ID="{CE647084-D437-4E5C-AE43-4A18AA8C297F}">
+															<Language>SFX</Language>
+															<AudioFile>Boss_boss spawning popcorn enemy.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="13463570"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_boss spawning popcorn enemy" ID="{CE647084-D437-4E5C-AE43-4A18AA8C297F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</Folder>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Boss" ID="{FC65DE1C-4660-4DC1-BEA2-4C599C3D96C2}" ShortID="416355436">
+								<Folder Name="Ambience" ID="{3E6835C5-31A5-4236-A07E-24F043717690}" ShortID="389305741">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
 									<ChildrenList>
-										<Sound Name="Boss_boss changes phase" ID="{F4D002D7-ECA6-4D45-AF89-9DAB3E06A29F}" ShortID="725633013">
+										<Sound Name="SFX_Ambience_Level_2" ID="{1CFC07C5-6DF1-4D40-8410-83D4CAE349A2}" ShortID="684866431">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="2"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1207,19 +1262,30 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_boss changes phase" ID="{23DE71C1-3998-432C-B154-45C3DF9A8C2C}">
+												<AudioFileSource Name="Environment_Enviromental ambiance mutated" ID="{65C60C52-E3A2-4A8C-B02A-C6F667239338}">
 													<Language>SFX</Language>
-													<AudioFile>Boss_boss changes phase.wav</AudioFile>
+													<AudioFile>Environment_Enviromental ambiance mutated.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="220009200"/>
+														<MediaID ID="982102217"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 114" ID="{DB46DC4A-0761-49B4-8CC5-7621ADB5483F}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 114.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="850935243"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Boss_boss changes phase" ID="{23DE71C1-3998-432C-B154-45C3DF9A8C2C}" Platform="Linked"/>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 114" ID="{DB46DC4A-0761-49B4-8CC5-7621ADB5483F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Boss_boss death destroyed" ID="{E4DCCCAB-F2D4-42DA-83EF-1D5A4A58458A}" ShortID="32343235">
+										<Sound Name="SFX_Ambience_Level_1" ID="{436AE15A-1F65-4D10-92A8-8E137486145B}" ShortID="848942198">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="2"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1229,67 +1295,30 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Boss_boss death destroyed" ID="{D0A13B80-E89B-4BFF-A8F4-49D507365C6F}">
+												<AudioFileSource Name="Environment_Enviromental ambiance pre-mutation" ID="{3E34B312-7A9A-436B-A154-A51D666BF7F6}">
 													<Language>SFX</Language>
-													<AudioFile>Boss_boss death destroyed.wav</AudioFile>
+													<AudioFile>Environment_Enviromental ambiance pre-mutation.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="243430538"/>
+														<MediaID ID="119554607"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 113" ID="{C84EBD89-A6B1-4B92-A09D-BC5692D46BBA}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 113.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="943766923"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Boss_boss death destroyed" ID="{D0A13B80-E89B-4BFF-A8F4-49D507365C6F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Boss_boss death scream" ID="{5E071078-D5D7-421C-9BAC-B738AAE8467C}" ShortID="388278797">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Boss_boss death scream" ID="{E805A264-9B85-43B0-B2B3-DE19281F9898}">
-													<Language>SFX</Language>
-													<AudioFile>Boss_boss death scream.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="500720502"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Boss_boss death scream" ID="{E805A264-9B85-43B0-B2B3-DE19281F9898}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Boss_boss spawning popcorn enemy" ID="{A6974784-2343-4AF6-8979-D007E3168469}" ShortID="939037374">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Boss_boss spawning popcorn enemy" ID="{CE647084-D437-4E5C-AE43-4A18AA8C297F}">
-													<Language>SFX</Language>
-													<AudioFile>Boss_boss spawning popcorn enemy.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="13463570"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Boss_boss spawning popcorn enemy" ID="{CE647084-D437-4E5C-AE43-4A18AA8C297F}" Platform="Linked"/>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 113" ID="{C84EBD89-A6B1-4B92-A09D-BC5692D46BBA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</Folder>
-								<Folder Name="Menu" ID="{927531EB-93D1-4DA0-BCBC-55928442C004}" ShortID="665384769">
+								<Folder Name="UI" ID="{AC7D40F9-C24A-47B7-B536-1AFD3CA5EB23}" ShortID="651705942">
 									<ChildrenList>
-										<Sound Name="Menu_Start game click" ID="{EED8D76C-4256-46DB-A3D7-8DE60AA8C0A4}" ShortID="396730136">
+										<Sound Name="SFX_Start_Game" ID="{EED8D76C-4256-46DB-A3D7-8DE60AA8C0A4}" ShortID="396730136">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1306,12 +1335,19 @@
 														<MediaID ID="467374756"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 117" ID="{68B0BA72-2434-434F-A43B-93C47C4A9F3F}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 117.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="14434600"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Menu_Start game click" ID="{02A13533-4394-4122-9CB2-73BD0463700C}" Platform="Linked"/>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 117" ID="{68B0BA72-2434-434F-A43B-93C47C4A9F3F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Menu_UI Buttons" ID="{C2A9F788-8DD9-47A6-9574-01350230D508}" ShortID="14277248">
+										<Sound Name="SFX_Ability_Unlocked" ID="{CCF1CFBD-CF5A-406C-92BF-676051D70E26}" ShortID="93626567">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1321,16 +1357,238 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Menu_UI Buttons" ID="{C2591681-BAB7-4E7B-B514-C1355452379F}">
+												<AudioFileSource Name="SFX_Ability_Unlocked" ID="{05765C7C-F287-4C01-86D2-C0E678324C1C}">
 													<Language>SFX</Language>
-													<AudioFile>Menu_UI Buttons.wav</AudioFile>
+													<AudioFile>SFX_Ability_Unlocked.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="752771780"/>
+														<MediaID ID="445265876"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Menu_UI Buttons" ID="{C2591681-BAB7-4E7B-B514-C1355452379F}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Ability_Unlocked" ID="{05765C7C-F287-4C01-86D2-C0E678324C1C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Invalid_Action" ID="{DD82F42E-D870-4D9E-98CF-05E9CE37F7CE}" ShortID="775325567">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="UI_Abillity skill cooldown" ID="{A614FE7A-D7F2-4A61-AD25-667FD5F305F5}">
+													<Language>SFX</Language>
+													<AudioFile>UI_Abillity skill cooldown.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="877364974"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 115" ID="{BBDFFF1B-AF8B-4C35-A835-38E5C438B490}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 115.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="775499222"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 115" ID="{BBDFFF1B-AF8B-4C35-A835-38E5C438B490}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Menu_Hover" ID="{945630C5-B298-442B-827D-8A063EEEA5FB}" ShortID="164644334">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 116" ID="{F8E2C58F-62C2-45CE-BD65-884703F09F55}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 116.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="236129288"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 116" ID="{F8E2C58F-62C2-45CE-BD65-884703F09F55}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Menu_Confirm" ID="{49ADED64-B5BB-447A-9E16-47AB6AD3609C}" ShortID="845751459">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 118" ID="{AB821C94-9F65-47F2-B6C3-945ACF175C1A}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 118.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="234507053"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 118" ID="{AB821C94-9F65-47F2-B6C3-945ACF175C1A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Menu_Back" ID="{FE2B7F2E-9DAB-4BBB-9E68-731A2A6C4F4B}" ShortID="196560079">
+											<PropertyList>
+												<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
+												<Property Name="Soundly:FileName" Type="string" Value="/var/folders/xl/m29gc1wj129fl5xx95tfykkr0000gn/T/tmp7rrhl0l1/speechEngineCache/d99513807faa2539e90de4f92b868186.wav"/>
+												<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
+												<Property Name="Soundly:HandleStopTime" Type="string" Value="1.5335"/>
+												<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
+												<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
+												<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="2"/>
+												<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/nilsjobs/Documents/Soundly Audio/Soundly Voice Designer, Abbi 119.wav"/>
+												<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
+												<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
+												<Property Name="Soundly:SelectionStopTime" Type="string" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 119" ID="{7802C7A2-030D-48BD-A092-F36100A3D61F}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 119.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="329786733"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 119" ID="{7802C7A2-030D-48BD-A092-F36100A3D61F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Checkpoint_Reached" ID="{5EEA46DC-E5BE-460B-907D-F6F829325963}" ShortID="281539302">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 120" ID="{80B0F3EC-D91B-4A60-B1A0-4C6263F5721A}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 120.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="311015533"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 120" ID="{80B0F3EC-D91B-4A60-B1A0-4C6263F5721A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Warning_Sound" ID="{A7827250-3B11-4502-A8A7-C62B5DAA0383}" ShortID="873302314">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 121" ID="{5794C36C-BBFC-44D0-A01B-8DD8540841E3}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 121.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1062508675"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 121" ID="{5794C36C-BBFC-44D0-A01B-8DD8540841E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Player_Respawn" ID="{EE83A719-9CE7-41FA-A6CE-1C859514FA5D}" ShortID="538939918">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 123" ID="{AE40ACE6-887E-49CE-9CA7-EB16B5B2F311}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 123.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="36223790"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 123" ID="{AE40ACE6-887E-49CE-9CA7-EB16B5B2F311}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Environment" ID="{43A605EC-7346-4524-8806-349B4C4E3000}" ShortID="688961745">
+									<ChildrenList>
+										<Sound Name="SFX_Walls_Rising" ID="{C5CDFBE9-46C5-4A3F-9A1B-CE21DC5701E3}" ShortID="728598839">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 125" ID="{0AA9E3C2-4294-4090-B617-9043BCB436A6}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 125.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="358838034"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 125" ID="{0AA9E3C2-4294-4090-B617-9043BCB436A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_Walls_Lowering" ID="{EF139233-37D8-4805-B075-071BB01174E2}" ShortID="362701681">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Soundly Voice Designer, Abbi 124" ID="{9980979B-8C46-4039-908A-146B5D34FE20}">
+													<Language>SFX</Language>
+													<AudioFile>Soundly Voice Designer, Abbi 124.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="901092673"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Soundly Voice Designer, Abbi 124" ID="{9980979B-8C46-4039-908A-146B5D34FE20}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1343,7 +1601,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Sound Name="Music_Boss music" ID="{1CB7F166-F6A7-4BB5-9822-7852646B685B}" ShortID="598258232">
+								<Sound Name="Music_Boss_Music" ID="{1CB7F166-F6A7-4BB5-9822-7852646B685B}" ShortID="598258232">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1365,7 +1623,7 @@
 										<ActiveSource Name="Music_Boss music" ID="{BE0F8FD2-BA63-4439-A853-62B21329973B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Music_Level one music" ID="{06EC33AB-3D68-4CA2-B98F-D16DC5C76B53}" ShortID="1009696560">
+								<Sound Name="Music_Level_1_Music" ID="{06EC33AB-3D68-4CA2-B98F-D16DC5C76B53}" ShortID="1009696560">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1387,7 +1645,7 @@
 										<ActiveSource Name="Music_Level one music" ID="{87D78278-9E49-4884-AF8F-F8113985BCCC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Music_level two music" ID="{FB79CBA3-D1BC-40FF-8E57-2AF3052D193C}" ShortID="916427894">
+								<Sound Name="Music_Level_2_Music" ID="{FB79CBA3-D1BC-40FF-8E57-2AF3052D193C}" ShortID="916427894">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1409,7 +1667,7 @@
 										<ActiveSource Name="Music_level two music" ID="{4C850A55-616C-458E-AC7F-71E27CAC05A5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Music_Main menu music" ID="{F0908B4C-0419-4307-B4F4-5AEE3ECF29B2}" ShortID="582188484">
+								<Sound Name="Music_MainMenu_Music" ID="{F0908B4C-0419-4307-B4F4-5AEE3ECF29B2}" ShortID="582188484">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1431,15 +1689,7 @@
 										<ActiveSource Name="Music_Main menu music" ID="{E5A65073-BA5C-410B-B3D2-4DAD641F7FAB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Ambiance" ID="{3E6835C5-31A5-4236-A07E-24F043717690}" ShortID="389305741">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="6"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<Sound Name="Environment_Enviromental ambiance mutated" ID="{1CFC07C5-6DF1-4D40-8410-83D4CAE349A2}" ShortID="684866431">
+								<Sound Name="Music_End_Title" ID="{7CD7C878-C645-405E-9C66-7EF3792974B5}" ShortID="547024990">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1449,68 +1699,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Environment_Enviromental ambiance mutated" ID="{65C60C52-E3A2-4A8C-B02A-C6F667239338}">
+										<AudioFileSource Name="Soundly Voice Designer, Abbi 127" ID="{FEF83E90-0182-436E-9D18-79D761A23414}">
 											<Language>SFX</Language>
-											<AudioFile>Environment_Enviromental ambiance mutated.wav</AudioFile>
+											<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 127.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="982102217"/>
+												<MediaID ID="540363206"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Environment_Enviromental ambiance mutated" ID="{65C60C52-E3A2-4A8C-B02A-C6F667239338}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Environment_Enviromental ambiance pre-mutation" ID="{436AE15A-1F65-4D10-92A8-8E137486145B}" ShortID="848942198">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Environment_Enviromental ambiance pre-mutation" ID="{3E34B312-7A9A-436B-A154-A51D666BF7F6}">
-											<Language>SFX</Language>
-											<AudioFile>Environment_Enviromental ambiance pre-mutation.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="119554607"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Environment_Enviromental ambiance pre-mutation" ID="{3E34B312-7A9A-436B-A154-A51D666BF7F6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="IntroCinematic" ID="{DE2D9727-6B48-4D6A-BDA1-C07A37ED26E3}" ShortID="683806711">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="25"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
-							<ChildrenList>
-								<Sound Name="IntroCinematicMeteor Impact" ID="{92AB6ADE-0A6F-4BA1-814B-31C364021190}" ShortID="830165411">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="IntroCinematicMeteor Impact" ID="{FA84BFFC-BF69-42AF-A66B-801D011B0591}">
-											<Language>SFX</Language>
-											<AudioFile>IntroCinematicMeteor Impact.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="192592956"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="IntroCinematicMeteor Impact" ID="{FA84BFFC-BF69-42AF-A66B-801D011B0591}" Platform="Linked"/>
+										<ActiveSource Name="Soundly Voice Designer, Abbi 127" ID="{FEF83E90-0182-436E-9D18-79D761A23414}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

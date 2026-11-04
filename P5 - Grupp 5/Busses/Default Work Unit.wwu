@@ -23,7 +23,7 @@
 								<Bus Name="Player_Bus" ID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}"/>
 								<Bus Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}"/>
 								<Bus Name="UI_Bus" ID="{99820C0E-0255-4B3E-8134-2332B41B8E3B}"/>
-								<Bus Name="Environmet_Bus" ID="{01E07A53-C8C2-4A9C-8105-AC61D8B09359}"/>
+								<Bus Name="Environment_Bus" ID="{01E07A53-C8C2-4A9C-8105-AC61D8B09359}"/>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">

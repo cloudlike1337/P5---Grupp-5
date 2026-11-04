@@ -1,6 +1,120 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2150497550	play_sfx_beep			\Default Work Unit\play_sfx_beep	
+	9220177	Play_Player_Ultimate_Channel			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ultimate_Channel	
+	455571771	Play_Menu_Back			\Default Work Unit\Audio\SFX\UI\Play_Menu_Back	
+	461636554	Play_Enemy_Ranged_AOE_Hit			\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Hit	
+	540375402	Play_Boss_Death_Destroyed			\Default Work Unit\Audio\SFX\Boss\Play_Boss_Death_Destroyed	
+	638998366	Play_Player_Heal			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Heal	
+	763268173	Play_Boss_Spawning_Popcorn			\Default Work Unit\Audio\SFX\Boss\Play_Boss_Spawning_Popcorn	
+	817598862	Play_Menu_Confirm			\Default Work Unit\Audio\SFX\UI\Play_Menu_Confirm	
+	833230064	Play_Level_1			\Default Work Unit\Audio\SFX\Ambience\Play_Level_1	
+	833230067	Play_Level_2			\Default Work Unit\Audio\SFX\Ambience\Play_Level_2	
+	925767337	Play_Player_Cleave_Abillity			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Cleave_Abillity	
+	984730830	Play_Player_Spell			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Spell	
+	1161564153	Play_Player_LevelUp			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_LevelUp	
+	1172205655	Play_Player_Take_Damage			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Take_Damage	
+	1217663566	Play_Player_Footstep_Wood			\Default Work Unit\Audio\SFX\Player\Movement\Play_Player_Footstep_Wood	
+	1268859200	Play_Boss_Change_Phase			\Default Work Unit\Audio\SFX\Boss\Play_Boss_Change_Phase	
+	1297509074	Play_Warning_Sound			\Default Work Unit\Audio\SFX\UI\Play_Warning_Sound	
+	1319327521	Play_Enemy_Summoner_Surface			\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Surface	
+	1327141250	Play_Chechpoint_Reached			\Default Work Unit\Audio\SFX\UI\Play_Chechpoint_Reached	
+	1454168108	Play_Enemy_Summoner_Attack			\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Attack	
+	1528054008	Play_Ability_Unlocked			\Default Work Unit\Audio\SFX\UI\Play_Ability_Unlocked	
+	1535617374	Play_Enemy_Summoner_Death			\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Death	
+	1767242762	Play_Player_Ranged_ATK			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ranged_ATK	
+	1790536185	Music_Main_Title			\Default Work Unit\Audio\Music\Music_Main_Title	
+	1835085974	Play_Player_Death			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Death	
+	1932334290	Play_Walls_Rising			\Default Work Unit\Audio\SFX\Environment\Play_Walls_Rising	
+	1966043283	Play_Enemy_Popcorn_Death			\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Death	
+	2134822783	Play_Enemy_Summoner_Take_Damage			\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Take_Damage	
+	2175711460	Play_Player_Dash			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Dash	
+	2195822293	Play_Player_Vine_Abillity			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Vine_Abillity	
+	2240910551	Music_LevelOne			\Default Work Unit\Audio\Music\Music_LevelOne	
+	2264668508	Play_Invalid_Action			\Default Work Unit\Audio\SFX\UI\Play_Invalid_Action	
+	2292493453	Play_Player_Ultimate_Cast			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ultimate_Cast	
+	2391442630	Play_Enemy_Ranged_Take_Damage			\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Take_Damage	
+	2656952517	Music_LevelTwo			\Default Work Unit\Audio\Music\Music_LevelTwo	
+	2746825790	Play_Boss_Death_Scream			\Default Work Unit\Audio\SFX\Boss\Play_Boss_Death_Scream	
+	2860839877	Play_Player_Footstep_Flesh			\Default Work Unit\Audio\SFX\Player\Movement\Play_Player_Footstep_Flesh	
+	2980837791	Play_Player_Melee_ATK			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Melee_ATK	
+	3198354287	Music_End_Title			\Default Work Unit\Audio\Music\Music_End_Title	
+	3294915283	Play_Start_Game			\Default Work Unit\Audio\SFX\UI\Play_Start_Game	
+	3453525588	Play_Enemy_Popcorn_Walk			\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk	
+	3737986925	Play_Player_Footstep_Grass			\Default Work Unit\Audio\SFX\Player\Movement\Play_Player_Footstep_Grass	
+	3835684012	Play_Menu_Hover			\Default Work Unit\Audio\SFX\UI\Play_Menu_Hover	
+	3914235351	Play_Enemy_Ranged_Death			\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Death	
+	3967476884	Play_Player_Footstep_Roots			\Default Work Unit\Audio\SFX\Player\Movement\Play_Player_Footstep_Roots	
+	4017243061	Play_Player_Heal_Pickup			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Heal_Pickup	
+	4089134270	Play_Enemy_Ranged_AOE_Cast			\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Cast	
+	4145597129	Play_Walls_Lowering			\Default Work Unit\Audio\SFX\Environment\Play_Walls_Lowering	
+	4171726961	Music_Boss_Fight			\Default Work Unit\Audio\Music\Music_Boss_Fight	
+	4214071090	Play_Enemy_Popcorn_Take_Damage			\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Take_Damage	
+	4238880044	Play_Player_Respawn			\Default Work Unit\Audio\SFX\UI\Play_Player_Respawn	
+	4254872019	Play_Enemy_Popcorn_Attack			\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Attack	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	343686867	sfx_beep	.cache\B5\{B53C2D5D-53E9-FE44-D706-38AC5E517BE2}.wem		\Containers\Nils\SFX\Placeholders\sfx_beep		9080
+	1298052	Summoner_Attack_01	.cache\25\{25318EE7-8691-3ACB-0EA4-BA082ACCE608}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Attack\Summoner_Attack_01		277376
+	13463570	SFX_Boss_Spawns_Popcorn_Enemy	.cache\F4\{F4CBE45A-F653-8648-F80B-98A3A16497D7}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Boss\SFX_Boss_Spawns_Popcorn_Enemy		394368
+	14434600	SFX_Start_Game	.cache\60\{6089CFB3-E668-ABA6-CA4C-C3F4F7ABD989}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Start_Game		294528
+	32820896	SFX_Player_Cast_Spell	.cache\01\{01B80F18-956B-D167-A1D3-297AFD1062F3}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Cast_Spell		294528
+	36223790	SFX_Player_Respawn	.cache\91\{91167413-1104-CD93-207D-08625C02322C}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Player_Respawn		294528
+	36424771	Popcorn_Walk_04	.cache\BD\{BD7AB5E7-E1B4-FF79-3B0D-C2CC82D03877}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_Walk_04		41768
+	44636632	SFX_Player _Level_Up	.cache\30\{307D7D99-919B-8C27-71F4-134FB147095F}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player _Level_Up		294528
+	66436734	Popcorn_Walk_03	.cache\06\{068B5044-0835-4FF3-6EF8-33619941D36B}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_Walk_03		49308
+	67066080	SFX_Player_Take_Damage	.cache\FC\{FC1AB9CD-C4DC-AAEC-7BE3-E19A8F7D0CF3}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Take_Damage		294528
+	80838699	Music_Level_2_Music	.cache\58\{58096E8C-18C4-ADEA-E57B-4251C5F38960}.wem		\Containers\Default Work Unit\Audio\Music\Music_Level_2_Music		294528
+	125135763	SFX_Player_Use_Vine	.cache\04\{04A163BF-0DB7-9D8C-E6B2-3521B41D7EA7}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Use_Vine		294528
+	151501028	Summoner_Attack_04	.cache\23\{23648328-46CA-64EC-09D5-4BCC5ECED856}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Attack\Summoner_Attack_04		209452
+	196817037	SFX_Player_Footstep_Roots	.cache\9A\{9A20D58E-3407-7943-C6EC-1B55ABE87FF2}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Player_Footstep_Roots\SFX_Player_Footstep_Roots		421684
+	216748342	Popcorn_Walk_01	.cache\67\{674DCE20-950F-E48A-E66A-546423212F75}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_Walk_01		45056
+	220009200	SFX_Boss_Changes_Phase	.cache\39\{3969DE2D-C118-EEDE-2808-9C4AB23D156C}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Boss\SFX_Boss_Changes_Phase		294528
+	227956053	SFX_Summoner_Surface	.cache\E1\{E1203B64-DBC8-2028-21F5-E59F701910DC}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Surface		378936
+	234507053	SFX_Menu_Confirm	.cache\4E\{4EE30B4A-B8D2-AED5-DF96-57F552A08727}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Menu_Confirm		294528
+	236129288	SFX_Menu_Hover	.cache\BD\{BD0A1605-6A80-5D1E-2830-9F2160D97B5D}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Menu_Hover		294528
+	243430538	SFX_Boss Death_Destroyed	.cache\F7\{F713EA03-446F-741D-16F7-66890776806F}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Boss\SFX_Boss Death_Destroyed		294528
+	278866058	Music_Level_1_Music	.cache\27\{27610C1E-7098-0CCB-616B-B050FDEFDC23}.wem		\Containers\Default Work Unit\Audio\Music\Music_Level_1_Music		294528
+	294414217	Popcorn_Attack_04	.cache\09\{099E8C39-ACD8-26F9-0313-2AA3B2ACE919}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_04		99776
+	303173632	SFX_Ranged_Enemy_AOE_Attack	.cache\4D\{4D4AEE07-9657-3AAE-282F-4D4010DE5DBE}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_AOE_Attack		394368
+	311015533	SFX_Checkpoint_Reached	.cache\8F\{8FA1656F-F887-48DC-4B22-18D19C0F7FEE}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Checkpoint_Reached		294528
+	325692489	SFX_Player_Death	.cache\2D\{2DD6B641-2C93-FEBF-E6C8-6FC0BFDF6751}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Death		294528
+	327692223	Popcorn_Attack_01	.cache\9C\{9C18EA19-36E2-5738-E185-22619C4DB3FF}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_01		92484
+	329786733	SFX_Menu_Back	.cache\4E\{4E8CFB80-2207-6474-8F29-2A655877EDC9}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Menu_Back		294528
+	339896044	Popcorn_Death_02	.cache\76\{76759D8E-334E-9982-6F63-D32491FDD272}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Death\Popcorn_Death_02		93164
+	350426409	SFX_Ranged_Enemy_Take_Damage	.cache\7E\{7E0A5199-0E38-3C5E-1E51-78576E286FE4}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_Take_Damage		394368
+	358838034	SFX_Walls_Rising	.cache\FA\{FA7D7F36-1F74-3212-ECB0-3612DD190D57}.wem		\Containers\Default Work Unit\Audio\SFX\Environment\SFX_Walls_Rising		294528
+	373874194	SFX_Player_Heal	.cache\D5\{D5E46545-70FE-6A43-AF7D-B460B2E08B6F}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Heal		294528
+	409129923	SFX_Player_Channel_Ultimate	.cache\0E\{0E65C159-789D-A533-DBE8-CC115FEB0812}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Channel_Ultimate		394368
+	424481485	SFX_Player_Dash	.cache\07\{071FD819-23B8-F861-4ABF-C4A0219B2E07}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\SFX_Player_Dash		294528
+	445265876	SFX_Ability_Unlocked	.cache\93\{936C5662-4CE7-F530-B8AA-35E141A0CCE2}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Ability_Unlocked		394368
+	500720502	SFX_Boss_Death_Scream	.cache\7C\{7CAFDE63-D2A7-C373-711E-A52ED936FD36}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Boss\SFX_Boss_Death_Scream		294528
+	540363206	Music_End_Title	.cache\FB\{FBD3577F-B107-36A6-1A9A-AD753B774FAC}.wem		\Containers\Default Work Unit\Audio\Music\Music_End_Title		394368
+	551055221	Popcorn_Walk_06	.cache\E3\{E3F9007E-D244-2797-BEEF-4C0F33500287}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_Walk_06		41396
+	552675661	Popcorn_Walk_02	.cache\D3\{D33F3316-E0DC-B7CB-E7AC-6EB9C24601E8}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_Walk_02		39360
+	554111737	SFX_Summoner_Death	.cache\4B\{4BE8C14F-E6E8-803B-FBE5-F14F6A505AA7}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Death		362384
+	585843190	SFX_Player_Melee_Attack	.cache\0D\{0D52B69C-0581-38B2-57C4-001B1485CB48}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Melee_Attack		294528
+	594432730	SFX_Player_Footstep_Dirt_01	.cache\1E\{1E9F04DC-FE84-304E-91F1-2691CF531D2C}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Player_Footstep_Grass\SFX_Player_Footstep_Dirt_01		410876
+	614794952	Popcorn_Attack_05	.cache\32\{329D479B-C830-C83A-384B-C9E4129DD7C0}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_05		94344
+	668678037	Popcorn_Attack_06	.cache\6A\{6A30E798-97C8-361C-388A-5A07005BF090}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_06		84908
+	680489383	Summoner_Attack_02	.cache\99\{99A28952-BAA5-1B99-E7F4-8CE1F4320347}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Attack\Summoner_Attack_02		187296
+	682105862	SFX_Player_Footstep_Flesh	.cache\0E\{0E0B6607-CB8F-EBE1-D909-05FD475D8B25}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Player_Footstep_Flesh\SFX_Player_Footstep_Flesh		394368
+	694171997	SFX_Player Ranged Attack	.cache\BE\{BEBAC1BD-F242-3047-E606-C802A1362482}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player Ranged Attack		294528
+	700163403	SFX_Popcorn_Enemy_Take_Damage	.cache\F7\{F712ED60-08E2-31E9-D824-0C711F6E1204}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Enemy_Take_Damage		394368
+	724966473	SFX_Summoner_Take_Damage	.cache\8A\{8A01D986-9FB5-4D04-ACDC-A0316D7F0661}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Take_Damage		394368
+	772918099	Music_Boss_Music	.cache\D0\{D084F0F0-F560-60DC-8050-965F9EEBE582}.wem		\Containers\Default Work Unit\Audio\Music\Music_Boss_Music		294528
+	775499222	SFX_Invalid_Action	.cache\07\{073E1CED-E4FD-16D4-E9C6-0E6965341DEB}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Invalid_Action		294528
+	814998650	SFX_Player_Footstep_Wood	.cache\EB\{EB54A9ED-D7E1-ED93-87EC-5288A7537D6B}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Player_Footstep_Wood\SFX_Player_Footstep_Wood		400064
+	820046013	Popcorn_Death_01	.cache\E9\{E9A527D0-2C13-A52F-3027-EBFD777E83BF}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Death\Popcorn_Death_01		118792
+	850935243	SFX_Ambience_Level_2	.cache\D4\{D4531CCF-963C-8F01-B869-751FE788D890}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\SFX_Ambience_Level_2		394368
+	852210236	SFX_Player_Pickup_Heal_Fruit	.cache\FC\{FC134959-DFD9-CCF7-0B12-21CDB84AC494}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Pickup_Heal_Fruit		394368
+	853278452	SFX_Player_Cleave	.cache\C3\{C3CE9395-0F1C-80A9-47C7-A0FB7BF4F3F1}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Cleave		294528
+	862509883	SFX_Ranged_Enemy_AOE_Attack_Cast	.cache\CE\{CE25A237-A5D4-9DCB-5076-353C0B5998F9}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_AOE_Attack_Cast		494208
+	898166704	Popcorn_Attack_03	.cache\DC\{DC2EFF56-5E10-3301-7846-87F66C9A919C}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_03		84192
+	901092673	SFX_Walls_Lowering	.cache\04\{04187B28-B2D7-E201-E91C-1B3344A558EA}.wem		\Containers\Default Work Unit\Audio\SFX\Environment\SFX_Walls_Lowering		294528
+	932445624	SFX_Ranged_Enemy_Death	.cache\03\{03A47C57-958F-5C16-0420-0D203CE194B8}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_Death		394368
+	943766923	SFX_Ambience_Level_1	.cache\1C\{1C217A72-9EF6-D077-29F2-ED6FCD191E11}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\SFX_Ambience_Level_1		394368
+	977666229	SFX_Player_Use_Ultimate	.cache\BD\{BDA2C319-81DE-D318-BB5F-498A976411CF}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Use_Ultimate		394368
+	1000892860	Popcorn_Attack_02	.cache\02\{0252B4F9-E754-7075-B522-7E2F4331AD70}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_02		83180
+	1019293332	Popcorn_Walk_05	.cache\93\{933B4499-2C8D-C8A1-0C7C-653467AD2941}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_Walk_05		41976
+	1050525035	Music_MainMenu_Music	.cache\4C\{4C464400-E524-D4DD-4C30-8066915E5630}.wem		\Containers\Default Work Unit\Audio\Music\Music_MainMenu_Music		294528
+	1062508675	SFX_Warning_Sound	.cache\59\{59393BA8-2657-1F9E-0A3E-5942E2E132CC}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Warning_Sound		294528
+	1070351173	Summoner_Attack_03	.cache\92\{926418CF-E743-F825-989E-FCA8D25BCE95}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Attack\Summoner_Attack_03		206500
 

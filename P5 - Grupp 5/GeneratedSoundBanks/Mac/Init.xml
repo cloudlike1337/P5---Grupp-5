@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{CE656BB0-40E9-F08D-77BB-B97F92370FA6}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{CCFB223A-4F6D-BCA8-FF76-8A77914A0FB7}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -12,12 +12,22 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="213475909" Name="SFX_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX_Bus" GUID="{80DF9B72-335B-4CB2-91A4-9AEC3C3E6BF2}" Color="2"/>
+				<Bus Id="1138681361" Name="Player_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX_Bus\Player_Bus" GUID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}" Color="2"/>
+				<Bus Id="1411040840" Name="Enemy_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX_Bus\Enemy_Bus" GUID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" Color="2"/>
+				<Bus Id="1523166483" Name="Environment_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX_Bus\Environment_Bus" GUID="{01E07A53-C8C2-4A9C-8105-AC61D8B09359}" Color="2"/>
+				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Color="4"/>
+				<Bus Id="2680856269" Name="Music_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Music_Bus" GUID="{5E49B1A1-CEE3-4513-815D-D638D6D9580F}" Color="10"/>
+				<Bus Id="3247222208" Name="UI_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX_Bus\UI_Bus" GUID="{99820C0E-0255-4B3E-8134-2332B41B8E3B}" Color="2"/>
+				<Bus Id="3319158528" Name="AMB_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\AMB_Bus" GUID="{268EEB34-EC0F-452E-A22D-473B6B39A14D}" Color="19"/>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="509499584" Name="AMB_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume_Parameters\AMB_Volume" GUID="{4AD3C33B-306E-4294-8F22-7F32D279A0DC}" Color="19"/>
 				<GameParameter Id="822163944" Name="SS_Air_RPM" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_RPM" GUID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume_Parameters\Music_Volume" GUID="{12D330C0-D9F2-4B58-957C-293464504C04}" Color="10"/>
 				<GameParameter Id="1029930033" Name="SS_Air_Fury" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Fury" GUID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
 				<GameParameter Id="1351367891" Name="SS_Air_Fear" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Fear" GUID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume_Parameters\SFX_Volume" GUID="{A6FE15B2-C0DD-4E7B-B844-A0C0B468DED4}" Color="2"/>
 				<GameParameter Id="2648548617" Name="SS_Air_Month" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Month" GUID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
 				<GameParameter Id="3002758120" Name="SS_Air_Freefall" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Freefall" GUID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
 				<GameParameter Id="3074696722" Name="SS_Air_Size" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Size" GUID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
@@ -25,6 +35,7 @@
 				<GameParameter Id="3715662592" Name="SS_Air_Storm" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Storm" GUID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
 				<GameParameter Id="3847924954" Name="SS_Air_Presence" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Presence" GUID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
 				<GameParameter Id="4160247818" Name="SS_Air_Turbulence" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Turbulence" GUID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume_Parameters\Master_Volume" GUID="{FAD577D4-77A7-491A-AD8A-C03F46BC7BAA}" Color="4"/>
 			</GameParameters>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}" Color="8">
@@ -156,5 +167,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E1159E8B-D78E-BDF9-3CF3-2AB04167B7CB}</FileHash>
+	<FileHash>{4CB163F4-7AAF-5B2E-1ABB-4BBFF61F4E0A}</FileHash>
 </SoundBanksInfo>
