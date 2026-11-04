@@ -24,7 +24,7 @@
 							<ChildrenList>
 								<Folder Name="Boss" ID="{8A32B42D-D4C4-4E6C-BA70-46710B21F67C}" ShortID="686198987">
 									<ChildrenList>
-										<Event Name="Boss_Change_Phase" ID="{67F0AA2E-2D60-47E8-96D6-53BC3D44E5F4}">
+										<Event Name="SFX_Boss_Change_Phase" ID="{67F0AA2E-2D60-47E8-96D6-53BC3D44E5F4}">
 											<ChildrenList>
 												<Action Name="" ID="{BF8AFE29-5D8C-4999-93B0-77F5F61DEB05}" ShortID="51516121">
 													<ReferenceList>
@@ -35,7 +35,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Boss_Spawning_Popcorn" ID="{4F653F19-142D-41BB-8617-0E7F7BFFD026}">
+										<Event Name="SFX_Boss_Spawning_Popcorn" ID="{4F653F19-142D-41BB-8617-0E7F7BFFD026}">
 											<ChildrenList>
 												<Action Name="" ID="{FD5FFC35-2265-40FA-921A-C887B82D4A54}" ShortID="1071525048">
 													<ReferenceList>
@@ -46,7 +46,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Boss_DeathScream" ID="{DDDC8314-BB32-46B3-AF9E-FFCA65A5C0D0}">
+										<Event Name="SFX_Boss_Death_Scream" ID="{DDDC8314-BB32-46B3-AF9E-FFCA65A5C0D0}">
 											<ChildrenList>
 												<Action Name="" ID="{D3CF53AE-B751-4E2D-8E9A-2EFAC342AD05}" ShortID="270845663">
 													<ReferenceList>
@@ -57,7 +57,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Boss_DeathDestroyed" ID="{0126F672-5EAC-461C-B617-87B109D2325F}">
+										<Event Name="SFX_Boss_Death_Destroyed" ID="{0126F672-5EAC-461C-B617-87B109D2325F}">
 											<ChildrenList>
 												<Action Name="" ID="{4DE5F2E8-D0CD-4E1D-855C-5B17F41B11B9}" ShortID="609054567">
 													<ReferenceList>
@@ -68,46 +68,14 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="SFX_Boss_Scream" ID="{101C5A11-65B1-4E7C-954D-4A48D9203DF3}"/>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Enemy" ID="{D82A25BE-83B9-4C54-A599-586D2613A9E7}" ShortID="179121366">
 									<ChildrenList>
-										<Event Name="Enemy_Ranged_TakeDMG" ID="{2371EB79-B960-4DED-AAC8-C11804550098}">
-											<ChildrenList>
-												<Action Name="" ID="{27C658FF-FBDC-4230-9A0B-F2A9C12DC36A}" ShortID="345246758">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Enemy_Ranged enemy trake damage" ID="{078A25CF-8169-4AD6-A2AB-B907E6D74740}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Enemy_Ranged_AOE" ID="{468F71FA-C049-4C9F-BDA3-BDB752FB8052}">
-											<ChildrenList>
-												<Action Name="" ID="{D4F72787-DA83-4314-A1B0-7DD2F0A232BF}" ShortID="1027196534">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Enemy_ranged enemy A O E attack" ID="{35D24928-D701-42CA-998A-A34F031166EB}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Enemy_Ranged_AOE_Cast" ID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}">
-											<ChildrenList>
-												<Action Name="" ID="{3EE54FD4-0407-4DD5-9330-F71F82643041}" ShortID="338614389">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Enemy_ranged enemy A O E attack cast" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
 										<Folder Name="Popcorn" ID="{B5803F40-0ED4-4F18-B543-9A1183403CE5}" ShortID="406228844">
 											<ChildrenList>
-												<Event Name="Enemy_Popcron_Walk" ID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}">
+												<Event Name="SFX_Enemy_Popcron_Walk" ID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}">
 													<ChildrenList>
 														<Action Name="" ID="{A5215951-2303-406F-9A34-7A407107C964}" ShortID="646572449">
 															<ReferenceList>
@@ -118,7 +86,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Enemy_Popcron_Attack" ID="{7A866C2F-C1E4-425E-80CB-788254038694}">
+												<Event Name="SFX_Enemy_Popcron_Attack" ID="{7A866C2F-C1E4-425E-80CB-788254038694}">
 													<ChildrenList>
 														<Action Name="" ID="{3C0A9244-A95F-48EF-BFF6-D5543C5B8D9B}" ShortID="109995846">
 															<ReferenceList>
@@ -129,7 +97,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Enemy_Popcorn_Death" ID="{85BDFD62-418B-4491-95FC-05622C98CC20}">
+												<Event Name="SFX_Enemy_Popcorn_Death" ID="{85BDFD62-418B-4491-95FC-05622C98CC20}">
 													<ChildrenList>
 														<Action Name="" ID="{761BFABF-CC2E-4D49-A7F4-66DA2F1F14B6}" ShortID="101136694">
 															<ReferenceList>
@@ -140,11 +108,12 @@
 														</Action>
 													</ChildrenList>
 												</Event>
+												<Event Name="SFX_Enemy_Popcorn_Take_Damage" ID="{A652FE6D-C807-4590-A9C5-A6C257FA01F9}"/>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Summoner" ID="{260F2AE1-184F-4F0B-AAA6-64AD7B23A5FE}" ShortID="248240945">
 											<ChildrenList>
-												<Event Name="Enemy_Summoner_Attack" ID="{AC9DFF9A-07CA-4DFD-B1ED-037751ACBA1E}">
+												<Event Name="SFX_Enemy_Summoner_Attack" ID="{AC9DFF9A-07CA-4DFD-B1ED-037751ACBA1E}">
 													<ChildrenList>
 														<Action Name="" ID="{E417F938-32C6-41C5-A726-A2F3B3973824}" ShortID="694923553">
 															<ReferenceList>
@@ -155,7 +124,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Enemy_Summoner_Death" ID="{6596EE04-49C0-47CE-8D8F-1616053065AD}">
+												<Event Name="SFX_Enemy_Summoner_Death" ID="{6596EE04-49C0-47CE-8D8F-1616053065AD}">
 													<ChildrenList>
 														<Action Name="" ID="{398110BF-07DA-4267-A3B9-69C2239970EE}" ShortID="393576292">
 															<ReferenceList>
@@ -166,7 +135,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Enemy_Summoner_Surface" ID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}">
+												<Event Name="SFX_Enemy_Summoner_Surface" ID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}">
 													<ChildrenList>
 														<Action Name="" ID="{D8D8E944-0002-4C90-981B-250162B4F889}" ShortID="553436559">
 															<ReferenceList>
@@ -177,13 +146,52 @@
 														</Action>
 													</ChildrenList>
 												</Event>
+												<Event Name="SFX_Enemy_Summoner_Take_Damage" ID="{20D690AB-B732-4C58-B0BF-0C406C1B6D2C}"/>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Ranged" ID="{1597D37C-1446-4859-9287-CE149CE62C2B}" ShortID="299951652">
+											<ChildrenList>
+												<Event Name="SFX_Enemy_Ranged_Take_Damage" ID="{2371EB79-B960-4DED-AAC8-C11804550098}">
+													<ChildrenList>
+														<Action Name="" ID="{27C658FF-FBDC-4230-9A0B-F2A9C12DC36A}" ShortID="345246758">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Enemy_Ranged enemy trake damage" ID="{078A25CF-8169-4AD6-A2AB-B907E6D74740}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="SFX_Enemy_Ranged_AOE_Hit" ID="{468F71FA-C049-4C9F-BDA3-BDB752FB8052}">
+													<ChildrenList>
+														<Action Name="" ID="{D4F72787-DA83-4314-A1B0-7DD2F0A232BF}" ShortID="1027196534">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Enemy_ranged enemy A O E attack" ID="{35D24928-D701-42CA-998A-A34F031166EB}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="SFX_Enemy_Ranged_AOE_Cast" ID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}">
+													<ChildrenList>
+														<Action Name="" ID="{3EE54FD4-0407-4DD5-9330-F71F82643041}" ShortID="338614389">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="Enemy_ranged enemy A O E attack cast" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="SFX_Enemy_Ranged_Death" ID="{4AD0D00D-520B-4C42-9A70-29D6F537D9D7}"/>
 											</ChildrenList>
 										</Folder>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Environment" ID="{7501706A-2453-4591-AE8F-F1855E3832E9}" ShortID="37191935">
 									<ChildrenList>
-										<Event Name="Heart_Beating" ID="{59ED373D-C36D-4658-AE30-27B562C2BD6D}">
+										<Event Name="SFX_Heart_Beating" ID="{59ED373D-C36D-4658-AE30-27B562C2BD6D}">
 											<ChildrenList>
 												<Action Name="" ID="{A3A3AC36-93E6-4DF6-A5A0-C3D8801A7EAE}" ShortID="89196357">
 													<ReferenceList>
@@ -194,7 +202,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="BirdChirp_Real" ID="{3CA73EF4-9CC7-4504-8E39-8D6EF7319AE4}">
+										<Event Name="SFX_BirdChirp_Real" ID="{3CA73EF4-9CC7-4504-8E39-8D6EF7319AE4}">
 											<ChildrenList>
 												<Action Name="" ID="{B5032097-4C26-47A8-AB3E-35D6B234E8FE}" ShortID="1002379055">
 													<ReferenceList>
@@ -205,7 +213,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="BirdChirp_Mimic" ID="{5FF81609-C20B-4131-845D-EE9ECAFF4D66}">
+										<Event Name="SFX_BirdChirp_Mimic" ID="{5FF81609-C20B-4131-845D-EE9ECAFF4D66}">
 											<ChildrenList>
 												<Action Name="" ID="{5599B714-3653-478D-B869-54F6AA387438}" ShortID="313752210">
 													<ReferenceList>
@@ -216,7 +224,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Splash_Water" ID="{A76A369D-F1A5-4450-BE56-17568CA5EB75}">
+										<Event Name="SFX_Splash_Water" ID="{A76A369D-F1A5-4450-BE56-17568CA5EB75}">
 											<ChildrenList>
 												<Action Name="" ID="{22BAAB3E-9A75-4CEA-9950-287876595BE2}" ShortID="857374874">
 													<ReferenceList>
@@ -227,7 +235,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Splash_Blood" ID="{149EBA9D-ECAC-405E-BC05-3C937FC8653D}">
+										<Event Name="SFX_Splash_Blood" ID="{149EBA9D-ECAC-405E-BC05-3C937FC8653D}">
 											<ChildrenList>
 												<Action Name="" ID="{0B0C4E2F-CD4F-43DA-904B-825ABB8A6DD3}" ShortID="130778800">
 													<ReferenceList>
@@ -238,39 +246,15 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-									</ChildrenList>
-								</Folder>
-								<Folder Name="Menu" ID="{0063E205-7623-4345-B142-661B6EF02960}" ShortID="398775481">
-									<ChildrenList>
-										<Event Name="UI_Buttons" ID="{23021049-AEB3-4D3E-80FA-3F14EEC17CC3}">
-											<ChildrenList>
-												<Action Name="" ID="{D6A0B044-803C-4193-8A25-52878026C46D}" ShortID="584575479">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Menu_UI Buttons" ID="{C2A9F788-8DD9-47A6-9574-01350230D508}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
-										<Event Name="Start_Game_Click" ID="{69BEE7C2-9DEB-4656-8D75-2342C3C55110}">
-											<ChildrenList>
-												<Action Name="" ID="{B0D67DFE-5C81-4C74-8C8A-1839AE72AF73}" ShortID="938583330">
-													<ReferenceList>
-														<Reference Name="Target">
-															<ObjectRef Name="Menu_Start game click" ID="{EED8D76C-4256-46DB-A3D7-8DE60AA8C0A4}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-														</Reference>
-													</ReferenceList>
-												</Action>
-											</ChildrenList>
-										</Event>
+										<Event Name="SFX_Walls_Rising" ID="{437692EF-21BF-4BC0-9F9C-EF8954049028}"/>
+										<Event Name="SFX_Walls_Lowering" ID="{E114B73B-B19E-48D6-8859-2811309448FF}"/>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Player" ID="{8B8E7B68-9E4B-4EE0-A5EF-18D9D5C39DEC}" ShortID="642725384">
 									<ChildrenList>
 										<Folder Name="Combat" ID="{95347848-840D-477A-AAE6-CA6E943CA6C4}" ShortID="888291140">
 											<ChildrenList>
-												<Event Name="Player_Ranged_ATK" ID="{BADEAE6C-3EF6-48A3-8C34-CF3F035B7228}">
+												<Event Name="SFX_Player_Ranged_ATK" ID="{BADEAE6C-3EF6-48A3-8C34-CF3F035B7228}">
 													<ChildrenList>
 														<Action Name="" ID="{3D1F2A14-0CB8-420A-87C2-CB2AD2F9CCCA}" ShortID="687649831">
 															<ReferenceList>
@@ -281,7 +265,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Melee_ATK" ID="{423E9773-4675-4301-9023-69E6778B2F43}">
+												<Event Name="SFX_Player_Melee_ATK" ID="{423E9773-4675-4301-9023-69E6778B2F43}">
 													<ChildrenList>
 														<Action Name="" ID="{51CEC482-C73F-489E-8EB5-E59B5FED9D94}" ShortID="812408497">
 															<ReferenceList>
@@ -292,7 +276,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Heal_Pickup" ID="{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}">
+												<Event Name="SFX_Player_Heal_Pickup" ID="{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}">
 													<ChildrenList>
 														<Action Name="" ID="{D75A2C32-DCA1-479E-BA40-06BD46E17E15}" ShortID="344034750">
 															<ReferenceList>
@@ -303,7 +287,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Spell" ID="{7A603BE6-3D70-47EA-91B7-9B281544A9C5}">
+												<Event Name="SFX_Player_Spell" ID="{7A603BE6-3D70-47EA-91B7-9B281544A9C5}">
 													<ChildrenList>
 														<Action Name="" ID="{A0B674E9-B611-4661-8A43-A69893A470E3}" ShortID="906346712">
 															<ReferenceList>
@@ -314,7 +298,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Vine_Abillity" ID="{1CD89967-515A-481E-89F9-E55BEFCAAD47}">
+												<Event Name="SFX_Player_Vine_Abillity" ID="{1CD89967-515A-481E-89F9-E55BEFCAAD47}">
 													<ChildrenList>
 														<Action Name="" ID="{516672ED-D59A-429E-A3AF-6823193AA361}" ShortID="451738690">
 															<ReferenceList>
@@ -325,7 +309,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Cleave_Abillity" ID="{B9C0E051-CB86-477E-A425-58E39046CC35}">
+												<Event Name="SFX_Player_Cleave_Abillity" ID="{B9C0E051-CB86-477E-A425-58E39046CC35}">
 													<ChildrenList>
 														<Action Name="" ID="{CB130462-D131-4B32-8952-0691CEB45660}" ShortID="727435909">
 															<ReferenceList>
@@ -336,7 +320,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Death" ID="{CC273871-7C99-429C-9438-0A1D584753A1}">
+												<Event Name="SFX_Player_Death" ID="{CC273871-7C99-429C-9438-0A1D584753A1}">
 													<ChildrenList>
 														<Action Name="" ID="{4F5EDF62-04FB-4A9D-B0CF-1C2D470FBE91}" ShortID="747562201">
 															<ReferenceList>
@@ -347,7 +331,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Take_Dmg" ID="{96DB461A-D9DC-46F9-8A65-2B16323F89C3}">
+												<Event Name="SFX_Player_Take_Damage" ID="{96DB461A-D9DC-46F9-8A65-2B16323F89C3}">
 													<ChildrenList>
 														<Action Name="" ID="{CFDEBD30-09D3-4A8B-B64D-1EDFDCF76F29}" ShortID="318671915">
 															<ReferenceList>
@@ -358,7 +342,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Ultimate" ID="{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}">
+												<Event Name="SFX_Player_Ultimate_Cast" ID="{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}">
 													<ChildrenList>
 														<Action Name="" ID="{B0ECF150-0E21-4BDC-ACCF-AE6CD7DDE686}" ShortID="865933844">
 															<ReferenceList>
@@ -369,7 +353,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Ultimate_Channel" ID="{56147B53-1AB4-4B56-9EAA-4CB9EE5BB9AA}">
+												<Event Name="SFX_Player_Ultimate_Channel" ID="{56147B53-1AB4-4B56-9EAA-4CB9EE5BB9AA}">
 													<ChildrenList>
 														<Action Name="" ID="{EB1069DE-90D8-41F7-BF4F-538A4F65E8C3}" ShortID="345082027">
 															<ReferenceList>
@@ -380,7 +364,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Heal" ID="{D5E6260B-3C78-4C78-BB6E-2D78C5A88F38}">
+												<Event Name="SFX_Player_Heal" ID="{D5E6260B-3C78-4C78-BB6E-2D78C5A88F38}">
 													<ChildrenList>
 														<Action Name="" ID="{AA9AECD0-6947-4C93-A1AB-7BDFECC6F945}" ShortID="398861592">
 															<ReferenceList>
@@ -391,7 +375,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_LevelUp" ID="{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}">
+												<Event Name="SFX_Player_LevelUp" ID="{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}">
 													<ChildrenList>
 														<Action Name="" ID="{75C5AFBE-9B66-4CF0-9BDB-ACFE68E22C32}" ShortID="131914432">
 															<ReferenceList>
@@ -402,22 +386,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="UI_Abillity_Skill_Cooldown" ID="{7D499584-D945-429A-8C1C-9C203AEDEDB9}">
-													<ChildrenList>
-														<Action Name="" ID="{DF28EBB4-8747-4FFB-A8F8-52C791E9862E}" ShortID="671210460">
-															<ReferenceList>
-																<Reference Name="Target">
-																	<ObjectRef Name="UI_Abillity skill cooldown" ID="{DD82F42E-D870-4D9E-98CF-05E9CE37F7CE}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-																</Reference>
-															</ReferenceList>
-														</Action>
-													</ChildrenList>
-												</Event>
-											</ChildrenList>
-										</Folder>
-										<Folder Name="Movement" ID="{F8C5852C-A4EE-458B-8975-E90EEC73EFE7}" ShortID="827788324">
-											<ChildrenList>
-												<Event Name="Player_Dash" ID="{2822D149-B910-405E-8D54-812A341DAC1B}">
+												<Event Name="SFX_Player_Dash" ID="{2822D149-B910-405E-8D54-812A341DAC1B}">
 													<ChildrenList>
 														<Action Name="" ID="{B54590E0-B3DA-424C-A5DE-236A01148F3C}" ShortID="333806733">
 															<ReferenceList>
@@ -428,7 +397,14 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Walk_WoodPlanks" ID="{62BE46CF-D798-48B9-83C9-D902D0015007}">
+												<Event Name="SFX_Player_Vine_Hit" ID="{D6C839F0-20E1-44BA-B812-620A3327EC93}"/>
+												<Event Name="SFX_Player_Cleave_Hit" ID="{5C7E7C66-FEBC-43B1-AD68-0F1B465B982A}"/>
+												<Event Name="SFX_Player_Ultimate_Hit" ID="{9B45E258-50E8-4562-99C2-BD13131C6375}"/>
+											</ChildrenList>
+										</Folder>
+										<Folder Name="Movement" ID="{F8C5852C-A4EE-458B-8975-E90EEC73EFE7}" ShortID="827788324">
+											<ChildrenList>
+												<Event Name="SFX_Player_Walk_WoodPlanks" ID="{62BE46CF-D798-48B9-83C9-D902D0015007}">
 													<ChildrenList>
 														<Action Name="" ID="{3DC4CCE8-0651-42E2-9AC8-E6E93BB3E449}" ShortID="377376942">
 															<ReferenceList>
@@ -439,7 +415,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Walk_WoodRoots" ID="{478E0459-D1FA-4473-9E62-6B311DBF5C31}">
+												<Event Name="SFX_Player_Walk_WoodRoots" ID="{478E0459-D1FA-4473-9E62-6B311DBF5C31}">
 													<ChildrenList>
 														<Action Name="" ID="{19AD1BA8-4123-4907-B77F-935D3502D6F6}" ShortID="614843681">
 															<ReferenceList>
@@ -450,7 +426,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Walk_Dirt_Grass" ID="{6DDB3C4C-5C47-44F6-BB54-FF7123AD3BD9}">
+												<Event Name="SFX_Player_Walk_Dirt_Grass" ID="{6DDB3C4C-5C47-44F6-BB54-FF7123AD3BD9}">
 													<ChildrenList>
 														<Action Name="" ID="{151FC550-0BEC-4793-B04C-006528C28BF1}" ShortID="132274066">
 															<ReferenceList>
@@ -461,7 +437,7 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Player_Walk_FleshGround" ID="{31660E0F-87BC-41F9-A5F8-2DC1AE9BF1A1}">
+												<Event Name="SFX_Player_Walk_FleshGround" ID="{31660E0F-87BC-41F9-A5F8-2DC1AE9BF1A1}">
 													<ChildrenList>
 														<Action Name="" ID="{60AA0A5D-28FF-49F3-AF95-A082048F466A}" ShortID="93213466">
 															<ReferenceList>
@@ -474,6 +450,19 @@
 												</Event>
 											</ChildrenList>
 										</Folder>
+										<Event Name="SFX_Player_Respawn" ID="{C47172F1-E84A-4EE3-AD85-81EA90C499AF}"/>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="UI" ID="{58CF76B6-4384-4E12-B26E-EAD455AC20E6}" ShortID="566324393">
+									<ChildrenList>
+										<Event Name="SFX_Chechpoint_Reached" ID="{4C8CB6C1-3A0B-47B1-9815-F9B81EC67E95}"/>
+										<Event Name="SFX_Ability_Unlocked" ID="{64849D03-C85E-4781-83FA-7B9F5E619809}"/>
+										<Event Name="SFX_Warning_Sound" ID="{9F3CCF50-5428-4DA9-98A8-F3881EC634AD}"/>
+										<Event Name="SFX_Invalid_Action" ID="{602E564B-9E27-4014-A205-9B884A5DB57B}"/>
+										<Event Name="SFX_Menu_Hover" ID="{DCEC00BD-8CA2-423F-90BF-C5DC559A4D67}"/>
+										<Event Name="SFX_Start_Game" ID="{C3FE03DC-2193-483C-ACBD-D2F1A7BDAEFD}"/>
+										<Event Name="SFX_Menu_Confirm" ID="{0D189BE4-D919-435A-940C-56F6658D2F38}"/>
+										<Event Name="SFX_Menu_Back" ID="{7ABEFD06-97CC-4097-81AC-F76068137697}"/>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
@@ -484,7 +473,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Event Name="Music_Boss" ID="{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}">
+								<Event Name="Music_Boss_Fight" ID="{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}">
 									<ChildrenList>
 										<Action Name="" ID="{17D734C7-57F2-4946-BCB6-5BA8A3014AE2}" ShortID="100310603">
 											<ReferenceList>
@@ -517,17 +506,8 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Music_Menu" ID="{FA71029F-185A-466D-A38A-408AF7FBB2D9}">
-									<ChildrenList>
-										<Action Name="" ID="{B6014A57-7721-4BDB-BD2B-5FB0EBF2B9F5}" ShortID="850226584">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Music_Main menu music" ID="{F0908B4C-0419-4307-B4F4-5AEE3ECF29B2}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
+								<Event Name="Music_Main_Title" ID="{D716300F-497B-44DE-8570-81351273B717}"/>
+								<Event Name="Music_End_Title" ID="{38D7091E-7314-49A8-A834-C19D5087EF01}"/>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="AMB" ID="{89871E02-8C89-4C94-9F78-869A78FD46E4}" ShortID="495465155">
@@ -536,7 +516,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Event Name="AMB_PreMutation" ID="{2EFB3E02-6EC4-4816-8CC8-5C67A0AE919C}">
+								<Event Name="AMB_Level_2" ID="{2EFB3E02-6EC4-4816-8CC8-5C67A0AE919C}">
 									<ChildrenList>
 										<Action Name="" ID="{6DD3E13E-084A-4CFB-BB96-2A77A168CCA0}" ShortID="34584579">
 											<ReferenceList>
@@ -547,7 +527,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="AMB_Mutated" ID="{6A61915F-4F09-47FD-9136-D21EFA196623}">
+								<Event Name="AMB_Level_1" ID="{6A61915F-4F09-47FD-9136-D21EFA196623}">
 									<ChildrenList>
 										<Action Name="" ID="{F0E902B5-7516-48B8-BCC4-3FEA25E533C7}" ShortID="45650092">
 											<ReferenceList>
