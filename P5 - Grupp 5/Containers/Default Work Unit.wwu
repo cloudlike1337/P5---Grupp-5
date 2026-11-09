@@ -1342,9 +1342,16 @@
 														<MediaID ID="14434600"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="sfx_start_game" ID="{F9BF4F1E-8BCB-4E83-BE9E-727C7F9DD472}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_start_game.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="491416357"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 117" ID="{68B0BA72-2434-434F-A43B-93C47C4A9F3F}" Platform="Linked"/>
+												<ActiveSource Name="sfx_start_game" ID="{F9BF4F1E-8BCB-4E83-BE9E-727C7F9DD472}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Ability_Unlocked" ID="{CCF1CFBD-CF5A-406C-92BF-676051D70E26}" ShortID="93626567">
@@ -1399,6 +1406,26 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Menu_Hover" ID="{945630C5-B298-442B-827D-8A063EEEA5FB}" ShortID="164644334">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D021877B-D98B-42BE-A2A8-EE59C7C91BD4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="25"/>
+																	<Property Name="Min" Type="Real64" Value="-25"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1415,9 +1442,16 @@
 														<MediaID ID="236129288"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="sfx_menu_hover" ID="{5D44B20C-DDC8-4196-B54E-B2091B076E79}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_menu_hover.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="522183298"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 116" ID="{F8E2C58F-62C2-45CE-BD65-884703F09F55}" Platform="Linked"/>
+												<ActiveSource Name="sfx_menu_hover" ID="{5D44B20C-DDC8-4196-B54E-B2091B076E79}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Menu_Confirm" ID="{49ADED64-B5BB-447A-9E16-47AB6AD3609C}" ShortID="845751459">
@@ -1437,25 +1471,19 @@
 														<MediaID ID="234507053"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="sfx_menu_confirm" ID="{E69AE648-226A-4EF3-B257-2A10FF61C7AE}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_menu_confirm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="572840282"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 118" ID="{AB821C94-9F65-47F2-B6C3-945ACF175C1A}" Platform="Linked"/>
+												<ActiveSource Name="sfx_menu_confirm" ID="{E69AE648-226A-4EF3-B257-2A10FF61C7AE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Menu_Back" ID="{FE2B7F2E-9DAB-4BBB-9E68-731A2A6C4F4B}" ShortID="196560079">
-											<PropertyList>
-												<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-												<Property Name="Soundly:FileName" Type="string" Value="/var/folders/xl/m29gc1wj129fl5xx95tfykkr0000gn/T/tmp7rrhl0l1/speechEngineCache/d99513807faa2539e90de4f92b868186.wav"/>
-												<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-												<Property Name="Soundly:HandleStopTime" Type="string" Value="1.5335"/>
-												<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-												<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-												<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="2"/>
-												<Property Name="Soundly:RenderedFilePath" Type="string" Value="/Users/nilsjobs/Documents/Soundly Audio/Soundly Voice Designer, Abbi 119.wav"/>
-												<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-												<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-												<Property Name="Soundly:SelectionStopTime" Type="string" Value="1"/>
-											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1472,9 +1500,16 @@
 														<MediaID ID="329786733"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="sfx_menu_back" ID="{22BC5698-B516-4C0A-86BD-94AD70526C5B}">
+													<Language>SFX</Language>
+													<AudioFile>sfx_menu_back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1047310084"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 119" ID="{7802C7A2-030D-48BD-A092-F36100A3D61F}" Platform="Linked"/>
+												<ActiveSource Name="sfx_menu_back" ID="{22BC5698-B516-4C0A-86BD-94AD70526C5B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Checkpoint_Reached" ID="{5EEA46DC-E5BE-460B-907D-F6F829325963}" ShortID="281539302">
@@ -1612,6 +1647,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Music_Boss music" ID="{BE0F8FD2-BA63-4439-A853-62B21329973B}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Music_Boss music.wav</AudioFile>
 											<MediaIDList>
