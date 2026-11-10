@@ -214,7 +214,7 @@
 												<Action Name="" ID="{846EB69D-6AE9-4D21-8051-29EBC88B27A7}" ShortID="603644074">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Walls_Rising" ID="{C5CDFBE9-46C5-4A3F-9A1B-CE21DC5701E3}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Walls_Rising" ID="{62FCC265-D823-4179-921E-F5D0F6A149D4}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

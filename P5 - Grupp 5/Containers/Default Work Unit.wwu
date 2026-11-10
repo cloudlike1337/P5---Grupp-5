@@ -19,6 +19,9 @@
 										<Folder Name="Movement" ID="{8798D038-FE95-4A1A-90D4-5508FEDA90FE}" ShortID="535134323">
 											<ChildrenList>
 												<Sound Name="SFX_Player_Dash" ID="{01B27C75-BC79-4500-949E-BB1894787B0E}" ShortID="126221665">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -41,6 +44,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<RandomSequenceContainer Name="Player_Footstep_Grass" ID="{AF3F01E5-917E-4BAB-A527-3F13D9C9EDD8}" ShortID="974630431">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -119,6 +125,9 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Player_Footstep_Flesh" ID="{8188217F-413D-4B93-AE07-1A001C2DF794}" ShortID="409625184">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -153,6 +162,9 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Player_Footstep_Roots" ID="{BCC7AA14-233C-470F-95CD-7CBA559CE866}" ShortID="924040696">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -187,6 +199,9 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="Player_Footstep_Wood" ID="{FE2E5F78-7D63-4825-A4BC-929D2B45CFC2}" ShortID="605844610">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -225,6 +240,9 @@
 										<Folder Name="Combat" ID="{E21DEE0A-B2B3-4A9A-9AE2-16035A9B3A21}" ShortID="143096536">
 											<ChildrenList>
 												<Sound Name="SFX_Player_Cast_Spell" ID="{B03D99ED-6B17-4AEE-AB0E-78E56DD8DA41}" ShortID="604619828">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -247,6 +265,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Channel_Ultimate" ID="{B2ADA9A3-D478-42BB-8D8F-B017E61CFEAE}" ShortID="165185567">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -269,6 +290,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Cleave" ID="{01A3C6E0-9201-462A-955C-BDE8289C2946}" ShortID="285702684">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -313,6 +337,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Heal" ID="{969D6D2A-6C22-46ED-BAF3-5098306F348D}" ShortID="259535423">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -335,6 +362,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player _Level_Up" ID="{D38463F2-2029-426A-82DF-926C8E7B63EF}" ShortID="983971420">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -357,6 +387,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Melee_Attack" ID="{C7964A4B-5E82-48CD-89F2-53E897DBBE00}" ShortID="289184894">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -379,6 +412,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Pickup_Heal_Fruit" ID="{84342291-FE87-4118-9087-930293C79D58}" ShortID="973330465">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -401,6 +437,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player Ranged Attack" ID="{E8765794-E02B-4EE4-9282-152F382F06E5}" ShortID="9275228">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -423,6 +462,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Take_Damage" ID="{F063973A-BA61-4613-85B3-9235401A2757}" ShortID="747716092">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -445,6 +487,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Use_Ultimate" ID="{FEF76BF3-3A39-4B8A-8FF9-76F2D1DF47F7}" ShortID="290528770">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -467,6 +512,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Use_Vine" ID="{7220D313-815F-49CF-A82B-D5EBB597AFBC}" ShortID="247455446">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -497,6 +545,9 @@
 										<Folder Name="Popcorn" ID="{B7F5140B-7147-4E06-B3AC-F266378A4C12}" ShortID="472761050">
 											<ChildrenList>
 												<RandomSequenceContainer Name="SFX_Popcorn_Walk" ID="{A9045114-B2BF-4F25-AE8C-C9EBC4918BF7}" ShortID="325922136">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -641,6 +692,9 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="SFX_Popcorn_Attack" ID="{4F112270-4A1E-4F9A-ABF6-526728144C16}" ShortID="746794666">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -785,6 +839,9 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="SFX_Popcorn_Death" ID="{5CCEC657-18D4-48E6-9329-FF5B93C8673A}" ShortID="459552045">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -841,6 +898,9 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<Sound Name="SFX_Popcorn_Enemy_Deal_Damage" ID="{D4D29CF1-445F-40E2-8F03-5E9AD1B311A6}" ShortID="343780084">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -863,6 +923,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Popcorn_Enemy_Take_Damage" ID="{4A6E6D34-A8D2-4B7E-A979-1774A505DC38}" ShortID="282185085">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -889,6 +952,9 @@
 										<Folder Name="Summoner" ID="{6E9E420B-2339-4E2E-A7CC-F361772E59FE}" ShortID="65319899">
 											<ChildrenList>
 												<RandomSequenceContainer Name="SFX_Summoner_Attack" ID="{9B63148D-A92A-4717-946E-CAA0DB4C1E59}" ShortID="953965282">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -989,6 +1055,9 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<Sound Name="SFX_Summoner_Death" ID="{467912F4-5633-418E-8890-84AB979A6908}" ShortID="777855748">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1011,6 +1080,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Summoner_Surface" ID="{89887965-6A50-43BA-8FDB-DF212472797D}" ShortID="830802177">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1033,6 +1105,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Summoner_Take_Damage" ID="{1C92714B-7CE0-4968-A042-0945BBCEBDBE}" ShortID="623498317">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1059,6 +1134,9 @@
 										<Folder Name="Ranged" ID="{CC01ED0F-E6BE-4607-9E16-AD522B8C006A}" ShortID="1071743840">
 											<ChildrenList>
 												<Sound Name="SFX_Ranged_Enemy_AOE_Attack_Cast" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" ShortID="438904085">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1081,6 +1159,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Ranged_Enemy_Take_Damage" ID="{078A25CF-8169-4AD6-A2AB-B907E6D74740}" ShortID="761072674">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1103,6 +1184,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Ranged_Enemy_AOE_Attack" ID="{35D24928-D701-42CA-998A-A34F031166EB}" ShortID="353326234">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1125,6 +1209,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Ranged_Enemy_Death" ID="{17B6C3D8-3ED7-4CC5-BEAF-D7AC58CED8C6}" ShortID="520209259">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1582,29 +1669,10 @@
 								</Folder>
 								<Folder Name="Environment" ID="{43A605EC-7346-4524-8806-349B4C4E3000}" ShortID="688961745">
 									<ChildrenList>
-										<Sound Name="SFX_Walls_Rising" ID="{C5CDFBE9-46C5-4A3F-9A1B-CE21DC5701E3}" ShortID="728598839">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 125" ID="{0AA9E3C2-4294-4090-B617-9043BCB436A6}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 125.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="358838034"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 125" ID="{0AA9E3C2-4294-4090-B617-9043BCB436A6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="SFX_Walls_Lowering" ID="{EF139233-37D8-4805-B075-071BB01174E2}" ShortID="362701681">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1626,6 +1694,134 @@
 												<ActiveSource Name="Soundly Voice Designer, Abbi 124" ID="{9980979B-8C46-4039-908A-146B5D34FE20}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<RandomSequenceContainer Name="SFX_Walls_Rising" ID="{62FCC265-D823-4179-921E-F5D0F6A149D4}" ShortID="643113368">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{72575466-7784-4A50-A685-D3E988B53965}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="20"/>
+																	<Property Name="Min" Type="Real64" Value="-20"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F4A08DDB-9848-41DC-A605-22868FDFB379}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_walls_rising_01" ID="{F1199233-AE93-4D86-ADA7-CB336AFB2599}" ShortID="522129887">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_walls_rising_01" ID="{BC578FA8-F2A7-4081-A4B4-1E0BB1E95D20}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_walls_rising_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="260890962"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_walls_rising_01" ID="{BC578FA8-F2A7-4081-A4B4-1E0BB1E95D20}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_walls_rising_02" ID="{8428910F-DC91-4F6A-A4B8-353FBA1E1351}" ShortID="118714899">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_walls_rising_02" ID="{F06C10D2-C89C-49DC-A75F-11B9472CA1C5}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_walls_rising_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1057667397"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_walls_rising_02" ID="{F06C10D2-C89C-49DC-A75F-11B9472CA1C5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_walls_rising_03" ID="{7B76B859-E01F-42C7-82B6-CDC91C446AFE}" ShortID="318719024">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_walls_rising_03" ID="{2DB0CC92-77EF-4723-95F2-9B818F725A8B}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_walls_rising_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="499847501"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_walls_rising_03" ID="{2DB0CC92-77EF-4723-95F2-9B818F725A8B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_walls_rising_04" ID="{F3D84C3D-AD00-45CF-8D12-7A8868688965}" ShortID="876706244">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_walls_rising_04" ID="{726A24B2-85C5-414D-B363-7DF1CA57E17C}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_walls_rising_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="635952008"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_walls_rising_04" ID="{726A24B2-85C5-414D-B363-7DF1CA57E17C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
