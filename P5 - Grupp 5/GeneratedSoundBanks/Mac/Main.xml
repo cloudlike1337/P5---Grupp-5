@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{6F652356-AA92-837B-C847-3836BE0FC363}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{CF636D5E-D947-BF1F-D94A-AB4BAE363746}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -555,5 +555,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{863E62F2-EAA8-1194-B509-D56449564459}</FileHash>
+	<FileHash>{38BB5CB2-DAEF-305D-F6A4-5AECAA9CE547}</FileHash>
 </SoundBanksInfo>
