@@ -1371,7 +1371,13 @@
 										<Sound Name="SFX_Ambience_Level_1" ID="{436AE15A-1F65-4D10-92A8-8E137486145B}" ShortID="848942198">
 											<PropertyList>
 												<Property Name="Color" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1382,23 +1388,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Environment_Enviromental ambiance pre-mutation" ID="{3E34B312-7A9A-436B-A154-A51D666BF7F6}">
+												<AudioFileSource Name="sfx_amb_lvl_1_loop" ID="{38EEB6D3-9817-4F7F-9C3D-84B7BE777925}">
 													<Language>SFX</Language>
-													<AudioFile>Environment_Enviromental ambiance pre-mutation.wav</AudioFile>
+													<AudioFile>sfx_amb_lvl_1_loop.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="119554607"/>
-													</MediaIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 113" ID="{C84EBD89-A6B1-4B92-A09D-BC5692D46BBA}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 113.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="943766923"/>
+														<MediaID ID="412198939"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 113" ID="{C84EBD89-A6B1-4B92-A09D-BC5692D46BBA}" Platform="Linked"/>
+												<ActiveSource Name="sfx_amb_lvl_1_loop" ID="{38EEB6D3-9817-4F7F-9C3D-84B7BE777925}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
