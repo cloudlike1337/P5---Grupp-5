@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{60F8E326-191B-B1DE-9B99-E4EB08FDD676}",
+    "Hash": "{9229813E-831D-C0B0-C8E3-B86EC6BD42EE}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -102,6 +102,14 @@
       "Location": "Memory",
       "ShortName": "Summoner_Attack_04.wav",
       "CachePath": "23/{23648328-46CA-64EC-09D5-4BCC5ECED856}.wem"
+     },
+     {
+      "Id": "181969289",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_invalid_action.wav",
+      "CachePath": "FB/{FB1F2870-6BF7-A339-D1B5-BA87A2D3A8B0}.wem"
      },
      {
       "Id": "196817037",
@@ -414,14 +422,6 @@
       "Location": "Memory",
       "ShortName": "Music_Boss music.wav",
       "CachePath": "D0/{D084F0F0-F560-60DC-8050-965F9EEBE582}.wem"
-     },
-     {
-      "Id": "775499222",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Audio\\Soundly Voice Designer, Abbi 115.wav",
-      "CachePath": "07/{073E1CED-E4FD-16D4-E9C6-0E6965341DEB}.wem"
      },
      {
       "Id": "814998650",
@@ -971,11 +971,11 @@
       "GUID": "{602E564B-9E27-4014-A205-9B884A5DB57B}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "1.5335",
-      "DurationMax": "1.5335",
+      "DurationMin": "0.22648527",
+      "DurationMax": "0.22648527",
       "MediaRefs": [
        {
-        "Id": "775499222"
+        "Id": "181969289"
        }
       ]
      },
@@ -1398,6 +1398,6 @@
     ]
    }
   ],
-  "FileHash": "{79E84B47-D052-FC88-006B-36A7377FDE9B}"
+  "FileHash": "{569E987C-F68F-9B92-08F7-DD7629BF3E7D}"
  }
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{60F8E326-191B-B1DE-9B99-E4EB08FDD676}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{9229813E-831D-C0B0-C8E3-B86EC6BD42EE}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -49,6 +49,10 @@
 				<File Id="151501028" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Summoner_Attack_04.wav</ShortName>
 					<CachePath>23/{23648328-46CA-64EC-09D5-4BCC5ECED856}.wem</CachePath>
+				</File>
+				<File Id="181969289" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_invalid_action.wav</ShortName>
+					<CachePath>FB/{FB1F2870-6BF7-A339-D1B5-BA87A2D3A8B0}.wem</CachePath>
 				</File>
 				<File Id="196817037" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Player walk wooden roots.wav</ShortName>
@@ -205,10 +209,6 @@
 				<File Id="772918099" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Boss music.wav</ShortName>
 					<CachePath>D0/{D084F0F0-F560-60DC-8050-965F9EEBE582}.wem</CachePath>
-				</File>
-				<File Id="775499222" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 115.wav</ShortName>
-					<CachePath>07/{073E1CED-E4FD-16D4-E9C6-0E6965341DEB}.wem</CachePath>
 				</File>
 				<File Id="814998650" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Player walk wooden planks.wav</ShortName>
@@ -417,9 +417,9 @@
 						<MediaRef Id="724966473"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2264668508" Name="Play_Invalid_Action" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Invalid_Action" GUID="{602E564B-9E27-4014-A205-9B884A5DB57B}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="2264668508" Name="Play_Invalid_Action" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Invalid_Action" GUID="{602E564B-9E27-4014-A205-9B884A5DB57B}" Color="2" DurationType="OneShot" DurationMin="0.22648527" DurationMax="0.22648527">
 					<MediaRefs>
-						<MediaRef Id="775499222"/>
+						<MediaRef Id="181969289"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="833230064" Name="Play_Level_1" ObjectPath="\Events\Default Work Unit\Audio\SFX\Ambience\Play_Level_1" GUID="{6A61915F-4F09-47FD-9136-D21EFA196623}" Color="2" DurationType="Infinite">
@@ -565,5 +565,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{70DD28B0-C214-DE8F-4CCE-42B295FB4BC9}</FileHash>
+	<FileHash>{8EA7BC8E-1451-ADA4-8199-F06251B947D9}</FileHash>
 </SoundBanksInfo>

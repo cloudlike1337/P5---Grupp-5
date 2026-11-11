@@ -1497,23 +1497,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="UI_Abillity skill cooldown" ID="{A614FE7A-D7F2-4A61-AD25-667FD5F305F5}">
+												<AudioFileSource Name="sfx_invalid_action" ID="{B34BD456-9377-45CD-8400-D04A096E4D2D}">
 													<Language>SFX</Language>
-													<AudioFile>UI_Abillity skill cooldown.wav</AudioFile>
+													<AudioFile>sfx_invalid_action.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="877364974"/>
-													</MediaIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 115" ID="{BBDFFF1B-AF8B-4C35-A835-38E5C438B490}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 115.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="775499222"/>
+														<MediaID ID="181969289"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 115" ID="{BBDFFF1B-AF8B-4C35-A835-38E5C438B490}" Platform="Linked"/>
+												<ActiveSource Name="sfx_invalid_action" ID="{B34BD456-9377-45CD-8400-D04A096E4D2D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Menu_Hover" ID="{945630C5-B298-442B-827D-8A063EEEA5FB}" ShortID="164644334">
