@@ -8,6 +8,8 @@
 						<State Name="None" ID="{199A87F7-ED8A-4ECC-A386-6955F72BBACB}"/>
 						<State Name="MainMenu" ID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
 						<State Name="Boss" ID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
+						<State Name="Level_1" ID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
+						<State Name="Level_2" ID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

@@ -13,11 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID MUSIC_BOSS_FIGHT = 4171726961U;
-        static const AkUniqueID MUSIC_END_TITLE = 3198354287U;
-        static const AkUniqueID MUSIC_LEVELONE = 2240910551U;
-        static const AkUniqueID MUSIC_LEVELTWO = 2656952517U;
-        static const AkUniqueID MUSIC_MAIN_TITLE = 1790536185U;
+        static const AkUniqueID INITIALIZE_MUSIC_SYSTEM = 4166188501U;
         static const AkUniqueID PLAY_ABILITY_UNLOCKED = 1528054008U;
         static const AkUniqueID PLAY_BOSS_CHANGE_PHASE = 1268859200U;
         static const AkUniqueID PLAY_BOSS_DEATH_DESTROYED = 540375402U;
@@ -64,6 +60,11 @@ namespace AK
         static const AkUniqueID PLAY_WALLS_LOWERING = 4145597129U;
         static const AkUniqueID PLAY_WALLS_RISING = 1932334290U;
         static const AkUniqueID PLAY_WARNING_SOUND = 1297509074U;
+        static const AkUniqueID SET_MUSIC_TO_BOSS_FIGHT = 118758400U;
+        static const AkUniqueID SET_MUSIC_TO_LEVELONE = 1056422470U;
+        static const AkUniqueID SET_MUSIC_TO_LEVELTWO = 909513944U;
+        static const AkUniqueID SET_MUSIC_TO_MAIN_TITLE = 699459892U;
+        static const AkUniqueID STOP_MUSIC_SYSTEM = 3230625255U;
     } // namespace EVENTS
 
     namespace STATES
@@ -75,6 +76,8 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID BOSS = 1560169506U;
+                static const AkUniqueID LEVEL_1 = 1290008369U;
+                static const AkUniqueID LEVEL_2 = 1290008370U;
                 static const AkUniqueID MAINMENU = 3604647259U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE

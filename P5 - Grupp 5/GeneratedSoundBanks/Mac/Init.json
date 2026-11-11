@@ -196,6 +196,18 @@
         "GUID": "{199A87F7-ED8A-4ECC-A386-6955F72BBACB}"
        },
        {
+        "Id": "1290008369",
+        "Name": "Level_1",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Level_1",
+        "GUID": "{98DC2064-B770-44DC-92CF-9A1CC844B401}"
+       },
+       {
+        "Id": "1290008370",
+        "Name": "Level_2",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Level_2",
+        "GUID": "{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"
+       },
+       {
         "Id": "1560169506",
         "Name": "Boss",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Boss",
@@ -717,6 +729,6 @@
     ]
    }
   ],
-  "FileHash": "{82FE1512-0031-ADF8-6860-BBF61FA6D4BA}"
+  "FileHash": "{0B014D8F-3CEC-506E-F32B-39B78CD6D601}"
  }
 }

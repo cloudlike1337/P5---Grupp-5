@@ -573,56 +573,82 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Event Name="Music_Boss_Fight" ID="{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}">
+								<Event Name="Set_Music_To_Boss_Fight" ID="{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}">
 									<ChildrenList>
 										<Action Name="" ID="{17D734C7-57F2-4946-BCB6-5BA8A3014AE2}" ShortID="100310603">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Music_Boss_Music" ID="{1CB7F166-F6A7-4BB5-9822-7852646B685B}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+													<ObjectRef Name="Boss" ID="{55F458D8-CE6A-4445-A999-E4A749DD4646}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Music_LevelOne" ID="{B2719B54-351D-4FD8-AFFB-C84AE0D97779}">
+								<Event Name="Set_Music_To_LevelOne" ID="{B2719B54-351D-4FD8-AFFB-C84AE0D97779}">
 									<ChildrenList>
-										<Action Name="" ID="{404F5CC5-92F5-4465-BBBF-7FA0064C7795}" ShortID="380959266">
+										<Action Name="" ID="{02FBB110-1811-4FE1-8CD5-0868E394D1C8}" ShortID="791423124">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Music_Level_1_Music" ID="{06EC33AB-3D68-4CA2-B98F-D16DC5C76B53}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+													<ObjectRef Name="Level_1" ID="{98DC2064-B770-44DC-92CF-9A1CC844B401}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Music_LevelTwo" ID="{E06E6279-2809-471A-9694-24EA1FC3C79C}">
+								<Event Name="Set_Music_To_LevelTwo" ID="{E06E6279-2809-471A-9694-24EA1FC3C79C}">
 									<ChildrenList>
-										<Action Name="" ID="{55729551-A24B-42A1-BF8B-75F0C8EE497E}" ShortID="941602707">
+										<Action Name="" ID="{C8FD4962-9220-4BEE-9F60-390BE69486DC}" ShortID="975055235">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Music_Level_2_Music" ID="{FB79CBA3-D1BC-40FF-8E57-2AF3052D193C}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+													<ObjectRef Name="Level_2" ID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Music_Main_Title" ID="{D716300F-497B-44DE-8570-81351273B717}">
+								<Event Name="Set_Music_To_Main_Title" ID="{D716300F-497B-44DE-8570-81351273B717}">
 									<ChildrenList>
-										<Action Name="" ID="{C656F732-37F6-47C7-A2EA-AF75EE97B385}" ShortID="1020576254">
+										<Action Name="" ID="{240F3B90-39F4-4712-9E99-80F96C2D6673}" ShortID="859770938">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Music_MainMenu_Music" ID="{F0908B4C-0419-4307-B4F4-5AEE3ECF29B2}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+													<ObjectRef Name="MainMenu" ID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Music_End_Title" ID="{38D7091E-7314-49A8-A834-C19D5087EF01}">
+								<Event Name="Initialize_Music_System" ID="{D5328475-3A7A-4F8E-904A-BC3E26956906}">
 									<ChildrenList>
-										<Action Name="" ID="{5089E7F1-3587-41BF-859D-09209D6E64B2}" ShortID="415081023">
+										<Action Name="" ID="{1A2A6080-D124-4389-9B4C-9758EF54019B}" ShortID="123650910">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Music_End_Title" ID="{7CD7C878-C645-405E-9C66-7EF3792974B5}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+													<ObjectRef Name="Music_System" ID="{23A456DF-BEF7-4800-B6F5-18D408D0FA2C}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Music_System" ID="{3AAE6521-7849-4456-844F-E02F8A99F6AE}">
+									<ChildrenList>
+										<Action Name="" ID="{D597CD39-DDC7-4E91-A46E-1DB70E8E13FD}" ShortID="1037062561">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_System" ID="{23A456DF-BEF7-4800-B6F5-18D408D0FA2C}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
