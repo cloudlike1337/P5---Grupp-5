@@ -352,7 +352,7 @@
 														<Action Name="" ID="{AA9AECD0-6947-4C93-A1AB-7BDFECC6F945}" ShortID="398861592">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Heal" ID="{969D6D2A-6C22-46ED-BAF3-5098306F348D}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Player_Heal" ID="{535F077F-ED97-4DF5-B581-154C7339D065}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
