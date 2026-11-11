@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B8CD4695-AA03-A870-C09F-29C4BA77A151}",
+    "Hash": "{0DC69808-0F58-D7FF-1241-5F5311F578F8}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -180,6 +180,62 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Volume_Parameters\\Master_Volume",
       "GUID": "{FAD577D4-77A7-491A-AD8A-C03F46BC7BAA}",
       "Color": "4"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicState",
+      "GUID": "{C6482A08-C7DD-4C0A-B75D-535F5A89A87F}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\None",
+        "GUID": "{199A87F7-ED8A-4ECC-A386-6955F72BBACB}"
+       },
+       {
+        "Id": "1560169506",
+        "Name": "Boss",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Boss",
+        "GUID": "{55F458D8-CE6A-4445-A999-E4A749DD4646}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\MainMenu",
+        "GUID": "{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3011728793",
+      "Name": "BossState",
+      "ObjectPath": "\\Switches\\Default Work Unit\\BossState",
+      "GUID": "{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}",
+      "Switches": [
+       {
+        "Id": "1622949420",
+        "Name": "Phase_3",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BossState\\Phase_3",
+        "GUID": "{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}"
+       },
+       {
+        "Id": "1622949421",
+        "Name": "Phase_2",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BossState\\Phase_2",
+        "GUID": "{A5429842-949C-4281-84E3-9412945719CA}"
+       },
+       {
+        "Id": "1622949422",
+        "Name": "Phase_1",
+        "ObjectPath": "\\Switches\\Default Work Unit\\BossState\\Phase_1",
+        "GUID": "{014AC944-E9F0-4D83-B44A-C6C0D86769E7}"
+       }
+      ]
      }
     ],
     "AcousticTextures": [
@@ -661,6 +717,6 @@
     ]
    }
   ],
-  "FileHash": "{D44AD70F-3EE2-6EF4-BF14-32D33B3488A6}"
+  "FileHash": "{619B4150-06F4-7551-B02A-A7F4DA8D54BE}"
  }
 }

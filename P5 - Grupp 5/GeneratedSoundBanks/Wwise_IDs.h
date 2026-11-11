@@ -66,6 +66,38 @@ namespace AK
         static const AkUniqueID PLAY_WARNING_SOUND = 1297509074U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace MUSICSTATE
+        {
+            static const AkUniqueID GROUP = 1021618141U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BOSS = 1560169506U;
+                static const AkUniqueID MAINMENU = 3604647259U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace MUSICSTATE
+
+    } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace BOSSSTATE
+        {
+            static const AkUniqueID GROUP = 3011728793U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID PHASE_1 = 1622949422U;
+                static const AkUniqueID PHASE_2 = 1622949421U;
+                static const AkUniqueID PHASE_3 = 1622949420U;
+            } // namespace SWITCH
+        } // namespace BOSSSTATE
+
+    } // namespace SWITCHES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID AMB_VOLUME = 509499584U;

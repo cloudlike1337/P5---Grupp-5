@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{B8CD4695-AA03-A870-C09F-29C4BA77A151}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{0DC69808-0F58-D7FF-1241-5F5311F578F8}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -37,6 +37,24 @@
 				<GameParameter Id="4160247818" Name="SS_Air_Turbulence" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Turbulence" GUID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
 				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume_Parameters\Master_Volume" GUID="{FAD577D4-77A7-491A-AD8A-C03F46BC7BAA}" Color="4"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1021618141" Name="MusicState" ObjectPath="\States\Default Work Unit\MusicState" GUID="{C6482A08-C7DD-4C0A-B75D-535F5A89A87F}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicState\None" GUID="{199A87F7-ED8A-4ECC-A386-6955F72BBACB}"/>
+						<State Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss" GUID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\MusicState\MainMenu" GUID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="3011728793" Name="BossState" ObjectPath="\Switches\Default Work Unit\BossState" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}">
+					<Switches>
+						<Switch Id="1622949420" Name="Phase_3" ObjectPath="\Switches\Default Work Unit\BossState\Phase_3" GUID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}"/>
+						<Switch Id="1622949421" Name="Phase_2" ObjectPath="\Switches\Default Work Unit\BossState\Phase_2" GUID="{A5429842-949C-4281-84E3-9412945719CA}"/>
+						<Switch Id="1622949422" Name="Phase_1" ObjectPath="\Switches\Default Work Unit\BossState\Phase_1" GUID="{014AC944-E9F0-4D83-B44A-C6C0D86769E7}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}" Color="8">
 					<Properties>
@@ -167,5 +185,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{06933912-A841-025F-7E72-36D2DBBE19A2}</FileHash>
+	<FileHash>{168FFAFB-5F70-8516-18F8-BC764367BA84}</FileHash>
 </SoundBanksInfo>

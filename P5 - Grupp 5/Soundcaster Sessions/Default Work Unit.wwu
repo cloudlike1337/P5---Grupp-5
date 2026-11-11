@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{67DE4532-B389-47F9-B8D3-A4B63324BA9E}" SchemaVersion="133">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{67DE4532-B389-47F9-B8D3-A4B63324BA9E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{67DE4532-B389-47F9-B8D3-A4B63324BA9E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{9323F048-FBD3-43B5-A374-4E4106976010}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music_System" ID="{23A456DF-BEF7-4800-B6F5-18D408D0FA2C}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boss" ID="{2D205B35-2AB9-46BF-ACAC-50C14B701B8A}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Boss_Segment" ID="{7055A34B-DA61-444E-9823-62768D452388}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
