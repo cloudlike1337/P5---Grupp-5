@@ -1338,6 +1338,7 @@
 										<Sound Name="SFX_Ambience_Level_2" ID="{1CFC07C5-6DF1-4D40-8410-83D4CAE349A2}" ShortID="684866431">
 											<PropertyList>
 												<Property Name="Color" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
@@ -1349,13 +1350,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Environment_Enviromental ambiance mutated" ID="{65C60C52-E3A2-4A8C-B02A-C6F667239338}">
-													<Language>SFX</Language>
-													<AudioFile>Environment_Enviromental ambiance mutated.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="982102217"/>
-													</MediaIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="Soundly Voice Designer, Abbi 114" ID="{DB46DC4A-0761-49B4-8CC5-7621ADB5483F}">
 													<Language>SFX</Language>
 													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 114.wav</AudioFile>
