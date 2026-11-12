@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{745AE220-95F6-B12F-44E7-07060A308412}",
+    "Hash": "{8A5C7D40-385E-2CBA-1E07-B24724DA99C8}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1553,6 +1553,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Popcorn\\Play_Enemy_Popcorn_Walk",
       "GUID": "{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}",
       "Color": "2",
+      "MaxAttenuation": "1200",
       "DurationType": "OneShot",
       "DurationMin": "0.2045",
       "DurationMax": "0.2563125",
@@ -2746,6 +2747,6 @@
     ]
    }
   ],
-  "FileHash": "{F0B5C173-06B8-7876-10DB-F3A94B26A13B}"
+  "FileHash": "{D32E1F31-A371-DBC1-E098-B4FF6DA0759E}"
  }
 }

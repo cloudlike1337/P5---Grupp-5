@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{745AE220-95F6-B12F-44E7-07060A308412}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{8A5C7D40-385E-2CBA-1E07-B24724DA99C8}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -714,7 +714,7 @@
 						<MediaRef Id="700163403"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3453525588" Name="Play_Enemy_Popcorn_Walk" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk" GUID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" Color="2" DurationType="OneShot" DurationMin="0.2045" DurationMax="0.2563125">
+				<Event Id="3453525588" Name="Play_Enemy_Popcorn_Walk" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk" GUID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" Color="2" MaxAttenuation="1200" DurationType="OneShot" DurationMin="0.2045" DurationMax="0.2563125">
 					<MediaRefs>
 						<MediaRef Id="36424771"/>
 						<MediaRef Id="66436734"/>
@@ -1129,5 +1129,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4862795F-E46D-899A-0227-FF8802A4779F}</FileHash>
+	<FileHash>{B80DB81D-9422-D7DB-F833-96CE6A18A6BF}</FileHash>
 </SoundBanksInfo>

@@ -580,6 +580,9 @@
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Physically_Based" ID="{7AF96D5E-B0A7-4524-B96B-04F53DEAEC94}" WorkUnitID="{E312AA2F-7D32-49AE-9B3F-853E8C0370AC}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 														</Reference>
@@ -1371,6 +1374,11 @@
 												<Property Name="Color" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3814,6 +3822,13 @@
 											</ChildrenList>
 										</MusicPlaylistContainer>
 										<MusicPlaylistContainer Name="Level_2" ID="{138992B7-7F13-4682-A8E2-6F24B60F1814}" ShortID="1038455205">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
