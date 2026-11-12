@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{738D4271-757C-685D-9C7A-899A150917D5}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{FAADD144-089F-DB48-3777-D0F4BE1614EA}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -562,6 +562,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="528278262" Name="Pause_Game" ObjectPath="\Events\Default Work Unit\Audio\Music\Pause_Game" GUID="{6C0564A2-7B35-44BE-B4B8-8A5701964E53}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="4091656514" Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\GameState\Paused" GUID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="475498527" Name="Pause_Music_System" ObjectPath="\Events\Default Work Unit\Audio\Music\Pause_Music_System" GUID="{0ACD2323-E556-46D9-9CE7-7A7582725DB4}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -897,6 +902,11 @@
 						<MediaRef Id="1062508675"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1565052233" Name="Resume_Game" ObjectPath="\Events\Default Work Unit\Audio\Music\Resume_Game" GUID="{55481C21-1EFB-42B3-966D-D837F6D7212A}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="4091656514" Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\GameState\Unpaused" GUID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="1490314788" Name="Resume_Music_System" ObjectPath="\Events\Default Work Unit\Audio\Music\Resume_Music_System" GUID="{DED1ECD4-9A7F-4238-8D40-5C391F82FA64}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -1097,8 +1107,14 @@
 						<State Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\MusicState\Level_1" GUID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
 						<State Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\MusicState\Level_2" GUID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
 						<State Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss" GUID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
-						<State Id="3494343696" Name="PauseMenu" ObjectPath="\States\Default Work Unit\MusicState\PauseMenu" GUID="{2EECE681-A598-4B66-A911-C41C712DA75C}"/>
 						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\MusicState\MainMenu" GUID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="4091656514" Name="GameState" ObjectPath="\States\Default Work Unit\GameState" GUID="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}">
+					<States>
+						<State Id="319258907" Name="Paused" ObjectPath="\States\Default Work Unit\GameState\Paused" GUID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameState\None" GUID="{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"/>
+						<State Id="1365518790" Name="Unpaused" ObjectPath="\States\Default Work Unit\GameState\Unpaused" GUID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -1113,5 +1129,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{11ADF5D2-A317-6CE3-2BCE-A9A6D9C23A74}</FileHash>
+	<FileHash>{71B5790B-F28C-F8F5-B1A1-5F3CD6EC0978}</FileHash>
 </SoundBanksInfo>

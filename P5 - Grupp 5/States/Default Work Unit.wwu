@@ -10,7 +10,13 @@
 						<State Name="Boss" ID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
 						<State Name="Level_1" ID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
 						<State Name="Level_2" ID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
-						<State Name="PauseMenu" ID="{2EECE681-A598-4B66-A911-C41C712DA75C}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="GameState" ID="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}">
+					<ChildrenList>
+						<State Name="None" ID="{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"/>
+						<State Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+						<State Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

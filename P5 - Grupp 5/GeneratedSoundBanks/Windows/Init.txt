@@ -1,10 +1,16 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1021618141	MusicState			\Default Work Unit\MusicState	
+	4091656514	GameState			\Default Work Unit\GameState	
 
 State	ID	Name	State Group			Notes
 	748895195	None	MusicState			
+	1290008369	Level_1	MusicState			
+	1290008370	Level_2	MusicState			
 	1560169506	Boss	MusicState			
 	3604647259	MainMenu	MusicState			
+	319258907	Paused	GameState			
+	748895195	None	GameState			
+	1365518790	Unpaused	GameState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	509499584	AMB_Volume			\Default Work Unit\Volume_Parameters\AMB_Volume	

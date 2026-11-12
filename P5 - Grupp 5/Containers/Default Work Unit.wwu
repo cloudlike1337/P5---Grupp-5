@@ -2225,7 +2225,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -2364,7 +2364,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>-0</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -3928,6 +3928,57 @@
 											</ChildrenList>
 										</MusicPlaylistContainer>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="GameState" ID="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}"/>
+												<StateGroupInfo Name="" ID="{27B6ED95-AB97-4934-9F91-FB5080F9C9C3}" ShortID="8743837"/>
+											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="MusicState" ID="{C6482A08-C7DD-4C0A-B75D-535F5A89A87F}"/>
+												<StateGroupInfo Name="" ID="{CD1394EF-61E0-4FF0-9724-98F42DDFAC56}" ShortID="264721926"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
+												<CustomState Name="" ID="{31B70AAB-1A13-4AC9-B2EC-C5DAFFD2FDE6}" ShortID="670835286"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Boss" ID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
+												<CustomState Name="" ID="{75D8EC10-8AF6-47C7-88A8-81DFC7A9AFDE}" ShortID="630711176"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Level_1" ID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
+												<CustomState Name="" ID="{2851CBF2-AAD6-4A41-8F1A-289323B2CB0D}" ShortID="833114059"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="MainMenu" ID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
+												<CustomState Name="" ID="{B99F5E59-84AE-414C-A17C-3BF03B2EC86A}" ShortID="945358042"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Level_2" ID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
+												<CustomState Name="" ID="{48116DFB-F95F-452A-8672-3FEAFFEF60A2}" ShortID="333899872"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+												<CustomState Name="" ID="{DB40EC03-C312-42B1-A954-FE5E922B328C}" ShortID="274719326">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="40"/>
+														<Property Name="Volume" Type="Real64" Value="-8"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"/>
+												<CustomState Name="" ID="{4C3D420F-E8EC-4B8B-B135-13DCEEDE834E}" ShortID="1009777195"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{199A87F7-ED8A-4ECC-A386-6955F72BBACB}"/>
+												<CustomState Name="" ID="{03C24749-772E-426A-897C-A2A168BEC1B6}" ShortID="797092710"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists>
 										<ObjectList Name="Arguments">
 											<PluginInnerObject Name="" ID="{A37ABB22-511E-4BA7-ABA3-F46F0BCA0BD6}" PluginName="MusicArgumentsSlot" CompanyID="0" PluginID="89">

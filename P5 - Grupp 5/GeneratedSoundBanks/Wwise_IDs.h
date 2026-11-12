@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID INITIALIZE_MUSIC_SYSTEM = 4166188501U;
+        static const AkUniqueID PAUSE_GAME = 528278262U;
         static const AkUniqueID PAUSE_MUSIC_SYSTEM = 475498527U;
         static const AkUniqueID PLAY_ABILITY_UNLOCKED = 1528054008U;
         static const AkUniqueID PLAY_AMBIENCE_LEVEL_1 = 2274326929U;
@@ -61,6 +62,7 @@ namespace AK
         static const AkUniqueID PLAY_WALLS_LOWERING = 4145597129U;
         static const AkUniqueID PLAY_WALLS_RISING = 1932334290U;
         static const AkUniqueID PLAY_WARNING_SOUND = 1297509074U;
+        static const AkUniqueID RESUME_GAME = 1565052233U;
         static const AkUniqueID RESUME_MUSIC_SYSTEM = 1490314788U;
         static const AkUniqueID SET_MUSIC_TO_BOSS_FIGHT = 118758400U;
         static const AkUniqueID SET_MUSIC_TO_LEVELONE = 1056422470U;
@@ -71,6 +73,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace GAMESTATE
+        {
+            static const AkUniqueID GROUP = 4091656514U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PAUSED = 319258907U;
+                static const AkUniqueID UNPAUSED = 1365518790U;
+            } // namespace STATE
+        } // namespace GAMESTATE
+
         namespace MUSICSTATE
         {
             static const AkUniqueID GROUP = 1021618141U;
@@ -82,7 +96,6 @@ namespace AK
                 static const AkUniqueID LEVEL_2 = 1290008370U;
                 static const AkUniqueID MAINMENU = 3604647259U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID PAUSEMENU = 3494343696U;
             } // namespace STATE
         } // namespace MUSICSTATE
 

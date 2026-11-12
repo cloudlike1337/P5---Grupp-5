@@ -682,6 +682,34 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Pause_Game" ID="{6C0564A2-7B35-44BE-B4B8-8A5701964E53}">
+									<ChildrenList>
+										<Action Name="" ID="{F32D5000-AB50-489F-9EF8-AAE735312A34}" ShortID="474674729">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Resume_Game" ID="{55481C21-1EFB-42B3-966D-D837F6D7212A}">
+									<ChildrenList>
+										<Action Name="" ID="{5D216897-CBED-48A1-9DA5-9A0FFE957C89}" ShortID="372895336">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

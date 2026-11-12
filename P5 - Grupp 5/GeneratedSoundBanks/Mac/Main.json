@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{738D4271-757C-685D-9C7A-899A150917D5}",
+    "Hash": "{FAADD144-089F-DB48-3777-D0F4BE1614EA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1130,6 +1130,26 @@
       ]
      },
      {
+      "Id": "528278262",
+      "Name": "Pause_Game",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\Music\\Pause_Game",
+      "GUID": "{6C0564A2-7B35-44BE-B4B8-8A5701964E53}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "319258907",
+        "Name": "Paused",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Paused",
+        "GUID": "{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"
+       }
+      ]
+     },
+     {
       "Id": "475498527",
       "Name": "Pause_Music_System",
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\Music\\Pause_Music_System",
@@ -2092,6 +2112,26 @@
       ]
      },
      {
+      "Id": "1565052233",
+      "Name": "Resume_Game",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\Music\\Resume_Game",
+      "GUID": "{55481C21-1EFB-42B3-966D-D837F6D7212A}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "4091656514",
+        "Id": "1365518790",
+        "Name": "Unpaused",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Unpaused",
+        "GUID": "{F9004D00-A333-4204-A283-DD90C8F159C8}"
+       }
+      ]
+     },
+     {
       "Id": "1490314788",
       "Name": "Resume_Music_System",
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\Music\\Resume_Music_System",
@@ -2642,16 +2682,36 @@
         "GUID": "{55F458D8-CE6A-4445-A999-E4A749DD4646}"
        },
        {
-        "Id": "3494343696",
-        "Name": "PauseMenu",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\PauseMenu",
-        "GUID": "{2EECE681-A598-4B66-A911-C41C712DA75C}"
-       },
-       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\MainMenu",
         "GUID": "{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"
+       }
+      ]
+     },
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\Default Work Unit\\GameState",
+      "GUID": "{3B8D3FCA-A7A0-448A-B851-E251D3B31071}",
+      "States": [
+       {
+        "Id": "319258907",
+        "Name": "Paused",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Paused",
+        "GUID": "{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\None",
+        "GUID": "{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"
+       },
+       {
+        "Id": "1365518790",
+        "Name": "Unpaused",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Unpaused",
+        "GUID": "{F9004D00-A333-4204-A283-DD90C8F159C8}"
        }
       ]
      }
@@ -2686,6 +2746,6 @@
     ]
    }
   ],
-  "FileHash": "{8EA01E42-8462-0A81-856C-2C8FAC342D43}"
+  "FileHash": "{547C8AD7-A9A7-B709-9FB6-E1351972C3B1}"
  }
 }
