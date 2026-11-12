@@ -16,10 +16,12 @@
 						<ObjectRef Name="Play_Menu_Hover" ID="{DCEC00BD-8CA2-423F-90BF-C5DC559A4D67}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Popcorn_Attack" ID="{7A866C2F-C1E4-425E-80CB-788254038694}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Death" ID="{CC273871-7C99-429C-9438-0A1D584753A1}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Resume_Game" ID="{55481C21-1EFB-42B3-966D-D837F6D7212A}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Melee_ATK" ID="{423E9773-4675-4301-9023-69E6778B2F43}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Menu_Confirm" ID="{0D189BE4-D919-435A-940C-56F6658D2F38}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footstep_Roots" ID="{478E0459-D1FA-4473-9E62-6B311DBF5C31}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Popcorn_Death" ID="{85BDFD62-418B-4491-95FC-05622C98CC20}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pause_Game" ID="{6C0564A2-7B35-44BE-B4B8-8A5701964E53}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Music_To_Main_Title" ID="{D716300F-497B-44DE-8570-81351273B717}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footstep_Grass" ID="{6DDB3C4C-5C47-44F6-BB54-FF7123AD3BD9}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Popcorn_Take_Damage" ID="{A652FE6D-C807-4590-A9C5-A6C257FA01F9}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
