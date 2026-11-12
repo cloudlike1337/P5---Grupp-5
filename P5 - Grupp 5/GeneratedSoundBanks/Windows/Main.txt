@@ -3,13 +3,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	118758400	Set_Music_To_Boss_Fight			\Default Work Unit\Audio\Music\Set_Music_To_Boss_Fight	
 	455571771	Play_Menu_Back			\Default Work Unit\Audio\SFX\UI\Play_Menu_Back	
 	461636554	Play_Enemy_Ranged_AOE_Hit			\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Hit	
+	475498527	Pause_Music_System			\Default Work Unit\Audio\Music\Pause_Music_System	
 	540375402	Play_Boss_Death_Destroyed			\Default Work Unit\Audio\SFX\Boss\Play_Boss_Death_Destroyed	
 	638998366	Play_Player_Heal			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Heal	
 	699459892	Set_Music_To_Main_Title			\Default Work Unit\Audio\Music\Set_Music_To_Main_Title	
 	763268173	Play_Boss_Spawning_Popcorn			\Default Work Unit\Audio\SFX\Boss\Play_Boss_Spawning_Popcorn	
 	817598862	Play_Menu_Confirm			\Default Work Unit\Audio\SFX\UI\Play_Menu_Confirm	
-	833230064	Play_Level_1			\Default Work Unit\Audio\SFX\Ambience\Play_Level_1	
-	833230067	Play_Level_2			\Default Work Unit\Audio\SFX\Ambience\Play_Level_2	
 	909513944	Set_Music_To_LevelTwo			\Default Work Unit\Audio\Music\Set_Music_To_LevelTwo	
 	925767337	Play_Player_Cleave_Abillity			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Cleave_Abillity	
 	984730830	Play_Player_Spell			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Spell	
@@ -22,6 +21,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1319327521	Play_Enemy_Summoner_Surface			\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Surface	
 	1327141250	Play_Chechpoint_Reached			\Default Work Unit\Audio\SFX\UI\Play_Chechpoint_Reached	
 	1454168108	Play_Enemy_Summoner_Attack			\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Attack	
+	1490314788	Resume_Music_System			\Default Work Unit\Audio\Music\Resume_Music_System	
 	1528054008	Play_Ability_Unlocked			\Default Work Unit\Audio\SFX\UI\Play_Ability_Unlocked	
 	1535617374	Play_Enemy_Summoner_Death			\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Death	
 	1767242762	Play_Player_Ranged_ATK			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ranged_ATK	
@@ -32,6 +32,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	2175711460	Play_Player_Dash			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Dash	
 	2195822293	Play_Player_Vine_Abillity			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Vine_Abillity	
 	2264668508	Play_Invalid_Action			\Default Work Unit\Audio\SFX\UI\Play_Invalid_Action	
+	2274326929	Play_Ambience_Level_1			\Default Work Unit\Audio\SFX\Ambience\Play_Ambience_Level_1	
+	2274326930	Play_Ambience_Level_2			\Default Work Unit\Audio\SFX\Ambience\Play_Ambience_Level_2	
 	2292493453	Play_Player_Ultimate_Cast			\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ultimate_Cast	
 	2391442630	Play_Enemy_Ranged_Take_Damage			\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Take_Damage	
 	2746825790	Play_Boss_Death_Scream			\Default Work Unit\Audio\SFX\Boss\Play_Boss_Death_Scream	

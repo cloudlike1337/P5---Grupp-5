@@ -44,6 +44,7 @@
 						<State Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\MusicState\Level_1" GUID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
 						<State Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\MusicState\Level_2" GUID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
 						<State Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss" GUID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
+						<State Id="3494343696" Name="PauseMenu" ObjectPath="\States\Default Work Unit\MusicState\PauseMenu" GUID="{2EECE681-A598-4B66-A911-C41C712DA75C}"/>
 						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\MusicState\MainMenu" GUID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
 					</States>
 				</StateGroup>
@@ -187,5 +188,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{478D4242-E6DC-AA04-5988-1A01B1FFFEC7}</FileHash>
+	<FileHash>{BF2EB5A3-8E35-ACD9-E8B4-D867409CF4D9}</FileHash>
 </SoundBanksInfo>

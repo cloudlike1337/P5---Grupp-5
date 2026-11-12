@@ -214,6 +214,12 @@
         "GUID": "{55F458D8-CE6A-4445-A999-E4A749DD4646}"
        },
        {
+        "Id": "3494343696",
+        "Name": "PauseMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\PauseMenu",
+        "GUID": "{2EECE681-A598-4B66-A911-C41C712DA75C}"
+       },
+       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\MainMenu",
@@ -729,6 +735,6 @@
     ]
    }
   ],
-  "FileHash": "{0B014D8F-3CEC-506E-F32B-39B78CD6D601}"
+  "FileHash": "{1021C76F-537A-6F17-7026-B2F11DA0D954}"
  }
 }

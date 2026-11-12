@@ -5,16 +5,23 @@
 			<PropertyList>
 				<Property Name="AudioFileImporter\x64_FilesToImport" Type="string" Value="AQAAAAAAAABDOlxVc2Vyc1xuaWxzalxTb3VuZGx5IEF1ZGlvXFNvdW5kbHkgVm9pY2UgRGVzaWduZXIsIEFiYmkud2F2AA=="/>
 				<Property Name="AudioFilesImporter\DestinationFolder" Type="string" Value="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Originals\SFX\"/>
+				<Property Name="Event Action List\{0ACD2323-E556-46D9-9CE7-7A7582725DB4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2822D149-B910-405E-8D54-812A341DAC1B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2EFB3E02-6EC4-4816-8CC8-5C67A0AE919C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{38D7091E-7314-49A8-A834-C19D5087EF01}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3AAE6521-7849-4456-844F-E02F8A99F6AE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{423E9773-4675-4301-9023-69E6778B2F43}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{437692EF-21BF-4BC0-9F9C-EF8954049028}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6A61915F-4F09-47FD-9136-D21EFA196623}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B2719B54-351D-4FD8-AFFB-C84AE0D97779}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{CC273871-7C99-429C-9438-0A1D584753A1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D5328475-3A7A-4F8E-904A-BC3E26956906}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D5E6260B-3C78-4C78-BB6E-2D78C5A88F38}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D716300F-497B-44DE-8570-81351273B717}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{DED1ECD4-9A7F-4238-8D40-5C391F82FA64}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E06E6279-2809-471A-9694-24EA1FC3C79C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
@@ -75,17 +82,17 @@
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{618C1FF9-37D4-45A7-AF0A-E2D511E44707}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{826CEF9F-ACB3-45D2-8319-9C9994E4CA5C}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{A45AAC64-78D1-46A7-88FA-F242B38651B4}" Type="string" Value=""/>
-				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewA4ADcAQwA1ADUAMgA3AEUALQBBAEEAQQA5AC0ANAA0AEEANgAtADgAMgBBAEYALQBBAEQARAA2ADQARgAzADMANgA5AEUAQgB9AAAAAQF7AEMAQgBEADMARgA2ADYAMgAtAEMARgAwAEYALQA0ADEAOQAzAC0AQQBBAEUARQAtADIAMgBGADYARABFAEIANABDAEUARQBGAH0AAAABAXsAMgA2ADIANAA3AEEANwBBAC0ARAA2AEEANQAtADQAMAA3ADQALQA4ADYANQA4AC0AMABGAEYANwBFAEEANQA1ADUANgA2ADcAfQAAAAEBewA2AEEANgAxADkAMQA1AEYALQA0AEYAMAA5AC0ANAA3AEYARAAtADkAMQAzADYALQBEADIAMQBFAEYAQQAxADkANgA2ADIAMwB9AAAAAAE="/>
+				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewA4ADcAQwA1ADUAMgA3AEUALQBBAEEAQQA5AC0ANAA0AEEANgAtADgAMgBBAEYALQBBAEQARAA2ADQARgAzADMANgA5AEUAQgB9AAAAAQF7AEMAQgBEADMARgA2ADYAMgAtAEMARgAwAEYALQA0ADEAOQAzAC0AQQBBAEUARQAtADIAMgBGADYARABFAEIANABDAEUARQBGAH0AAAABAXsAMgA2ADIANAA3AEEANwBBAC0ARAA2AEEANQAtADQAMAA3ADQALQA4ADYANQA4AC0AMABGAEYANwBFAEEANQA1ADUANgA2ADcAfQAAAAEBewAwAEEAQwBEADIAMwAyADMALQBFADUANQA2AC0ANAA2AEQAOQAtADkAQwBFADcALQA3AEEANwA1ADgAMgA3ADIANQBEAEIANAB9AAAAAAE="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{FB6925F8-3EDD-42F1-B446-654A30D756CF}" Type="string" Value=""/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\Audio_FocusedObject" Type="string" Value="{436AE15A-1F65-4D10-92A8-8E137486145B}"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\Audio_FocusedObject" Type="string" Value="{23A456DF-BEF7-4800-B6F5-18D408D0FA2C}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentSearch" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentTab" Type="int32" Value="1"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\Events_FocusedObject" Type="string" Value="{6A61915F-4F09-47FD-9136-D21EFA196623}"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\Game Syncs_FocusedObject" Type="string" Value="{014AC944-E9F0-4D83-B44A-C6C0D86769E7}"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentTab" Type="int32" Value="2"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\Events_FocusedObject" Type="string" Value="{0ACD2323-E556-46D9-9CE7-7A7582725DB4}"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\Game Syncs_FocusedObject" Type="string" Value="{2EECE681-A598-4B66-A911-C41C712DA75C}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Queries_FocusedObject" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Sessions_FocusedObject" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\ShareSets_FocusedObject" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>

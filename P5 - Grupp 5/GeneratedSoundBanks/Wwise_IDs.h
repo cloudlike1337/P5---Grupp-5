@@ -14,7 +14,10 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID INITIALIZE_MUSIC_SYSTEM = 4166188501U;
+        static const AkUniqueID PAUSE_MUSIC_SYSTEM = 475498527U;
         static const AkUniqueID PLAY_ABILITY_UNLOCKED = 1528054008U;
+        static const AkUniqueID PLAY_AMBIENCE_LEVEL_1 = 2274326929U;
+        static const AkUniqueID PLAY_AMBIENCE_LEVEL_2 = 2274326930U;
         static const AkUniqueID PLAY_BOSS_CHANGE_PHASE = 1268859200U;
         static const AkUniqueID PLAY_BOSS_DEATH_DESTROYED = 540375402U;
         static const AkUniqueID PLAY_BOSS_DEATH_SCREAM = 2746825790U;
@@ -33,8 +36,6 @@ namespace AK
         static const AkUniqueID PLAY_ENEMY_SUMMONER_SURFACE = 1319327521U;
         static const AkUniqueID PLAY_ENEMY_SUMMONER_TAKE_DAMAGE = 2134822783U;
         static const AkUniqueID PLAY_INVALID_ACTION = 2264668508U;
-        static const AkUniqueID PLAY_LEVEL_1 = 833230064U;
-        static const AkUniqueID PLAY_LEVEL_2 = 833230067U;
         static const AkUniqueID PLAY_MENU_BACK = 455571771U;
         static const AkUniqueID PLAY_MENU_CONFIRM = 817598862U;
         static const AkUniqueID PLAY_MENU_HOVER = 3835684012U;
@@ -60,6 +61,7 @@ namespace AK
         static const AkUniqueID PLAY_WALLS_LOWERING = 4145597129U;
         static const AkUniqueID PLAY_WALLS_RISING = 1932334290U;
         static const AkUniqueID PLAY_WARNING_SOUND = 1297509074U;
+        static const AkUniqueID RESUME_MUSIC_SYSTEM = 1490314788U;
         static const AkUniqueID SET_MUSIC_TO_BOSS_FIGHT = 118758400U;
         static const AkUniqueID SET_MUSIC_TO_LEVELONE = 1056422470U;
         static const AkUniqueID SET_MUSIC_TO_LEVELTWO = 909513944U;
@@ -80,6 +82,7 @@ namespace AK
                 static const AkUniqueID LEVEL_2 = 1290008370U;
                 static const AkUniqueID MAINMENU = 3604647259U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PAUSEMENU = 3494343696U;
             } // namespace STATE
         } // namespace MUSICSTATE
 

@@ -541,7 +541,7 @@
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
-										<Event Name="Play_Level_2" ID="{2EFB3E02-6EC4-4816-8CC8-5C67A0AE919C}">
+										<Event Name="Play_Ambience_Level_2" ID="{2EFB3E02-6EC4-4816-8CC8-5C67A0AE919C}">
 											<ChildrenList>
 												<Action Name="" ID="{6DD3E13E-084A-4CFB-BB96-2A77A168CCA0}" ShortID="34584579">
 													<ReferenceList>
@@ -552,7 +552,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Level_1" ID="{6A61915F-4F09-47FD-9136-D21EFA196623}">
+										<Event Name="Play_Ambience_Level_1" ID="{6A61915F-4F09-47FD-9136-D21EFA196623}">
 											<ChildrenList>
 												<Action Name="" ID="{F0E902B5-7516-48B8-BCC4-3FEA25E533C7}" ShortID="45650092">
 													<ReferenceList>
@@ -645,6 +645,34 @@
 										<Action Name="" ID="{D597CD39-DDC7-4E91-A46E-1DB70E8E13FD}" ShortID="1037062561">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_System" ID="{23A456DF-BEF7-4800-B6F5-18D408D0FA2C}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pause_Music_System" ID="{0ACD2323-E556-46D9-9CE7-7A7582725DB4}">
+									<ChildrenList>
+										<Action Name="" ID="{A4807378-325F-43EC-93E4-F8FEBEAF9E86}" ShortID="45030973">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_System" ID="{23A456DF-BEF7-4800-B6F5-18D408D0FA2C}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Resume_Music_System" ID="{DED1ECD4-9A7F-4238-8D40-5C391F82FA64}">
+									<ChildrenList>
+										<Action Name="" ID="{9265D5CC-DC12-4180-850C-3CCFA40379B2}" ShortID="615781962">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">

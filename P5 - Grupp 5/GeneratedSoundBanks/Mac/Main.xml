@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{A1C907A2-B5E3-CE44-953E-3937E600A36A}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{738D4271-757C-685D-9C7A-899A150917D5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -562,9 +562,105 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="475498527" Name="Pause_Music_System" ObjectPath="\Events\Default Work Unit\Audio\Music\Pause_Music_System" GUID="{0ACD2323-E556-46D9-9CE7-7A7582725DB4}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="3604647259" GUID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
+									<MediaRefs>
+										<MediaRef Id="76275800"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="1560169506" GUID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
+									<MediaRefs>
+										<MediaRef Id="9405238"/>
+										<MediaRef Id="72616946"/>
+										<MediaRef Id="96983337"/>
+										<MediaRef Id="127462967"/>
+										<MediaRef Id="181680646"/>
+										<MediaRef Id="193162057"/>
+										<MediaRef Id="220032456"/>
+										<MediaRef Id="264384307"/>
+										<MediaRef Id="299421971"/>
+										<MediaRef Id="402599882"/>
+										<MediaRef Id="437323805"/>
+										<MediaRef Id="461097952"/>
+										<MediaRef Id="482808002"/>
+										<MediaRef Id="484300380"/>
+										<MediaRef Id="487269058"/>
+										<MediaRef Id="493590723"/>
+										<MediaRef Id="537618569"/>
+										<MediaRef Id="549677282"/>
+										<MediaRef Id="552004172"/>
+										<MediaRef Id="552081443"/>
+										<MediaRef Id="568299548"/>
+										<MediaRef Id="568910748"/>
+										<MediaRef Id="610344057"/>
+										<MediaRef Id="637886474"/>
+										<MediaRef Id="669123136"/>
+										<MediaRef Id="686397880"/>
+										<MediaRef Id="705176322"/>
+										<MediaRef Id="708076404"/>
+										<MediaRef Id="752030728"/>
+										<MediaRef Id="784528339"/>
+										<MediaRef Id="804639612"/>
+										<MediaRef Id="817066489"/>
+										<MediaRef Id="818765956"/>
+										<MediaRef Id="924405913"/>
+										<MediaRef Id="933204981"/>
+										<MediaRef Id="937596068"/>
+										<MediaRef Id="968378269"/>
+										<MediaRef Id="971124998"/>
+										<MediaRef Id="1031295622"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="1290008369" GUID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
+									<MediaRefs>
+										<MediaRef Id="191547150"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="1290008370" GUID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
+									<MediaRefs>
+										<MediaRef Id="553329837"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1528054008" Name="Play_Ability_Unlocked" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Ability_Unlocked" GUID="{64849D03-C85E-4781-83FA-7B9F5E619809}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
 					<MediaRefs>
 						<MediaRef Id="445265876"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2274326929" Name="Play_Ambience_Level_1" ObjectPath="\Events\Default Work Unit\Audio\SFX\Ambience\Play_Ambience_Level_1" GUID="{6A61915F-4F09-47FD-9136-D21EFA196623}" Color="2" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="412198939"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2274326930" Name="Play_Ambience_Level_2" ObjectPath="\Events\Default Work Unit\Audio\SFX\Ambience\Play_Ambience_Level_2" GUID="{2EFB3E02-6EC4-4816-8CC8-5C67A0AE919C}" Color="2" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="850935243"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1268859200" Name="Play_Boss_Change_Phase" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_Change_Phase" GUID="{67F0AA2E-2D60-47E8-96D6-53BC3D44E5F4}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
@@ -669,16 +765,6 @@
 				<Event Id="2264668508" Name="Play_Invalid_Action" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Invalid_Action" GUID="{602E564B-9E27-4014-A205-9B884A5DB57B}" Color="2" DurationType="OneShot" DurationMin="0.22648527" DurationMax="0.22648527">
 					<MediaRefs>
 						<MediaRef Id="181969289"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="833230064" Name="Play_Level_1" ObjectPath="\Events\Default Work Unit\Audio\SFX\Ambience\Play_Level_1" GUID="{6A61915F-4F09-47FD-9136-D21EFA196623}" Color="2" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="850935243"/>
-					</MediaRefs>
-				</Event>
-				<Event Id="833230067" Name="Play_Level_2" ObjectPath="\Events\Default Work Unit\Audio\SFX\Ambience\Play_Level_2" GUID="{2EFB3E02-6EC4-4816-8CC8-5C67A0AE919C}" Color="2" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="412198939"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="455571771" Name="Play_Menu_Back" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Menu_Back" GUID="{7ABEFD06-97CC-4097-81AC-F76068137697}" Color="2" DurationType="OneShot" DurationMin="0.33965987" DurationMax="0.33965987">
@@ -811,6 +897,92 @@
 						<MediaRef Id="1062508675"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1490314788" Name="Resume_Music_System" ObjectPath="\Events\Default Work Unit\Audio\Music\Resume_Music_System" GUID="{DED1ECD4-9A7F-4238-8D40-5C391F82FA64}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="3604647259" GUID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
+									<MediaRefs>
+										<MediaRef Id="76275800"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="1560169506" GUID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
+									<MediaRefs>
+										<MediaRef Id="9405238"/>
+										<MediaRef Id="72616946"/>
+										<MediaRef Id="96983337"/>
+										<MediaRef Id="127462967"/>
+										<MediaRef Id="181680646"/>
+										<MediaRef Id="193162057"/>
+										<MediaRef Id="220032456"/>
+										<MediaRef Id="264384307"/>
+										<MediaRef Id="299421971"/>
+										<MediaRef Id="402599882"/>
+										<MediaRef Id="437323805"/>
+										<MediaRef Id="461097952"/>
+										<MediaRef Id="482808002"/>
+										<MediaRef Id="484300380"/>
+										<MediaRef Id="487269058"/>
+										<MediaRef Id="493590723"/>
+										<MediaRef Id="537618569"/>
+										<MediaRef Id="549677282"/>
+										<MediaRef Id="552004172"/>
+										<MediaRef Id="552081443"/>
+										<MediaRef Id="568299548"/>
+										<MediaRef Id="568910748"/>
+										<MediaRef Id="610344057"/>
+										<MediaRef Id="637886474"/>
+										<MediaRef Id="669123136"/>
+										<MediaRef Id="686397880"/>
+										<MediaRef Id="705176322"/>
+										<MediaRef Id="708076404"/>
+										<MediaRef Id="752030728"/>
+										<MediaRef Id="784528339"/>
+										<MediaRef Id="804639612"/>
+										<MediaRef Id="817066489"/>
+										<MediaRef Id="818765956"/>
+										<MediaRef Id="924405913"/>
+										<MediaRef Id="933204981"/>
+										<MediaRef Id="937596068"/>
+										<MediaRef Id="968378269"/>
+										<MediaRef Id="971124998"/>
+										<MediaRef Id="1031295622"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="1290008369" GUID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
+									<MediaRefs>
+										<MediaRef Id="191547150"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="1021618141" Id="1290008370" GUID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
+									<MediaRefs>
+										<MediaRef Id="553329837"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="118758400" Name="Set_Music_To_Boss_Fight" ObjectPath="\Events\Default Work Unit\Audio\Music\Set_Music_To_Boss_Fight" GUID="{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<ActionSetState>
 						<ActionSetStateEntry GroupId="1021618141" Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss" GUID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
@@ -925,6 +1097,7 @@
 						<State Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\MusicState\Level_1" GUID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
 						<State Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\MusicState\Level_2" GUID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
 						<State Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss" GUID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
+						<State Id="3494343696" Name="PauseMenu" ObjectPath="\States\Default Work Unit\MusicState\PauseMenu" GUID="{2EECE681-A598-4B66-A911-C41C712DA75C}"/>
 						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\MusicState\MainMenu" GUID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
 					</States>
 				</StateGroup>
@@ -940,5 +1113,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C5ECC288-135A-43C9-8ABA-1D456339009E}</FileHash>
+	<FileHash>{11ADF5D2-A317-6CE3-2BCE-A9A6D9C23A74}</FileHash>
 </SoundBanksInfo>

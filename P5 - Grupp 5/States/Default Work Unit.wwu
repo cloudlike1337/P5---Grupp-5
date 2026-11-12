@@ -10,6 +10,7 @@
 						<State Name="Boss" ID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
 						<State Name="Level_1" ID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
 						<State Name="Level_2" ID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
+						<State Name="PauseMenu" ID="{2EECE681-A598-4B66-A911-C41C712DA75C}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
