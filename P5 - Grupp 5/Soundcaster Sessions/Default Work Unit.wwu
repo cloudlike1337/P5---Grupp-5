@@ -7,7 +7,7 @@
 					<ModuleList>
 						<Module>
 							<ObjectRef Name="Initialize_Music_System" ID="{D5328475-3A7A-4F8E-904A-BC3E26956906}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
-							<Position X="0" Y="0"/>
+							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Set_Music_To_Boss_Fight" ID="{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
@@ -20,6 +20,10 @@
 						<Module>
 							<ObjectRef Name="Set_Music_To_LevelOne" ID="{B2719B54-351D-4FD8-AFFB-C84AE0D97779}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Music_System" ID="{3AAE6521-7849-4456-844F-E02F8A99F6AE}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
+							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Set_Music_To_LevelTwo" ID="{E06E6279-2809-471A-9694-24EA1FC3C79C}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>

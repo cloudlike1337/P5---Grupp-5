@@ -546,7 +546,7 @@
 												<Action Name="" ID="{6DD3E13E-084A-4CFB-BB96-2A77A168CCA0}" ShortID="34584579">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Ambience_Level_1" ID="{436AE15A-1F65-4D10-92A8-8E137486145B}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Ambience_Level_2" ID="{1CFC07C5-6DF1-4D40-8410-83D4CAE349A2}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -557,7 +557,7 @@
 												<Action Name="" ID="{F0E902B5-7516-48B8-BCC4-3FEA25E533C7}" ShortID="45650092">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Ambience_Level_2" ID="{1CFC07C5-6DF1-4D40-8410-83D4CAE349A2}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Ambience_Level_1" ID="{436AE15A-1F65-4D10-92A8-8E137486145B}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

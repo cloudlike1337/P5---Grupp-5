@@ -1899,6 +1899,7 @@
 														<MusicTransition Name="Transition" ID="{4652720A-BCAD-449B-ACA0-4F27EDE49346}">
 															<PropertyList>
 																<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+																<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 																<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 																<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 															</PropertyList>
@@ -1906,10 +1907,21 @@
 																<SourceFadeOut>
 																	<MusicFade Name="Source Fade-out" ID="{9456B615-1A5C-4C1A-BFC0-F671C868D309}">
 																		<PropertyList>
+																			<Property Name="FadeCurve" Type="int16" Value="6"/>
+																			<Property Name="FadeOffset" Type="Real64" Value="0.9"/>
+																			<Property Name="FadeTime" Type="Real64" Value="2"/>
 																			<Property Name="FadeType" Type="int16" Value="1"/>
 																		</PropertyList>
 																	</MusicFade>
 																</SourceFadeOut>
+																<DestinationFadeIn>
+																	<MusicFade Name="Destination Fade-in" ID="{665F7CA3-3C0A-4241-A59A-07C18BC4B288}">
+																		<PropertyList>
+																			<Property Name="FadeCurve" Type="int16" Value="7"/>
+																			<Property Name="FadeTime" Type="Real64" Value="1"/>
+																		</PropertyList>
+																	</MusicFade>
+																</DestinationFadeIn>
 															</TransitionInfo>
 														</MusicTransition>
 													</ChildrenList>
@@ -2204,6 +2216,27 @@
 																						<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Bassoon_Fras_1_115_bpm_4_4" ID="{AA202344-9288-4CD5-B0B2-C1DB2FF1C92E}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{B92E8A56-0087-4B17-B5A3-F253E09802C1}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>100.173922902494</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
@@ -2322,6 +2355,27 @@
 																						<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Cello_Fras_2_115_bpm_4_4" ID="{0E98A929-1AF0-478C-A8D4-2923148DF710}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{017823F4-8DDC-485C-BF9B-3BB66E48A355}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>-0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>100.173922902494</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
@@ -3533,6 +3587,7 @@
 															<ChildrenList>
 																<MusicPlaylistItem Name="" ID="{752DAFE6-0764-40AB-B01C-7F8BC8CEC648}" ShortID="624955930">
 																	<PropertyList>
+																		<Property Name="LoopCount" Type="int16" Value="0"/>
 																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
@@ -3657,9 +3712,6 @@
 												<Reference Name="PlaylistRoot">
 													<Custom>
 														<MusicPlaylistItem Name="" ID="{D601E42D-7E7B-4104-B991-ECF892DC1DBF}" ShortID="237576462">
-															<PropertyList>
-																<Property Name="LoopCount" Type="int16" Value="0"/>
-															</PropertyList>
 															<ChildrenList>
 																<MusicPlaylistItem Name="" ID="{00C4A2E3-6336-4434-9DBB-15AF32F10BBB}" ShortID="643988407">
 																	<PropertyList>
@@ -3773,9 +3825,6 @@
 												<Reference Name="PlaylistRoot">
 													<Custom>
 														<MusicPlaylistItem Name="" ID="{3D714E1E-44AE-453C-AF3E-240D65BDBEDE}" ShortID="365830903">
-															<PropertyList>
-																<Property Name="LoopCount" Type="int16" Value="0"/>
-															</PropertyList>
 															<ChildrenList>
 																<MusicPlaylistItem Name="" ID="{3B653D2F-0B4F-44CF-9795-59B073414FCF}" ShortID="622297582">
 																	<PropertyList>
