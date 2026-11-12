@@ -10,6 +10,14 @@
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Pause_Game" ID="{6C0564A2-7B35-44BE-B4B8-8A5701964E53}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Pause_Music_System" ID="{0ACD2323-E556-46D9-9CE7-7A7582725DB4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Set_Music_To_Boss_Fight" ID="{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -18,12 +26,20 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Resume_Game" ID="{55481C21-1EFB-42B3-966D-D837F6D7212A}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Set_Music_To_LevelOne" ID="{B2719B54-351D-4FD8-AFFB-C84AE0D97779}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Stop_Music_System" ID="{3AAE6521-7849-4456-844F-E02F8A99F6AE}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Resume_Music_System" ID="{DED1ECD4-9A7F-4238-8D40-5C391F82FA64}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Set_Music_To_LevelTwo" ID="{E06E6279-2809-471A-9694-24EA1FC3C79C}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
