@@ -131,6 +131,13 @@
 																</Reference>
 															</ReferenceList>
 														</Action>
+														<Action Name="" ID="{9497D9B3-9B8E-482F-A591-6282FB8B6483}" ShortID="5969067">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_Summoner_Take_Damage" ID="{1C92714B-7CE0-4968-A042-0945BBCEBDBE}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
 													</ChildrenList>
 												</Event>
 												<Event Name="Play_Enemy_Summoner_Surface" ID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}">
@@ -297,7 +304,7 @@
 														<Action Name="" ID="{CB130462-D131-4B32-8952-0691CEB45660}" ShortID="727435909">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Cleave" ID="{01A3C6E0-9201-462A-955C-BDE8289C2946}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Player_Cleave_Ability" ID="{A9405122-DF1A-46FE-89B5-492D73578E2D}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -319,7 +326,7 @@
 														<Action Name="" ID="{CFDEBD30-09D3-4A8B-B64D-1EDFDCF76F29}" ShortID="318671915">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Take_Damage" ID="{F063973A-BA61-4613-85B3-9235401A2757}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Player_Take_Damage" ID="{1EB76095-1F5D-47D5-860A-C571937E96FF}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>

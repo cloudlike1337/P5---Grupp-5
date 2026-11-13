@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{F68D1569-5B27-FE56-2112-92BC3E4BE836}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{04B45AE6-F193-8905-F474-2F3CA6875D74}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -39,10 +39,6 @@
 					<ShortName>Popcorn_Walk_03.wav</ShortName>
 					<CachePath>06/{068B5044-0835-4FF3-6EF8-33619941D36B}.wem</CachePath>
 				</File>
-				<File Id="67066080" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Player take damage.wav</ShortName>
-					<CachePath>FC/{FC1AB9CD-C4DC-AAEC-7BE3-E19A8F7D0CF3}.wem</CachePath>
-				</File>
 				<File Id="72616946" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Violin_Fras_3_115_bpm_4_4.wav</ShortName>
 					<Path>Media/72616946.wem</Path>
@@ -78,6 +74,10 @@
 				<File Id="169769757" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_ranged_ability_02.wav</ShortName>
 					<CachePath>9F/{9FF0AE25-BAEC-2AFB-1234-8FACA1534BB2}.wem</CachePath>
+				</File>
+				<File Id="171917817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_take_damage_01.wav</ShortName>
+					<CachePath>8A/{8A4CAF8F-9F4F-3B66-1FE4-079BD01F90D3}.wem</CachePath>
 				</File>
 				<File Id="181680646" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Horror_Krar_115_bpm_4_4.wav</ShortName>
@@ -124,12 +124,16 @@
 				</File>
 				<File Id="260890962" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_walls_rising_01.wav</ShortName>
-					<CachePath>CF/{CF8369A0-1432-0347-5978-A8583AE951D7}.wem</CachePath>
+					<CachePath>FC/{FCED2AAC-6166-0409-7B80-008DD2FD8C81}.wem</CachePath>
 				</File>
 				<File Id="264384307" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Komp_Kaos_Allt_Fas_1_115bpm_4_4.wav</ShortName>
 					<Path>Media/264384307.wem</Path>
 					<CachePath>13/{13777C1B-8632-163A-1DB3-A53E54447989}.wem</CachePath>
+				</File>
+				<File Id="280601004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_enemy_take_damage.wav</ShortName>
+					<CachePath>A7/{A7C7F263-364D-681E-953F-595D3222F319}.wem</CachePath>
 				</File>
 				<File Id="294414217" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Attack_04.wav</ShortName>
@@ -159,10 +163,6 @@
 				<File Id="342967764" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_melee_attack_02.wav</ShortName>
 					<CachePath>FD/{FD8090FC-1834-626D-D940-F57F46F957C3}.wem</CachePath>
-				</File>
-				<File Id="350426409" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Ranged enemy trake damage.wav</ShortName>
-					<CachePath>7E/{7E0A5199-0E38-3C5E-1E51-78576E286FE4}.wem</CachePath>
 				</File>
 				<File Id="402599882" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Fras_1_115_bpm_4_4.wav</ShortName>
@@ -225,7 +225,7 @@
 				</File>
 				<File Id="499847501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_walls_rising_03.wav</ShortName>
-					<CachePath>F3/{F345636B-EB26-39B7-017A-87DA55AE8502}.wem</CachePath>
+					<CachePath>11/{11846A80-442A-D236-45FC-31C34AE7B294}.wem</CachePath>
 				</File>
 				<File Id="500720502" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_boss death scream.wav</ShortName>
@@ -312,7 +312,7 @@
 				</File>
 				<File Id="635952008" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_walls_rising_04.wav</ShortName>
-					<CachePath>D9/{D9A63771-040B-3722-E547-297A8F395AB9}.wem</CachePath>
+					<CachePath>93/{9382DD7E-1645-84C8-BD13-9698EE613B81}.wem</CachePath>
 				</File>
 				<File Id="637886474" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Cello_Fras_2_115_bpm_4_4.wav</ShortName>
@@ -341,10 +341,6 @@
 					<ShortName>sfx_player_heal_01.wav</ShortName>
 					<CachePath>03/{038CC214-BF33-E080-393D-919A5AA6A60D}.wem</CachePath>
 				</File>
-				<File Id="700163403" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Popcorn enemy take damage.wav</ShortName>
-					<CachePath>F7/{F712ED60-08E2-31E9-D824-0C711F6E1204}.wem</CachePath>
-				</File>
 				<File Id="705176322" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Bassoon_Fras_2_115_bpm_4_4.wav</ShortName>
 					<Path>Media/705176322.wem</Path>
@@ -355,9 +351,9 @@
 					<Path>Media/708076404.wem</Path>
 					<CachePath>26/{26189E71-7C3C-0D99-9F92-3FD1D333A26B}.wem</CachePath>
 				</File>
-				<File Id="724966473" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_Summoner enemy take damage.wav</ShortName>
-					<CachePath>8A/{8A01D986-9FB5-4D04-ACDC-A0316D7F0661}.wem</CachePath>
+				<File Id="729662168" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_cleave_ability_01.wav</ShortName>
+					<CachePath>45/{45F7F818-1F9B-F48E-8AF4-AAAE0A8A36EE}.wem</CachePath>
 				</File>
 				<File Id="752030728" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Horror_Cymbaler_2_115_bpm_4_4.wav</ShortName>
@@ -400,9 +396,9 @@
 					<ShortName>Player_Player pickup heal fruit.wav</ShortName>
 					<CachePath>FC/{FC134959-DFD9-CCF7-0B12-21CDB84AC494}.wem</CachePath>
 				</File>
-				<File Id="853278452" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Player cleave abillity.wav</ShortName>
-					<CachePath>C3/{C3CE9395-0F1C-80A9-47C7-A0FB7BF4F3F1}.wem</CachePath>
+				<File Id="855724915" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_cleave_ability_03.wav</ShortName>
+					<CachePath>FE/{FE8BD4C6-6326-226E-BFEA-E23BD9DBE470}.wem</CachePath>
 				</File>
 				<File Id="862509883" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_ranged enemy A O E attack cast.wav</ShortName>
@@ -457,6 +453,10 @@
 					<ShortName>Popcorn_Attack_02.wav</ShortName>
 					<CachePath>02/{0252B4F9-E754-7075-B522-7E2F4331AD70}.wem</CachePath>
 				</File>
+				<File Id="1014385393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_take_damage_02.wav</ShortName>
+					<CachePath>57/{571B17B2-0E76-9A3E-8179-F0C6B15E8988}.wem</CachePath>
+				</File>
 				<File Id="1019293332" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Walk_05.wav</ShortName>
 					<CachePath>93/{933B4499-2C8D-C8A1-0C7C-653467AD2941}.wem</CachePath>
@@ -478,13 +478,21 @@
 					<ShortName>sfx_player_heal_03.wav</ShortName>
 					<CachePath>3A/{3A44C018-3901-2028-3FBE-FF9171A26D49}.wem</CachePath>
 				</File>
+				<File Id="1056887471" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_cleave_ability_02.wav</ShortName>
+					<CachePath>17/{1714CE6B-83C3-1CF6-1F94-0CD12D81E3E6}.wem</CachePath>
+				</File>
 				<File Id="1057667397" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_walls_rising_02.wav</ShortName>
-					<CachePath>DD/{DD6ABA23-5D1A-4B3C-8086-27EF87982678}.wem</CachePath>
+					<CachePath>C5/{C56FFE6B-6ADF-9A14-3D90-468F5AA59C5F}.wem</CachePath>
 				</File>
 				<File Id="1062508675" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 121.wav</ShortName>
 					<CachePath>59/{59393BA8-2657-1F9E-0A3E-5942E2E132CC}.wem</CachePath>
+				</File>
+				<File Id="1063836670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_take_damage_03.wav</ShortName>
+					<CachePath>59/{59495C6B-A75B-1648-F175-D09B91C9C9F8}.wem</CachePath>
 				</File>
 				<File Id="1070351173" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Summoner_Attack_03.wav</ShortName>
@@ -713,7 +721,7 @@
 						<MediaRef Id="311015533"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4254872019" Name="Play_Enemy_Popcorn_Attack" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Attack" GUID="{7A866C2F-C1E4-425E-80CB-788254038694}" Color="2" DurationType="OneShot" DurationMin="0.43272915" DurationMax="0.51916665">
+				<Event Id="4254872019" Name="Play_Enemy_Popcorn_Attack" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Attack" GUID="{7A866C2F-C1E4-425E-80CB-788254038694}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.43272915" DurationMax="0.51916665">
 					<MediaRefs>
 						<MediaRef Id="294414217"/>
 						<MediaRef Id="327692223"/>
@@ -729,9 +737,9 @@
 						<MediaRef Id="820046013"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4214071090" Name="Play_Enemy_Popcorn_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Take_Damage" GUID="{A652FE6D-C807-4590-A9C5-A6C257FA01F9}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="4214071090" Name="Play_Enemy_Popcorn_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Take_Damage" GUID="{A652FE6D-C807-4590-A9C5-A6C257FA01F9}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.15027212" DurationMax="0.15027212">
 					<MediaRefs>
-						<MediaRef Id="700163403"/>
+						<MediaRef Id="280601004"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3453525588" Name="Play_Enemy_Popcorn_Walk" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk" GUID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.2045" DurationMax="0.2563125">
@@ -744,27 +752,27 @@
 						<MediaRef Id="1019293332"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4089134270" Name="Play_Enemy_Ranged_AOE_Cast" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Cast" GUID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}" Color="2" DurationType="OneShot" DurationMin="2.5735" DurationMax="2.5735">
+				<Event Id="4089134270" Name="Play_Enemy_Ranged_AOE_Cast" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Cast" GUID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.5735" DurationMax="2.5735">
 					<MediaRefs>
 						<MediaRef Id="862509883"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="461636554" Name="Play_Enemy_Ranged_AOE_Hit" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Hit" GUID="{468F71FA-C049-4C9F-BDA3-BDB752FB8052}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="461636554" Name="Play_Enemy_Ranged_AOE_Hit" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Hit" GUID="{468F71FA-C049-4C9F-BDA3-BDB752FB8052}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
 					<MediaRefs>
 						<MediaRef Id="303173632"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3914235351" Name="Play_Enemy_Ranged_Death" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Death" GUID="{4AD0D00D-520B-4C42-9A70-29D6F537D9D7}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="3914235351" Name="Play_Enemy_Ranged_Death" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Death" GUID="{4AD0D00D-520B-4C42-9A70-29D6F537D9D7}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
 					<MediaRefs>
 						<MediaRef Id="932445624"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2391442630" Name="Play_Enemy_Ranged_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Take_Damage" GUID="{2371EB79-B960-4DED-AAC8-C11804550098}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="2391442630" Name="Play_Enemy_Ranged_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Take_Damage" GUID="{2371EB79-B960-4DED-AAC8-C11804550098}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.15027212" DurationMax="0.15027212">
 					<MediaRefs>
-						<MediaRef Id="350426409"/>
+						<MediaRef Id="280601004"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1454168108" Name="Play_Enemy_Summoner_Attack" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Attack" GUID="{AC9DFF9A-07CA-4DFD-B1ED-037751ACBA1E}" Color="2" DurationType="OneShot" DurationMin="0.975" DurationMax="1.4441667">
+				<Event Id="1454168108" Name="Play_Enemy_Summoner_Attack" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Attack" GUID="{AC9DFF9A-07CA-4DFD-B1ED-037751ACBA1E}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.975" DurationMax="1.4441667">
 					<MediaRefs>
 						<MediaRef Id="1298052"/>
 						<MediaRef Id="151501028"/>
@@ -772,19 +780,20 @@
 						<MediaRef Id="1070351173"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1535617374" Name="Play_Enemy_Summoner_Death" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Death" GUID="{6596EE04-49C0-47CE-8D8F-1616053065AD}" Color="2" DurationType="OneShot" DurationMin="1.8869166" DurationMax="1.8869166">
+				<Event Id="1535617374" Name="Play_Enemy_Summoner_Death" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Death" GUID="{6596EE04-49C0-47CE-8D8F-1616053065AD}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.8869166" DurationMax="1.8869166">
 					<MediaRefs>
+						<MediaRef Id="280601004"/>
 						<MediaRef Id="554111737"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1319327521" Name="Play_Enemy_Summoner_Surface" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Surface" GUID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}" Color="2" DurationType="OneShot" DurationMin="1.973125" DurationMax="1.973125">
+				<Event Id="1319327521" Name="Play_Enemy_Summoner_Surface" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Surface" GUID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.973125" DurationMax="1.973125">
 					<MediaRefs>
 						<MediaRef Id="227956053"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2134822783" Name="Play_Enemy_Summoner_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Take_Damage" GUID="{20D690AB-B732-4C58-B0BF-0C406C1B6D2C}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="2134822783" Name="Play_Enemy_Summoner_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Take_Damage" GUID="{20D690AB-B732-4C58-B0BF-0C406C1B6D2C}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.15027212" DurationMax="0.15027212">
 					<MediaRefs>
-						<MediaRef Id="724966473"/>
+						<MediaRef Id="280601004"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2264668508" Name="Play_Invalid_Action" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Invalid_Action" GUID="{602E564B-9E27-4014-A205-9B884A5DB57B}" Color="2" DurationType="OneShot" DurationMin="0.22648527" DurationMax="0.22648527">
@@ -807,9 +816,11 @@
 						<MediaRef Id="522183298"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="925767337" Name="Play_Player_Cleave_Abillity" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Cleave_Abillity" GUID="{B9C0E051-CB86-477E-A425-58E39046CC35}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="925767337" Name="Play_Player_Cleave_Abillity" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Cleave_Abillity" GUID="{B9C0E051-CB86-477E-A425-58E39046CC35}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.0427891" DurationMax="1.4063718">
 					<MediaRefs>
-						<MediaRef Id="853278452"/>
+						<MediaRef Id="729662168"/>
+						<MediaRef Id="855724915"/>
+						<MediaRef Id="1056887471"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2175711460" Name="Play_Player_Dash" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Dash" GUID="{2822D149-B910-405E-8D54-812A341DAC1B}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
@@ -850,14 +861,14 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="638998366" Name="Play_Player_Heal" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Heal" GUID="{D5E6260B-3C78-4C78-BB6E-2D78C5A88F38}" Color="2" DurationType="OneShot" DurationMin="1.2870069" DurationMax="1.2870069">
+				<Event Id="638998366" Name="Play_Player_Heal" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Heal" GUID="{D5E6260B-3C78-4C78-BB6E-2D78C5A88F38}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.2870069" DurationMax="1.2870069">
 					<MediaRefs>
 						<MediaRef Id="696222301"/>
 						<MediaRef Id="831047972"/>
 						<MediaRef Id="1050669357"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4017243061" Name="Play_Player_Heal_Pickup" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Heal_Pickup" GUID="{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="4017243061" Name="Play_Player_Heal_Pickup" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Heal_Pickup" GUID="{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
 					<MediaRefs>
 						<MediaRef Id="852210236"/>
 					</MediaRefs>
@@ -867,14 +878,14 @@
 						<MediaRef Id="44636632"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2980837791" Name="Play_Player_Melee_ATK" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Melee_ATK" GUID="{423E9773-4675-4301-9023-69E6778B2F43}" Color="2" DurationType="OneShot" DurationMin="0.6884127" DurationMax="0.95174605">
+				<Event Id="2980837791" Name="Play_Player_Melee_ATK" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Melee_ATK" GUID="{423E9773-4675-4301-9023-69E6778B2F43}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.6884127" DurationMax="0.95174605">
 					<MediaRefs>
 						<MediaRef Id="342967764"/>
 						<MediaRef Id="433159973"/>
 						<MediaRef Id="1023280950"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1767242762" Name="Play_Player_Ranged_ATK" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ranged_ATK" GUID="{BADEAE6C-3EF6-48A3-8C34-CF3F035B7228}" Color="2" DurationType="OneShot" DurationMin="0.4132275" DurationMax="0.5304042">
+				<Event Id="1767242762" Name="Play_Player_Ranged_ATK" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ranged_ATK" GUID="{BADEAE6C-3EF6-48A3-8C34-CF3F035B7228}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.4132275" DurationMax="0.5304042">
 					<MediaRefs>
 						<MediaRef Id="169769757"/>
 						<MediaRef Id="552210147"/>
@@ -887,27 +898,29 @@
 						<MediaRef Id="36223790"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="984730830" Name="Play_Player_Spell" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Spell" GUID="{7A603BE6-3D70-47EA-91B7-9B281544A9C5}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="984730830" Name="Play_Player_Spell" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Spell" GUID="{7A603BE6-3D70-47EA-91B7-9B281544A9C5}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
 					<MediaRefs>
 						<MediaRef Id="32820896"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1172205655" Name="Play_Player_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Take_Damage" GUID="{96DB461A-D9DC-46F9-8A65-2B16323F89C3}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="1172205655" Name="Play_Player_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Take_Damage" GUID="{96DB461A-D9DC-46F9-8A65-2B16323F89C3}" Color="2" DurationType="OneShot" DurationMin="0.30374148" DurationMax="0.48947847">
 					<MediaRefs>
-						<MediaRef Id="67066080"/>
+						<MediaRef Id="171917817"/>
+						<MediaRef Id="1014385393"/>
+						<MediaRef Id="1063836670"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2292493453" Name="Play_Player_Ultimate_Cast" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ultimate_Cast" GUID="{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="2292493453" Name="Play_Player_Ultimate_Cast" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ultimate_Cast" GUID="{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
 					<MediaRefs>
 						<MediaRef Id="977666229"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="9220177" Name="Play_Player_Ultimate_Channel" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ultimate_Channel" GUID="{56147B53-1AB4-4B56-9EAA-4CB9EE5BB9AA}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="9220177" Name="Play_Player_Ultimate_Channel" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Ultimate_Channel" GUID="{56147B53-1AB4-4B56-9EAA-4CB9EE5BB9AA}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
 					<MediaRefs>
 						<MediaRef Id="409129923"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2195822293" Name="Play_Player_Vine_Abillity" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Vine_Abillity" GUID="{1CD89967-515A-481E-89F9-E55BEFCAAD47}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="2195822293" Name="Play_Player_Vine_Abillity" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Vine_Abillity" GUID="{1CD89967-515A-481E-89F9-E55BEFCAAD47}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
 					<MediaRefs>
 						<MediaRef Id="125135763"/>
 					</MediaRefs>
@@ -922,7 +935,7 @@
 						<MediaRef Id="901092673"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1932334290" Name="Play_Walls_Rising" ObjectPath="\Events\Default Work Unit\Audio\SFX\Environment\Play_Walls_Rising" GUID="{437692EF-21BF-4BC0-9F9C-EF8954049028}" Color="2" DurationType="OneShot" DurationMin="1.3006918" DurationMax="1.6940013">
+				<Event Id="1932334290" Name="Play_Walls_Rising" ObjectPath="\Events\Default Work Unit\Audio\SFX\Environment\Play_Walls_Rising" GUID="{437692EF-21BF-4BC0-9F9C-EF8954049028}" Color="2" DurationType="OneShot" DurationMin="1.3215805" DurationMax="2.1569343">
 					<MediaRefs>
 						<MediaRef Id="260890962"/>
 						<MediaRef Id="499847501"/>
@@ -1170,5 +1183,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B149D5FE-F285-D664-215C-4161C5FDD6EC}</FileHash>
+	<FileHash>{0B38E42A-1EDB-EF47-6A34-3BB4916B7C6F}</FileHash>
 </SoundBanksInfo>
