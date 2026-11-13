@@ -4,7 +4,7 @@
 		<UserProjectSettings Name="" ID="{2B6512C3-3326-4A25-A7DC-5BD606B81231}">
 			<PropertyList>
 				<Property Name="AudioFileImporter\x64_FilesToImport" Type="string" Value="AAAAAAAAAAA="/>
-				<Property Name="AudioFilesImporter\DestinationFolder" Type="string" Value="Y:\Documents\GitHub\P5 - Grupp 5\P5 - Grupp 5\Originals\SFX\"/>
+				<Property Name="AudioFilesImporter\DestinationFolder" Type="string" Value="Y:\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Originals\SFX\"/>
 				<Property Name="Event Action List\{0126F672-5EAC-461C-B617-87B109D2325F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0D189BE4-D919-435A-940C-56F6658D2F38}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{101C5A11-65B1-4E7C-954D-4A48D9203DF3}\x64_Expand States" Type="string" Value=""/>
@@ -87,6 +87,9 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\x64_{1345D333-4E3C-4EAC-A50A-D13C13F04DA0} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP6w900+Y1QhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{7055A34B-DA61-444E-9823-62768D452388} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP3M4Rraines/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{A647B38F-6EB8-41D9-9C6C-C8B5D51E5F3E} - SegmentEditorZoomInfo" Type="string" Value="refdWFBY/D8AAAAAAADwPxzh9hhDvRlAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MixingDesk\LayoutInstanceId_{62E8459A-5203-483B-BE5B-F11366D161D1}\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
