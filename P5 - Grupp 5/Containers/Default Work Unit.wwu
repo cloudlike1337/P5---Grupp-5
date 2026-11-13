@@ -633,6 +633,11 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>5</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -1512,6 +1517,11 @@
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="40"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -1581,6 +1591,11 @@
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>4</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -2002,11 +2017,6 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-6</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2381,7 +2391,7 @@
 													<ChildrenList>
 														<MusicTransition Name="Transition" ID="{4652720A-BCAD-449B-ACA0-4F27EDE49346}">
 															<PropertyList>
-																<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+																<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 																<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 																<Property Name="ExitSourceAt" Type="int16" Value="0"/>
 															</PropertyList>
@@ -2389,10 +2399,21 @@
 																<SourceFadeOut>
 																	<MusicFade Name="Source Fade-out" ID="{9456B615-1A5C-4C1A-BFC0-F671C868D309}">
 																		<PropertyList>
+																			<Property Name="FadeCurve" Type="int16" Value="6"/>
+																			<Property Name="FadeOffset" Type="Real64" Value="0.3"/>
+																			<Property Name="FadeTime" Type="Real64" Value="1"/>
 																			<Property Name="FadeType" Type="int16" Value="1"/>
 																		</PropertyList>
 																	</MusicFade>
 																</SourceFadeOut>
+																<DestinationFadeIn>
+																	<MusicFade Name="Destination Fade-in" ID="{783D41CB-B096-418A-9B85-EF90F8014105}">
+																		<PropertyList>
+																			<Property Name="FadeOffset" Type="Real64" Value="-0.3"/>
+																			<Property Name="FadeTime" Type="Real64" Value="1"/>
+																		</PropertyList>
+																	</MusicFade>
+																</DestinationFadeIn>
 															</TransitionInfo>
 														</MusicTransition>
 													</ChildrenList>
@@ -2544,11 +2565,17 @@
 																		<Value>True</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="MusicTrackType" Type="int16" Value="1"/>
+																<Property Name="MusicTrackType" Type="int16" Value="3"/>
 															</PropertyList>
 															<ReferenceList>
+																<Reference Name="DefaultSwitchOrState">
+																	<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="SwitchGroupOrStateGroup">
+																	<ObjectRef Name="BossState" ID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
 																</Reference>
 																<Reference Name="TransitionRoot">
 																	<Custom>
@@ -2556,6 +2583,34 @@
 																			<PropertyList>
 																				<Property Name="IsFolder" Type="bool" Value="True"/>
 																			</PropertyList>
+																			<ChildrenList>
+																				<MusicTransition Name="Transition" ID="{AFFA204D-671C-45EC-8B80-13B0F5E1C062}">
+																					<PropertyList>
+																						<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+																						<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+																						<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<TransitionInfo>
+																						<SourceFadeOut>
+																							<MusicFade Name="Source Fade-out" ID="{0A4B4FF3-53EF-4E51-B96D-8A85A5604990}">
+																								<PropertyList>
+																									<Property Name="FadeOffset" Type="Real64" Value="0.3"/>
+																									<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+																									<Property Name="FadeType" Type="int16" Value="1"/>
+																								</PropertyList>
+																							</MusicFade>
+																						</SourceFadeOut>
+																						<DestinationFadeIn>
+																							<MusicFade Name="Destination Fade-in" ID="{A2C8D706-40EF-41AB-8FFF-9FE13EB612F8}">
+																								<PropertyList>
+																									<Property Name="FadeOffset" Type="Real64" Value="-0.3"/>
+																									<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+																								</PropertyList>
+																							</MusicFade>
+																						</DestinationFadeIn>
+																					</TransitionInfo>
+																				</MusicTransition>
+																			</ChildrenList>
 																			<TransitionInfo/>
 																		</MusicTransition>
 																	</Custom>
@@ -2600,6 +2655,11 @@
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
+																		<ReferenceList>
+																			<Reference Name="TrackSequenceSwitch">
+																				<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																			</Reference>
+																		</ReferenceList>
 																	</MusicTrackSequence>
 																	<MusicTrackSequence Name="" ID="{0799FD09-6537-4D5E-A670-70B054A40B5B}">
 																		<ObjectLists>
@@ -2615,6 +2675,11 @@
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
+																		<ReferenceList>
+																			<Reference Name="TrackSequenceSwitch">
+																				<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																			</Reference>
+																		</ReferenceList>
 																	</MusicTrackSequence>
 																	<MusicTrackSequence Name="" ID="{A5B40EBB-6EAF-4D44-8728-F34201A993D1}">
 																		<ObjectLists>
@@ -2630,6 +2695,11 @@
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
+																		<ReferenceList>
+																			<Reference Name="TrackSequenceSwitch">
+																				<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																			</Reference>
+																		</ReferenceList>
 																	</MusicTrackSequence>
 																</ObjectList>
 															</ObjectLists>
@@ -3007,10 +3077,17 @@
 																		<Value>True</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="MusicTrackType" Type="int16" Value="3"/>
 															</PropertyList>
 															<ReferenceList>
+																<Reference Name="DefaultSwitchOrState">
+																	<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="SwitchGroupOrStateGroup">
+																	<ObjectRef Name="BossState" ID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
 																</Reference>
 																<Reference Name="TransitionRoot">
 																	<Custom>
@@ -3018,6 +3095,24 @@
 																			<PropertyList>
 																				<Property Name="IsFolder" Type="bool" Value="True"/>
 																			</PropertyList>
+																			<ChildrenList>
+																				<MusicTransition Name="Transition" ID="{B643EC32-B764-4C3E-BD0B-50839046CE37}">
+																					<PropertyList>
+																						<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+																						<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<TransitionInfo>
+																						<SourceFadeOut>
+																							<MusicFade Name="Source Fade-out" ID="{B33CD5D9-3F2E-41DE-846B-3573DAAF90AD}">
+																								<PropertyList>
+																									<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+																									<Property Name="FadeType" Type="int16" Value="1"/>
+																								</PropertyList>
+																							</MusicFade>
+																						</SourceFadeOut>
+																					</TransitionInfo>
+																				</MusicTransition>
+																			</ChildrenList>
 																			<TransitionInfo/>
 																		</MusicTransition>
 																	</Custom>
@@ -3049,6 +3144,11 @@
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
+																		<ReferenceList>
+																			<Reference Name="TrackSequenceSwitch">
+																				<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																			</Reference>
+																		</ReferenceList>
 																	</MusicTrackSequence>
 																</ObjectList>
 															</ObjectLists>
@@ -4016,6 +4116,7 @@
 															<ChildrenList>
 																<MusicPlaylistItem Name="" ID="{752DAFE6-0764-40AB-B01C-7F8BC8CEC648}" ShortID="624955930">
 																	<PropertyList>
+																		<Property Name="LoopCount" Type="int16" Value="0"/>
 																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
@@ -4144,9 +4245,6 @@
 												<Reference Name="PlaylistRoot">
 													<Custom>
 														<MusicPlaylistItem Name="" ID="{D601E42D-7E7B-4104-B991-ECF892DC1DBF}" ShortID="237576462">
-															<PropertyList>
-																<Property Name="LoopCount" Type="int16" Value="0"/>
-															</PropertyList>
 															<ChildrenList>
 																<MusicPlaylistItem Name="" ID="{00C4A2E3-6336-4434-9DBB-15AF32F10BBB}" ShortID="643988407">
 																	<PropertyList>

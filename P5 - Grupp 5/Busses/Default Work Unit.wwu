@@ -19,7 +19,6 @@
 								<Property Name="Color" Type="int16" Value="2"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList/>
 							<ChildrenList>
 								<Bus Name="Player_Bus" ID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}">
 									<ReferenceList>
@@ -35,7 +34,6 @@
 										</Reference>
 									</ReferenceList>
 								</Bus>
-								<Bus Name="UI_Bus" ID="{99820C0E-0255-4B3E-8134-2332B41B8E3B}"/>
 								<Bus Name="Environment_Bus" ID="{01E07A53-C8C2-4A9C-8105-AC61D8B09359}">
 									<ReferenceList>
 										<Reference Name="UserAuxSend0">
@@ -44,6 +42,33 @@
 									</ReferenceList>
 								</Bus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}"/>
+										<StateGroupInfo Name="" ID="{FB34E6E3-8DC6-4886-8E3E-3BDB7452F8D1}" ShortID="178019844"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
+										<CustomState Name="" ID="{F8C44CDF-938F-4D45-8134-3AAEA1E90947}" ShortID="359272816"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+										<CustomState Name="" ID="{EAB05BFD-98FF-4706-80D1-7B11AEFEB2EC}" ShortID="577082976">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+												<Property Name="Volume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"/>
+										<CustomState Name="" ID="{FD65163F-04AB-4E68-8E84-50E7E73D211B}" ShortID="828356454"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<RTPC Name="" ID="{FFC4E0E4-FCF0-4B50-BE1A-C9C60E5BDDF1}" ShortID="238506368">
@@ -85,6 +110,33 @@
 								<Property Name="Color" Type="int16" Value="10"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}"/>
+										<StateGroupInfo Name="" ID="{5E8A4879-CEB6-49E4-9517-99BFC8B48CA6}" ShortID="358153266"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
+										<CustomState Name="" ID="{AC392C74-2579-4185-A53F-88D9B2DE7493}" ShortID="384622532"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+										<CustomState Name="" ID="{CCF47B1F-5F81-4B5D-BD38-AD7DE3AA6376}" ShortID="491235461">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+												<Property Name="Volume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"/>
+										<CustomState Name="" ID="{88C9F639-F235-4B5A-BC25-F020D0EFC8E1}" ShortID="227808586"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
 									<RTPC Name="" ID="{24C23BD3-15BB-4036-A65C-EAA71E8E1865}" ShortID="103282900">
@@ -166,7 +218,6 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
-							<ReferenceList/>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<EffectSlot Name="" ID="{2DC4606A-8901-4D57-B4AD-4173C41DE081}" ShortID="419379796">
@@ -179,6 +230,7 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
+						<Bus Name="UI_Bus" ID="{99820C0E-0255-4B3E-8134-2332B41B8E3B}"/>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">

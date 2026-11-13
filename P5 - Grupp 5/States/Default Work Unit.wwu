@@ -13,11 +13,28 @@
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="GameState" ID="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"/>
 						<State Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
 						<State Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+							<EndState Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
+							<Time>0.1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
+							<EndState Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+							<Time>0.1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
