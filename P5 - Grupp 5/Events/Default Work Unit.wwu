@@ -57,6 +57,39 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Boss_AOE_Warning" ID="{C4F24378-E52C-4FC3-9073-66879A55C468}">
+											<ChildrenList>
+												<Action Name="" ID="{C8B778B4-2180-47D8-B274-1F9E3E1ECFC4}" ShortID="580162895">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Boss_AOE_Warning" ID="{ED301C9E-62D0-4D92-BFA3-1F6CFB8CBEAE}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Boss_AOE_Attack" ID="{60A83385-9DDA-4F09-9929-057C2EC8851E}">
+											<ChildrenList>
+												<Action Name="" ID="{412D30AC-5906-4A00-BE78-636B884A9747}" ShortID="717142759">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Boss_AOE_Attack" ID="{F1838650-0AD3-43E0-AAA1-47FFFFF1F990}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Boss_Take_Damage" ID="{D5F1D162-6C83-49EB-A996-958F87206FE0}">
+											<ChildrenList>
+												<Action Name="" ID="{9FAB42C7-B8D5-496A-9DF9-141AE9B04853}" ShortID="1070888060">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Boss_Take_Damage" ID="{BFB8C6A7-7458-4925-ABD4-33D3043F3260}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Enemy" ID="{D82A25BE-83B9-4C54-A599-586D2613A9E7}" ShortID="179121366">
@@ -277,17 +310,6 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Play_Player_Spell" ID="{7A603BE6-3D70-47EA-91B7-9B281544A9C5}">
-													<ChildrenList>
-														<Action Name="" ID="{A0B674E9-B611-4661-8A43-A69893A470E3}" ShortID="906346712">
-															<ReferenceList>
-																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Cast_Spell" ID="{B03D99ED-6B17-4AEE-AB0E-78E56DD8DA41}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-																</Reference>
-															</ReferenceList>
-														</Action>
-													</ChildrenList>
-												</Event>
 												<Event Name="Play_Player_Vine_Abillity" ID="{1CD89967-515A-481E-89F9-E55BEFCAAD47}">
 													<ChildrenList>
 														<Action Name="" ID="{516672ED-D59A-429E-A3AF-6823193AA361}" ShortID="451738690">
@@ -332,23 +354,12 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Play_Player_Ultimate_Cast" ID="{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}">
+												<Event Name="Play_Player_Use_Ultimate" ID="{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}">
 													<ChildrenList>
 														<Action Name="" ID="{B0ECF150-0E21-4BDC-ACCF-AE6CD7DDE686}" ShortID="865933844">
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="SFX_Player_Use_Ultimate" ID="{FEF76BF3-3A39-4B8A-8FF9-76F2D1DF47F7}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-																</Reference>
-															</ReferenceList>
-														</Action>
-													</ChildrenList>
-												</Event>
-												<Event Name="Play_Player_Ultimate_Channel" ID="{56147B53-1AB4-4B56-9EAA-4CB9EE5BB9AA}">
-													<ChildrenList>
-														<Action Name="" ID="{EB1069DE-90D8-41F7-BF4F-538A4F65E8C3}" ShortID="345082027">
-															<ReferenceList>
-																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Channel_Ultimate" ID="{B2ADA9A3-D478-42BB-8D8F-B017E61CFEAE}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -679,6 +690,28 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Intro_Cutscene" ID="{BFBA1E68-76CE-46CB-8BAC-3E85D0488541}">
+									<ChildrenList>
+										<Action Name="" ID="{A51A580E-0F1C-42F9-99EB-A4A883D3F091}" ShortID="844226858">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Intro_Cutscene" ID="{1D9F6119-F926-47B3-AC25-6DF4E97FD1A7}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_End_Title" ID="{B77F494D-0262-4175-BA01-704933E92961}">
+									<ChildrenList>
+										<Action Name="" ID="{7C536272-B47D-4710-9616-03E8A0C95A2F}" ShortID="888421786">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="End_Title" ID="{99015E27-4063-4274-83BA-BB5A1D709CE6}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

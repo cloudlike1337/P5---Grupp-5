@@ -19,11 +19,15 @@ namespace AK
         static const AkUniqueID PLAY_ABILITY_UNLOCKED = 1528054008U;
         static const AkUniqueID PLAY_AMBIENCE_LEVEL_1 = 2274326929U;
         static const AkUniqueID PLAY_AMBIENCE_LEVEL_2 = 2274326930U;
+        static const AkUniqueID PLAY_BOSS_AOE_ATTACK = 227360424U;
+        static const AkUniqueID PLAY_BOSS_AOE_WARNING = 4219410224U;
         static const AkUniqueID PLAY_BOSS_CHANGE_PHASE = 1268859200U;
         static const AkUniqueID PLAY_BOSS_DEATH = 3695176782U;
         static const AkUniqueID PLAY_BOSS_SCREAM = 3326215491U;
         static const AkUniqueID PLAY_BOSS_SPAWNING_POPCORN = 763268173U;
+        static const AkUniqueID PLAY_BOSS_TAKE_DAMAGE = 438645199U;
         static const AkUniqueID PLAY_CHECHPOINT_REACHED = 1327141250U;
+        static const AkUniqueID PLAY_END_TITLE = 1478662086U;
         static const AkUniqueID PLAY_ENEMY_POPCORN_ATTACK = 4254872019U;
         static const AkUniqueID PLAY_ENEMY_POPCORN_DEATH = 1966043283U;
         static const AkUniqueID PLAY_ENEMY_POPCORN_TAKE_DAMAGE = 4214071090U;
@@ -36,6 +40,7 @@ namespace AK
         static const AkUniqueID PLAY_ENEMY_SUMMONER_DEATH = 1535617374U;
         static const AkUniqueID PLAY_ENEMY_SUMMONER_SURFACE = 1319327521U;
         static const AkUniqueID PLAY_ENEMY_SUMMONER_TAKE_DAMAGE = 2134822783U;
+        static const AkUniqueID PLAY_INTRO_CUTSCENE = 1049578131U;
         static const AkUniqueID PLAY_INVALID_ACTION = 2264668508U;
         static const AkUniqueID PLAY_MENU_BACK = 455571771U;
         static const AkUniqueID PLAY_MENU_CONFIRM = 817598862U;
@@ -50,10 +55,8 @@ namespace AK
         static const AkUniqueID PLAY_PLAYER_MELEE_ATK = 2980837791U;
         static const AkUniqueID PLAY_PLAYER_RANGED_ATK = 1767242762U;
         static const AkUniqueID PLAY_PLAYER_RESPAWN = 4238880044U;
-        static const AkUniqueID PLAY_PLAYER_SPELL = 984730830U;
         static const AkUniqueID PLAY_PLAYER_TAKE_DAMAGE = 1172205655U;
-        static const AkUniqueID PLAY_PLAYER_ULTIMATE_CAST = 2292493453U;
-        static const AkUniqueID PLAY_PLAYER_ULTIMATE_CHANNEL = 9220177U;
+        static const AkUniqueID PLAY_PLAYER_USE_ULTIMATE = 2301239065U;
         static const AkUniqueID PLAY_PLAYER_VINE_ABILLITY = 2195822293U;
         static const AkUniqueID PLAY_START_GAME = 3294915283U;
         static const AkUniqueID PLAY_WALLS_LOWERING = 4145597129U;
