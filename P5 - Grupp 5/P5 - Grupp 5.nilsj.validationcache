@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="133">
-	<ValidationCacheItem File="C:\Users\nilsj\AppData\Roaming\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1794585427" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\nilsj\AppData\Roaming\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1794585663" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Attenuations\Default Work Unit.wwu" DateLow="1794573470" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Attenuations\Factory Attenuations.wwu" DateLow="1794572722" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Busses\Default Work Unit.wwu" DateLow="1794585218" DateHigh="0"/>
@@ -30,7 +30,7 @@
 	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Metadata\Default Work Unit.wwu" DateLow="1794220662" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Mixing Sessions\Default Work Unit.wwu" DateLow="1794220662" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Modulators\Default Work Unit.wwu" DateLow="1794220662" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\P5 - Grupp 5.nilsj.wsettings" DateLow="1794585427" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\P5 - Grupp 5.nilsj.wsettings" DateLow="1794585663" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\P5 - Grupp 5.wproj" DateLow="1794583112" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Presets\Default Work Unit.wwu" DateLow="1794220662" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\nilsj\Documents\GitHub\P5---Grupp-5\P5 - Grupp 5\Presets\Factory Reflect Physically-Based.wwu" DateLow="1794220662" DateHigh="0"/>
