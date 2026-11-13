@@ -20,8 +20,8 @@ namespace AK
         static const AkUniqueID PLAY_AMBIENCE_LEVEL_1 = 2274326929U;
         static const AkUniqueID PLAY_AMBIENCE_LEVEL_2 = 2274326930U;
         static const AkUniqueID PLAY_BOSS_CHANGE_PHASE = 1268859200U;
-        static const AkUniqueID PLAY_BOSS_DEATH_DESTROYED = 540375402U;
-        static const AkUniqueID PLAY_BOSS_DEATH_SCREAM = 2746825790U;
+        static const AkUniqueID PLAY_BOSS_DEATH = 3695176782U;
+        static const AkUniqueID PLAY_BOSS_SCREAM = 3326215491U;
         static const AkUniqueID PLAY_BOSS_SPAWNING_POPCORN = 763268173U;
         static const AkUniqueID PLAY_CHECHPOINT_REACHED = 1327141250U;
         static const AkUniqueID PLAY_ENEMY_POPCORN_ATTACK = 4254872019U;
@@ -43,10 +43,7 @@ namespace AK
         static const AkUniqueID PLAY_PLAYER_CLEAVE_ABILLITY = 925767337U;
         static const AkUniqueID PLAY_PLAYER_DASH = 2175711460U;
         static const AkUniqueID PLAY_PLAYER_DEATH = 1835085974U;
-        static const AkUniqueID PLAY_PLAYER_FOOTSTEP_FLESH = 2860839877U;
-        static const AkUniqueID PLAY_PLAYER_FOOTSTEP_GRASS = 3737986925U;
-        static const AkUniqueID PLAY_PLAYER_FOOTSTEP_ROOTS = 3967476884U;
-        static const AkUniqueID PLAY_PLAYER_FOOTSTEP_WOOD = 1217663566U;
+        static const AkUniqueID PLAY_PLAYER_FOOTSTEP = 1724675634U;
         static const AkUniqueID PLAY_PLAYER_HEAL = 638998366U;
         static const AkUniqueID PLAY_PLAYER_HEAL_PICKUP = 4017243061U;
         static const AkUniqueID PLAY_PLAYER_LEVELUP = 1161564153U;
@@ -115,6 +112,19 @@ namespace AK
             } // namespace SWITCH
         } // namespace BOSSSTATE
 
+        namespace FOOTSTEPMATERIAL
+        {
+            static const AkUniqueID GROUP = 3287431056U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID FLESH = 1153642577U;
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID ROOTS = 1510358672U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPMATERIAL
+
     } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
@@ -152,6 +162,11 @@ namespace AK
         static const AkUniqueID SFX_BUS = 213475909U;
         static const AkUniqueID UI_BUS = 3247222208U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID WORLD_REVERB_BUS = 1492744757U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

@@ -19,11 +19,30 @@
 								<Property Name="Color" Type="int16" Value="2"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ReferenceList/>
 							<ChildrenList>
-								<Bus Name="Player_Bus" ID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}"/>
-								<Bus Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}"/>
+								<Bus Name="Player_Bus" ID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}">
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="World_Reverb_Bus" ID="{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}">
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="World_Reverb_Bus" ID="{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
 								<Bus Name="UI_Bus" ID="{99820C0E-0255-4B3E-8134-2332B41B8E3B}"/>
-								<Bus Name="Environment_Bus" ID="{01E07A53-C8C2-4A9C-8105-AC61D8B09359}"/>
+								<Bus Name="Environment_Bus" ID="{01E07A53-C8C2-4A9C-8105-AC61D8B09359}">
+									<ReferenceList>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="World_Reverb_Bus" ID="{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="RTPC">
@@ -143,6 +162,23 @@
 								</ObjectList>
 							</ObjectLists>
 						</Bus>
+						<AuxBus Name="World_Reverb_Bus" ID="{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList/>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{2DC4606A-8901-4D57-B4AD-4173C41DE081}" ShortID="419379796">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 					</ChildrenList>
 					<ObjectLists>
 						<ObjectList Name="RTPC">

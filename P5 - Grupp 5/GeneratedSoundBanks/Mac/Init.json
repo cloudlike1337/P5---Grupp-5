@@ -10,11 +10,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D6445F44-77AD-75D4-31F9-C09A37F85DF9}",
+    "Hash": "{8B00F764-D375-C735-EBE0-87D00E1C035B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3701691487",
+       "Name": "Hall_Large_Bright",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Bright",
+       "GUID": "{CB602948-2D1D-4977-A8D5-378184293E80}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -47,21 +57,48 @@
       "Name": "Player_Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\SFX_Bus\\Player_Bus",
       "GUID": "{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}",
-      "Color": "2"
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "1492744757",
+        "Name": "World_Reverb_Bus",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\World_Reverb_Bus",
+        "GUID": "{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}",
+        "Color": "4"
+       }
+      ]
      },
      {
       "Id": "1411040840",
       "Name": "Enemy_Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\SFX_Bus\\Enemy_Bus",
       "GUID": "{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}",
-      "Color": "2"
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "1492744757",
+        "Name": "World_Reverb_Bus",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\World_Reverb_Bus",
+        "GUID": "{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}",
+        "Color": "4"
+       }
+      ]
      },
      {
       "Id": "1523166483",
       "Name": "Environment_Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\SFX_Bus\\Environment_Bus",
       "GUID": "{01E07A53-C8C2-4A9C-8105-AC61D8B09359}",
-      "Color": "2"
+      "Color": "2",
+      "AuxBusRefs": [
+       {
+        "Id": "1492744757",
+        "Name": "World_Reverb_Bus",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\World_Reverb_Bus",
+        "GUID": "{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}",
+        "Color": "4"
+       }
+      ]
      },
      {
       "Id": "2246998526",
@@ -90,6 +127,22 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\AMB_Bus",
       "GUID": "{268EEB34-EC0F-452E-A22D-473B6B39A14D}",
       "Color": "19"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "1492744757",
+      "Name": "World_Reverb_Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\World_Reverb_Bus",
+      "GUID": "{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}",
+      "Color": "4",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3701691487"
+        }
+       ]
+      }
      }
     ],
     "GameParameters": [
@@ -272,6 +325,38 @@
         "Name": "Phase_1",
         "ObjectPath": "\\Switches\\Default Work Unit\\BossState\\Phase_1",
         "GUID": "{014AC944-E9F0-4D83-B44A-C6C0D86769E7}"
+       }
+      ]
+     },
+     {
+      "Id": "3287431056",
+      "Name": "FootstepMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial",
+      "GUID": "{DB43C544-24A7-4823-8427-DECE39FABCC9}",
+      "Switches": [
+       {
+        "Id": "1153642577",
+        "Name": "Flesh",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Flesh",
+        "GUID": "{EC8F91A9-12FC-4065-8208-8CEA244CAF75}"
+       },
+       {
+        "Id": "1510358672",
+        "Name": "Roots",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Roots",
+        "GUID": "{D49B6C19-AE4C-4C80-B27C-38E4BDEF6214}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Wood",
+        "GUID": "{2BF59763-69F0-49B3-B659-81DBCA28A6B5}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FootstepMaterial\\Grass",
+        "GUID": "{702B5BA7-7AC4-4973-90FB-EEBB98B2737B}"
        }
       ]
      }
@@ -755,6 +840,6 @@
     ]
    }
   ],
-  "FileHash": "{465FEBC9-C732-55ED-73A1-B43DFA981840}"
+  "FileHash": "{0AB4675A-A111-FE76-B0C4-E13573233A09}"
  }
 }

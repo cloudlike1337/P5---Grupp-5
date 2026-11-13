@@ -35,7 +35,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Boss_Death_Scream" ID="{DDDC8314-BB32-46B3-AF9E-FFCA65A5C0D0}">
+										<Event Name="Play_Boss_Scream" ID="{DDDC8314-BB32-46B3-AF9E-FFCA65A5C0D0}">
 											<ChildrenList>
 												<Action Name="" ID="{D3CF53AE-B751-4E2D-8E9A-2EFAC342AD05}" ShortID="270845663">
 													<ReferenceList>
@@ -46,7 +46,7 @@
 												</Action>
 											</ChildrenList>
 										</Event>
-										<Event Name="Play_Boss_Death_Destroyed" ID="{0126F672-5EAC-461C-B617-87B109D2325F}">
+										<Event Name="Play_Boss_Death" ID="{0126F672-5EAC-461C-B617-87B109D2325F}">
 											<ChildrenList>
 												<Action Name="" ID="{4DE5F2E8-D0CD-4E1D-855C-5B17F41B11B9}" ShortID="609054567">
 													<ReferenceList>
@@ -242,7 +242,7 @@
 														<Action Name="" ID="{3D1F2A14-0CB8-420A-87C2-CB2AD2F9CCCA}" ShortID="687649831">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player Ranged Attack" ID="{E8765794-E02B-4EE4-9282-152F382F06E5}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Player_Ranged_Attack" ID="{C9ED12D1-15FF-4945-B503-945C188BA927}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -253,7 +253,7 @@
 														<Action Name="" ID="{51CEC482-C73F-489E-8EB5-E59B5FED9D94}" ShortID="812408497">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Melee_Attack" ID="{C7964A4B-5E82-48CD-89F2-53E897DBBE00}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Player_Melee_Attack" ID="{8D804B4B-263E-479D-9A86-04631C6CA264}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -384,45 +384,12 @@
 										</Folder>
 										<Folder Name="Movement" ID="{F8C5852C-A4EE-458B-8975-E90EEC73EFE7}" ShortID="827788324">
 											<ChildrenList>
-												<Event Name="Play_Player_Footstep_Wood" ID="{62BE46CF-D798-48B9-83C9-D902D0015007}">
+												<Event Name="Play_Player_Footstep" ID="{FB47FA47-2DBD-46BE-80B0-CC06D73B4029}">
 													<ChildrenList>
-														<Action Name="" ID="{3DC4CCE8-0651-42E2-9AC8-E6E93BB3E449}" ShortID="377376942">
+														<Action Name="" ID="{2316FB8D-1BAD-4A04-8C81-4E1E53C0CB32}" ShortID="229186365">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Footstep_Wood" ID="{FC7A07EF-A4BB-4E10-B932-8C1866BAD342}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-																</Reference>
-															</ReferenceList>
-														</Action>
-													</ChildrenList>
-												</Event>
-												<Event Name="Play_Player_Footstep_Roots" ID="{478E0459-D1FA-4473-9E62-6B311DBF5C31}">
-													<ChildrenList>
-														<Action Name="" ID="{19AD1BA8-4123-4907-B77F-935D3502D6F6}" ShortID="614843681">
-															<ReferenceList>
-																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Footstep_Roots" ID="{EB2685C3-44C5-435A-9A15-EB7229832672}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-																</Reference>
-															</ReferenceList>
-														</Action>
-													</ChildrenList>
-												</Event>
-												<Event Name="Play_Player_Footstep_Grass" ID="{6DDB3C4C-5C47-44F6-BB54-FF7123AD3BD9}">
-													<ChildrenList>
-														<Action Name="" ID="{151FC550-0BEC-4793-B04C-006528C28BF1}" ShortID="132274066">
-															<ReferenceList>
-																<Reference Name="Target">
-																	<ObjectRef Name="Player_Footstep_Grass" ID="{AF3F01E5-917E-4BAB-A527-3F13D9C9EDD8}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-																</Reference>
-															</ReferenceList>
-														</Action>
-													</ChildrenList>
-												</Event>
-												<Event Name="Play_Player_Footstep_Flesh" ID="{31660E0F-87BC-41F9-A5F8-2DC1AE9BF1A1}">
-													<ChildrenList>
-														<Action Name="" ID="{60AA0A5D-28FF-49F3-AF95-A082048F466A}" ShortID="93213466">
-															<ReferenceList>
-																<Reference Name="Target">
-																	<ObjectRef Name="Player_Footstep_Flesh" ID="{8188217F-413D-4B93-AE07-1A001C2DF794}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="Footstep_Switch_Container" ID="{D46CF276-3DDE-4F2F-B033-6F29B162ACC9}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>

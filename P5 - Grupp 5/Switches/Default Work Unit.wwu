@@ -10,6 +10,14 @@
 						<Switch Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="FootstepMaterial" ID="{DB43C544-24A7-4823-8427-DECE39FABCC9}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{702B5BA7-7AC4-4973-90FB-EEBB98B2737B}"/>
+						<Switch Name="Flesh" ID="{EC8F91A9-12FC-4065-8208-8CEA244CAF75}"/>
+						<Switch Name="Roots" ID="{D49B6C19-AE4C-4C80-B27C-38E4BDEF6214}"/>
+						<Switch Name="Wood" ID="{2BF59763-69F0-49B3-B659-81DBCA28A6B5}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
