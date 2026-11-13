@@ -66,7 +66,6 @@ Switch	ID	Name	Switch Group			Notes
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1021618141	MusicState			\Default Work Unit\MusicState	
-	4091656514	GameState			\Default Work Unit\GameState	
 
 State	ID	Name	State Group			Notes
 	748895195	None	MusicState			
@@ -74,9 +73,6 @@ State	ID	Name	State Group			Notes
 	1290008370	Level_2	MusicState			
 	1560169506	Boss	MusicState			
 	3604647259	MainMenu	MusicState			
-	319258907	Paused	GameState			
-	748895195	None	GameState			
-	1365518790	Unpaused	GameState			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1298052	Summoner_Attack_01	.cache\25\{25318EE7-8691-3ACB-0EA4-BA082ACCE608}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Attack\Summoner_Attack_01		277376
@@ -87,10 +83,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	44636632	SFX_Player _Level_Up	.cache\30\{307D7D99-919B-8C27-71F4-134FB147095F}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player _Level_Up		294528
 	66436734	Popcorn_Walk_03	.cache\06\{068B5044-0835-4FF3-6EF8-33619941D36B}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_Walk_03		49308
 	67066080	SFX_Player_Take_Damage	.cache\FC\{FC1AB9CD-C4DC-AAEC-7BE3-E19A8F7D0CF3}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Take_Damage		294528
+	90197940	New Music Track	.cache\86\{86EC382C-8602-4A64-25A9-8CB714166A9A}.wem		\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1_Segment\New Music Track		15360096
 	125135763	SFX_Player_Use_Vine	.cache\04\{04A163BF-0DB7-9D8C-E6B2-3521B41D7EA7}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Use_Vine		294528
 	151501028	Summoner_Attack_04	.cache\23\{23648328-46CA-64EC-09D5-4BCC5ECED856}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Attack\Summoner_Attack_04		209452
 	181969289	SFX_Invalid_Action	.cache\FB\{FB1F2870-6BF7-A339-D1B5-BA87A2D3A8B0}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Invalid_Action		40048
-	191547150	New Music Track	.cache\75\{75EC33F9-CD2E-8844-8C2A-8B03D15FDA9C}.wem		\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1_Segment\New Music Track		197232
 	196817037	SFX_Player_Footstep_Roots	.cache\9A\{9A20D58E-3407-7943-C6EC-1B55ABE87FF2}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Player_Footstep_Roots\SFX_Player_Footstep_Roots		421684
 	201041031	SFX_Player_Death	.cache\B2\{B26F2CF9-6F0E-62F3-E594-5E0A52F04533}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Player_Death		394612
 	216748342	Popcorn_Walk_01	.cache\67\{674DCE20-950F-E48A-E66A-546423212F75}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_Walk_01		45056

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{8A5C7D40-385E-2CBA-1E07-B24724DA99C8}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{24A0240C-C959-3FD4-7FB7-4905CDC70046}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -53,6 +53,10 @@
 					<Path>Media/76275800.wem</Path>
 					<CachePath>26/{269F0F00-62BC-6248-DB76-5302845759F8}.wem</CachePath>
 				</File>
+				<File Id="90197940" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>music_level_1.wav</ShortName>
+					<CachePath>86/{86EC382C-8602-4A64-25A9-8CB714166A9A}.wem</CachePath>
+				</File>
 				<File Id="96983337" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Fras_5_115_bpm_4_4.wav</ShortName>
 					<Path>Media/96983337.wem</Path>
@@ -79,10 +83,6 @@
 				<File Id="181969289" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_invalid_action.wav</ShortName>
 					<CachePath>FB/{FB1F2870-6BF7-A339-D1B5-BA87A2D3A8B0}.wem</CachePath>
-				</File>
-				<File Id="191547150" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 2.wav</ShortName>
-					<CachePath>75/{75EC33F9-CD2E-8844-8C2A-8B03D15FDA9C}.wem</CachePath>
 				</File>
 				<File Id="193162057" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Harp_Fras_115_bpm_4_4.wav</ShortName>
@@ -544,7 +544,7 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
 									<MediaRefs>
-										<MediaRef Id="191547150"/>
+										<MediaRef Id="90197940"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -635,7 +635,7 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
 									<MediaRefs>
-										<MediaRef Id="191547150"/>
+										<MediaRef Id="90197940"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -714,7 +714,7 @@
 						<MediaRef Id="700163403"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3453525588" Name="Play_Enemy_Popcorn_Walk" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk" GUID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" Color="2" MaxAttenuation="1200" DurationType="OneShot" DurationMin="0.2045" DurationMax="0.2563125">
+				<Event Id="3453525588" Name="Play_Enemy_Popcorn_Walk" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk" GUID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" Color="2" DurationType="OneShot" DurationMin="0.2045" DurationMax="0.2563125">
 					<MediaRefs>
 						<MediaRef Id="36424771"/>
 						<MediaRef Id="66436734"/>
@@ -975,7 +975,7 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
 									<MediaRefs>
-										<MediaRef Id="191547150"/>
+										<MediaRef Id="90197940"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -1081,7 +1081,7 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
 									<MediaRefs>
-										<MediaRef Id="191547150"/>
+										<MediaRef Id="90197940"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -1129,5 +1129,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B80DB81D-9422-D7DB-F833-96CE6A18A6BF}</FileHash>
+	<FileHash>{7CC914A8-A077-2A92-2859-1FE4B1FB8BAA}</FileHash>
 </SoundBanksInfo>
