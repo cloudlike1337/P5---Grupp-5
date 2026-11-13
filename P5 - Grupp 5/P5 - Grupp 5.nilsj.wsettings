@@ -115,16 +115,16 @@
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{618C1FF9-37D4-45A7-AF0A-E2D511E44707}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{826CEF9F-ACB3-45D2-8319-9C9994E4CA5C}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{A45AAC64-78D1-46A7-88FA-F242B38651B4}" Type="string" Value=""/>
-				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewA4ADcAQwA1ADUAMgA3AEUALQBBAEEAQQA5AC0ANAA0AEEANgAtADgAMgBBAEYALQBBAEQARAA2ADQARgAzADMANgA5AEUAQgB9AAAAAQF7AEUARQBEADgARAA3ADYAQwAtADQAMgA1ADYALQA0ADYARABCAC0AQQAzAEQANwAtADgARABFADYAMABBAEEAOABDADAAQQA0AH0AAAAAAXsAQwBCAEQAMwBGADYANgAyAC0AQwBGADAARgAtADQAMQA5ADMALQBBAEEARQBFAC0AMgAyAEYANgBEAEUAQgA0AEMARQBFAEYAfQAAAAEBewAyADYAMgA0ADcAQQA3AEEALQBEADYAQQA1AC0ANAAwADcANAAtADgANgA1ADgALQAwAEYARgA3AEUAQQA1ADUANQA2ADYANwB9AAAAAQF7AEEAOQAwADQANQAxADEANAAtAEIAMgBCAEYALQA0AEYAMgA1AC0AQQBFADgAQwAtAEMAOQBFAEIAQwA0ADkAMQA4AEIARgA3AH0AAAABAQ=="/>
+				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewA4ADcAQwA1ADUAMgA3AEUALQBBAEEAQQA5AC0ANAA0AEEANgAtADgAMgBBAEYALQBBAEQARAA2ADQARgAzADMANgA5AEUAQgB9AAAAAQF7ADEAMQA4AEIANwBDADcARQAtADUAMAA1ADcALQA0ADUANQBEAC0AQQA1ADcANAAtADkANQA5ADIAMABEAEIAOAAxADAANABGAH0AAAAAAXsAQwBCAEQAMwBGADYANgAyAC0AQwBGADAARgAtADQAMQA5ADMALQBBAEEARQBFAC0AMgAyAEYANgBEAEUAQgA0AEMARQBFAEYAfQAAAAEBewAyADYAMgA0ADcAQQA3AEEALQBEADYAQQA1AC0ANAAwADcANAAtADgANgA1ADgALQAwAEYARgA3AEUAQQA1ADUANQA2ADYANwB9AAAAAQF7AEEAOQAwADQANQAxADEANAAtAEIAMgBCAEYALQA0AEYAMgA1AC0AQQBFADgAQwAtAEMAOQBFAEIAQwA0ADkAMQA4AEIARgA3AH0AAAABAQ=="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{FB6925F8-3EDD-42F1-B446-654A30D756CF}" Type="string" Value=""/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="PluginUserAcknowledge\ConvolutionReverb" Type="bool" Value="True"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\Audio_FocusedObject" Type="string" Value="{EED8D76C-4256-46DB-A3D7-8DE60AA8C0A4}"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\Audio_FocusedObject" Type="string" Value="{118B7C7E-5057-455D-A574-95920DB8104F}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentSearch" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentTab" Type="int32" Value="0"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentTab" Type="int32" Value="2"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Events_FocusedObject" Type="string" Value="{6C0564A2-7B35-44BE-B4B8-8A5701964E53}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Game Syncs_FocusedObject" Type="string" Value="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Queries_FocusedObject" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
@@ -314,7 +314,7 @@
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_ExpandedGroups" Type="string" Value="AAAAAAAAAAA="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_ExpandedGroupsAllMode" Type="string" Value="AAAAAAAAAAA="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_HiddenCategories" Type="string" Value="AgAAAAAAAABIRFIATUlESQA="/>
-				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_InspectedObject" Type="string" Value="bNfY7lZC20aj143mCqjApA=="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_InspectedObject" Type="string" Value=""/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_RecentCategories" Type="string" Value="BgAAAAAAAABHZW5lcmFsAABQb3NpdGlvbmluZwBBZHZhbmNlZABSb3V0aW5nAEZhdm9yaXRlcwA="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{FB6925F8-3EDD-42F1-B446-654A30D756CF}\CurrentSearch" Type="string" Value=""/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{FB6925F8-3EDD-42F1-B446-654A30D756CF}\RecentCategoriesTopCount" Type="int32" Value="0"/>
