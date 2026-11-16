@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{D232F614-318F-2DBB-2BD6-BCD49744AD66}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{64F76C4D-4D64-E4A2-763F-7756F2F716DA}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -31,10 +31,6 @@
 					<ShortName>sfx_footsteps_grass_03.wav</ShortName>
 					<CachePath>3D/{3D36D511-47CC-7152-8A58-CCB6FC91B230}.wem</CachePath>
 				</File>
-				<File Id="35095048" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Level1_Swell.wav</ShortName>
-					<CachePath>59/{599898D9-FF57-E8C6-384B-0132C4939836}.wem</CachePath>
-				</File>
 				<File Id="36223790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 123.wav</ShortName>
 					<CachePath>91/{91167413-1104-CD93-207D-08625C02322C}.wem</CachePath>
@@ -46,6 +42,11 @@
 				<File Id="44636632" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Player level up.wav</ShortName>
 					<CachePath>30/{307D7D99-919B-8C27-71F4-134FB147095F}.wem</CachePath>
+				</File>
+				<File Id="61264114" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Celli_Sus_Sord.wav</ShortName>
+					<Path>Media/61264114.wem</Path>
+					<CachePath>2B/{2B479A82-ED1F-610F-5E98-AB54DA32DA5A}.wem</CachePath>
 				</File>
 				<File Id="66436734" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Walk_03.wav</ShortName>
@@ -61,10 +62,6 @@
 					<Path>Media/76275800.wem</Path>
 					<CachePath>26/{269F0F00-62BC-6248-DB76-5302845759F8}.wem</CachePath>
 				</File>
-				<File Id="90197940" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>music_level_1.wav</ShortName>
-					<CachePath>86/{86EC382C-8602-4A64-25A9-8CB714166A9A}.wem</CachePath>
-				</File>
 				<File Id="92054845" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_wood_06.wav</ShortName>
 					<CachePath>40/{408871FC-B879-BD26-C23C-8D056DD02BF7}.wem</CachePath>
@@ -73,6 +70,11 @@
 					<ShortName>Fras_5_115_bpm_4_4.wav</ShortName>
 					<Path>Media/96983337.wem</Path>
 					<CachePath>7C/{7C493956-2B24-4819-9B86-1749FC1DACAC}.wem</CachePath>
+				</File>
+				<File Id="107734003" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Synth_Pad_Bass.wav</ShortName>
+					<Path>Media/107734003.wem</Path>
+					<CachePath>AB/{AB04BB34-D67E-56A6-3160-530E89436904}.wem</CachePath>
 				</File>
 				<File Id="125135763" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Player vine abillity.wav</ShortName>
@@ -86,6 +88,11 @@
 				<File Id="145896481" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_wood_05.wav</ShortName>
 					<CachePath>F2/{F27228AE-9B92-F8BF-4CC0-9590F2B3A1B1}.wem</CachePath>
+				</File>
+				<File Id="149096794" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Guitar_Rythm.wav</ShortName>
+					<Path>Media/149096794.wem</Path>
+					<CachePath>9E/{9E0F40B4-BBE1-9562-0925-569EA6031F7A}.wem</CachePath>
 				</File>
 				<File Id="151501028" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Summoner_Attack_04.wav</ShortName>
@@ -200,6 +207,16 @@
 					<ShortName>sfx_player_footsteps_flesh_05.wav</ShortName>
 					<CachePath>59/{598E75E0-1007-6E28-020D-DA65462FE1D3}.wem</CachePath>
 				</File>
+				<File Id="385395353" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Bass_Drum 34.wav</ShortName>
+					<Path>Media/385395353.wem</Path>
+					<CachePath>50/{50032ED2-AF9F-7624-1A66-BB4ED3347455}.wem</CachePath>
+				</File>
+				<File Id="395798576" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Flute_Pad.wav</ShortName>
+					<Path>Media/395798576.wem</Path>
+					<CachePath>31/{31D832B9-7215-78B8-5F25-44AF337D1D5D}.wem</CachePath>
+				</File>
 				<File Id="397979913" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_wood_03.wav</ShortName>
 					<CachePath>18/{1810FACF-2F48-CF5D-4627-C54D4A8D8B19}.wem</CachePath>
@@ -235,9 +252,10 @@
 					<Path>Media/461097952.wem</Path>
 					<CachePath>9D/{9D51F949-4BF4-A8D1-3304-5384BAC161DF}.wem</CachePath>
 				</File>
-				<File Id="476639303" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Level1_Harp.wav</ShortName>
-					<CachePath>EF/{EF46D2B1-DA1B-3B2A-334E-B1AB2429D6FC}.wem</CachePath>
+				<File Id="480085336" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_ViolinFX_Pad.wav</ShortName>
+					<Path>Media/480085336.wem</Path>
+					<CachePath>0D/{0DCE803D-8E30-80D9-FA0A-66A80950D870}.wem</CachePath>
 				</File>
 				<File Id="482808002" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Eric_Pug_Riser_115_bpm_4_4.wav</ShortName>
@@ -279,18 +297,24 @@
 					<ShortName>sfx_player_dash_loop.wav</ShortName>
 					<CachePath>9D/{9D872683-EE6C-64E2-001C-A3B116098F92}.wem</CachePath>
 				</File>
-				<File Id="517107016" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Level1_Cello.wav</ShortName>
-					<CachePath>FF/{FFAFCAEF-350E-0DD8-D749-0B9E192F0505}.wem</CachePath>
-				</File>
 				<File Id="522183298" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_menu_hover.wav</ShortName>
 					<CachePath>85/{85B5DFF2-D954-189E-4119-1DC5B6BA040B}.wem</CachePath>
+				</File>
+				<File Id="529358614" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Cymbal_Pad.wav</ShortName>
+					<Path>Media/529358614.wem</Path>
+					<CachePath>D8/{D8852531-70E5-ED0E-6BB0-932DB5249FAB}.wem</CachePath>
 				</File>
 				<File Id="537618569" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Cello_Fras_3_115_bpm_4_4.wav</ShortName>
 					<Path>Media/537618569.wem</Path>
 					<CachePath>41/{41063136-0518-588F-DA7D-6BFA5D5C7979}.wem</CachePath>
+				</File>
+				<File Id="539508559" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_DaGamba_Pad.wav</ShortName>
+					<Path>Media/539508559.wem</Path>
+					<CachePath>CD/{CDB1519B-EE24-2640-D211-D8E66DAB8A49}.wem</CachePath>
 				</File>
 				<File Id="549677282" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Horror_Cymbaler_1_115_bpm_4_4.wav</ShortName>
@@ -354,6 +378,11 @@
 					<ShortName>sfx_player_ranged_ability_04.wav</ShortName>
 					<CachePath>B7/{B788C0B8-6641-F3B9-547B-5FE6BBE42ADA}.wem</CachePath>
 				</File>
+				<File Id="624112874" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Bass_Sus_Sord.wav</ShortName>
+					<Path>Media/624112874.wem</Path>
+					<CachePath>A1/{A17CD78B-8428-7A5C-4D9D-F2FCC371BAFE}.wem</CachePath>
+				</File>
 				<File Id="631050920" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Voice Designer, Abbi 13.wav</ShortName>
 					<CachePath>F1/{F1EFDD5B-F425-3D48-686D-7E23B5FC440E}.wem</CachePath>
@@ -380,10 +409,20 @@
 					<ShortName>Summoner_Attack_02.wav</ShortName>
 					<CachePath>99/{99A28952-BAA5-1B99-E7F4-8CE1F4320347}.wem</CachePath>
 				</File>
+				<File Id="685112412" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Shaker.wav</ShortName>
+					<Path>Media/685112412.wem</Path>
+					<CachePath>EE/{EE24DD97-57F1-EA2D-66A2-E4D6ACBD5356}.wem</CachePath>
+				</File>
 				<File Id="686397880" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Elgitarr_Dysto_Dra_115_bpm_4_4.wav</ShortName>
 					<Path>Media/686397880.wem</Path>
 					<CachePath>F9/{F92A8EDB-0E77-E54D-FADA-BF0FE9BFF636}.wem</CachePath>
+				</File>
+				<File Id="692343264" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Harp_Ostinato.wav</ShortName>
+					<Path>Media/692343264.wem</Path>
+					<CachePath>F4/{F414E2C9-21CA-1F67-FC8F-BB81F244C5D7}.wem</CachePath>
 				</File>
 				<File Id="696222301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_heal_01.wav</ShortName>
@@ -471,6 +510,11 @@
 				<File Id="863383401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_05.wav</ShortName>
 					<CachePath>A2/{A2517AD6-9CCB-D935-3983-6A9837C41F75}.wem</CachePath>
+				</File>
+				<File Id="880962808" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Steam_Release.wav</ShortName>
+					<Path>Media/880962808.wem</Path>
+					<CachePath>7F/{7FDA38AB-1185-707A-40A7-546FB8DF1F0C}.wem</CachePath>
 				</File>
 				<File Id="894360804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_01.wav</ShortName>
@@ -570,6 +614,11 @@
 					<Path>Media/1031295622.wem</Path>
 					<CachePath>C4/{C46CD4AB-AF44-5917-99DB-AC3977DF5623}.wem</CachePath>
 				</File>
+				<File Id="1035406516" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Lvl1_Synth_Pad_Melody.wav</ShortName>
+					<Path>Media/1035406516.wem</Path>
+					<CachePath>4F/{4F911060-DB8F-3BCD-1E1F-661E9FD44961}.wem</CachePath>
+				</File>
 				<File Id="1047310084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_menu_back.wav</ShortName>
 					<CachePath>CF/{CF7546F8-FE34-26C8-610C-874C5FDB0585}.wem</CachePath>
@@ -611,9 +660,14 @@
 							<Children>
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
-									<MediaRefs>
-										<MediaRef Id="76275800"/>
-									</MediaRefs>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="1255199230" Id="0" GUID="{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"/>
+											<MediaRefs>
+												<MediaRef Id="76275800"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
@@ -622,47 +676,52 @@
 							<Children>
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
-									<MediaRefs>
-										<MediaRef Id="9405238"/>
-										<MediaRef Id="72616946"/>
-										<MediaRef Id="96983337"/>
-										<MediaRef Id="127462967"/>
-										<MediaRef Id="181680646"/>
-										<MediaRef Id="193162057"/>
-										<MediaRef Id="220032456"/>
-										<MediaRef Id="264384307"/>
-										<MediaRef Id="299421971"/>
-										<MediaRef Id="402599882"/>
-										<MediaRef Id="437323805"/>
-										<MediaRef Id="461097952"/>
-										<MediaRef Id="482808002"/>
-										<MediaRef Id="484300380"/>
-										<MediaRef Id="487269058"/>
-										<MediaRef Id="493590723"/>
-										<MediaRef Id="537618569"/>
-										<MediaRef Id="549677282"/>
-										<MediaRef Id="552004172"/>
-										<MediaRef Id="552081443"/>
-										<MediaRef Id="568299548"/>
-										<MediaRef Id="568910748"/>
-										<MediaRef Id="610344057"/>
-										<MediaRef Id="637886474"/>
-										<MediaRef Id="669123136"/>
-										<MediaRef Id="686397880"/>
-										<MediaRef Id="705176322"/>
-										<MediaRef Id="708076404"/>
-										<MediaRef Id="752030728"/>
-										<MediaRef Id="784528339"/>
-										<MediaRef Id="804639612"/>
-										<MediaRef Id="817066489"/>
-										<MediaRef Id="818765956"/>
-										<MediaRef Id="924405913"/>
-										<MediaRef Id="933204981"/>
-										<MediaRef Id="937596068"/>
-										<MediaRef Id="968378269"/>
-										<MediaRef Id="971124998"/>
-										<MediaRef Id="1031295622"/>
-									</MediaRefs>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="1255199230" Id="0" GUID="{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"/>
+											<MediaRefs>
+												<MediaRef Id="9405238"/>
+												<MediaRef Id="72616946"/>
+												<MediaRef Id="96983337"/>
+												<MediaRef Id="127462967"/>
+												<MediaRef Id="181680646"/>
+												<MediaRef Id="193162057"/>
+												<MediaRef Id="220032456"/>
+												<MediaRef Id="264384307"/>
+												<MediaRef Id="299421971"/>
+												<MediaRef Id="402599882"/>
+												<MediaRef Id="437323805"/>
+												<MediaRef Id="461097952"/>
+												<MediaRef Id="482808002"/>
+												<MediaRef Id="484300380"/>
+												<MediaRef Id="487269058"/>
+												<MediaRef Id="493590723"/>
+												<MediaRef Id="537618569"/>
+												<MediaRef Id="549677282"/>
+												<MediaRef Id="552004172"/>
+												<MediaRef Id="552081443"/>
+												<MediaRef Id="568299548"/>
+												<MediaRef Id="568910748"/>
+												<MediaRef Id="610344057"/>
+												<MediaRef Id="637886474"/>
+												<MediaRef Id="669123136"/>
+												<MediaRef Id="686397880"/>
+												<MediaRef Id="705176322"/>
+												<MediaRef Id="708076404"/>
+												<MediaRef Id="752030728"/>
+												<MediaRef Id="784528339"/>
+												<MediaRef Id="804639612"/>
+												<MediaRef Id="817066489"/>
+												<MediaRef Id="818765956"/>
+												<MediaRef Id="924405913"/>
+												<MediaRef Id="933204981"/>
+												<MediaRef Id="937596068"/>
+												<MediaRef Id="968378269"/>
+												<MediaRef Id="971124998"/>
+												<MediaRef Id="1031295622"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
@@ -671,12 +730,26 @@
 							<Children>
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
-									<MediaRefs>
-										<MediaRef Id="35095048"/>
-										<MediaRef Id="90197940"/>
-										<MediaRef Id="476639303"/>
-										<MediaRef Id="517107016"/>
-									</MediaRefs>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="1255199230" Id="0" GUID="{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"/>
+											<MediaRefs>
+												<MediaRef Id="61264114"/>
+												<MediaRef Id="107734003"/>
+												<MediaRef Id="149096794"/>
+												<MediaRef Id="385395353"/>
+												<MediaRef Id="395798576"/>
+												<MediaRef Id="480085336"/>
+												<MediaRef Id="529358614"/>
+												<MediaRef Id="539508559"/>
+												<MediaRef Id="624112874"/>
+												<MediaRef Id="685112412"/>
+												<MediaRef Id="692343264"/>
+												<MediaRef Id="880962808"/>
+												<MediaRef Id="1035406516"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
@@ -685,9 +758,14 @@
 							<Children>
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="3011728793" Id="0" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"/>
-									<MediaRefs>
-										<MediaRef Id="553329837"/>
-									</MediaRefs>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="Switch" GroupId="1255199230" Id="0" GUID="{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"/>
+											<MediaRefs>
+												<MediaRef Id="553329837"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
@@ -1054,6 +1132,13 @@
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="1255199230" Name="LevelPhase" ObjectPath="\Switches\Default Work Unit\LevelPhase" GUID="{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}">
+					<Switches>
+						<Switch Id="1622949420" Name="Phase_3" ObjectPath="\Switches\Default Work Unit\LevelPhase\Phase_3" GUID="{70B60F14-35EC-446F-B8C1-65062F980D11}"/>
+						<Switch Id="1622949421" Name="Phase_2" ObjectPath="\Switches\Default Work Unit\LevelPhase\Phase_2" GUID="{A7C74631-6448-4960-808E-F38B55EBF5C7}"/>
+						<Switch Id="1622949422" Name="Phase_1" ObjectPath="\Switches\Default Work Unit\LevelPhase\Phase_1" GUID="{1998EDF1-EEC4-4C03-9EEF-713E0BF18FC1}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3011728793" Name="BossState" ObjectPath="\Switches\Default Work Unit\BossState" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}">
 					<Switches>
 						<Switch Id="1622949420" Name="Phase_3" ObjectPath="\Switches\Default Work Unit\BossState\Phase_3" GUID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}"/>
@@ -1072,5 +1157,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{11FEE80D-405F-3392-0267-ADC3B59E19F8}</FileHash>
+	<FileHash>{D8F3FB21-94F6-057B-B69B-3179255DBA01}</FileHash>
 </SoundBanksInfo>

@@ -303,6 +303,32 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "1255199230",
+      "Name": "LevelPhase",
+      "ObjectPath": "\\Switches\\Default Work Unit\\LevelPhase",
+      "GUID": "{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}",
+      "Switches": [
+       {
+        "Id": "1622949420",
+        "Name": "Phase_3",
+        "ObjectPath": "\\Switches\\Default Work Unit\\LevelPhase\\Phase_3",
+        "GUID": "{70B60F14-35EC-446F-B8C1-65062F980D11}"
+       },
+       {
+        "Id": "1622949421",
+        "Name": "Phase_2",
+        "ObjectPath": "\\Switches\\Default Work Unit\\LevelPhase\\Phase_2",
+        "GUID": "{A7C74631-6448-4960-808E-F38B55EBF5C7}"
+       },
+       {
+        "Id": "1622949422",
+        "Name": "Phase_1",
+        "ObjectPath": "\\Switches\\Default Work Unit\\LevelPhase\\Phase_1",
+        "GUID": "{1998EDF1-EEC4-4C03-9EEF-713E0BF18FC1}"
+       }
+      ]
+     },
+     {
       "Id": "3011728793",
       "Name": "BossState",
       "ObjectPath": "\\Switches\\Default Work Unit\\BossState",
@@ -840,6 +866,6 @@
     ]
    }
   ],
-  "FileHash": "{13A095BC-82FC-8790-D556-CBACE2D66EEA}"
+  "FileHash": "{FD873F63-08C8-9E4E-8A6C-E969F0FDBBE4}"
  }
 }

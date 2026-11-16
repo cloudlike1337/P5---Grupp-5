@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{D232F614-318F-2DBB-2BD6-BCD49744AD66}",
+    "Hash": "{64F76C4D-4D64-E4A2-763F-7756F2F716DA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -65,14 +65,6 @@
       "CachePath": "3D/{3D36D511-47CC-7152-8A58-CCB6FC91B230}.wem"
      },
      {
-      "Id": "35095048",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Level1_Swell.wav",
-      "CachePath": "59/{599898D9-FF57-E8C6-384B-0132C4939836}.wem"
-     },
-     {
       "Id": "36223790",
       "Language": "SFX",
       "Streaming": "false",
@@ -95,6 +87,15 @@
       "Location": "Memory",
       "ShortName": "Player_Player level up.wav",
       "CachePath": "30/{307D7D99-919B-8C27-71F4-134FB147095F}.wem"
+     },
+     {
+      "Id": "61264114",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Celli_Sus_Sord.wav",
+      "Path": "Media/61264114.wem",
+      "CachePath": "2B/{2B479A82-ED1F-610F-5E98-AB54DA32DA5A}.wem"
      },
      {
       "Id": "66436734",
@@ -123,14 +124,6 @@
       "CachePath": "26/{269F0F00-62BC-6248-DB76-5302845759F8}.wem"
      },
      {
-      "Id": "90197940",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "music_level_1.wav",
-      "CachePath": "86/{86EC382C-8602-4A64-25A9-8CB714166A9A}.wem"
-     },
-     {
       "Id": "92054845",
       "Language": "SFX",
       "Streaming": "false",
@@ -146,6 +139,15 @@
       "ShortName": "Fras_5_115_bpm_4_4.wav",
       "Path": "Media/96983337.wem",
       "CachePath": "7C/{7C493956-2B24-4819-9B86-1749FC1DACAC}.wem"
+     },
+     {
+      "Id": "107734003",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Synth_Pad_Bass.wav",
+      "Path": "Media/107734003.wem",
+      "CachePath": "AB/{AB04BB34-D67E-56A6-3160-530E89436904}.wem"
      },
      {
       "Id": "125135763",
@@ -171,6 +173,15 @@
       "Location": "Memory",
       "ShortName": "sfx_player_footsteps_wood_05.wav",
       "CachePath": "F2/{F27228AE-9B92-F8BF-4CC0-9590F2B3A1B1}.wem"
+     },
+     {
+      "Id": "149096794",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Guitar_Rythm.wav",
+      "Path": "Media/149096794.wem",
+      "CachePath": "9E/{9E0F40B4-BBE1-9562-0925-569EA6031F7A}.wem"
      },
      {
       "Id": "151501028",
@@ -394,6 +405,24 @@
       "CachePath": "59/{598E75E0-1007-6E28-020D-DA65462FE1D3}.wem"
      },
      {
+      "Id": "385395353",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Bass_Drum 34.wav",
+      "Path": "Media/385395353.wem",
+      "CachePath": "50/{50032ED2-AF9F-7624-1A66-BB4ED3347455}.wem"
+     },
+     {
+      "Id": "395798576",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Flute_Pad.wav",
+      "Path": "Media/395798576.wem",
+      "CachePath": "31/{31D832B9-7215-78B8-5F25-44AF337D1D5D}.wem"
+     },
+     {
       "Id": "397979913",
       "Language": "SFX",
       "Streaming": "false",
@@ -461,12 +490,13 @@
       "CachePath": "9D/{9D51F949-4BF4-A8D1-3304-5384BAC161DF}.wem"
      },
      {
-      "Id": "476639303",
+      "Id": "480085336",
       "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Level1_Harp.wav",
-      "CachePath": "EF/{EF46D2B1-DA1B-3B2A-334E-B1AB2429D6FC}.wem"
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_ViolinFX_Pad.wav",
+      "Path": "Media/480085336.wem",
+      "CachePath": "0D/{0DCE803D-8E30-80D9-FA0A-66A80950D870}.wem"
      },
      {
       "Id": "482808002",
@@ -545,20 +575,21 @@
       "CachePath": "9D/{9D872683-EE6C-64E2-001C-A3B116098F92}.wem"
      },
      {
-      "Id": "517107016",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Level1_Cello.wav",
-      "CachePath": "FF/{FFAFCAEF-350E-0DD8-D749-0B9E192F0505}.wem"
-     },
-     {
       "Id": "522183298",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_menu_hover.wav",
       "CachePath": "85/{85B5DFF2-D954-189E-4119-1DC5B6BA040B}.wem"
+     },
+     {
+      "Id": "529358614",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Cymbal_Pad.wav",
+      "Path": "Media/529358614.wem",
+      "CachePath": "D8/{D8852531-70E5-ED0E-6BB0-932DB5249FAB}.wem"
      },
      {
       "Id": "537618569",
@@ -568,6 +599,15 @@
       "ShortName": "Cello_Fras_3_115_bpm_4_4.wav",
       "Path": "Media/537618569.wem",
       "CachePath": "41/{41063136-0518-588F-DA7D-6BFA5D5C7979}.wem"
+     },
+     {
+      "Id": "539508559",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_DaGamba_Pad.wav",
+      "Path": "Media/539508559.wem",
+      "CachePath": "CD/{CDB1519B-EE24-2640-D211-D8E66DAB8A49}.wem"
      },
      {
       "Id": "549677282",
@@ -688,6 +728,15 @@
       "CachePath": "B7/{B788C0B8-6641-F3B9-547B-5FE6BBE42ADA}.wem"
      },
      {
+      "Id": "624112874",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Bass_Sus_Sord.wav",
+      "Path": "Media/624112874.wem",
+      "CachePath": "A1/{A17CD78B-8428-7A5C-4D9D-F2FCC371BAFE}.wem"
+     },
+     {
       "Id": "631050920",
       "Language": "SFX",
       "Streaming": "false",
@@ -738,6 +787,15 @@
       "CachePath": "99/{99A28952-BAA5-1B99-E7F4-8CE1F4320347}.wem"
      },
      {
+      "Id": "685112412",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Shaker.wav",
+      "Path": "Media/685112412.wem",
+      "CachePath": "EE/{EE24DD97-57F1-EA2D-66A2-E4D6ACBD5356}.wem"
+     },
+     {
       "Id": "686397880",
       "Language": "SFX",
       "Streaming": "true",
@@ -745,6 +803,15 @@
       "ShortName": "Elgitarr_Dysto_Dra_115_bpm_4_4.wav",
       "Path": "Media/686397880.wem",
       "CachePath": "F9/{F92A8EDB-0E77-E54D-FADA-BF0FE9BFF636}.wem"
+     },
+     {
+      "Id": "692343264",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Harp_Ostinato.wav",
+      "Path": "Media/692343264.wem",
+      "CachePath": "F4/{F414E2C9-21CA-1F67-FC8F-BB81F244C5D7}.wem"
      },
      {
       "Id": "696222301",
@@ -912,6 +979,15 @@
       "Location": "Memory",
       "ShortName": "sfx_footsteps_grass_05.wav",
       "CachePath": "A2/{A2517AD6-9CCB-D935-3983-6A9837C41F75}.wem"
+     },
+     {
+      "Id": "880962808",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Steam_Release.wav",
+      "Path": "Media/880962808.wem",
+      "CachePath": "7F/{7FDA38AB-1185-707A-40A7-546FB8DF1F0C}.wem"
      },
      {
       "Id": "894360804",
@@ -1104,6 +1180,15 @@
       "CachePath": "C4/{C46CD4AB-AF44-5917-99DB-AC3977DF5623}.wem"
      },
      {
+      "Id": "1035406516",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Lvl1_Synth_Pad_Melody.wav",
+      "Path": "Media/1035406516.wem",
+      "CachePath": "4F/{4F911060-DB8F-3BCD-1E1F-661E9FD44961}.wem"
+     },
+     {
       "Id": "1047310084",
       "Language": "SFX",
       "Streaming": "false",
@@ -1192,9 +1277,19 @@
            "Id": "0",
            "GUID": "{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"
           },
-          "MediaRefs": [
+          "Children": [
            {
-            "Id": "76275800"
+            "SwitchValue": {
+             "GroupType": "Switch",
+             "GroupId": "1255199230",
+             "Id": "0",
+             "GUID": "{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"
+            },
+            "MediaRefs": [
+             {
+              "Id": "76275800"
+             }
+            ]
            }
           ]
          }
@@ -1215,123 +1310,133 @@
            "Id": "0",
            "GUID": "{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"
           },
-          "MediaRefs": [
+          "Children": [
            {
-            "Id": "9405238"
-           },
-           {
-            "Id": "72616946"
-           },
-           {
-            "Id": "96983337"
-           },
-           {
-            "Id": "127462967"
-           },
-           {
-            "Id": "181680646"
-           },
-           {
-            "Id": "193162057"
-           },
-           {
-            "Id": "220032456"
-           },
-           {
-            "Id": "264384307"
-           },
-           {
-            "Id": "299421971"
-           },
-           {
-            "Id": "402599882"
-           },
-           {
-            "Id": "437323805"
-           },
-           {
-            "Id": "461097952"
-           },
-           {
-            "Id": "482808002"
-           },
-           {
-            "Id": "484300380"
-           },
-           {
-            "Id": "487269058"
-           },
-           {
-            "Id": "493590723"
-           },
-           {
-            "Id": "537618569"
-           },
-           {
-            "Id": "549677282"
-           },
-           {
-            "Id": "552004172"
-           },
-           {
-            "Id": "552081443"
-           },
-           {
-            "Id": "568299548"
-           },
-           {
-            "Id": "568910748"
-           },
-           {
-            "Id": "610344057"
-           },
-           {
-            "Id": "637886474"
-           },
-           {
-            "Id": "669123136"
-           },
-           {
-            "Id": "686397880"
-           },
-           {
-            "Id": "705176322"
-           },
-           {
-            "Id": "708076404"
-           },
-           {
-            "Id": "752030728"
-           },
-           {
-            "Id": "784528339"
-           },
-           {
-            "Id": "804639612"
-           },
-           {
-            "Id": "817066489"
-           },
-           {
-            "Id": "818765956"
-           },
-           {
-            "Id": "924405913"
-           },
-           {
-            "Id": "933204981"
-           },
-           {
-            "Id": "937596068"
-           },
-           {
-            "Id": "968378269"
-           },
-           {
-            "Id": "971124998"
-           },
-           {
-            "Id": "1031295622"
+            "SwitchValue": {
+             "GroupType": "Switch",
+             "GroupId": "1255199230",
+             "Id": "0",
+             "GUID": "{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"
+            },
+            "MediaRefs": [
+             {
+              "Id": "9405238"
+             },
+             {
+              "Id": "72616946"
+             },
+             {
+              "Id": "96983337"
+             },
+             {
+              "Id": "127462967"
+             },
+             {
+              "Id": "181680646"
+             },
+             {
+              "Id": "193162057"
+             },
+             {
+              "Id": "220032456"
+             },
+             {
+              "Id": "264384307"
+             },
+             {
+              "Id": "299421971"
+             },
+             {
+              "Id": "402599882"
+             },
+             {
+              "Id": "437323805"
+             },
+             {
+              "Id": "461097952"
+             },
+             {
+              "Id": "482808002"
+             },
+             {
+              "Id": "484300380"
+             },
+             {
+              "Id": "487269058"
+             },
+             {
+              "Id": "493590723"
+             },
+             {
+              "Id": "537618569"
+             },
+             {
+              "Id": "549677282"
+             },
+             {
+              "Id": "552004172"
+             },
+             {
+              "Id": "552081443"
+             },
+             {
+              "Id": "568299548"
+             },
+             {
+              "Id": "568910748"
+             },
+             {
+              "Id": "610344057"
+             },
+             {
+              "Id": "637886474"
+             },
+             {
+              "Id": "669123136"
+             },
+             {
+              "Id": "686397880"
+             },
+             {
+              "Id": "705176322"
+             },
+             {
+              "Id": "708076404"
+             },
+             {
+              "Id": "752030728"
+             },
+             {
+              "Id": "784528339"
+             },
+             {
+              "Id": "804639612"
+             },
+             {
+              "Id": "817066489"
+             },
+             {
+              "Id": "818765956"
+             },
+             {
+              "Id": "924405913"
+             },
+             {
+              "Id": "933204981"
+             },
+             {
+              "Id": "937596068"
+             },
+             {
+              "Id": "968378269"
+             },
+             {
+              "Id": "971124998"
+             },
+             {
+              "Id": "1031295622"
+             }
+            ]
            }
           ]
          }
@@ -1352,18 +1457,55 @@
            "Id": "0",
            "GUID": "{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"
           },
-          "MediaRefs": [
+          "Children": [
            {
-            "Id": "35095048"
-           },
-           {
-            "Id": "90197940"
-           },
-           {
-            "Id": "476639303"
-           },
-           {
-            "Id": "517107016"
+            "SwitchValue": {
+             "GroupType": "Switch",
+             "GroupId": "1255199230",
+             "Id": "0",
+             "GUID": "{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"
+            },
+            "MediaRefs": [
+             {
+              "Id": "61264114"
+             },
+             {
+              "Id": "107734003"
+             },
+             {
+              "Id": "149096794"
+             },
+             {
+              "Id": "385395353"
+             },
+             {
+              "Id": "395798576"
+             },
+             {
+              "Id": "480085336"
+             },
+             {
+              "Id": "529358614"
+             },
+             {
+              "Id": "539508559"
+             },
+             {
+              "Id": "624112874"
+             },
+             {
+              "Id": "685112412"
+             },
+             {
+              "Id": "692343264"
+             },
+             {
+              "Id": "880962808"
+             },
+             {
+              "Id": "1035406516"
+             }
+            ]
            }
           ]
          }
@@ -1384,9 +1526,19 @@
            "Id": "0",
            "GUID": "{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"
           },
-          "MediaRefs": [
+          "Children": [
            {
-            "Id": "553329837"
+            "SwitchValue": {
+             "GroupType": "Switch",
+             "GroupId": "1255199230",
+             "Id": "0",
+             "GUID": "{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"
+            },
+            "MediaRefs": [
+             {
+              "Id": "553329837"
+             }
+            ]
            }
           ]
          }
@@ -2541,6 +2693,32 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "1255199230",
+      "Name": "LevelPhase",
+      "ObjectPath": "\\Switches\\Default Work Unit\\LevelPhase",
+      "GUID": "{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}",
+      "Switches": [
+       {
+        "Id": "1622949420",
+        "Name": "Phase_3",
+        "ObjectPath": "\\Switches\\Default Work Unit\\LevelPhase\\Phase_3",
+        "GUID": "{70B60F14-35EC-446F-B8C1-65062F980D11}"
+       },
+       {
+        "Id": "1622949421",
+        "Name": "Phase_2",
+        "ObjectPath": "\\Switches\\Default Work Unit\\LevelPhase\\Phase_2",
+        "GUID": "{A7C74631-6448-4960-808E-F38B55EBF5C7}"
+       },
+       {
+        "Id": "1622949422",
+        "Name": "Phase_1",
+        "ObjectPath": "\\Switches\\Default Work Unit\\LevelPhase\\Phase_1",
+        "GUID": "{1998EDF1-EEC4-4C03-9EEF-713E0BF18FC1}"
+       }
+      ]
+     },
+     {
       "Id": "3011728793",
       "Name": "BossState",
       "ObjectPath": "\\Switches\\Default Work Unit\\BossState",
@@ -2601,6 +2779,6 @@
     ]
    }
   ],
-  "FileHash": "{823E5E44-AFA6-D141-210E-02B3B01EB0EB}"
+  "FileHash": "{4FBFBB14-8866-222E-DA9E-DD7DD6D1AE27}"
  }
 }

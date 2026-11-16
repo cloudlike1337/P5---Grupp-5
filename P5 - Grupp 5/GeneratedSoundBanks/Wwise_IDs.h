@@ -129,6 +129,18 @@ namespace AK
             } // namespace SWITCH
         } // namespace FOOTSTEPMATERIAL
 
+        namespace LEVELPHASE
+        {
+            static const AkUniqueID GROUP = 1255199230U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID PHASE_1 = 1622949422U;
+                static const AkUniqueID PHASE_2 = 1622949421U;
+                static const AkUniqueID PHASE_3 = 1622949420U;
+            } // namespace SWITCH
+        } // namespace LEVELPHASE
+
     } // namespace SWITCHES
 
     namespace GAME_PARAMETERS

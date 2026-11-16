@@ -80,6 +80,13 @@
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>
+				<SwitchGroup Id="1255199230" Name="LevelPhase" ObjectPath="\Switches\Default Work Unit\LevelPhase" GUID="{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}">
+					<Switches>
+						<Switch Id="1622949420" Name="Phase_3" ObjectPath="\Switches\Default Work Unit\LevelPhase\Phase_3" GUID="{70B60F14-35EC-446F-B8C1-65062F980D11}"/>
+						<Switch Id="1622949421" Name="Phase_2" ObjectPath="\Switches\Default Work Unit\LevelPhase\Phase_2" GUID="{A7C74631-6448-4960-808E-F38B55EBF5C7}"/>
+						<Switch Id="1622949422" Name="Phase_1" ObjectPath="\Switches\Default Work Unit\LevelPhase\Phase_1" GUID="{1998EDF1-EEC4-4C03-9EEF-713E0BF18FC1}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="3011728793" Name="BossState" ObjectPath="\Switches\Default Work Unit\BossState" GUID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}">
 					<Switches>
 						<Switch Id="1622949420" Name="Phase_3" ObjectPath="\Switches\Default Work Unit\BossState\Phase_3" GUID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}"/>
@@ -226,5 +233,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{09484CFB-5D45-BEE7-5CDA-D9A5524CD321}</FileHash>
+	<FileHash>{0CD9D0F0-15E9-F904-BB88-D3B9E44CD38E}</FileHash>
 </SoundBanksInfo>
