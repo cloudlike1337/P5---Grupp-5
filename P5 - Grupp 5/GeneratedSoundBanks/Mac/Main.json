@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{A6ABF19F-48DD-355A-4B6A-D67826ECE900}",
+    "Hash": "{CF8EA350-116D-84C8-06C5-2B7BC3EE59B9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -39,6 +39,22 @@
       "Location": "Memory",
       "ShortName": "Boss_boss spawning popcorn enemy.wav",
       "CachePath": "F4/{F4CBE45A-F653-8648-F80B-98A3A16497D7}.wem"
+     },
+     {
+      "Id": "22085447",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_flesh_03.wav",
+      "CachePath": "E1/{E118F3AE-EC00-8059-0511-A3284072BB36}.wem"
+     },
+     {
+      "Id": "26056301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_footsteps_grass_03.wav",
+      "CachePath": "3D/{3D36D511-47CC-7152-8A58-CCB6FC91B230}.wem"
      },
      {
       "Id": "35095048",
@@ -141,6 +157,14 @@
       "CachePath": "23/{23648328-46CA-64EC-09D5-4BCC5ECED856}.wem"
      },
      {
+      "Id": "169549084",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_flesh_04.wav",
+      "CachePath": "2D/{2D9F765B-8A9D-82E5-FBC0-9F0FECD8B697}.wem"
+     },
+     {
       "Id": "169769757",
       "Language": "SFX",
       "Streaming": "false",
@@ -240,12 +264,12 @@
       "CachePath": "09/{090BC534-DA2E-3A73-48E3-1C5F9A7FE702}.wem"
      },
      {
-      "Id": "250061878",
+      "Id": "252983951",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Soundly Voice Designer, Abbi 6.wav",
-      "CachePath": "28/{28097DFF-F441-DE47-1F41-249D50041DD3}.wem"
+      "ShortName": "sfx_player_footsteps_flesh_08.wav",
+      "CachePath": "9D/{9DBD2F52-29B8-1959-BD85-8E5AD3AA7525}.wem"
      },
      {
       "Id": "260890962",
@@ -330,6 +354,14 @@
       "CachePath": "B9/{B9A820FE-1C83-4888-FFFB-5915566E72CF}.wem"
      },
      {
+      "Id": "352129828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_flesh_05.wav",
+      "CachePath": "59/{598E75E0-1007-6E28-020D-DA65462FE1D3}.wem"
+     },
+     {
       "Id": "402599882",
       "Language": "SFX",
       "Streaming": "true",
@@ -378,6 +410,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Ability_Unlocked.wav",
       "CachePath": "93/{936C5662-4CE7-F530-B8AA-35E141A0CCE2}.wem"
+     },
+     {
+      "Id": "454996688",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_footsteps_grass_06.wav",
+      "CachePath": "FD/{FDE93163-6F1A-06BB-ABB0-70C2FE26D57E}.wem"
      },
      {
       "Id": "461097952",
@@ -455,14 +495,6 @@
       "Location": "Memory",
       "ShortName": "Boss_boss death scream.wav",
       "CachePath": "7C/{7CAFDE63-D2A7-C373-711E-A52ED936FD36}.wem"
-     },
-     {
-      "Id": "511383947",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Voice Designer, Abbi 5.wav",
-      "CachePath": "C3/{C30D083B-B069-51B9-9C69-A1EAB44A2152}.wem"
      },
      {
       "Id": "517107016",
@@ -717,6 +749,14 @@
       "CachePath": "45/{45F7F818-1F9B-F48E-8AF4-AAAE0A8A36EE}.wem"
      },
      {
+      "Id": "733830020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_footsteps_grass_02.wav",
+      "CachePath": "A6/{A6E177AD-173B-AB4D-903C-A0F060A683EE}.wem"
+     },
+     {
       "Id": "752030728",
       "Language": "SFX",
       "Streaming": "true",
@@ -786,6 +826,14 @@
       "CachePath": "94/{9484F385-992F-5108-9A68-81FF7D48E441}.wem"
      },
      {
+      "Id": "843318209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_flesh_01.wav",
+      "CachePath": "24/{24656389-D4E3-A5A3-C434-5745DC5B27E4}.wem"
+     },
+     {
       "Id": "850935243",
       "Language": "SFX",
       "Streaming": "false",
@@ -810,12 +858,36 @@
       "CachePath": "FE/{FE8BD4C6-6326-226E-BFEA-E23BD9DBE470}.wem"
      },
      {
+      "Id": "861398929",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_flesh_02.wav",
+      "CachePath": "5E/{5EAFC0D7-E657-F2E2-1124-7869F6D196F5}.wem"
+     },
+     {
       "Id": "862509883",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Enemy_ranged enemy A O E attack cast.wav",
       "CachePath": "CE/{CE25A237-A5D4-9DCB-5076-353C0B5998F9}.wem"
+     },
+     {
+      "Id": "863383401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_footsteps_grass_05.wav",
+      "CachePath": "A2/{A2517AD6-9CCB-D935-3983-6A9837C41F75}.wem"
+     },
+     {
+      "Id": "894360804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_footsteps_grass_01.wav",
+      "CachePath": "A0/{A04C3750-CDFC-B6AE-6ECD-52B2CE2F9642}.wem"
      },
      {
       "Id": "898166704",
@@ -832,6 +904,30 @@
       "Location": "Memory",
       "ShortName": "Soundly Voice Designer, Abbi 124.wav",
       "CachePath": "04/{04187B28-B2D7-E201-E91C-1B3344A558EA}.wem"
+     },
+     {
+      "Id": "907292839",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_footsteps_grass_07.wav",
+      "CachePath": "40/{40B5F568-2E60-3665-081C-B825519CF537}.wem"
+     },
+     {
+      "Id": "918166768",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_footsteps_grass_08.wav",
+      "CachePath": "C3/{C32AC46F-195F-F3D7-DD83-0A8458409BD4}.wem"
+     },
+     {
+      "Id": "922979172",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_flesh_06.wav",
+      "CachePath": "C8/{C8E07437-2AF4-3C73-AC99-A4C6DAA5CA0B}.wem"
      },
      {
       "Id": "924405913",
@@ -875,6 +971,22 @@
       "ShortName": "Komp_Kaos_Allt_Fas_3_115bpm_4_4.wav",
       "Path": "Media/937596068.wem",
       "CachePath": "3F/{3FE7466B-D4E4-3098-AD33-F375C0E3BE49}.wem"
+     },
+     {
+      "Id": "955339130",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_footsteps_grass_04.wav",
+      "CachePath": "B1/{B1E336D9-7866-4744-5950-9B0539E17AB4}.wem"
+     },
+     {
+      "Id": "955783935",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_flesh_07.wav",
+      "CachePath": "8C/{8CFBF7FB-8482-276E-BFA6-ADFBBCE7DD3D}.wem"
      },
      {
       "Id": "963124846",
@@ -1820,7 +1932,7 @@
       "GUID": "{FB47FA47-2DBD-46BE-80B0-CC06D73B4029}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "0.408625",
+      "DurationMin": "0.17690808",
       "DurationMax": "0.6547083",
       "SwitchContainers": [
        {
@@ -1858,7 +1970,28 @@
         },
         "MediaRefs": [
          {
-          "Id": "250061878"
+          "Id": "26056301"
+         },
+         {
+          "Id": "454996688"
+         },
+         {
+          "Id": "733830020"
+         },
+         {
+          "Id": "863383401"
+         },
+         {
+          "Id": "894360804"
+         },
+         {
+          "Id": "907292839"
+         },
+         {
+          "Id": "918166768"
+         },
+         {
+          "Id": "955339130"
          }
         ]
        },
@@ -1871,7 +2004,28 @@
         },
         "MediaRefs": [
          {
-          "Id": "511383947"
+          "Id": "22085447"
+         },
+         {
+          "Id": "169549084"
+         },
+         {
+          "Id": "252983951"
+         },
+         {
+          "Id": "352129828"
+         },
+         {
+          "Id": "843318209"
+         },
+         {
+          "Id": "861398929"
+         },
+         {
+          "Id": "922979172"
+         },
+         {
+          "Id": "955783935"
          }
         ]
        }
@@ -2365,6 +2519,6 @@
     ]
    }
   ],
-  "FileHash": "{EFB8AF9D-B6B5-123C-4CDF-685CFD94417E}"
+  "FileHash": "{82A13A54-AD18-1000-C909-C64236AFD8BB}"
  }
 }
