@@ -6113,6 +6113,11 @@
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
+																		<ReferenceList>
+																			<Reference Name="TrackSequenceSwitch">
+																				<ObjectRef Name="Phase_3" ID="{70B60F14-35EC-446F-B8C1-65062F980D11}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																			</Reference>
+																		</ReferenceList>
 																	</MusicTrackSequence>
 																</ObjectList>
 															</ObjectLists>
@@ -6128,7 +6133,7 @@
 															<MusicCue Name="Exit Cue" ID="{B91B631B-0B5F-4055-B168-1A30FDB62592}">
 																<PropertyList>
 																	<Property Name="CueType" Type="int16" Value="1"/>
-																	<Property Name="TimeMs" Type="Real64" Value="78521.7391304348"/>
+																	<Property Name="TimeMs" Type="Real64" Value="76634.583471623"/>
 																</PropertyList>
 															</MusicCue>
 														</ObjectList>
