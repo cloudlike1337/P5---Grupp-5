@@ -28,6 +28,7 @@
 						<ObjectRef Name="Play_Boss_Scream" ID="{DDDC8314-BB32-46B3-AF9E-FFCA65A5C0D0}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Footstep" ID="{FB47FA47-2DBD-46BE-80B0-CC06D73B4029}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Intro_Cutscene" ID="{BFBA1E68-76CE-46CB-8BAC-3E85D0488541}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Player_Dash" ID="{914EE7F8-D5FD-46D2-8694-AA7117C8DFD7}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pause_Music_System" ID="{0ACD2323-E556-46D9-9CE7-7A7582725DB4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Take_Damage" ID="{96DB461A-D9DC-46F9-8A65-2B16323F89C3}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Music_To_LevelTwo" ID="{E06E6279-2809-471A-9694-24EA1FC3C79C}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>

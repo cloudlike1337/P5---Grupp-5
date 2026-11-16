@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{CF8EA350-116D-84C8-06C5-2B7BC3EE59B9}",
+    "Hash": "{D232F614-318F-2DBB-2BD6-BCD49744AD66}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -31,6 +31,14 @@
       "ShortName": "Cello_Fras_6_115_bpm_4_4.wav",
       "Path": "Media/9405238.wem",
       "CachePath": "F9/{F936B0EB-A2B9-BC23-2F37-27AD7BBD1637}.wem"
+     },
+     {
+      "Id": "11886547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_wood_02.wav",
+      "CachePath": "3A/{3A93ACFA-7227-0C9F-20AF-4BBBFAE77731}.wem"
      },
      {
       "Id": "13463570",
@@ -123,6 +131,14 @@
       "CachePath": "86/{86EC382C-8602-4A64-25A9-8CB714166A9A}.wem"
      },
      {
+      "Id": "92054845",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_wood_06.wav",
+      "CachePath": "40/{408871FC-B879-BD26-C23C-8D056DD02BF7}.wem"
+     },
+     {
       "Id": "96983337",
       "Language": "SFX",
       "Streaming": "true",
@@ -147,6 +163,14 @@
       "ShortName": "Solo_Violin_Full_115_bpm_4_4.wav",
       "Path": "Media/127462967.wem",
       "CachePath": "98/{9834C5FF-EB57-DBB3-B24F-A391BFF98729}.wem"
+     },
+     {
+      "Id": "145896481",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_wood_05.wav",
+      "CachePath": "F2/{F27228AE-9B92-F8BF-4CC0-9590F2B3A1B1}.wem"
      },
      {
       "Id": "151501028",
@@ -178,7 +202,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_player_take_damage_01.wav",
-      "CachePath": "8A/{8A4CAF8F-9F4F-3B66-1FE4-079BD01F90D3}.wem"
+      "CachePath": "75/{75672823-05AB-9345-09E0-00806D071E3D}.wem"
      },
      {
       "Id": "181680646",
@@ -297,6 +321,14 @@
       "CachePath": "A7/{A7C7F263-364D-681E-953F-595D3222F319}.wem"
      },
      {
+      "Id": "285235228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TGA_3_Intro_Cutscene.wav",
+      "CachePath": "D1/{D12493F3-77B3-C600-B374-3312282D147E}.wem"
+     },
+     {
       "Id": "294414217",
       "Language": "SFX",
       "Streaming": "false",
@@ -362,6 +394,14 @@
       "CachePath": "59/{598E75E0-1007-6E28-020D-DA65462FE1D3}.wem"
      },
      {
+      "Id": "397979913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_wood_03.wav",
+      "CachePath": "18/{1810FACF-2F48-CF5D-4627-C54D4A8D8B19}.wem"
+     },
+     {
       "Id": "402599882",
       "Language": "SFX",
       "Streaming": "true",
@@ -377,14 +417,6 @@
       "Location": "Memory",
       "ShortName": "sfx_amb_lvl_1_loop.wav",
       "CachePath": "F9/{F9EB8D73-F9AA-6E33-742A-42530A3458B7}.wem"
-     },
-     {
-      "Id": "424481485",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_Player dash.wav",
-      "CachePath": "07/{071FD819-23B8-F861-4ABF-C4A0219B2E07}.wem"
      },
      {
       "Id": "433159973",
@@ -481,6 +513,14 @@
       "CachePath": "EB/{EB275A0D-343D-4C60-F051-1EA7DF7A3EEB}.wem"
      },
      {
+      "Id": "495955527",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_dash_intro.wav",
+      "CachePath": "F6/{F62D0A0F-8C1C-4EE7-2AE6-716787417D9A}.wem"
+     },
+     {
       "Id": "499847501",
       "Language": "SFX",
       "Streaming": "false",
@@ -495,6 +535,14 @@
       "Location": "Memory",
       "ShortName": "Boss_boss death scream.wav",
       "CachePath": "7C/{7CAFDE63-D2A7-C373-711E-A52ED936FD36}.wem"
+     },
+     {
+      "Id": "509703292",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_dash_loop.wav",
+      "CachePath": "9D/{9D872683-EE6C-64E2-001C-A3B116098F92}.wem"
      },
      {
       "Id": "517107016",
@@ -615,14 +663,6 @@
       "CachePath": "4B/{4BA42005-159C-52EF-4669-D8719D0A6735}.wem"
      },
      {
-      "Id": "576673790",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Voice Designer, Abbi 12.wav",
-      "CachePath": "C8/{C88A32EC-17C8-2254-B091-FD0AECB37A9C}.wem"
-     },
-     {
       "Id": "610344057",
       "Language": "SFX",
       "Streaming": "true",
@@ -646,14 +686,6 @@
       "Location": "Memory",
       "ShortName": "sfx_player_ranged_ability_04.wav",
       "CachePath": "B7/{B788C0B8-6641-F3B9-547B-5FE6BBE42ADA}.wem"
-     },
-     {
-      "Id": "622490052",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Voice Designer, Abbi 8.wav",
-      "CachePath": "9F/{9FA9F70C-065B-6C99-439C-C0C1A15973F7}.wem"
      },
      {
       "Id": "631050920",
@@ -906,6 +938,14 @@
       "CachePath": "04/{04187B28-B2D7-E201-E91C-1B3344A558EA}.wem"
      },
      {
+      "Id": "906769287",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_wood_04.wav",
+      "CachePath": "F3/{F38B5A48-89E1-FAA4-F7F8-6CEF5A823128}.wem"
+     },
+     {
       "Id": "907292839",
       "Language": "SFX",
       "Streaming": "false",
@@ -954,14 +994,6 @@
       "ShortName": "Violin_Fras_1_115_bpm_4_4.wav",
       "Path": "Media/933204981.wem",
       "CachePath": "98/{980B0019-8400-C600-24F1-26F3A2A23702}.wem"
-     },
-     {
-      "Id": "934306966",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Voice Designer, Abbi 9.wav",
-      "CachePath": "C3/{C381CD69-191F-F3F6-8520-0485FDCB896F}.wem"
      },
      {
       "Id": "937596068",
@@ -1031,12 +1063,20 @@
       "CachePath": "02/{0252B4F9-E754-7075-B522-7E2F4331AD70}.wem"
      },
      {
+      "Id": "1005779537",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_footsteps_wood_01.wav",
+      "CachePath": "00/{008EF7B8-98BD-7168-DD20-021FC285334E}.wem"
+     },
+     {
       "Id": "1014385393",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_player_take_damage_02.wav",
-      "CachePath": "57/{571B17B2-0E76-9A3E-8179-F0C6B15E8988}.wem"
+      "CachePath": "23/{237558BD-CDE1-CA89-1E39-80595FB09BD6}.wem"
      },
      {
       "Id": "1019293332",
@@ -1109,7 +1149,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_player_take_damage_03.wav",
-      "CachePath": "59/{59495C6B-A75B-1648-F175-D09B91C9C9F8}.wem"
+      "CachePath": "E1/{E1A5E58D-A156-D229-09FF-7D26939746B4}.wem"
      },
      {
       "Id": "1070351173",
@@ -1805,11 +1845,11 @@
       "GUID": "{BFBA1E68-76CE-46CB-8BAC-3E85D0488541}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "1.1326667",
-      "DurationMax": "1.1326667",
+      "DurationMin": "18.262167",
+      "DurationMax": "18.262167",
       "MediaRefs": [
        {
-        "Id": "576673790"
+        "Id": "285235228"
        }
       ]
      },
@@ -1901,12 +1941,13 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Player\\Combat\\Play_Player_Dash",
       "GUID": "{2822D149-B910-405E-8D54-812A341DAC1B}",
       "Color": "2",
-      "DurationType": "OneShot",
-      "DurationMin": "1.5335",
-      "DurationMax": "1.5335",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "424481485"
+        "Id": "495955527"
+       },
+       {
+        "Id": "509703292"
        }
       ]
      },
@@ -1932,8 +1973,8 @@
       "GUID": "{FB47FA47-2DBD-46BE-80B0-CC06D73B4029}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "0.17690808",
-      "DurationMax": "0.6547083",
+      "DurationMin": "0.16539195",
+      "DurationMax": "0.41468686",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1944,7 +1985,22 @@
         },
         "MediaRefs": [
          {
-          "Id": "934306966"
+          "Id": "11886547"
+         },
+         {
+          "Id": "92054845"
+         },
+         {
+          "Id": "145896481"
+         },
+         {
+          "Id": "397979913"
+         },
+         {
+          "Id": "906769287"
+         },
+         {
+          "Id": "1005779537"
          }
         ]
        },
@@ -1957,7 +2013,22 @@
         },
         "MediaRefs": [
          {
-          "Id": "622490052"
+          "Id": "11886547"
+         },
+         {
+          "Id": "92054845"
+         },
+         {
+          "Id": "145896481"
+         },
+         {
+          "Id": "397979913"
+         },
+         {
+          "Id": "906769287"
+         },
+         {
+          "Id": "1005779537"
          }
         ]
        },
@@ -2153,8 +2224,8 @@
       "GUID": "{96DB461A-D9DC-46F9-8A65-2B16323F89C3}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "0.30374148",
-      "DurationMax": "0.48947847",
+      "DurationMin": "0.2463215",
+      "DurationMax": "0.41834846",
       "MediaRefs": [
        {
         "Id": "171917817"
@@ -2389,6 +2460,17 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "2643068714",
+      "Name": "Stop_Player_Dash",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Player\\Combat\\Stop_Player_Dash",
+      "GUID": "{914EE7F8-D5FD-46D2-8694-AA7117C8DFD7}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "StateGroups": [
@@ -2519,6 +2601,6 @@
     ]
    }
   ],
-  "FileHash": "{82A13A54-AD18-1000-C909-C64236AFD8BB}"
+  "FileHash": "{5E6E1BDC-3CDD-7743-D4FC-96717BD24A3D}"
  }
 }

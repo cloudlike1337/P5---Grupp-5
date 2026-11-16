@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{CF8EA350-116D-84C8-06C5-2B7BC3EE59B9}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{D232F614-318F-2DBB-2BD6-BCD49744AD66}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -14,6 +14,10 @@
 					<ShortName>Cello_Fras_6_115_bpm_4_4.wav</ShortName>
 					<Path>Media/9405238.wem</Path>
 					<CachePath>F9/{F936B0EB-A2B9-BC23-2F37-27AD7BBD1637}.wem</CachePath>
+				</File>
+				<File Id="11886547" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_footsteps_wood_02.wav</ShortName>
+					<CachePath>3A/{3A93ACFA-7227-0C9F-20AF-4BBBFAE77731}.wem</CachePath>
 				</File>
 				<File Id="13463570" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_boss spawning popcorn enemy.wav</ShortName>
@@ -61,6 +65,10 @@
 					<ShortName>music_level_1.wav</ShortName>
 					<CachePath>86/{86EC382C-8602-4A64-25A9-8CB714166A9A}.wem</CachePath>
 				</File>
+				<File Id="92054845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_footsteps_wood_06.wav</ShortName>
+					<CachePath>40/{408871FC-B879-BD26-C23C-8D056DD02BF7}.wem</CachePath>
+				</File>
 				<File Id="96983337" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Fras_5_115_bpm_4_4.wav</ShortName>
 					<Path>Media/96983337.wem</Path>
@@ -74,6 +82,10 @@
 					<ShortName>Solo_Violin_Full_115_bpm_4_4.wav</ShortName>
 					<Path>Media/127462967.wem</Path>
 					<CachePath>98/{9834C5FF-EB57-DBB3-B24F-A391BFF98729}.wem</CachePath>
+				</File>
+				<File Id="145896481" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_footsteps_wood_05.wav</ShortName>
+					<CachePath>F2/{F27228AE-9B92-F8BF-4CC0-9590F2B3A1B1}.wem</CachePath>
 				</File>
 				<File Id="151501028" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Summoner_Attack_04.wav</ShortName>
@@ -89,7 +101,7 @@
 				</File>
 				<File Id="171917817" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_take_damage_01.wav</ShortName>
-					<CachePath>8A/{8A4CAF8F-9F4F-3B66-1FE4-079BD01F90D3}.wem</CachePath>
+					<CachePath>75/{75672823-05AB-9345-09E0-00806D071E3D}.wem</CachePath>
 				</File>
 				<File Id="181680646" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Horror_Krar_115_bpm_4_4.wav</ShortName>
@@ -151,6 +163,10 @@
 					<ShortName>sfx_enemy_take_damage.wav</ShortName>
 					<CachePath>A7/{A7C7F263-364D-681E-953F-595D3222F319}.wem</CachePath>
 				</File>
+				<File Id="285235228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TGA_3_Intro_Cutscene.wav</ShortName>
+					<CachePath>D1/{D12493F3-77B3-C600-B374-3312282D147E}.wem</CachePath>
+				</File>
 				<File Id="294414217" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Attack_04.wav</ShortName>
 					<CachePath>09/{099E8C39-ACD8-26F9-0313-2AA3B2ACE919}.wem</CachePath>
@@ -184,6 +200,10 @@
 					<ShortName>sfx_player_footsteps_flesh_05.wav</ShortName>
 					<CachePath>59/{598E75E0-1007-6E28-020D-DA65462FE1D3}.wem</CachePath>
 				</File>
+				<File Id="397979913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_footsteps_wood_03.wav</ShortName>
+					<CachePath>18/{1810FACF-2F48-CF5D-4627-C54D4A8D8B19}.wem</CachePath>
+				</File>
 				<File Id="402599882" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Fras_1_115_bpm_4_4.wav</ShortName>
 					<Path>Media/402599882.wem</Path>
@@ -192,10 +212,6 @@
 				<File Id="412198939" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_amb_lvl_1_loop.wav</ShortName>
 					<CachePath>F9/{F9EB8D73-F9AA-6E33-742A-42530A3458B7}.wem</CachePath>
-				</File>
-				<File Id="424481485" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Player dash.wav</ShortName>
-					<CachePath>07/{071FD819-23B8-F861-4ABF-C4A0219B2E07}.wem</CachePath>
 				</File>
 				<File Id="433159973" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_melee_attack_03.wav</ShortName>
@@ -247,6 +263,10 @@
 					<Path>Media/493590723.wem</Path>
 					<CachePath>EB/{EB275A0D-343D-4C60-F051-1EA7DF7A3EEB}.wem</CachePath>
 				</File>
+				<File Id="495955527" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_dash_intro.wav</ShortName>
+					<CachePath>F6/{F62D0A0F-8C1C-4EE7-2AE6-716787417D9A}.wem</CachePath>
+				</File>
 				<File Id="499847501" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_walls_rising_03.wav</ShortName>
 					<CachePath>11/{11846A80-442A-D236-45FC-31C34AE7B294}.wem</CachePath>
@@ -254,6 +274,10 @@
 				<File Id="500720502" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_boss death scream.wav</ShortName>
 					<CachePath>7C/{7CAFDE63-D2A7-C373-711E-A52ED936FD36}.wem</CachePath>
+				</File>
+				<File Id="509703292" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_dash_loop.wav</ShortName>
+					<CachePath>9D/{9D872683-EE6C-64E2-001C-A3B116098F92}.wem</CachePath>
 				</File>
 				<File Id="517107016" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Level1_Cello.wav</ShortName>
@@ -317,10 +341,6 @@
 					<ShortName>sfx_menu_confirm.wav</ShortName>
 					<CachePath>4B/{4BA42005-159C-52EF-4669-D8719D0A6735}.wem</CachePath>
 				</File>
-				<File Id="576673790" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 12.wav</ShortName>
-					<CachePath>C8/{C88A32EC-17C8-2254-B091-FD0AECB37A9C}.wem</CachePath>
-				</File>
 				<File Id="610344057" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Choir_Lead_1_115_bpm_4_4.wav</ShortName>
 					<Path>Media/610344057.wem</Path>
@@ -333,10 +353,6 @@
 				<File Id="618988095" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_ranged_ability_04.wav</ShortName>
 					<CachePath>B7/{B788C0B8-6641-F3B9-547B-5FE6BBE42ADA}.wem</CachePath>
-				</File>
-				<File Id="622490052" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 8.wav</ShortName>
-					<CachePath>9F/{9FA9F70C-065B-6C99-439C-C0C1A15973F7}.wem</CachePath>
 				</File>
 				<File Id="631050920" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Voice Designer, Abbi 13.wav</ShortName>
@@ -468,6 +484,10 @@
 					<ShortName>Soundly Voice Designer, Abbi 124.wav</ShortName>
 					<CachePath>04/{04187B28-B2D7-E201-E91C-1B3344A558EA}.wem</CachePath>
 				</File>
+				<File Id="906769287" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_footsteps_wood_04.wav</ShortName>
+					<CachePath>F3/{F38B5A48-89E1-FAA4-F7F8-6CEF5A823128}.wem</CachePath>
+				</File>
 				<File Id="907292839" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_07.wav</ShortName>
 					<CachePath>40/{40B5F568-2E60-3665-081C-B825519CF537}.wem</CachePath>
@@ -493,10 +513,6 @@
 					<ShortName>Violin_Fras_1_115_bpm_4_4.wav</ShortName>
 					<Path>Media/933204981.wem</Path>
 					<CachePath>98/{980B0019-8400-C600-24F1-26F3A2A23702}.wem</CachePath>
-				</File>
-				<File Id="934306966" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 9.wav</ShortName>
-					<CachePath>C3/{C381CD69-191F-F3F6-8520-0485FDCB896F}.wem</CachePath>
 				</File>
 				<File Id="937596068" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Komp_Kaos_Allt_Fas_3_115bpm_4_4.wav</ShortName>
@@ -533,9 +549,13 @@
 					<ShortName>Popcorn_Attack_02.wav</ShortName>
 					<CachePath>02/{0252B4F9-E754-7075-B522-7E2F4331AD70}.wem</CachePath>
 				</File>
+				<File Id="1005779537" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_footsteps_wood_01.wav</ShortName>
+					<CachePath>00/{008EF7B8-98BD-7168-DD20-021FC285334E}.wem</CachePath>
+				</File>
 				<File Id="1014385393" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_take_damage_02.wav</ShortName>
-					<CachePath>57/{571B17B2-0E76-9A3E-8179-F0C6B15E8988}.wem</CachePath>
+					<CachePath>23/{237558BD-CDE1-CA89-1E39-80595FB09BD6}.wem</CachePath>
 				</File>
 				<File Id="1019293332" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Walk_05.wav</ShortName>
@@ -572,7 +592,7 @@
 				</File>
 				<File Id="1063836670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_take_damage_03.wav</ShortName>
-					<CachePath>59/{59495C6B-A75B-1648-F175-D09B91C9C9F8}.wem</CachePath>
+					<CachePath>E1/{E1A5E58D-A156-D229-09FF-7D26939746B4}.wem</CachePath>
 				</File>
 				<File Id="1070351173" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Summoner_Attack_03.wav</ShortName>
@@ -814,9 +834,9 @@
 						<MediaRef Id="280601004"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1049578131" Name="Play_Intro_Cutscene" ObjectPath="\Events\Default Work Unit\Audio\Music\Play_Intro_Cutscene" GUID="{BFBA1E68-76CE-46CB-8BAC-3E85D0488541}" Color="10" DurationType="OneShot" DurationMin="1.1326667" DurationMax="1.1326667">
+				<Event Id="1049578131" Name="Play_Intro_Cutscene" ObjectPath="\Events\Default Work Unit\Audio\Music\Play_Intro_Cutscene" GUID="{BFBA1E68-76CE-46CB-8BAC-3E85D0488541}" Color="10" DurationType="OneShot" DurationMin="18.262167" DurationMax="18.262167">
 					<MediaRefs>
-						<MediaRef Id="576673790"/>
+						<MediaRef Id="285235228"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2264668508" Name="Play_Invalid_Action" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Invalid_Action" GUID="{602E564B-9E27-4014-A205-9B884A5DB57B}" Color="2" DurationType="OneShot" DurationMin="0.22648527" DurationMax="0.22648527">
@@ -846,9 +866,10 @@
 						<MediaRef Id="1056887471"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2175711460" Name="Play_Player_Dash" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Dash" GUID="{2822D149-B910-405E-8D54-812A341DAC1B}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="2175711460" Name="Play_Player_Dash" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Dash" GUID="{2822D149-B910-405E-8D54-812A341DAC1B}" Color="2" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="424481485"/>
+						<MediaRef Id="495955527"/>
+						<MediaRef Id="509703292"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1835085974" Name="Play_Player_Death" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Death" GUID="{CC273871-7C99-429C-9438-0A1D584753A1}" Color="2" DurationType="OneShot" DurationMin="2.2364852" DurationMax="2.2364852">
@@ -856,18 +877,28 @@
 						<MediaRef Id="201041031"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1724675634" Name="Play_Player_Footstep" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Movement\Play_Player_Footstep" GUID="{FB47FA47-2DBD-46BE-80B0-CC06D73B4029}" Color="2" DurationType="OneShot" DurationMin="0.17690808" DurationMax="0.6547083">
+				<Event Id="1724675634" Name="Play_Player_Footstep" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Movement\Play_Player_Footstep" GUID="{FB47FA47-2DBD-46BE-80B0-CC06D73B4029}" Color="2" DurationType="OneShot" DurationMin="0.16539195" DurationMax="0.41468686">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3287431056" Id="1510358672" GUID="{D49B6C19-AE4C-4C80-B27C-38E4BDEF6214}"/>
 							<MediaRefs>
-								<MediaRef Id="934306966"/>
+								<MediaRef Id="11886547"/>
+								<MediaRef Id="92054845"/>
+								<MediaRef Id="145896481"/>
+								<MediaRef Id="397979913"/>
+								<MediaRef Id="906769287"/>
+								<MediaRef Id="1005779537"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3287431056" Id="2058049674" GUID="{2BF59763-69F0-49B3-B659-81DBCA28A6B5}"/>
 							<MediaRefs>
-								<MediaRef Id="622490052"/>
+								<MediaRef Id="11886547"/>
+								<MediaRef Id="92054845"/>
+								<MediaRef Id="145896481"/>
+								<MediaRef Id="397979913"/>
+								<MediaRef Id="906769287"/>
+								<MediaRef Id="1005779537"/>
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
@@ -935,7 +966,7 @@
 						<MediaRef Id="36223790"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1172205655" Name="Play_Player_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Take_Damage" GUID="{96DB461A-D9DC-46F9-8A65-2B16323F89C3}" Color="2" DurationType="OneShot" DurationMin="0.30374148" DurationMax="0.48947847">
+				<Event Id="1172205655" Name="Play_Player_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Take_Damage" GUID="{96DB461A-D9DC-46F9-8A65-2B16323F89C3}" Color="2" DurationType="OneShot" DurationMin="0.2463215" DurationMax="0.41834846">
 					<MediaRefs>
 						<MediaRef Id="171917817"/>
 						<MediaRef Id="1014385393"/>
@@ -1002,6 +1033,7 @@
 					</ActionSetState>
 				</Event>
 				<Event Id="3230625255" Name="Stop_Music_System" ObjectPath="\Events\Default Work Unit\Audio\Music\Stop_Music_System" GUID="{3AAE6521-7849-4456-844F-E02F8A99F6AE}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2643068714" Name="Stop_Player_Dash" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Stop_Player_Dash" GUID="{914EE7F8-D5FD-46D2-8694-AA7117C8DFD7}" Color="2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<StateGroups>
 				<StateGroup Id="1021618141" Name="MusicState" ObjectPath="\States\Default Work Unit\MusicState" GUID="{C6482A08-C7DD-4C0A-B75D-535F5A89A87F}">
@@ -1040,5 +1072,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C229C370-E0ED-9D7C-2FDC-FC2EE263CC00}</FileHash>
+	<FileHash>{A155ABBB-36A6-B543-FF38-8D8B4456D832}</FileHash>
 </SoundBanksInfo>

@@ -392,7 +392,32 @@
 														<Action Name="" ID="{B54590E0-B3DA-424C-A5DE-236A01148F3C}" ShortID="333806733">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Dash" ID="{01B27C75-BC79-4500-949E-BB1894787B0E}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Player_Dash_Intro" ID="{01B27C75-BC79-4500-949E-BB1894787B0E}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+														<Action Name="" ID="{343EE6A0-790D-4ECC-A667-20C932341A32}" ShortID="893719366">
+															<PropertyList>
+																<Property Name="FadeInCurve" Type="int16" Value="1"/>
+																<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_Player_Dash_Loop" ID="{22001EAC-E5B1-4CF1-8CBB-AF9D825FFCC3}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Stop_Player_Dash" ID="{914EE7F8-D5FD-46D2-8694-AA7117C8DFD7}">
+													<ChildrenList>
+														<Action Name="" ID="{F8DC4033-B4E1-4110-A8C8-74F819B847AB}" ShortID="681186968">
+															<PropertyList>
+																<Property Name="ActionType" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_Player_Dash_Loop" ID="{22001EAC-E5B1-4CF1-8CBB-AF9D825FFCC3}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>

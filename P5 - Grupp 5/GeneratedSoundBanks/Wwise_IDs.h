@@ -69,6 +69,7 @@ namespace AK
         static const AkUniqueID SET_MUSIC_TO_LEVELTWO = 909513944U;
         static const AkUniqueID SET_MUSIC_TO_MAIN_TITLE = 699459892U;
         static const AkUniqueID STOP_MUSIC_SYSTEM = 3230625255U;
+        static const AkUniqueID STOP_PLAYER_DASH = 2643068714U;
     } // namespace EVENTS
 
     namespace STATES
