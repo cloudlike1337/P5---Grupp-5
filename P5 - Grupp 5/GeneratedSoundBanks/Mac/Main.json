@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{64F76C4D-4D64-E4A2-763F-7756F2F716DA}",
+    "Hash": "{07DE292C-5B21-5532-A5D9-36ECFF97B0EB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -329,7 +329,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_enemy_take_damage.wav",
-      "CachePath": "A7/{A7C7F263-364D-681E-953F-595D3222F319}.wem"
+      "CachePath": "01/{01659086-3A47-2D4D-CBED-64715693782A}.wem"
      },
      {
       "Id": "285235228",
@@ -1811,8 +1811,8 @@
       "Color": "2",
       "MaxAttenuation": "1400",
       "DurationType": "OneShot",
-      "DurationMin": "0.15027212",
-      "DurationMax": "0.15027212",
+      "DurationMin": "0.27528346",
+      "DurationMax": "0.27528346",
       "MediaRefs": [
        {
         "Id": "280601004"
@@ -1906,8 +1906,8 @@
       "Color": "2",
       "MaxAttenuation": "1400",
       "DurationType": "OneShot",
-      "DurationMin": "0.15027212",
-      "DurationMax": "0.15027212",
+      "DurationMin": "0.27528346",
+      "DurationMax": "0.27528346",
       "MediaRefs": [
        {
         "Id": "280601004"
@@ -1982,8 +1982,8 @@
       "Color": "2",
       "MaxAttenuation": "1400",
       "DurationType": "OneShot",
-      "DurationMin": "0.15027212",
-      "DurationMax": "0.15027212",
+      "DurationMin": "0.27528346",
+      "DurationMax": "0.27528346",
       "MediaRefs": [
        {
         "Id": "280601004"
@@ -2779,6 +2779,6 @@
     ]
    }
   ],
-  "FileHash": "{27BDAFBA-DA9A-86F8-5D8A-6BFF80A35A1F}"
+  "FileHash": "{DF1D2826-4FFE-15F2-132B-A01C7205B57E}"
  }
 }

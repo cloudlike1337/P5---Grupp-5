@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{64F76C4D-4D64-E4A2-763F-7756F2F716DA}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{07DE292C-5B21-5532-A5D9-36ECFF97B0EB}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -168,7 +168,7 @@
 				</File>
 				<File Id="280601004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_take_damage.wav</ShortName>
-					<CachePath>A7/{A7C7F263-364D-681E-953F-595D3222F319}.wem</CachePath>
+					<CachePath>01/{01659086-3A47-2D4D-CBED-64715693782A}.wem</CachePath>
 				</File>
 				<File Id="285235228" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TGA_3_Intro_Cutscene.wav</ShortName>
@@ -853,7 +853,7 @@
 						<MediaRef Id="820046013"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4214071090" Name="Play_Enemy_Popcorn_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Take_Damage" GUID="{A652FE6D-C807-4590-A9C5-A6C257FA01F9}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.15027212" DurationMax="0.15027212">
+				<Event Id="4214071090" Name="Play_Enemy_Popcorn_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Take_Damage" GUID="{A652FE6D-C807-4590-A9C5-A6C257FA01F9}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.27528346" DurationMax="0.27528346">
 					<MediaRefs>
 						<MediaRef Id="280601004"/>
 					</MediaRefs>
@@ -883,7 +883,7 @@
 						<MediaRef Id="932445624"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2391442630" Name="Play_Enemy_Ranged_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Take_Damage" GUID="{2371EB79-B960-4DED-AAC8-C11804550098}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.15027212" DurationMax="0.15027212">
+				<Event Id="2391442630" Name="Play_Enemy_Ranged_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Take_Damage" GUID="{2371EB79-B960-4DED-AAC8-C11804550098}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.27528346" DurationMax="0.27528346">
 					<MediaRefs>
 						<MediaRef Id="280601004"/>
 					</MediaRefs>
@@ -907,7 +907,7 @@
 						<MediaRef Id="227956053"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2134822783" Name="Play_Enemy_Summoner_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Take_Damage" GUID="{20D690AB-B732-4C58-B0BF-0C406C1B6D2C}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.15027212" DurationMax="0.15027212">
+				<Event Id="2134822783" Name="Play_Enemy_Summoner_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Take_Damage" GUID="{20D690AB-B732-4C58-B0BF-0C406C1B6D2C}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.27528346" DurationMax="0.27528346">
 					<MediaRefs>
 						<MediaRef Id="280601004"/>
 					</MediaRefs>
@@ -1157,5 +1157,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D8F3FB21-94F6-057B-B69B-3179255DBA01}</FileHash>
+	<FileHash>{7F2433B9-D2CB-DECC-B531-3F84554C5492}</FileHash>
 </SoundBanksInfo>
