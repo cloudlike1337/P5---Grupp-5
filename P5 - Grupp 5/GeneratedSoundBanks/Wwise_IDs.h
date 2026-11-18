@@ -32,8 +32,8 @@ namespace AK
         static const AkUniqueID PLAY_ENEMY_POPCORN_DEATH = 1966043283U;
         static const AkUniqueID PLAY_ENEMY_POPCORN_TAKE_DAMAGE = 4214071090U;
         static const AkUniqueID PLAY_ENEMY_POPCORN_WALK = 3453525588U;
-        static const AkUniqueID PLAY_ENEMY_RANGED_AOE_CAST = 4089134270U;
-        static const AkUniqueID PLAY_ENEMY_RANGED_AOE_HIT = 461636554U;
+        static const AkUniqueID PLAY_ENEMY_RANGED_AOE_ATTACK = 799008763U;
+        static const AkUniqueID PLAY_ENEMY_RANGED_AOE_WARNING = 3499502665U;
         static const AkUniqueID PLAY_ENEMY_RANGED_DEATH = 3914235351U;
         static const AkUniqueID PLAY_ENEMY_RANGED_TAKE_DAMAGE = 2391442630U;
         static const AkUniqueID PLAY_ENEMY_SUMMONER_ATTACK = 1454168108U;
@@ -58,6 +58,7 @@ namespace AK
         static const AkUniqueID PLAY_PLAYER_TAKE_DAMAGE = 1172205655U;
         static const AkUniqueID PLAY_PLAYER_USE_ULTIMATE = 2301239065U;
         static const AkUniqueID PLAY_PLAYER_VINE_ABILLITY = 2195822293U;
+        static const AkUniqueID PLAY_RANGED_ENEMY_FOOTSTEP = 3979815311U;
         static const AkUniqueID PLAY_START_GAME = 3294915283U;
         static const AkUniqueID PLAY_WALLS_LOWERING = 4145597129U;
         static const AkUniqueID PLAY_WALLS_RISING = 1932334290U;

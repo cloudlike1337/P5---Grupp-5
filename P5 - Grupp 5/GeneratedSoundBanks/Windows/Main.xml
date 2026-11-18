@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{07DE292C-5B21-5532-A5D9-36ECFF97B0EB}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{83DC4CDE-3F8A-3B2E-4FAE-ECBBAD9F6E79}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -22,6 +22,10 @@
 				<File Id="13463570" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_boss spawning popcorn enemy.wav</ShortName>
 					<CachePath>F4/{F4CBE45A-F653-8648-F80B-98A3A16497D7}.wem</CachePath>
+				</File>
+				<File Id="18914104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_warning_sound.wav</ShortName>
+					<CachePath>48/{4892C88C-C2FC-1AA1-EF37-0D7FD0C0EBC5}.wem</CachePath>
 				</File>
 				<File Id="22085447" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_flesh_03.wav</ShortName>
@@ -75,10 +79,6 @@
 					<ShortName>Lvl1_Synth_Pad_Bass.wav</ShortName>
 					<Path>Media/107734003.wem</Path>
 					<CachePath>AB/{AB04BB34-D67E-56A6-3160-530E89436904}.wem</CachePath>
-				</File>
-				<File Id="125135763" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Player vine abillity.wav</ShortName>
-					<CachePath>04/{04A163BF-0DB7-9D8C-E6B2-3521B41D7EA7}.wem</CachePath>
 				</File>
 				<File Id="127462967" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Solo_Violin_Full_115_bpm_4_4.wav</ShortName>
@@ -178,14 +178,14 @@
 					<ShortName>Popcorn_Attack_04.wav</ShortName>
 					<CachePath>09/{099E8C39-ACD8-26F9-0313-2AA3B2ACE919}.wem</CachePath>
 				</File>
+				<File Id="294735641" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_boss_AOE_warning.wav</ShortName>
+					<CachePath>3A/{3A263D34-1692-B5DF-A3DF-9EB784547A4F}.wem</CachePath>
+				</File>
 				<File Id="299421971" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Komp_Kaos_Allt_Fas_2_115bpm_4_4.wav</ShortName>
 					<Path>Media/299421971.wem</Path>
 					<CachePath>53/{53437C1A-C83D-B9F3-BD2C-E7FB0DA451A4}.wem</CachePath>
-				</File>
-				<File Id="303173632" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_ranged enemy A O E attack.wav</ShortName>
-					<CachePath>4D/{4D4AEE07-9657-3AAE-282F-4D4010DE5DBE}.wem</CachePath>
 				</File>
 				<File Id="311015533" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 120.wav</ShortName>
@@ -503,10 +503,6 @@
 					<ShortName>sfx_player_footsteps_flesh_02.wav</ShortName>
 					<CachePath>5E/{5EAFC0D7-E657-F2E2-1124-7869F6D196F5}.wem</CachePath>
 				</File>
-				<File Id="862509883" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Enemy_ranged enemy A O E attack cast.wav</ShortName>
-					<CachePath>CE/{CE25A237-A5D4-9DCB-5076-353C0B5998F9}.wem</CachePath>
-				</File>
 				<File Id="863383401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_05.wav</ShortName>
 					<CachePath>A2/{A2517AD6-9CCB-D935-3983-6A9837C41F75}.wem</CachePath>
@@ -524,10 +520,6 @@
 					<ShortName>Popcorn_Attack_03.wav</ShortName>
 					<CachePath>DC/{DC2EFF56-5E10-3301-7846-87F66C9A919C}.wem</CachePath>
 				</File>
-				<File Id="901092673" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 124.wav</ShortName>
-					<CachePath>04/{04187B28-B2D7-E201-E91C-1B3344A558EA}.wem</CachePath>
-				</File>
 				<File Id="906769287" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_wood_04.wav</ShortName>
 					<CachePath>F3/{F38B5A48-89E1-FAA4-F7F8-6CEF5A823128}.wem</CachePath>
@@ -544,10 +536,18 @@
 					<ShortName>sfx_player_footsteps_flesh_06.wav</ShortName>
 					<CachePath>C8/{C8E07437-2AF4-3C73-AC99-A4C6DAA5CA0B}.wem</CachePath>
 				</File>
+				<File Id="924189119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundly Voice Designer, Abbi 17.wav</ShortName>
+					<CachePath>6F/{6FC80B7B-1CA5-C423-2C86-93838104FA1F}.wem</CachePath>
+				</File>
 				<File Id="924405913" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>String_Fras_1_115_bpm_4_4.wav</ShortName>
 					<Path>Media/924405913.wem</Path>
 					<CachePath>42/{42B37306-858A-C28E-53C9-2B2D8665E2B4}.wem</CachePath>
+				</File>
+				<File Id="926754824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_warning_sound.wav</ShortName>
+					<CachePath>A3/{A3739F01-0A7E-8C92-64CB-4410635374E9}.wem</CachePath>
 				</File>
 				<File Id="932445624" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 126.wav</ShortName>
@@ -570,10 +570,6 @@
 				<File Id="955783935" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_flesh_07.wav</ShortName>
 					<CachePath>8C/{8CFBF7FB-8482-276E-BFA6-ADFBBCE7DD3D}.wem</CachePath>
-				</File>
-				<File Id="963124846" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 11.wav</ShortName>
-					<CachePath>E9/{E9011A10-B2F4-12E2-0DAD-BDFBB42260EF}.wem</CachePath>
 				</File>
 				<File Id="968378269" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Eric_Solo_1_115_bpm_4_4.wav</ShortName>
@@ -619,6 +615,10 @@
 					<Path>Media/1035406516.wem</Path>
 					<CachePath>4F/{4F911060-DB8F-3BCD-1E1F-661E9FD44961}.wem</CachePath>
 				</File>
+				<File Id="1043119065" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Soundly Voice Designer, Abbi 16.wav</ShortName>
+					<CachePath>23/{23825380-DC26-EB4C-6EF9-A6F96BDF4CD8}.wem</CachePath>
+				</File>
 				<File Id="1047310084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_menu_back.wav</ShortName>
 					<CachePath>CF/{CF7546F8-FE34-26C8-610C-874C5FDB0585}.wem</CachePath>
@@ -634,10 +634,6 @@
 				<File Id="1057667397" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_walls_rising_02.wav</ShortName>
 					<CachePath>C5/{C56FFE6B-6ADF-9A14-3D90-468F5AA59C5F}.wem</CachePath>
-				</File>
-				<File Id="1062508675" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 121.wav</ShortName>
-					<CachePath>59/{59393BA8-2657-1F9E-0A3E-5942E2E132CC}.wem</CachePath>
 				</File>
 				<File Id="1063836670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_take_damage_03.wav</ShortName>
@@ -797,9 +793,9 @@
 						<MediaRef Id="793785320"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4219410224" Name="Play_Boss_AOE_Warning" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_AOE_Warning" GUID="{C4F24378-E52C-4FC3-9073-66879A55C468}" Color="2" DurationType="OneShot" DurationMin="1.400375" DurationMax="1.400375">
+				<Event Id="4219410224" Name="Play_Boss_AOE_Warning" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_AOE_Warning" GUID="{C4F24378-E52C-4FC3-9073-66879A55C468}" Color="2" DurationType="OneShot" DurationMin="2.434739" DurationMax="2.434739">
 					<MediaRefs>
-						<MediaRef Id="963124846"/>
+						<MediaRef Id="294735641"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1268859200" Name="Play_Boss_Change_Phase" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_Change_Phase" GUID="{67F0AA2E-2D60-47E8-96D6-53BC3D44E5F4}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
@@ -858,7 +854,7 @@
 						<MediaRef Id="280601004"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3453525588" Name="Play_Enemy_Popcorn_Walk" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk" GUID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.2045" DurationMax="0.2563125">
+				<Event Id="3453525588" Name="Play_Enemy_Popcorn_Walk" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk" GUID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" Color="2" MaxAttenuation="1600" DurationType="OneShot" DurationMin="0.2045" DurationMax="0.2563125">
 					<MediaRefs>
 						<MediaRef Id="36424771"/>
 						<MediaRef Id="66436734"/>
@@ -868,14 +864,14 @@
 						<MediaRef Id="1019293332"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4089134270" Name="Play_Enemy_Ranged_AOE_Cast" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Cast" GUID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.5735" DurationMax="2.5735">
+				<Event Id="799008763" Name="Play_Enemy_Ranged_AOE_Attack" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Attack" GUID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.7144375" DurationMax="1.7144375">
 					<MediaRefs>
-						<MediaRef Id="862509883"/>
+						<MediaRef Id="1043119065"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="461636554" Name="Play_Enemy_Ranged_AOE_Hit" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Hit" GUID="{468F71FA-C049-4C9F-BDA3-BDB752FB8052}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="3499502665" Name="Play_Enemy_Ranged_AOE_Warning" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Warning" GUID="{5DDA4AAE-4BF2-4842-B366-5DADFAA96371}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.7016326" DurationMax="1.7016326">
 					<MediaRefs>
-						<MediaRef Id="303173632"/>
+						<MediaRef Id="18914104"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3914235351" Name="Play_Enemy_Ranged_Death" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_Death" GUID="{4AD0D00D-520B-4C42-9A70-29D6F537D9D7}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
@@ -902,7 +898,7 @@
 						<MediaRef Id="554111737"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1319327521" Name="Play_Enemy_Summoner_Surface" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Surface" GUID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.973125" DurationMax="1.973125">
+				<Event Id="1319327521" Name="Play_Enemy_Summoner_Surface" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Surface" GUID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}" Color="2" MaxAttenuation="1600" DurationType="OneShot" DurationMin="1.973125" DurationMax="1.973125">
 					<MediaRefs>
 						<MediaRef Id="227956053"/>
 					</MediaRefs>
@@ -1056,9 +1052,16 @@
 						<MediaRef Id="977666229"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2195822293" Name="Play_Player_Vine_Abillity" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Vine_Abillity" GUID="{1CD89967-515A-481E-89F9-E55BEFCAAD47}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="2195822293" Name="Play_Player_Vine_Abillity" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Vine_Abillity" GUID="{1CD89967-515A-481E-89F9-E55BEFCAAD47}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.6884127" DurationMax="0.95174605">
 					<MediaRefs>
-						<MediaRef Id="125135763"/>
+						<MediaRef Id="342967764"/>
+						<MediaRef Id="433159973"/>
+						<MediaRef Id="1023280950"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3979815311" Name="Play_Ranged_Enemy_Footstep" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Ranged_Enemy_Footstep" GUID="{8528C41B-5714-4F47-8046-B28C2C336432}" Color="2" DurationType="OneShot" DurationMin="1.3989375" DurationMax="1.3989375">
+					<MediaRefs>
+						<MediaRef Id="924189119"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3294915283" Name="Play_Start_Game" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Start_Game" GUID="{C3FE03DC-2193-483C-ACBD-D2F1A7BDAEFD}" Color="2" DurationType="OneShot" DurationMin="0.6397959" DurationMax="0.6397959">
@@ -1066,9 +1069,12 @@
 						<MediaRef Id="491416357"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4145597129" Name="Play_Walls_Lowering" ObjectPath="\Events\Default Work Unit\Audio\SFX\Environment\Play_Walls_Lowering" GUID="{E114B73B-B19E-48D6-8859-2811309448FF}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="4145597129" Name="Play_Walls_Lowering" ObjectPath="\Events\Default Work Unit\Audio\SFX\Environment\Play_Walls_Lowering" GUID="{E114B73B-B19E-48D6-8859-2811309448FF}" Color="2" DurationType="OneShot" DurationMin="1.4834241" DurationMax="1.92161">
 					<MediaRefs>
-						<MediaRef Id="901092673"/>
+						<MediaRef Id="260890962"/>
+						<MediaRef Id="499847501"/>
+						<MediaRef Id="635952008"/>
+						<MediaRef Id="1057667397"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1932334290" Name="Play_Walls_Rising" ObjectPath="\Events\Default Work Unit\Audio\SFX\Environment\Play_Walls_Rising" GUID="{437692EF-21BF-4BC0-9F9C-EF8954049028}" Color="2" DurationType="OneShot" DurationMin="1.3215805" DurationMax="2.1569343">
@@ -1079,9 +1085,9 @@
 						<MediaRef Id="1057667397"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1297509074" Name="Play_Warning_Sound" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Warning_Sound" GUID="{9F3CCF50-5428-4DA9-98A8-F3881EC634AD}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="1297509074" Name="Play_Warning_Sound" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Warning_Sound" GUID="{9F3CCF50-5428-4DA9-98A8-F3881EC634AD}" Color="2" DurationType="OneShot" DurationMin="1.7016326" DurationMax="1.7016326">
 					<MediaRefs>
-						<MediaRef Id="1062508675"/>
+						<MediaRef Id="926754824"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1565052233" Name="Resume_Game" ObjectPath="\Events\Default Work Unit\Audio\Music\Resume_Game" GUID="{55481C21-1EFB-42B3-966D-D837F6D7212A}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
@@ -1157,5 +1163,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7F2433B9-D2CB-DECC-B531-3F84554C5492}</FileHash>
+	<FileHash>{57FFF747-B3C0-3025-9ED6-36AF6D16EA91}</FileHash>
 </SoundBanksInfo>

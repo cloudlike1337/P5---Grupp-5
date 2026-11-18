@@ -201,7 +201,7 @@
 				</Attenuation>
 				<Attenuation Name="Enemy_Movement_Attenuation" ID="{EA87C715-A3D8-4341-AF2A-2586638D0BFA}" ShortID="1073484558">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1400"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1600"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -218,7 +218,7 @@
 											<SegmentShape>Log2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1400</XPos>
+											<XPos>1600</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

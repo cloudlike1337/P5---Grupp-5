@@ -1090,6 +1090,11 @@
 																</ModifierInfo>
 															</ModifierList>
 														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -2137,7 +2142,7 @@
 										</Folder>
 										<Folder Name="Ranged" ID="{CC01ED0F-E6BE-4607-9E16-AD522B8C006A}" ShortID="1071743840">
 											<ChildrenList>
-												<Sound Name="SFX_Ranged_Enemy_AOE_Attack_Cast" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" ShortID="438904085">
+												<Sound Name="SFX_Ranged_Enemy_AOE_Attack" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" ShortID="438904085">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
@@ -2161,9 +2166,16 @@
 																<MediaID ID="862509883"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="Soundly Voice Designer, Abbi 16" ID="{53396BE3-BA2A-42AC-8CB7-FE1BB304D77B}">
+															<Language>SFX</Language>
+															<AudioFile>Soundly Voice Designer, Abbi 16.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1043119065"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}" Platform="Linked"/>
+														<ActiveSource Name="Soundly Voice Designer, Abbi 16" ID="{53396BE3-BA2A-42AC-8CB7-FE1BB304D77B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Ranged_Enemy_Take_Damage" ID="{078A25CF-8169-4AD6-A2AB-B907E6D74740}" ShortID="761072674">
@@ -2202,7 +2214,7 @@
 														<ActiveSource Name="sfx_enemy_take_damage" ID="{003F6A1A-DDE6-4FD3-9A77-D86F46250852}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Ranged_Enemy_AOE_Attack" ID="{35D24928-D701-42CA-998A-A34F031166EB}" ShortID="353326234">
+												<Sound Name="SFX_Ranged_Enemy_AOE_Attack_Warning" ID="{35D24928-D701-42CA-998A-A34F031166EB}" ShortID="353326234">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
 														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
@@ -2226,9 +2238,23 @@
 																<MediaID ID="303173632"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="Soundly Voice Designer, Abbi 15" ID="{A3AB7616-74F7-474E-9188-FF9859B4A291}">
+															<Language>SFX</Language>
+															<AudioFile>Soundly Voice Designer, Abbi 15.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="558295772"/>
+															</MediaIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="sfx_warning_sound" ID="{FA2593C8-0AF3-4757-9DE1-78AD0FDF0E23}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_warning_sound.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="18914104"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Enemy_ranged enemy A O E attack" ID="{21696D96-BC55-4CE8-9088-504F9B9BEDC3}" Platform="Linked"/>
+														<ActiveSource Name="sfx_warning_sound" ID="{FA2593C8-0AF3-4757-9DE1-78AD0FDF0E23}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Ranged_Enemy_Death" ID="{17B6C3D8-3ED7-4CC5-BEAF-D7AC58CED8C6}" ShortID="520209259">
@@ -2260,6 +2286,40 @@
 														<ActiveSource Name="Soundly Voice Designer, Abbi 126" ID="{3550C774-08D3-4384-967B-5B05762357B6}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<RandomSequenceContainer Name="SFX_Ranged_Enemy_Footstep" ID="{0B03011C-D4B4-47AD-BCA4-3B61119F14F1}" ShortID="909998710">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Soundly Voice Designer, Abbi 17" ID="{0E13EDEB-7CE4-4816-9C3D-45FC025938E5}" ShortID="1045818297">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Soundly Voice Designer, Abbi 17" ID="{AD9D79C1-81F6-4221-ACFA-59B464594995}">
+																	<Language>SFX</Language>
+																	<AudioFile>Soundly Voice Designer, Abbi 17.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="924189119"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Soundly Voice Designer, Abbi 17" ID="{AD9D79C1-81F6-4221-ACFA-59B464594995}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Boss" ID="{FC65DE1C-4660-4DC1-BEA2-4C599C3D96C2}" ShortID="416355436">
@@ -2369,9 +2429,16 @@
 																<MediaID ID="963124846"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="sfx_boss_AOE_warning" ID="{3EAE8437-9D7B-4FF9-A451-89363399EE9E}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_boss_AOE_warning.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="294735641"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Soundly Voice Designer, Abbi 11" ID="{73A9FF5F-7F1C-4386-919B-8E30BCEDF2CE}" Platform="Linked"/>
+														<ActiveSource Name="sfx_boss_AOE_warning" ID="{3EAE8437-9D7B-4FF9-A451-89363399EE9E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Boss_AOE_Attack" ID="{F1838650-0AD3-43E0-AAA1-47FFFFF1F990}" ShortID="802879868">
@@ -2710,7 +2777,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="UI_Bus" ID="{99820C0E-0255-4B3E-8134-2332B41B8E3B}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+													<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -2721,9 +2788,20 @@
 														<MediaID ID="1062508675"/>
 													</MediaIDList>
 												</AudioFileSource>
+												<AudioFileSource Name="sfx_warning_sound" ID="{3B14A7F4-3E52-403B-8D9F-3E67431775A8}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0207"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>sfx_warning_sound.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="926754824"/>
+													</MediaIDList>
+												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 121" ID="{5794C36C-BBFC-44D0-A01B-8DD8540841E3}" Platform="Linked"/>
+												<ActiveSource Name="sfx_warning_sound" ID="{3B14A7F4-3E52-403B-8D9F-3E67431775A8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Player_Respawn" ID="{EE83A719-9CE7-41FA-A6CE-1C859514FA5D}" ShortID="538939918">
@@ -2781,39 +2859,9 @@
 								</Folder>
 								<Folder Name="Environment" ID="{43A605EC-7346-4524-8806-349B4C4E3000}" ShortID="688961745">
 									<ChildrenList>
-										<Sound Name="SFX_Walls_Lowering" ID="{EF139233-37D8-4805-B075-071BB01174E2}" ShortID="362701681">
-											<PropertyList>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Environment_Bus" ID="{01E07A53-C8C2-4A9C-8105-AC61D8B09359}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 124" ID="{9980979B-8C46-4039-908A-146B5D34FE20}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Voice Designer, Abbi 124.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="901092673"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 124" ID="{9980979B-8C46-4039-908A-146B5D34FE20}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<RandomSequenceContainer Name="SFX_Walls_Rising" ID="{62FCC265-D823-4179-921E-F5D0F6A149D4}" ShortID="643113368">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="Highpass" Type="int16">
-													<ValueList>
-														<Value>18</Value>
-													</ValueList>
-												</Property>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -2935,6 +2983,106 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="sfx_walls_rising_04" ID="{726A24B2-85C5-414D-B363-7DF1CA57E17C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SFX_Walls_Lowering" ID="{E1862F1A-0E1B-47AB-B688-158D22B10E51}" ShortID="546343646">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="sfx_walls_rising_01" ID="{AB01D428-8BED-451C-B8C8-D7204AD4E473}" ShortID="328106130">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_walls_rising_01" ID="{42DF81CD-739D-4B8A-9EB8-2C54A8C08552}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_walls_rising_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="260890962"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_walls_rising_01" ID="{42DF81CD-739D-4B8A-9EB8-2C54A8C08552}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_walls_rising_02" ID="{BA5F1D25-3F08-4B53-A148-FECB3F1FC41E}" ShortID="531807850">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_walls_rising_02" ID="{FD522557-0574-4AA9-BCB1-D7F2E0C2090F}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_walls_rising_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1057667397"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_walls_rising_02" ID="{FD522557-0574-4AA9-BCB1-D7F2E0C2090F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_walls_rising_03" ID="{E7E86127-68AA-4D22-895C-4B243EDFC684}" ShortID="203999302">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_walls_rising_03" ID="{1927BDC7-C85D-4248-A08C-3D7B867E4C6C}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_walls_rising_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="499847501"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_walls_rising_03" ID="{1927BDC7-C85D-4248-A08C-3D7B867E4C6C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_walls_rising_04" ID="{1F848409-621C-4C22-893E-3540DA9BD5B6}" ShortID="761309364">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_walls_rising_04" ID="{D41783CA-40CA-4EA4-AC5E-FF2E543E3ABC}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_walls_rising_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="635952008"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_walls_rising_04" ID="{D41783CA-40CA-4EA4-AC5E-FF2E543E3ABC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

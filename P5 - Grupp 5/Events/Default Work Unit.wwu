@@ -210,23 +210,12 @@
 														</Action>
 													</ChildrenList>
 												</Event>
-												<Event Name="Play_Enemy_Ranged_AOE_Hit" ID="{468F71FA-C049-4C9F-BDA3-BDB752FB8052}">
-													<ChildrenList>
-														<Action Name="" ID="{D4F72787-DA83-4314-A1B0-7DD2F0A232BF}" ShortID="1027196534">
-															<ReferenceList>
-																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Ranged_Enemy_AOE_Attack" ID="{35D24928-D701-42CA-998A-A34F031166EB}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
-																</Reference>
-															</ReferenceList>
-														</Action>
-													</ChildrenList>
-												</Event>
-												<Event Name="Play_Enemy_Ranged_AOE_Cast" ID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}">
+												<Event Name="Play_Enemy_Ranged_AOE_Attack" ID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}">
 													<ChildrenList>
 														<Action Name="" ID="{3EE54FD4-0407-4DD5-9330-F71F82643041}" ShortID="338614389">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Ranged_Enemy_AOE_Attack_Cast" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Ranged_Enemy_AOE_Attack" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -238,6 +227,28 @@
 															<ReferenceList>
 																<Reference Name="Target">
 																	<ObjectRef Name="SFX_Ranged_Enemy_Death" ID="{17B6C3D8-3ED7-4CC5-BEAF-D7AC58CED8C6}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Play_Enemy_Ranged_AOE_Warning" ID="{5DDA4AAE-4BF2-4842-B366-5DADFAA96371}">
+													<ChildrenList>
+														<Action Name="" ID="{443D5DCB-8FA4-40C4-9A8B-1916991E8DEC}" ShortID="190272047">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_Ranged_Enemy_AOE_Attack_Warning" ID="{35D24928-D701-42CA-998A-A34F031166EB}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																</Reference>
+															</ReferenceList>
+														</Action>
+													</ChildrenList>
+												</Event>
+												<Event Name="Play_Ranged_Enemy_Footstep" ID="{8528C41B-5714-4F47-8046-B28C2C336432}">
+													<ChildrenList>
+														<Action Name="" ID="{F6AD8271-A3E1-47D3-BAFA-8FB692A5E4A7}" ShortID="887700116">
+															<ReferenceList>
+																<Reference Name="Target">
+																	<ObjectRef Name="SFX_Ranged_Enemy_Footstep" ID="{0B03011C-D4B4-47AD-BCA4-3B61119F14F1}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -265,7 +276,7 @@
 												<Action Name="" ID="{E0E19DFB-3235-4DD2-9B73-92A52BD6C65F}" ShortID="499031594">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Walls_Lowering" ID="{EF139233-37D8-4805-B075-071BB01174E2}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Walls_Lowering" ID="{E1862F1A-0E1B-47AB-B688-158D22B10E51}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -315,7 +326,7 @@
 														<Action Name="" ID="{516672ED-D59A-429E-A3AF-6823193AA361}" ShortID="451738690">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Use_Vine" ID="{7220D313-815F-49CF-A82B-D5EBB597AFBC}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Player_Melee_Attack" ID="{8D804B4B-263E-479D-9A86-04631C6CA264}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>

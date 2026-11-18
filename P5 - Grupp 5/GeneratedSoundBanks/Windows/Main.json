@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{07DE292C-5B21-5532-A5D9-36ECFF97B0EB}",
+    "Hash": "{83DC4CDE-3F8A-3B2E-4FAE-ECBBAD9F6E79}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -47,6 +47,14 @@
       "Location": "Memory",
       "ShortName": "Boss_boss spawning popcorn enemy.wav",
       "CachePath": "F4/{F4CBE45A-F653-8648-F80B-98A3A16497D7}.wem"
+     },
+     {
+      "Id": "18914104",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_warning_sound.wav",
+      "CachePath": "48/{4892C88C-C2FC-1AA1-EF37-0D7FD0C0EBC5}.wem"
      },
      {
       "Id": "22085447",
@@ -148,14 +156,6 @@
       "ShortName": "Lvl1_Synth_Pad_Bass.wav",
       "Path": "Media/107734003.wem",
       "CachePath": "AB/{AB04BB34-D67E-56A6-3160-530E89436904}.wem"
-     },
-     {
-      "Id": "125135763",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_Player vine abillity.wav",
-      "CachePath": "04/{04A163BF-0DB7-9D8C-E6B2-3521B41D7EA7}.wem"
      },
      {
       "Id": "127462967",
@@ -348,6 +348,14 @@
       "CachePath": "09/{099E8C39-ACD8-26F9-0313-2AA3B2ACE919}.wem"
      },
      {
+      "Id": "294735641",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_boss_AOE_warning.wav",
+      "CachePath": "3A/{3A263D34-1692-B5DF-A3DF-9EB784547A4F}.wem"
+     },
+     {
       "Id": "299421971",
       "Language": "SFX",
       "Streaming": "true",
@@ -355,14 +363,6 @@
       "ShortName": "Komp_Kaos_Allt_Fas_2_115bpm_4_4.wav",
       "Path": "Media/299421971.wem",
       "CachePath": "53/{53437C1A-C83D-B9F3-BD2C-E7FB0DA451A4}.wem"
-     },
-     {
-      "Id": "303173632",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Enemy_ranged enemy A O E attack.wav",
-      "CachePath": "4D/{4D4AEE07-9657-3AAE-282F-4D4010DE5DBE}.wem"
      },
      {
       "Id": "311015533",
@@ -965,14 +965,6 @@
       "CachePath": "5E/{5EAFC0D7-E657-F2E2-1124-7869F6D196F5}.wem"
      },
      {
-      "Id": "862509883",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Enemy_ranged enemy A O E attack cast.wav",
-      "CachePath": "CE/{CE25A237-A5D4-9DCB-5076-353C0B5998F9}.wem"
-     },
-     {
       "Id": "863383401",
       "Language": "SFX",
       "Streaming": "false",
@@ -1004,14 +996,6 @@
       "Location": "Memory",
       "ShortName": "Popcorn_Attack_03.wav",
       "CachePath": "DC/{DC2EFF56-5E10-3301-7846-87F66C9A919C}.wem"
-     },
-     {
-      "Id": "901092673",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Voice Designer, Abbi 124.wav",
-      "CachePath": "04/{04187B28-B2D7-E201-E91C-1B3344A558EA}.wem"
      },
      {
       "Id": "906769287",
@@ -1046,6 +1030,14 @@
       "CachePath": "C8/{C8E07437-2AF4-3C73-AC99-A4C6DAA5CA0B}.wem"
      },
      {
+      "Id": "924189119",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Voice Designer, Abbi 17.wav",
+      "CachePath": "6F/{6FC80B7B-1CA5-C423-2C86-93838104FA1F}.wem"
+     },
+     {
       "Id": "924405913",
       "Language": "SFX",
       "Streaming": "true",
@@ -1053,6 +1045,14 @@
       "ShortName": "String_Fras_1_115_bpm_4_4.wav",
       "Path": "Media/924405913.wem",
       "CachePath": "42/{42B37306-858A-C28E-53C9-2B2D8665E2B4}.wem"
+     },
+     {
+      "Id": "926754824",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_warning_sound.wav",
+      "CachePath": "A3/{A3739F01-0A7E-8C92-64CB-4410635374E9}.wem"
      },
      {
       "Id": "932445624",
@@ -1095,14 +1095,6 @@
       "Location": "Memory",
       "ShortName": "sfx_player_footsteps_flesh_07.wav",
       "CachePath": "8C/{8CFBF7FB-8482-276E-BFA6-ADFBBCE7DD3D}.wem"
-     },
-     {
-      "Id": "963124846",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Voice Designer, Abbi 11.wav",
-      "CachePath": "E9/{E9011A10-B2F4-12E2-0DAD-BDFBB42260EF}.wem"
      },
      {
       "Id": "968378269",
@@ -1189,6 +1181,14 @@
       "CachePath": "4F/{4F911060-DB8F-3BCD-1E1F-661E9FD44961}.wem"
      },
      {
+      "Id": "1043119065",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Voice Designer, Abbi 16.wav",
+      "CachePath": "23/{23825380-DC26-EB4C-6EF9-A6F96BDF4CD8}.wem"
+     },
+     {
       "Id": "1047310084",
       "Language": "SFX",
       "Streaming": "false",
@@ -1219,14 +1219,6 @@
       "Location": "Memory",
       "ShortName": "sfx_walls_rising_02.wav",
       "CachePath": "C5/{C56FFE6B-6ADF-9A14-3D90-468F5AA59C5F}.wem"
-     },
-     {
-      "Id": "1062508675",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Audio\\Soundly Voice Designer, Abbi 121.wav",
-      "CachePath": "59/{59393BA8-2657-1F9E-0A3E-5942E2E132CC}.wem"
      },
      {
       "Id": "1063836670",
@@ -1640,11 +1632,11 @@
       "GUID": "{C4F24378-E52C-4FC3-9073-66879A55C468}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "1.400375",
-      "DurationMax": "1.400375",
+      "DurationMin": "2.434739",
+      "DurationMax": "2.434739",
       "MediaRefs": [
        {
-        "Id": "963124846"
+        "Id": "294735641"
        }
       ]
      },
@@ -1825,7 +1817,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Popcorn\\Play_Enemy_Popcorn_Walk",
       "GUID": "{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}",
       "Color": "2",
-      "MaxAttenuation": "1400",
+      "MaxAttenuation": "1600",
       "DurationType": "OneShot",
       "DurationMin": "0.2045",
       "DurationMax": "0.2563125",
@@ -1851,34 +1843,34 @@
       ]
      },
      {
-      "Id": "4089134270",
-      "Name": "Play_Enemy_Ranged_AOE_Cast",
-      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Ranged\\Play_Enemy_Ranged_AOE_Cast",
+      "Id": "799008763",
+      "Name": "Play_Enemy_Ranged_AOE_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Ranged\\Play_Enemy_Ranged_AOE_Attack",
       "GUID": "{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}",
       "Color": "2",
       "MaxAttenuation": "1400",
       "DurationType": "OneShot",
-      "DurationMin": "2.5735",
-      "DurationMax": "2.5735",
+      "DurationMin": "1.7144375",
+      "DurationMax": "1.7144375",
       "MediaRefs": [
        {
-        "Id": "862509883"
+        "Id": "1043119065"
        }
       ]
      },
      {
-      "Id": "461636554",
-      "Name": "Play_Enemy_Ranged_AOE_Hit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Ranged\\Play_Enemy_Ranged_AOE_Hit",
-      "GUID": "{468F71FA-C049-4C9F-BDA3-BDB752FB8052}",
+      "Id": "3499502665",
+      "Name": "Play_Enemy_Ranged_AOE_Warning",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Ranged\\Play_Enemy_Ranged_AOE_Warning",
+      "GUID": "{5DDA4AAE-4BF2-4842-B366-5DADFAA96371}",
       "Color": "2",
       "MaxAttenuation": "1400",
       "DurationType": "OneShot",
-      "DurationMin": "2.0535",
-      "DurationMax": "2.0535",
+      "DurationMin": "1.7016326",
+      "DurationMax": "1.7016326",
       "MediaRefs": [
        {
-        "Id": "303173632"
+        "Id": "18914104"
        }
       ]
      },
@@ -1964,7 +1956,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Summoner\\Play_Enemy_Summoner_Surface",
       "GUID": "{A795B2E3-9656-4050-AC34-7664B10D0FB9}",
       "Color": "2",
-      "MaxAttenuation": "1400",
+      "MaxAttenuation": "1600",
       "DurationType": "OneShot",
       "DurationMin": "1.973125",
       "DurationMax": "1.973125",
@@ -2414,11 +2406,32 @@
       "Color": "2",
       "MaxAttenuation": "1400",
       "DurationType": "OneShot",
-      "DurationMin": "1.5335",
-      "DurationMax": "1.5335",
+      "DurationMin": "0.6884127",
+      "DurationMax": "0.95174605",
       "MediaRefs": [
        {
-        "Id": "125135763"
+        "Id": "342967764"
+       },
+       {
+        "Id": "433159973"
+       },
+       {
+        "Id": "1023280950"
+       }
+      ]
+     },
+     {
+      "Id": "3979815311",
+      "Name": "Play_Ranged_Enemy_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Ranged\\Play_Ranged_Enemy_Footstep",
+      "GUID": "{8528C41B-5714-4F47-8046-B28C2C336432}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3989375",
+      "DurationMax": "1.3989375",
+      "MediaRefs": [
+       {
+        "Id": "924189119"
        }
       ]
      },
@@ -2444,11 +2457,20 @@
       "GUID": "{E114B73B-B19E-48D6-8859-2811309448FF}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "1.5335",
-      "DurationMax": "1.5335",
+      "DurationMin": "1.4834241",
+      "DurationMax": "1.92161",
       "MediaRefs": [
        {
-        "Id": "901092673"
+        "Id": "260890962"
+       },
+       {
+        "Id": "499847501"
+       },
+       {
+        "Id": "635952008"
+       },
+       {
+        "Id": "1057667397"
        }
       ]
      },
@@ -2483,11 +2505,11 @@
       "GUID": "{9F3CCF50-5428-4DA9-98A8-F3881EC634AD}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "1.5335",
-      "DurationMax": "1.5335",
+      "DurationMin": "1.7016326",
+      "DurationMax": "1.7016326",
       "MediaRefs": [
        {
-        "Id": "1062508675"
+        "Id": "926754824"
        }
       ]
      },
@@ -2779,6 +2801,6 @@
     ]
    }
   ],
-  "FileHash": "{9FA2F603-7DF5-9DB7-0853-5F9DA5AD6783}"
+  "FileHash": "{308CA96A-1160-8B62-054C-DC268DDD919F}"
  }
 }
