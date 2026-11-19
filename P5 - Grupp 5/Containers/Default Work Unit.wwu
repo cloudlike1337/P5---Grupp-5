@@ -1516,7 +1516,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Popcorn_Walk_01" ID="{BEB01E38-B58A-48B9-A7AD-98E43FF78945}" ShortID="255468260">
+														<Sound Name="Popcorn_WalkV2_01" ID="{ED785FCE-DE07-4F84-A736-7D5D0EECEF43}" ShortID="374883474">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1526,19 +1526,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Popcorn_Walk_01" ID="{FD2CF9B2-009D-4400-B3C2-24713E3C2A2D}">
+																<AudioFileSource Name="Popcorn_WalkV2_01" ID="{7ED177B8-FEA0-4E9E-A451-46CE5373703C}">
 																	<Language>SFX</Language>
-																	<AudioFile>Popcorn_Walk_01.wav</AudioFile>
+																	<AudioFile>Popcorn_WalkV2_01.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="216748342"/>
+																		<MediaID ID="518234363"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Popcorn_Walk_01" ID="{FD2CF9B2-009D-4400-B3C2-24713E3C2A2D}" Platform="Linked"/>
+																<ActiveSource Name="Popcorn_WalkV2_01" ID="{7ED177B8-FEA0-4E9E-A451-46CE5373703C}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Popcorn_Walk_02" ID="{561D2FC9-2761-40A0-8530-29A0DFB37064}" ShortID="1061551611">
+														<Sound Name="Popcorn_WalkV2_02" ID="{C79B8431-8F70-4B76-A50D-AD2A2EF71617}" ShortID="410274963">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1548,19 +1548,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Popcorn_Walk_02" ID="{0CE9B986-A8DB-4281-9FE8-E28241A39EA6}">
+																<AudioFileSource Name="Popcorn_WalkV2_02" ID="{3E2C2E6F-E399-44F9-A6D9-5739C55815C5}">
 																	<Language>SFX</Language>
-																	<AudioFile>Popcorn_Walk_02.wav</AudioFile>
+																	<AudioFile>Popcorn_WalkV2_02.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="552675661"/>
+																		<MediaID ID="877279286"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Popcorn_Walk_02" ID="{0CE9B986-A8DB-4281-9FE8-E28241A39EA6}" Platform="Linked"/>
+																<ActiveSource Name="Popcorn_WalkV2_02" ID="{3E2C2E6F-E399-44F9-A6D9-5739C55815C5}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Popcorn_Walk_03" ID="{821DE91E-D2DA-4741-9E38-48C06B84E82B}" ShortID="531779118">
+														<Sound Name="Popcorn_WalkV2_03" ID="{BE04F006-A739-4A35-82B5-BC007636B8C4}" ShortID="783480753">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1570,19 +1570,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Popcorn_Walk_03" ID="{7AE77D1E-F9FA-47CC-8271-6B23AF1CA584}">
+																<AudioFileSource Name="Popcorn_WalkV2_03" ID="{E2A9EA96-EB0C-4254-9A93-D3CEA5F326D4}">
 																	<Language>SFX</Language>
-																	<AudioFile>Popcorn_Walk_03.wav</AudioFile>
+																	<AudioFile>Popcorn_WalkV2_03.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="66436734"/>
+																		<MediaID ID="887490565"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Popcorn_Walk_03" ID="{7AE77D1E-F9FA-47CC-8271-6B23AF1CA584}" Platform="Linked"/>
+																<ActiveSource Name="Popcorn_WalkV2_03" ID="{E2A9EA96-EB0C-4254-9A93-D3CEA5F326D4}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Popcorn_Walk_04" ID="{6F54C84C-27FB-42F1-8496-75D934E4AAE4}" ShortID="100378906">
+														<Sound Name="Popcorn_WalkV2_04" ID="{6FF01EF1-8C42-4CD7-ACF7-597AAABB9E30}" ShortID="799768159">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1592,19 +1592,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Popcorn_Walk_04" ID="{8DF69B68-E95D-45C7-AF0F-BA6C5D5B3427}">
+																<AudioFileSource Name="Popcorn_WalkV2_04" ID="{2F19588C-0948-4ACB-8DF6-70F645B34418}">
 																	<Language>SFX</Language>
-																	<AudioFile>Popcorn_Walk_04.wav</AudioFile>
+																	<AudioFile>Popcorn_WalkV2_04.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="36424771"/>
+																		<MediaID ID="121590885"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Popcorn_Walk_04" ID="{8DF69B68-E95D-45C7-AF0F-BA6C5D5B3427}" Platform="Linked"/>
+																<ActiveSource Name="Popcorn_WalkV2_04" ID="{2F19588C-0948-4ACB-8DF6-70F645B34418}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Popcorn_Walk_05" ID="{BDA2E348-B851-4EAD-B401-0834051C6EF3}" ShortID="793574356">
+														<Sound Name="Popcorn_WalkV2_05" ID="{892F35BF-337E-4C6A-AE10-276967D39017}" ShortID="452345259">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1614,19 +1614,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Popcorn_Walk_05" ID="{E6A89945-A49A-4AA5-89A0-00EC7EE642FE}">
+																<AudioFileSource Name="Popcorn_WalkV2_05" ID="{863844B0-E26F-49F7-87CD-882283197580}">
 																	<Language>SFX</Language>
-																	<AudioFile>Popcorn_Walk_05.wav</AudioFile>
+																	<AudioFile>Popcorn_WalkV2_05.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="1019293332"/>
+																		<MediaID ID="664316527"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Popcorn_Walk_05" ID="{E6A89945-A49A-4AA5-89A0-00EC7EE642FE}" Platform="Linked"/>
+																<ActiveSource Name="Popcorn_WalkV2_05" ID="{863844B0-E26F-49F7-87CD-882283197580}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Popcorn_Walk_06" ID="{8A79918B-3782-4A78-AA07-9BAD10C094E9}" ShortID="903644026">
+														<Sound Name="Popcorn_WalkV2_06" ID="{4F39F0ED-0601-40AC-885B-322954BB1195}" ShortID="813555796">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1636,16 +1636,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Popcorn_Walk_06" ID="{086DA0CC-4B1C-432D-B7EE-535E04A5755E}">
+																<AudioFileSource Name="Popcorn_WalkV2_06" ID="{4ED91217-F60C-42D6-A97C-E6C78CF56C7D}">
 																	<Language>SFX</Language>
-																	<AudioFile>Popcorn_Walk_06.wav</AudioFile>
+																	<AudioFile>Popcorn_WalkV2_06.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="551055221"/>
+																		<MediaID ID="173559746"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Popcorn_Walk_06" ID="{086DA0CC-4B1C-432D-B7EE-535E04A5755E}" Platform="Linked"/>
+																<ActiveSource Name="Popcorn_WalkV2_06" ID="{4ED91217-F60C-42D6-A97C-E6C78CF56C7D}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1865,6 +1865,50 @@
 															</ChildrenList>
 															<ActiveSourceList>
 																<ActiveSource Name="Popcorn_Death_02" ID="{26E00448-79B1-43B6-AE66-33CE7CD1B58A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Death_03" ID="{04284B03-F03F-4A2F-B154-72A178363569}" ShortID="268181423">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Death_03" ID="{8BA5300F-56DE-414F-937D-9759D3CEE786}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Death_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="16752158"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Death_03" ID="{8BA5300F-56DE-414F-937D-9759D3CEE786}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Popcorn_Death_04" ID="{9405E8A5-E8C8-45EB-AA41-0B7C2644E2D8}" ShortID="299686910">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Popcorn_Death_04" ID="{039AC4B0-DBA8-44D5-BBFC-2126C1C03F68}">
+																	<Language>SFX</Language>
+																	<AudioFile>Popcorn_Death_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="965461654"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Popcorn_Death_04" ID="{039AC4B0-DBA8-44D5-BBFC-2126C1C03F68}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -2142,42 +2186,6 @@
 										</Folder>
 										<Folder Name="Ranged" ID="{CC01ED0F-E6BE-4607-9E16-AD522B8C006A}" ShortID="1071743840">
 											<ChildrenList>
-												<Sound Name="SFX_Ranged_Enemy_AOE_Attack" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" ShortID="438904085">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Enemy_Attack_Attenuation" ID="{04445D63-F052-449D-A75D-2B544E2B7E15}" WorkUnitID="{5D4DF0E3-DC5F-45B2-BFB9-0E94BB1EC5E2}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Enemy_ranged enemy A O E attack cast" ID="{D6A6E3C6-59BA-4CBA-8B21-E00AADB648D4}">
-															<Language>SFX</Language>
-															<AudioFile>Enemy_ranged enemy A O E attack cast.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="862509883"/>
-															</MediaIDList>
-														</AudioFileSource>
-														<AudioFileSource Name="Soundly Voice Designer, Abbi 16" ID="{53396BE3-BA2A-42AC-8CB7-FE1BB304D77B}">
-															<Language>SFX</Language>
-															<AudioFile>Soundly Voice Designer, Abbi 16.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1043119065"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Soundly Voice Designer, Abbi 16" ID="{53396BE3-BA2A-42AC-8CB7-FE1BB304D77B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<Sound Name="SFX_Ranged_Enemy_Take_Damage" ID="{078A25CF-8169-4AD6-A2AB-B907E6D74740}" ShortID="761072674">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -2296,7 +2304,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Soundly Voice Designer, Abbi 17" ID="{0E13EDEB-7CE4-4816-9C3D-45FC025938E5}" ShortID="1045818297">
+														<Sound Name="Enemy_Ranged_Walk_01" ID="{E77F9748-AAD5-4CFC-8541-2F319B5A3837}" ShortID="186501578">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -2306,16 +2314,226 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Soundly Voice Designer, Abbi 17" ID="{AD9D79C1-81F6-4221-ACFA-59B464594995}">
+																<AudioFileSource Name="Enemy_Ranged_Walk_01" ID="{C248F9D6-313D-4FAA-AA76-48B40A90074E}">
 																	<Language>SFX</Language>
-																	<AudioFile>Soundly Voice Designer, Abbi 17.wav</AudioFile>
+																	<AudioFile>Enemy_Ranged_Walk_01.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="924189119"/>
+																		<MediaID ID="162339100"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Soundly Voice Designer, Abbi 17" ID="{AD9D79C1-81F6-4221-ACFA-59B464594995}" Platform="Linked"/>
+																<ActiveSource Name="Enemy_Ranged_Walk_01" ID="{C248F9D6-313D-4FAA-AA76-48B40A90074E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Walk_02" ID="{DCF5B605-D241-405B-8652-FA0643F7AAD2}" ShortID="892195005">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Walk_02" ID="{53A118E6-465C-4FC9-9230-36F8CBA6F4CE}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Walk_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1065365955"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Walk_02" ID="{53A118E6-465C-4FC9-9230-36F8CBA6F4CE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Walk_03" ID="{288310F6-9D47-4EEF-AB9B-FC8F2DB70FE0}" ShortID="736537169">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Walk_03" ID="{DF808C0B-4F49-452D-BA74-38EDD3CF3531}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Walk_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="949620612"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Walk_03" ID="{DF808C0B-4F49-452D-BA74-38EDD3CF3531}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Walk_04" ID="{3C8FD318-2A8E-40FC-B29B-50EB562E7970}" ShortID="850204245">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Walk_04" ID="{45E42AFF-A41F-4601-B2A8-B8996BB81DD6}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Walk_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="793808890"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Walk_04" ID="{45E42AFF-A41F-4601-B2A8-B8996BB81DD6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Walk_05" ID="{9F0C8FCF-8572-4FF7-8205-B44C00AD02CF}" ShortID="686640916">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Walk_05" ID="{B1C29E69-CD9A-4806-AFBB-71D1B01F368D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Walk_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="897422003"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Walk_05" ID="{B1C29E69-CD9A-4806-AFBB-71D1B01F368D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_Ranged_Enemy_AOE_Attack" ID="{C0AC2E27-0367-480B-BC91-829D8216B719}" ShortID="822100891">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Enemy_Ranged_Attack_01" ID="{84E0E262-CD56-4779-AF2A-2B5A6805950C}" ShortID="1015706405">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Attack_01" ID="{9A2E4625-3486-4155-A8F0-66F5EBD2BEE5}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Attack_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="849472346"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Attack_01" ID="{9A2E4625-3486-4155-A8F0-66F5EBD2BEE5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Attack_02" ID="{6278E4D4-6880-46A4-9CB6-5FF8D9122027}" ShortID="438913143">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Attack_02" ID="{1E5D0900-993E-4406-99FD-D80CE1B54508}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Attack_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="249502856"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Attack_02" ID="{1E5D0900-993E-4406-99FD-D80CE1B54508}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Attack_03" ID="{D262317D-0A1C-4822-9FDE-F1F2F6796FDF}" ShortID="512513431">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Attack_03" ID="{06AE0B09-70D4-4C4A-A29F-6077FDA3D78B}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Attack_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="700148494"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Attack_03" ID="{06AE0B09-70D4-4C4A-A29F-6077FDA3D78B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Attack_04" ID="{A32CFCA8-33B6-439B-8469-4C2A0FA181AE}" ShortID="97644546">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Attack_04" ID="{497F211C-8036-47F3-B2B3-471CF2032080}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Attack_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="953585317"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Attack_04" ID="{497F211C-8036-47F3-B2B3-471CF2032080}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Attack_05" ID="{0E1952F6-4853-43A1-9751-3DDEC2D630AE}" ShortID="155480513">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Attack_05" ID="{648A4C2A-8BEF-45DA-B8A0-9936C824085A}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Attack_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="55857974"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Attack_05" ID="{648A4C2A-8BEF-45DA-B8A0-9936C824085A}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -6496,28 +6714,6 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSwitchContainer>
-								<Sound Name="Intro_Cutscene" ID="{1D9F6119-F926-47B3-AC25-6DF4E97FD1A7}" ShortID="153213191">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="TGA_3_Intro_Cutscene" ID="{9E82069F-2112-4BA2-9E34-3DCC2702821C}">
-											<Language>SFX</Language>
-											<AudioFile>TGA_3_Intro_Cutscene.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="285235228"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="TGA_3_Intro_Cutscene" ID="{9E82069F-2112-4BA2-9E34-3DCC2702821C}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="End_Title" ID="{99015E27-4063-4274-83BA-BB5A1D709CE6}" ShortID="980063655">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -6540,6 +6736,54 @@
 										<ActiveSource Name="Soundly Voice Designer, Abbi 13" ID="{CFE897C2-2DFD-4920-88B8-4D69F3990EE4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Folder Name="Intro_Cutscene" ID="{16410D75-20D7-44FD-B4CD-D11A6BBD91E4}" ShortID="620342018">
+									<ChildrenList>
+										<Sound Name="Intro_Cutscene" ID="{1D9F6119-F926-47B3-AC25-6DF4E97FD1A7}" ShortID="153213191">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TGA_3_Intro_Cutscene" ID="{9E82069F-2112-4BA2-9E34-3DCC2702821C}">
+													<Language>SFX</Language>
+													<AudioFile>TGA_3_Intro_Cutscene.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="285235228"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TGA_3_Intro_Cutscene" ID="{9E82069F-2112-4BA2-9E34-3DCC2702821C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Intro_Cutscene_SFX" ID="{ACAB9414-26EB-4DCE-9A09-C5516C836F74}" ShortID="969558">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="P5_Cinematic3" ID="{9BA0E748-597A-4195-AB34-F5F3EAF37B20}">
+													<Language>SFX</Language>
+													<AudioFile>P5_Cinematic3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="777956919"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="P5_Cinematic3" ID="{9BA0E748-597A-4195-AB34-F5F3EAF37B20}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
