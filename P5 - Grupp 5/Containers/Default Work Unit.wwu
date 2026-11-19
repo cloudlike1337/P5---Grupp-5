@@ -5011,6 +5011,11 @@
 											</ReferenceList>
 											<ChildrenList>
 												<MusicSegment Name="New Music Segment" ID="{0B906F6A-8FC1-4FDA-B04A-28AB943AC0FE}" ShortID="822352602">
+													<PropertyList>
+														<Property Name="EndPosition" Type="Real64" Value="127811.628400958"/>
+														<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+														<Property Name="Tempo" Type="Real64" Value="84"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -5021,6 +5026,13 @@
 													</ReferenceList>
 													<ChildrenList>
 														<MusicTrack Name="New Music Track" ID="{661E5FC4-768F-47F4-B1B1-786090E12226}" ShortID="457889398">
+															<PropertyList>
+																<Property Name="IsStreamingEnabled" Type="bool">
+																	<ValueList>
+																		<Value>True</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
@@ -5037,11 +5049,11 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Soundly Voice Designer, Abbi 1" ID="{55596627-FB16-40F5-B452-FE951E1E4AA2}">
+																<AudioFileSource Name="P5_Level2_FirstDraft" ID="{3C2230AD-A1EF-4267-8B5B-F5212269E84D}">
 																	<Language>SFX</Language>
-																	<AudioFile>Soundly Voice Designer, Abbi 1.wav</AudioFile>
+																	<AudioFile>P5_Level2_FirstDraft.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="553329837"/>
+																		<MediaID ID="692808300"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
@@ -5050,13 +5062,14 @@
 																	<MusicTrackSequence Name="" ID="{086BFA3E-EF42-4B06-B842-00A84C54FDCD}">
 																		<ObjectLists>
 																			<ObjectList Name="Clips">
-																				<MusicClip Name="Soundly Voice Designer, Abbi 1" ID="{FA9D9F08-7649-450A-B10F-C8665DED7DEA}">
+																				<MusicClip Name="P5_Level2_FirstDraft" ID="{174724CC-144F-4E48-96B9-F5A56258DB0D}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="2053.5"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
-																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="116428.520833333"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="8452.80264922643"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="5635.20176615097"/>
+																						<Property Name="PlayAt" Type="Real64" Value="9917.95510842568"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Soundly Voice Designer, Abbi 1" ID="{55596627-FB16-40F5-B452-FE951E1E4AA2}"/>
+																					<AudioSourceRef Name="P5_Level2_FirstDraft" ID="{3C2230AD-A1EF-4267-8B5B-F5212269E84D}"/>
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
@@ -5067,11 +5080,15 @@
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Cues">
-															<MusicCue Name="Entry Cue" ID="{838E31F6-9F42-4849-B761-A5E424BD08D7}"/>
+															<MusicCue Name="Entry Cue" ID="{838E31F6-9F42-4849-B761-A5E424BD08D7}">
+																<PropertyList>
+																	<Property Name="TimeMs" Type="Real64" Value="18483.4617929751"/>
+																</PropertyList>
+															</MusicCue>
 															<MusicCue Name="Exit Cue" ID="{11809F72-A2EE-43E2-9B37-6E2C3532AF49}">
 																<PropertyList>
 																	<Property Name="CueType" Type="int16" Value="1"/>
-																	<Property Name="TimeMs" Type="Real64" Value="2053.38078291815"/>
+																	<Property Name="TimeMs" Type="Real64" Value="118483.461792975"/>
 																</PropertyList>
 															</MusicCue>
 														</ObjectList>
