@@ -3281,6 +3281,7 @@
 																			</ObjectList>
 																		</ObjectLists>
 																	</MusicTrackSequence>
+																	<MusicTrackSequence Name="" ID="{9221D6BC-8172-40B8-9FCB-0E10D0EB23F1}"/>
 																</ObjectList>
 															</ObjectLists>
 														</MusicTrack>
@@ -3750,11 +3751,17 @@
 																		<Value>True</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="MusicTrackType" Type="int16" Value="1"/>
+																<Property Name="MusicTrackType" Type="int16" Value="3"/>
 															</PropertyList>
 															<ReferenceList>
+																<Reference Name="DefaultSwitchOrState">
+																	<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="SwitchGroupOrStateGroup">
+																	<ObjectRef Name="BossState" ID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
 																</Reference>
 																<Reference Name="TransitionRoot">
 																	<Custom>
@@ -3762,6 +3769,11 @@
 																			<PropertyList>
 																				<Property Name="IsFolder" Type="bool" Value="True"/>
 																			</PropertyList>
+																			<ChildrenList>
+																				<MusicTransition Name="Transition" ID="{157C644F-13E7-41D2-9441-638BE5A41220}">
+																					<TransitionInfo/>
+																				</MusicTransition>
+																			</ChildrenList>
 																			<TransitionInfo/>
 																		</MusicTransition>
 																	</Custom>
@@ -3792,6 +3804,11 @@
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
+																		<ReferenceList>
+																			<Reference Name="TrackSequenceSwitch">
+																				<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																			</Reference>
+																		</ReferenceList>
 																	</MusicTrackSequence>
 																</ObjectList>
 															</ObjectLists>
@@ -4222,6 +4239,15 @@
 																					</PropertyList>
 																					<AudioSourceRef Name="Fras_5_115_bpm_4_4" ID="{9D38052C-3C76-4837-94DF-DC0A0B496DFD}"/>
 																				</MusicClip>
+																				<MusicClip Name="Fras_5_115_bpm_4_4" ID="{40AE8FF2-7D4D-4A63-BEA3-D2B3D730D206}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Fras_5_115_bpm_4_4" ID="{9D38052C-3C76-4837-94DF-DC0A0B496DFD}"/>
+																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
 																	</MusicTrackSequence>
@@ -4406,10 +4432,17 @@
 																		<Value>True</Value>
 																	</ValueList>
 																</Property>
+																<Property Name="MusicTrackType" Type="int16" Value="3"/>
 															</PropertyList>
 															<ReferenceList>
+																<Reference Name="DefaultSwitchOrState">
+																	<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="SwitchGroupOrStateGroup">
+																	<ObjectRef Name="BossState" ID="{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
 																</Reference>
 																<Reference Name="TransitionRoot">
 																	<Custom>
@@ -4417,6 +4450,11 @@
 																			<PropertyList>
 																				<Property Name="IsFolder" Type="bool" Value="True"/>
 																			</PropertyList>
+																			<ChildrenList>
+																				<MusicTransition Name="Transition" ID="{0BDDB12D-2B46-459E-9DC4-E83F407E7CA7}">
+																					<TransitionInfo/>
+																				</MusicTransition>
+																			</ChildrenList>
 																			<TransitionInfo/>
 																		</MusicTransition>
 																	</Custom>
@@ -4447,6 +4485,11 @@
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
+																		<ReferenceList>
+																			<Reference Name="TrackSequenceSwitch">
+																				<ObjectRef Name="Phase_3" ID="{53A078E6-0351-4C21-9CAB-A4660EF6F3EF}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																			</Reference>
+																		</ReferenceList>
 																	</MusicTrackSequence>
 																</ObjectList>
 															</ObjectLists>
