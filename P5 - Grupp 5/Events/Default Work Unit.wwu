@@ -215,7 +215,7 @@
 														<Action Name="" ID="{3EE54FD4-0407-4DD5-9330-F71F82643041}" ShortID="338614389">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Ranged_Enemy_AOE_Attack" ID="{62DEAE0B-7BF4-4DBA-A91E-E8811E8DBF94}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Ranged_Enemy_AOE_Attack" ID="{C0AC2E27-0367-480B-BC91-829D8216B719}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -326,7 +326,7 @@
 														<Action Name="" ID="{516672ED-D59A-429E-A3AF-6823193AA361}" ShortID="451738690">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Melee_Attack" ID="{8D804B4B-263E-479D-9A86-04631C6CA264}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Player_Vine_Ability" ID="{50D7243A-44D0-4BB9-92C3-2B2EFD6AC240}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -737,6 +737,13 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Intro_Cutscene" ID="{1D9F6119-F926-47B3-AC25-6DF4E97FD1A7}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{2CD39E1A-91DD-4F69-9838-EE45EB2BF871}" ShortID="1004030439">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Intro_Cutscene_SFX" ID="{ACAB9414-26EB-4DCE-9A09-C5516C836F74}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

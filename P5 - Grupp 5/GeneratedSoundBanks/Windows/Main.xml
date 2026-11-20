@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{83DC4CDE-3F8A-3B2E-4FAE-ECBBAD9F6E79}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{5BC1D21F-1CC0-FEAD-018B-32B9246E9E8E}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -23,9 +23,13 @@
 					<ShortName>Boss_boss spawning popcorn enemy.wav</ShortName>
 					<CachePath>F4/{F4CBE45A-F653-8648-F80B-98A3A16497D7}.wem</CachePath>
 				</File>
+				<File Id="16752158" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Popcorn_Death_03.wav</ShortName>
+					<CachePath>72/{72BABAAB-FBBE-DF52-A390-459ABE39384C}.wem</CachePath>
+				</File>
 				<File Id="18914104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_warning_sound.wav</ShortName>
-					<CachePath>48/{4892C88C-C2FC-1AA1-EF37-0D7FD0C0EBC5}.wem</CachePath>
+					<CachePath>21/{21C9327E-4DC7-869B-2FFC-23BBDAC65443}.wem</CachePath>
 				</File>
 				<File Id="22085447" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_flesh_03.wav</ShortName>
@@ -39,22 +43,18 @@
 					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 123.wav</ShortName>
 					<CachePath>91/{91167413-1104-CD93-207D-08625C02322C}.wem</CachePath>
 				</File>
-				<File Id="36424771" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Popcorn_Walk_04.wav</ShortName>
-					<CachePath>BD/{BD7AB5E7-E1B4-FF79-3B0D-C2CC82D03877}.wem</CachePath>
-				</File>
 				<File Id="44636632" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Player level up.wav</ShortName>
 					<CachePath>30/{307D7D99-919B-8C27-71F4-134FB147095F}.wem</CachePath>
+				</File>
+				<File Id="55857974" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Attack_05.wav</ShortName>
+					<CachePath>10/{10A257F1-4F73-DB2E-544A-CD8C5B0608C1}.wem</CachePath>
 				</File>
 				<File Id="61264114" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Lvl1_Celli_Sus_Sord.wav</ShortName>
 					<Path>Media/61264114.wem</Path>
 					<CachePath>2B/{2B479A82-ED1F-610F-5E98-AB54DA32DA5A}.wem</CachePath>
-				</File>
-				<File Id="66436734" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Popcorn_Walk_03.wav</ShortName>
-					<CachePath>06/{068B5044-0835-4FF3-6EF8-33619941D36B}.wem</CachePath>
 				</File>
 				<File Id="72616946" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Violin_Fras_3_115_bpm_4_4.wav</ShortName>
@@ -80,6 +80,10 @@
 					<Path>Media/107734003.wem</Path>
 					<CachePath>AB/{AB04BB34-D67E-56A6-3160-530E89436904}.wem</CachePath>
 				</File>
+				<File Id="121590885" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Popcorn_WalkV2_04.wav</ShortName>
+					<CachePath>B5/{B55F6D0C-0C81-72C8-7E13-F5DF040262B2}.wem</CachePath>
+				</File>
 				<File Id="127462967" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Solo_Violin_Full_115_bpm_4_4.wav</ShortName>
 					<Path>Media/127462967.wem</Path>
@@ -98,6 +102,10 @@
 					<ShortName>Summoner_Attack_04.wav</ShortName>
 					<CachePath>23/{23648328-46CA-64EC-09D5-4BCC5ECED856}.wem</CachePath>
 				</File>
+				<File Id="162339100" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Walk_01.wav</ShortName>
+					<CachePath>AB/{AB1EA814-3564-C73B-CBAC-125C1578A7DB}.wem</CachePath>
+				</File>
 				<File Id="169549084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_flesh_04.wav</ShortName>
 					<CachePath>2D/{2D9F765B-8A9D-82E5-FBC0-9F0FECD8B697}.wem</CachePath>
@@ -109,6 +117,10 @@
 				<File Id="171917817" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_take_damage_01.wav</ShortName>
 					<CachePath>75/{75672823-05AB-9345-09E0-00806D071E3D}.wem</CachePath>
+				</File>
+				<File Id="173559746" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Popcorn_WalkV2_06.wav</ShortName>
+					<CachePath>F0/{F0F8551E-1B00-B002-7FD2-5137A56B879A}.wem</CachePath>
 				</File>
 				<File Id="181680646" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Horror_Krar_115_bpm_4_4.wav</ShortName>
@@ -127,10 +139,6 @@
 				<File Id="201041031" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_death.wav</ShortName>
 					<CachePath>B2/{B26F2CF9-6F0E-62F3-E594-5E0A52F04533}.wem</CachePath>
-				</File>
-				<File Id="216748342" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Popcorn_Walk_01.wav</ShortName>
-					<CachePath>67/{674DCE20-950F-E48A-E66A-546423212F75}.wem</CachePath>
 				</File>
 				<File Id="220009200" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_boss changes phase.wav</ShortName>
@@ -152,6 +160,10 @@
 				<File Id="244887224" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Voice Designer, Abbi 14.wav</ShortName>
 					<CachePath>09/{090BC534-DA2E-3A73-48E3-1C5F9A7FE702}.wem</CachePath>
+				</File>
+				<File Id="249502856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Attack_02.wav</ShortName>
+					<CachePath>77/{77E46C9F-1437-87BF-BF95-7DC17DFAFE63}.wem</CachePath>
 				</File>
 				<File Id="252983951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_flesh_08.wav</ShortName>
@@ -180,7 +192,7 @@
 				</File>
 				<File Id="294735641" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_boss_AOE_warning.wav</ShortName>
-					<CachePath>3A/{3A263D34-1692-B5DF-A3DF-9EB784547A4F}.wem</CachePath>
+					<CachePath>E9/{E9DEDD5B-28B6-998C-8AFF-4A73D69D4B30}.wem</CachePath>
 				</File>
 				<File Id="299421971" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Komp_Kaos_Allt_Fas_2_115bpm_4_4.wav</ShortName>
@@ -297,6 +309,10 @@
 					<ShortName>sfx_player_dash_loop.wav</ShortName>
 					<CachePath>9D/{9D872683-EE6C-64E2-001C-A3B116098F92}.wem</CachePath>
 				</File>
+				<File Id="518234363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Popcorn_WalkV2_01.wav</ShortName>
+					<CachePath>AF/{AF2F8012-05F3-3192-4142-88F6D2C64E0F}.wem</CachePath>
+				</File>
 				<File Id="522183298" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_menu_hover.wav</ShortName>
 					<CachePath>85/{85B5DFF2-D954-189E-4119-1DC5B6BA040B}.wem</CachePath>
@@ -321,10 +337,6 @@
 					<Path>Media/549677282.wem</Path>
 					<CachePath>D8/{D821743F-3FA1-CEAB-EA8F-714801C6949E}.wem</CachePath>
 				</File>
-				<File Id="551055221" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Popcorn_Walk_06.wav</ShortName>
-					<CachePath>E3/{E3F9007E-D244-2797-BEEF-4C0F33500287}.wem</CachePath>
-				</File>
 				<File Id="552004172" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Fras_4_115_bpm_4_4.wav</ShortName>
 					<Path>Media/552004172.wem</Path>
@@ -338,14 +350,6 @@
 				<File Id="552210147" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_ranged_ability_01.wav</ShortName>
 					<CachePath>F8/{F85715E9-1521-7947-0B3D-D396D648864A}.wem</CachePath>
-				</File>
-				<File Id="552675661" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Popcorn_Walk_02.wav</ShortName>
-					<CachePath>D3/{D33F3316-E0DC-B7CB-E7AC-6EB9C24601E8}.wem</CachePath>
-				</File>
-				<File Id="553329837" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 1.wav</ShortName>
-					<CachePath>49/{493030B6-4A8E-E671-6610-F4471B9D8B7F}.wem</CachePath>
 				</File>
 				<File Id="554111737" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Summoner_Death.wav</ShortName>
@@ -396,6 +400,10 @@
 					<Path>Media/637886474.wem</Path>
 					<CachePath>41/{41BE823E-F07C-0426-53C3-BB6E014D800A}.wem</CachePath>
 				</File>
+				<File Id="664316527" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Popcorn_WalkV2_05.wav</ShortName>
+					<CachePath>D9/{D93A76F0-64F3-820B-ECC3-6FF93C211AC6}.wem</CachePath>
+				</File>
 				<File Id="668678037" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Attack_06.wav</ShortName>
 					<CachePath>6A/{6A30E798-97C8-361C-388A-5A07005BF090}.wem</CachePath>
@@ -424,9 +432,18 @@
 					<Path>Media/692343264.wem</Path>
 					<CachePath>F4/{F414E2C9-21CA-1F67-FC8F-BB81F244C5D7}.wem</CachePath>
 				</File>
+				<File Id="692808300" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>P5_Level2_FirstDraft.wav</ShortName>
+					<Path>Media/692808300.wem</Path>
+					<CachePath>8C/{8C3C1EB9-522F-7F67-1CD5-88D14D411228}.wem</CachePath>
+				</File>
 				<File Id="696222301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_heal_01.wav</ShortName>
 					<CachePath>03/{038CC214-BF33-E080-393D-919A5AA6A60D}.wem</CachePath>
+				</File>
+				<File Id="700148494" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Attack_03.wav</ShortName>
+					<CachePath>4B/{4B46307E-405C-A8F5-39BD-990E13251390}.wem</CachePath>
 				</File>
 				<File Id="705176322" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Bassoon_Fras_2_115_bpm_4_4.wav</ShortName>
@@ -451,6 +468,10 @@
 					<Path>Media/752030728.wem</Path>
 					<CachePath>EA/{EA4BDC54-A821-03D0-DB86-1A76E3603337}.wem</CachePath>
 				</File>
+				<File Id="777956919" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>P5_Cinematic3.wav</ShortName>
+					<CachePath>EB/{EB86B6A9-5443-322E-F4D9-CC75AF6C75D4}.wem</CachePath>
+				</File>
 				<File Id="784528339" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Brass_Swells_115_bpm_4_4.wav</ShortName>
 					<Path>Media/784528339.wem</Path>
@@ -459,6 +480,10 @@
 				<File Id="793785320" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Voice Designer, Abbi 10.wav</ShortName>
 					<CachePath>5F/{5F77AA33-14C7-5134-7A45-0260380100B3}.wem</CachePath>
+				</File>
+				<File Id="793808890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Walk_04.wav</ShortName>
+					<CachePath>5F/{5F4BABFD-86D8-1F6B-A9BF-213DA1308008}.wem</CachePath>
 				</File>
 				<File Id="804639612" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Bassoon_Fras_1_115_bpm_4_4.wav</ShortName>
@@ -487,6 +512,10 @@
 					<ShortName>sfx_player_footsteps_flesh_01.wav</ShortName>
 					<CachePath>24/{24656389-D4E3-A5A3-C434-5745DC5B27E4}.wem</CachePath>
 				</File>
+				<File Id="849472346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Attack_01.wav</ShortName>
+					<CachePath>93/{93A1BE56-FE50-C698-91EC-9572240ED099}.wem</CachePath>
+				</File>
 				<File Id="850935243" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 114.wav</ShortName>
 					<CachePath>D3/{D3042007-B264-0003-D7DF-F212D4EF1D98}.wem</CachePath>
@@ -507,14 +536,26 @@
 					<ShortName>sfx_footsteps_grass_05.wav</ShortName>
 					<CachePath>A2/{A2517AD6-9CCB-D935-3983-6A9837C41F75}.wem</CachePath>
 				</File>
+				<File Id="877279286" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Popcorn_WalkV2_02.wav</ShortName>
+					<CachePath>D4/{D4085D59-2871-4E25-1661-D4C2BB2E4494}.wem</CachePath>
+				</File>
 				<File Id="880962808" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Lvl1_Steam_Release.wav</ShortName>
 					<Path>Media/880962808.wem</Path>
 					<CachePath>7F/{7FDA38AB-1185-707A-40A7-546FB8DF1F0C}.wem</CachePath>
 				</File>
+				<File Id="887490565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Popcorn_WalkV2_03.wav</ShortName>
+					<CachePath>DD/{DD25E697-96F0-F0CA-2C38-E0F0E9A3A512}.wem</CachePath>
+				</File>
 				<File Id="894360804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_01.wav</ShortName>
 					<CachePath>A0/{A04C3750-CDFC-B6AE-6ECD-52B2CE2F9642}.wem</CachePath>
+				</File>
+				<File Id="897422003" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Walk_05.wav</ShortName>
+					<CachePath>DC/{DC7502FA-31D6-D98C-1760-317B9F9DFE1A}.wem</CachePath>
 				</File>
 				<File Id="898166704" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Attack_03.wav</ShortName>
@@ -536,10 +577,6 @@
 					<ShortName>sfx_player_footsteps_flesh_06.wav</ShortName>
 					<CachePath>C8/{C8E07437-2AF4-3C73-AC99-A4C6DAA5CA0B}.wem</CachePath>
 				</File>
-				<File Id="924189119" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 17.wav</ShortName>
-					<CachePath>6F/{6FC80B7B-1CA5-C423-2C86-93838104FA1F}.wem</CachePath>
-				</File>
 				<File Id="924405913" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>String_Fras_1_115_bpm_4_4.wav</ShortName>
 					<Path>Media/924405913.wem</Path>
@@ -547,7 +584,7 @@
 				</File>
 				<File Id="926754824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_warning_sound.wav</ShortName>
-					<CachePath>A3/{A3739F01-0A7E-8C92-64CB-4410635374E9}.wem</CachePath>
+					<CachePath>0A/{0A82718F-C31A-4E5F-F935-39BC46A13418}.wem</CachePath>
 				</File>
 				<File Id="932445624" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 126.wav</ShortName>
@@ -563,6 +600,14 @@
 					<Path>Media/937596068.wem</Path>
 					<CachePath>3F/{3FE7466B-D4E4-3098-AD33-F375C0E3BE49}.wem</CachePath>
 				</File>
+				<File Id="949620612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Walk_03.wav</ShortName>
+					<CachePath>34/{341E022D-449B-2C06-6B5F-9D40D69EBB86}.wem</CachePath>
+				</File>
+				<File Id="953585317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Attack_04.wav</ShortName>
+					<CachePath>1B/{1B440A4C-8829-970C-FF36-5DCE1AFCAFDF}.wem</CachePath>
+				</File>
 				<File Id="955339130" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_04.wav</ShortName>
 					<CachePath>B1/{B1E336D9-7866-4744-5950-9B0539E17AB4}.wem</CachePath>
@@ -570,6 +615,10 @@
 				<File Id="955783935" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_flesh_07.wav</ShortName>
 					<CachePath>8C/{8CFBF7FB-8482-276E-BFA6-ADFBBCE7DD3D}.wem</CachePath>
+				</File>
+				<File Id="965461654" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Popcorn_Death_04.wav</ShortName>
+					<CachePath>0B/{0BA3E00E-5FE6-0957-25FE-284EB3D08CF8}.wem</CachePath>
 				</File>
 				<File Id="968378269" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Eric_Solo_1_115_bpm_4_4.wav</ShortName>
@@ -597,10 +646,6 @@
 					<ShortName>sfx_player_take_damage_02.wav</ShortName>
 					<CachePath>23/{237558BD-CDE1-CA89-1E39-80595FB09BD6}.wem</CachePath>
 				</File>
-				<File Id="1019293332" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Popcorn_Walk_05.wav</ShortName>
-					<CachePath>93/{933B4499-2C8D-C8A1-0C7C-653467AD2941}.wem</CachePath>
-				</File>
 				<File Id="1023280950" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_melee_attack_01.wav</ShortName>
 					<CachePath>6C/{6C10CED0-A825-49AC-8C2B-0455B417303A}.wem</CachePath>
@@ -614,10 +659,6 @@
 					<ShortName>Lvl1_Synth_Pad_Melody.wav</ShortName>
 					<Path>Media/1035406516.wem</Path>
 					<CachePath>4F/{4F911060-DB8F-3BCD-1E1F-661E9FD44961}.wem</CachePath>
-				</File>
-				<File Id="1043119065" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 16.wav</ShortName>
-					<CachePath>23/{23825380-DC26-EB4C-6EF9-A6F96BDF4CD8}.wem</CachePath>
 				</File>
 				<File Id="1047310084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_menu_back.wav</ShortName>
@@ -638,6 +679,10 @@
 				<File Id="1063836670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_take_damage_03.wav</ShortName>
 					<CachePath>E1/{E1A5E58D-A156-D229-09FF-7D26939746B4}.wem</CachePath>
+				</File>
+				<File Id="1065365955" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Ranged_Walk_02.wav</ShortName>
+					<CachePath>DC/{DC6C3A9A-6EC5-D0A1-63BC-9B788BA85338}.wem</CachePath>
 				</File>
 				<File Id="1070351173" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Summoner_Attack_03.wav</ShortName>
@@ -758,7 +803,7 @@
 										<SwitchContainer>
 											<SwitchValue GroupType="Switch" GroupId="1255199230" Id="0" GUID="{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"/>
 											<MediaRefs>
-												<MediaRef Id="553329837"/>
+												<MediaRef Id="692808300"/>
 											</MediaRefs>
 										</SwitchContainer>
 									</Children>
@@ -843,10 +888,12 @@
 						<MediaRef Id="1000892860"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1966043283" Name="Play_Enemy_Popcorn_Death" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Death" GUID="{85BDFD62-418B-4491-95FC-05622C98CC20}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.48472917" DurationMax="0.61820835">
+				<Event Id="1966043283" Name="Play_Enemy_Popcorn_Death" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Death" GUID="{85BDFD62-418B-4491-95FC-05622C98CC20}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.22554167" DurationMax="0.61820835">
 					<MediaRefs>
+						<MediaRef Id="16752158"/>
 						<MediaRef Id="339896044"/>
 						<MediaRef Id="820046013"/>
+						<MediaRef Id="965461654"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4214071090" Name="Play_Enemy_Popcorn_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Take_Damage" GUID="{A652FE6D-C807-4590-A9C5-A6C257FA01F9}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.27528346" DurationMax="0.27528346">
@@ -854,22 +901,26 @@
 						<MediaRef Id="280601004"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3453525588" Name="Play_Enemy_Popcorn_Walk" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk" GUID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" Color="2" MaxAttenuation="1600" DurationType="OneShot" DurationMin="0.2045" DurationMax="0.2563125">
+				<Event Id="3453525588" Name="Play_Enemy_Popcorn_Walk" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk" GUID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" Color="2" MaxAttenuation="1600" DurationType="OneShot" DurationMin="0.21666667" DurationMax="0.25670832">
 					<MediaRefs>
-						<MediaRef Id="36424771"/>
-						<MediaRef Id="66436734"/>
-						<MediaRef Id="216748342"/>
-						<MediaRef Id="551055221"/>
-						<MediaRef Id="552675661"/>
-						<MediaRef Id="1019293332"/>
+						<MediaRef Id="121590885"/>
+						<MediaRef Id="173559746"/>
+						<MediaRef Id="518234363"/>
+						<MediaRef Id="664316527"/>
+						<MediaRef Id="877279286"/>
+						<MediaRef Id="887490565"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="799008763" Name="Play_Enemy_Ranged_AOE_Attack" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Attack" GUID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.7144375" DurationMax="1.7144375">
+				<Event Id="799008763" Name="Play_Enemy_Ranged_AOE_Attack" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Attack" GUID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}" Color="2" DurationType="OneShot" DurationMin="1.0179583" DurationMax="1.3931458">
 					<MediaRefs>
-						<MediaRef Id="1043119065"/>
+						<MediaRef Id="55857974"/>
+						<MediaRef Id="249502856"/>
+						<MediaRef Id="700148494"/>
+						<MediaRef Id="849472346"/>
+						<MediaRef Id="953585317"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3499502665" Name="Play_Enemy_Ranged_AOE_Warning" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Warning" GUID="{5DDA4AAE-4BF2-4842-B366-5DADFAA96371}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.7016326" DurationMax="1.7016326">
+				<Event Id="3499502665" Name="Play_Enemy_Ranged_AOE_Warning" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Warning" GUID="{5DDA4AAE-4BF2-4842-B366-5DADFAA96371}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="1.445034" DurationMax="1.445034">
 					<MediaRefs>
 						<MediaRef Id="18914104"/>
 					</MediaRefs>
@@ -911,6 +962,7 @@
 				<Event Id="1049578131" Name="Play_Intro_Cutscene" ObjectPath="\Events\Default Work Unit\Audio\Music\Play_Intro_Cutscene" GUID="{BFBA1E68-76CE-46CB-8BAC-3E85D0488541}" Color="10" DurationType="OneShot" DurationMin="18.262167" DurationMax="18.262167">
 					<MediaRefs>
 						<MediaRef Id="285235228"/>
+						<MediaRef Id="777956919"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2264668508" Name="Play_Invalid_Action" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Invalid_Action" GUID="{602E564B-9E27-4014-A205-9B884A5DB57B}" Color="2" DurationType="OneShot" DurationMin="0.22648527" DurationMax="0.22648527">
@@ -1059,9 +1111,13 @@
 						<MediaRef Id="1023280950"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3979815311" Name="Play_Ranged_Enemy_Footstep" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Ranged_Enemy_Footstep" GUID="{8528C41B-5714-4F47-8046-B28C2C336432}" Color="2" DurationType="OneShot" DurationMin="1.3989375" DurationMax="1.3989375">
+				<Event Id="3979815311" Name="Play_Ranged_Enemy_Footstep" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Ranged_Enemy_Footstep" GUID="{8528C41B-5714-4F47-8046-B28C2C336432}" Color="2" DurationType="OneShot" DurationMin="0.949875" DurationMax="1.1065209">
 					<MediaRefs>
-						<MediaRef Id="924189119"/>
+						<MediaRef Id="162339100"/>
+						<MediaRef Id="793808890"/>
+						<MediaRef Id="897422003"/>
+						<MediaRef Id="949620612"/>
+						<MediaRef Id="1065365955"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3294915283" Name="Play_Start_Game" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Start_Game" GUID="{C3FE03DC-2193-483C-ACBD-D2F1A7BDAEFD}" Color="2" DurationType="OneShot" DurationMin="0.6397959" DurationMax="0.6397959">
@@ -1085,7 +1141,7 @@
 						<MediaRef Id="1057667397"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1297509074" Name="Play_Warning_Sound" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Warning_Sound" GUID="{9F3CCF50-5428-4DA9-98A8-F3881EC634AD}" Color="2" DurationType="OneShot" DurationMin="1.7016326" DurationMax="1.7016326">
+				<Event Id="1297509074" Name="Play_Warning_Sound" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Warning_Sound" GUID="{9F3CCF50-5428-4DA9-98A8-F3881EC634AD}" Color="2" DurationType="OneShot" DurationMin="1.445034" DurationMax="1.445034">
 					<MediaRefs>
 						<MediaRef Id="926754824"/>
 					</MediaRefs>
@@ -1163,5 +1219,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{57FFF747-B3C0-3025-9ED6-36AF6D16EA91}</FileHash>
+	<FileHash>{81F75BCA-E175-181C-5643-13E06FFDE6C0}</FileHash>
 </SoundBanksInfo>
