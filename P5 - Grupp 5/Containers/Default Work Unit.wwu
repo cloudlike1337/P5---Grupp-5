@@ -1158,7 +1158,7 @@
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>5</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -1191,7 +1191,7 @@
 																		<MediaID ID="832159461"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{772DEAAF-F38C-4799-958E-ECF1E65A0487}">
+																<AudioFileSource Name="sfx_player_melee_attack_02" ID="{772DEAAF-F38C-4799-958E-ECF1E65A0487}">
 																	<PropertyList>
 																		<Property Name="LoopBegin" Type="Real64" Value="0.07319"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
@@ -1205,7 +1205,7 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_01" ID="{772DEAAF-F38C-4799-958E-ECF1E65A0487}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_02" ID="{772DEAAF-F38C-4799-958E-ECF1E65A0487}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_02" ID="{708F5D59-DECC-4912-BE8F-FB1E0A3B295E}" ShortID="535389446">
@@ -1225,7 +1225,7 @@
 																		<MediaID ID="260636728"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_02" ID="{A32D7D3E-BA20-4E6F-85D9-CB8451123C53}">
+																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{A32D7D3E-BA20-4E6F-85D9-CB8451123C53}">
 																	<Language>SFX</Language>
 																	<AudioFile>sfx_player_melee_attack_02.wav</AudioFile>
 																	<MediaIDList>
@@ -1234,7 +1234,7 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_02" ID="{A32D7D3E-BA20-4E6F-85D9-CB8451123C53}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_01" ID="{A32D7D3E-BA20-4E6F-85D9-CB8451123C53}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_03" ID="{676A105B-6BF2-458C-931D-67B52D8A0D53}" ShortID="324689333">
@@ -1254,7 +1254,7 @@
 																		<MediaID ID="744219377"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_03" ID="{0A124B3A-8A38-4B3D-8287-D745D87517A6}">
+																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{0A124B3A-8A38-4B3D-8287-D745D87517A6}">
 																	<PropertyList>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																		<Property Name="TrimBegin" Type="Real64" Value="0.04784"/>
@@ -1267,7 +1267,7 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_03" ID="{0A124B3A-8A38-4B3D-8287-D745D87517A6}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_01" ID="{0A124B3A-8A38-4B3D-8287-D745D87517A6}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_04" ID="{3FC7693E-EEFD-4690-8C17-33A27A31AA64}" ShortID="497438977">
@@ -1287,7 +1287,7 @@
 																		<MediaID ID="1059448540"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_04" ID="{359594A7-3AFA-4D74-8157-4690DBE5F898}">
+																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{359594A7-3AFA-4D74-8157-4690DBE5F898}">
 																	<Language>SFX</Language>
 																	<AudioFile>sfx_player_melee_attack_04.wav</AudioFile>
 																	<MediaIDList>
@@ -1296,7 +1296,7 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_04" ID="{359594A7-3AFA-4D74-8157-4690DBE5F898}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_01" ID="{359594A7-3AFA-4D74-8157-4690DBE5F898}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_05" ID="{831D41F4-36B4-4014-8016-384BC45730D3}" ShortID="360310639">
@@ -1316,7 +1316,7 @@
 																		<MediaID ID="830268901"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_05" ID="{5C7AB108-8DC4-4029-B0D1-F959444417E1}">
+																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{5C7AB108-8DC4-4029-B0D1-F959444417E1}">
 																	<Language>SFX</Language>
 																	<AudioFile>sfx_player_melee_attack_05.wav</AudioFile>
 																	<MediaIDList>
@@ -1325,7 +1325,7 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_05" ID="{5C7AB108-8DC4-4029-B0D1-F959444417E1}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_01" ID="{5C7AB108-8DC4-4029-B0D1-F959444417E1}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_06" ID="{1A39F47B-8A06-439C-929E-29E40B0AEE47}" ShortID="1070860533">
@@ -1345,7 +1345,7 @@
 																		<MediaID ID="594902861"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_06" ID="{4FC91968-4631-42FA-863A-9202D0A56F9D}">
+																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{4FC91968-4631-42FA-863A-9202D0A56F9D}">
 																	<PropertyList>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																		<Property Name="TrimBegin" Type="Real64" Value="0.01125"/>
@@ -1358,7 +1358,7 @@
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_06" ID="{4FC91968-4631-42FA-863A-9202D0A56F9D}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_01" ID="{4FC91968-4631-42FA-863A-9202D0A56F9D}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -2988,7 +2988,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="AMB_Bus" ID="{268EEB34-EC0F-452E-A22D-473B6B39A14D}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
