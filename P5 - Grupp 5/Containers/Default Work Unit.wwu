@@ -943,34 +943,6 @@
 														<ActiveSource Name="Player_Player pickup heal fruit" ID="{0E1EFD95-B389-4DDF-88F2-BF746C43F2AE}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Player_Use_Ultimate" ID="{FEF76BF3-3A39-4B8A-8FF9-76F2D1DF47F7}" ShortID="290528770">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Player_Attack_Impact_Attenuation" ID="{9393125D-A0A1-4BB6-8B34-44D600B36488}" WorkUnitID="{5D4DF0E3-DC5F-45B2-BFB9-0E94BB1EC5E2}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Player_Bus" ID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Player_Player ultimate abillity" ID="{0B5CEC26-4F38-4697-BBD0-A8A1E3B85336}">
-															<Language>SFX</Language>
-															<AudioFile>Player_Player ultimate abillity.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="977666229"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Player_Player ultimate abillity" ID="{0B5CEC26-4F38-4697-BBD0-A8A1E3B85336}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<RandomSequenceContainer Name="SFX_Player_Heal" ID="{535F077F-ED97-4DF5-B581-154C7339D065}" ShortID="546835835">
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -1186,7 +1158,7 @@
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>5</Value>
+																<Value>-3</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -1202,7 +1174,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Soundly Voice Designer, Abbi 19" ID="{5CB2B67B-BFA6-4E67-85AF-1898218DF949}" ShortID="1016557696">
+														<Sound Name="sfx_player_melee_attack_01" ID="{E70EF23A-E83C-4771-A6C9-8B96627C44AD}" ShortID="742475703">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -1212,16 +1184,181 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Soundly Voice Designer, Abbi 19" ID="{A56D6B23-C59C-4307-9AC8-D52BCBA30416}">
+																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{663FD0B8-81E2-4FF2-BF02-00FBFB388CC2}">
 																	<Language>SFX</Language>
-																	<AudioFile>Soundly Voice Designer, Abbi 19.wav</AudioFile>
+																	<AudioFile>sfx_player_melee_attack_01.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="655366419"/>
+																		<MediaID ID="832159461"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{772DEAAF-F38C-4799-958E-ECF1E65A0487}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.07319"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.07319"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="215861476"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Soundly Voice Designer, Abbi 19" ID="{A56D6B23-C59C-4307-9AC8-D52BCBA30416}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_01" ID="{772DEAAF-F38C-4799-958E-ECF1E65A0487}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_melee_attack_02" ID="{708F5D59-DECC-4912-BE8F-FB1E0A3B295E}" ShortID="535389446">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_melee_attack_02" ID="{4385685A-B0A5-4768-91FB-ED3D8BCC50C7}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="260636728"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="sfx_player_melee_attack_02" ID="{A32D7D3E-BA20-4E6F-85D9-CB8451123C53}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="260636728"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_melee_attack_02" ID="{A32D7D3E-BA20-4E6F-85D9-CB8451123C53}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_melee_attack_03" ID="{676A105B-6BF2-458C-931D-67B52D8A0D53}" ShortID="324689333">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_melee_attack_03" ID="{FC3DBEE9-57EF-4D63-8AC8-5B8D0CA6B0A6}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="744219377"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="sfx_player_melee_attack_03" ID="{0A124B3A-8A38-4B3D-8287-D745D87517A6}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.04784"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="68353981"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_melee_attack_03" ID="{0A124B3A-8A38-4B3D-8287-D745D87517A6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_melee_attack_04" ID="{3FC7693E-EEFD-4690-8C17-33A27A31AA64}" ShortID="497438977">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_melee_attack_04" ID="{8EC8AE97-4966-4CB9-93EB-F2CEB55A46E5}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1059448540"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="sfx_player_melee_attack_04" ID="{359594A7-3AFA-4D74-8157-4690DBE5F898}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1059448540"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_melee_attack_04" ID="{359594A7-3AFA-4D74-8157-4690DBE5F898}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_melee_attack_05" ID="{831D41F4-36B4-4014-8016-384BC45730D3}" ShortID="360310639">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_melee_attack_05" ID="{3483789A-12C0-4090-90D9-74ECD3526284}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="830268901"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="sfx_player_melee_attack_05" ID="{5C7AB108-8DC4-4029-B0D1-F959444417E1}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="830268901"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_melee_attack_05" ID="{5C7AB108-8DC4-4029-B0D1-F959444417E1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_melee_attack_06" ID="{1A39F47B-8A06-439C-929E-29E40B0AEE47}" ShortID="1070860533">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_melee_attack_06" ID="{D5705AA8-A769-4D75-B539-8E2B3818EE09}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="594902861"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="sfx_player_melee_attack_06" ID="{4FC91968-4631-42FA-863A-9202D0A56F9D}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.01125"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_melee_attack_06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="382213229"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_melee_attack_06" ID="{4FC91968-4631-42FA-863A-9202D0A56F9D}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1417,62 +1554,6 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="SFX_Player_Use_Vine" ID="{7220D313-815F-49CF-A82B-D5EBB597AFBC}" ShortID="247455446">
-															<PropertyList>
-																<Property Name="3DSpatialization" Type="int16" Value="2"/>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Attenuation">
-																	<ObjectRef Name="Player_Attack_Impact_Attenuation" ID="{9393125D-A0A1-4BB6-8B34-44D600B36488}" WorkUnitID="{5D4DF0E3-DC5F-45B2-BFB9-0E94BB1EC5E2}"/>
-																</Reference>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Player_Bus" ID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Player_Player vine abillity" ID="{4A99AF89-D5C4-4747-B917-6F13A5133C8B}">
-																	<Language>SFX</Language>
-																	<AudioFile>Player_Player vine abillity.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="125135763"/>
-																	</MediaIDList>
-																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_vine_ability_01" ID="{A953DA2C-8348-4817-B88B-EBCDCF7D181D}">
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_vine_ability_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="330506489"/>
-																	</MediaIDList>
-																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_vine_ability_02" ID="{353C2429-5318-488E-92FE-081BB879E99C}">
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_vine_ability_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="781835202"/>
-																	</MediaIDList>
-																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_vine_ability_03" ID="{20CD73DD-D224-49D2-8E1E-2CE3B02C4B89}">
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_vine_ability_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="269731886"/>
-																	</MediaIDList>
-																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_vine_abillity_04" ID="{D2578CFD-6EBD-47A4-A0EA-5CED087AE4EF}">
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_vine_abillity_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="870633071"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_vine_abillity_04" ID="{D2578CFD-6EBD-47A4-A0EA-5CED087AE4EF}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
 														<Sound Name="sfx_player_vine_ability_01" ID="{EAD1109F-796A-4932-A8AC-3E169A71DBC0}" ShortID="396487037">
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -1559,6 +1640,62 @@
 															</ChildrenList>
 															<ActiveSourceList>
 																<ActiveSource Name="sfx_player_vine_abillity_04" ID="{15225030-8237-4A66-88CE-6C3B7B4C7B13}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_Player_Use_Ultimate" ID="{2AD3403C-7F48-47DA-96D2-02FA3E63939B}" ShortID="993469375">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="sfx_player_ultimate_ability_01" ID="{F4BE9805-77CF-438C-8B98-EFC5B13D2D7C}" ShortID="883635292">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_ultimate_ability_01" ID="{5395BE68-4BDB-4A2B-9BBB-371EF70AB39E}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_ultimate_ability_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="482818576"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_ultimate_ability_01" ID="{5395BE68-4BDB-4A2B-9BBB-371EF70AB39E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_player_ultimate_ability_02" ID="{8AF20E50-27EC-4E98-AAA1-9B0BEFF0A7BF}" ShortID="388227222">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_player_ultimate_ability_02" ID="{EB7746F3-0A3E-4DFE-A777-A17CDF7984B1}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_ultimate_ability_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="846441222"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_player_ultimate_ability_02" ID="{EB7746F3-0A3E-4DFE-A777-A17CDF7984B1}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>

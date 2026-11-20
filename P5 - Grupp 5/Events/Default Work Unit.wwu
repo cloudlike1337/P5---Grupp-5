@@ -370,7 +370,7 @@
 														<Action Name="" ID="{B0ECF150-0E21-4BDC-ACCF-AE6CD7DDE686}" ShortID="865933844">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Player_Use_Ultimate" ID="{FEF76BF3-3A39-4B8A-8FF9-76F2D1DF47F7}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Player_Use_Ultimate" ID="{2AD3403C-7F48-47DA-96D2-02FA3E63939B}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
