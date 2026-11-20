@@ -212,6 +212,7 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	193162057	Harp	.cache\C7\{C77770B6-5774-9787-9578-C8101D19A00F}.wem	193162057.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Harp	
 	220032456	Eric_Solo	.cache\90\{90E6124F-504A-5D32-56FB-1B861120DF50}.wem	220032456.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Eric_Solo	
 	264384307	Komp	.cache\FF\{FFC3FE72-10B6-AD58-A570-3CA76151D669}.wem	264384307.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Komp	
+	291216082	Temp_Phases	.cache\01\{018A77A3-0C82-CB22-B85F-B8CFD7B9C609}.wem	291216082.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_2\Level_2\Temp_Phases	
 	299421971	Komp	.cache\E4\{E4BBA4CC-5B1D-D076-F0FE-D76B81E4902F}.wem	299421971.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Komp	
 	385395353	Lvl1_Bass_Drum 34	.cache\80\{80012C73-C57B-4375-F894-19B58BD3CE24}.wem	385395353.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Bass_Drum 34	
 	395798576	Lvl1_Flute_Pad	.cache\4F\{4F2B0F87-A112-ECF0-1D2B-734967476485}.wem	395798576.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Flute_Pad	
@@ -238,8 +239,8 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	685112412	Lvl1_Shaker	.cache\8B\{8B141A93-C306-0D62-CE0D-B9052A5C7013}.wem	685112412.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Shaker	
 	686397880	Electric Guitar - Dra	.cache\2B\{2BEA46F9-B5C4-66B5-9EB4-8A348570DACF}.wem	686397880.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Electric Guitar - Dra	
 	692343264	Lvl1_Harp_Ostinato	.cache\8D\{8D846AC8-E61A-C132-AF8E-9037E50DDE02}.wem	692343264.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Harp_Ostinato	
-	692808300	New Music Track	.cache\F7\{F7ED4703-C116-9750-8282-2F8B9483352A}.wem	692808300.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_2\New Music Segment\New Music Track	
 	705176322	Bassoon	.cache\48\{48ABB9EC-017C-B21A-97AA-ACF8A5E90110}.wem	705176322.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Bassoon	
+	708001750	Temp_Phases	.cache\D2\{D23B472E-FA8F-5058-5319-5803ACCAFDEB}.wem	708001750.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_2\Level_2\Temp_Phases	
 	708076404	Violin Phrases	.cache\7C\{7C80A0AA-9183-55C8-C324-3E15DC3E284B}.wem	708076404.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Violin Phrases	
 	752030728	Horror_Cymbals	.cache\4F\{4FE1B701-3AE8-C07B-A925-F2952E24F1A5}.wem	752030728.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Horror_Cymbals	
 	784528339	Brass_Swells	.cache\1F\{1FF0D6C6-F333-5828-97A0-E4BEE6547A75}.wem	784528339.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Brass_Swells	
@@ -247,6 +248,7 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	817066489	Choir Lead	.cache\C9\{C90ABF7B-0499-1E4B-8655-79FF5DA7F9A9}.wem	817066489.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Choir Lead	
 	818765956	Phrases	.cache\66\{66150FB8-2905-477B-B949-7526E5103F79}.wem	818765956.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Phrases	
 	880962808	Lvl1_Steam_Release	.cache\04\{04EF80D5-9C21-4DD1-4EAD-0517C1573E99}.wem	880962808.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Steam_Release	
+	894117681	Temp_Phases	.cache\E2\{E25E07EC-0C11-20D8-F864-4259933FFC88}.wem	894117681.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_2\Level_2\Temp_Phases	
 	924405913	String Phrase 1	.cache\37\{37A64670-3F21-5FF2-00B1-9A30ABA62D15}.wem	924405913.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\String Phrase 1	
 	933204981	Violin Phrases	.cache\78\{7895B645-B358-E79D-D958-7307CC1E645C}.wem	933204981.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Violin Phrases	
 	937596068	Komp	.cache\67\{67E028A6-BB73-363B-2B2F-2CA468ED51B5}.wem	937596068.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss\Boss_Segment\Komp	

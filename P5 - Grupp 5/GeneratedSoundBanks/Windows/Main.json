@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{244EAF31-796A-7C1F-1B27-77FA10D49949}",
+    "Hash": "{1359789A-E502-FCC3-1F18-D55F370F594B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -394,6 +394,15 @@
       "Location": "Memory",
       "ShortName": "TGA_3_Intro_Cutscene.wav",
       "CachePath": "84/{84338C89-63E0-27D5-EB11-07B865955D37}.wem"
+     },
+     {
+      "Id": "291216082",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "music_level_2_phase_1.wav",
+      "Path": "Media/291216082.wem",
+      "CachePath": "01/{018A77A3-0C82-CB22-B85F-B8CFD7B9C609}.wem"
      },
      {
       "Id": "294414217",
@@ -870,15 +879,6 @@
       "CachePath": "8D/{8D846AC8-E61A-C132-AF8E-9037E50DDE02}.wem"
      },
      {
-      "Id": "692808300",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "P5_Level2_FirstDraft.wav",
-      "Path": "Media/692808300.wem",
-      "CachePath": "F7/{F7ED4703-C116-9750-8282-2F8B9483352A}.wem"
-     },
-     {
       "Id": "696222301",
       "Language": "SFX",
       "Streaming": "false",
@@ -902,6 +902,15 @@
       "ShortName": "Bassoon_Fras_2_115_bpm_4_4.wav",
       "Path": "Media/705176322.wem",
       "CachePath": "48/{48ABB9EC-017C-B21A-97AA-ACF8A5E90110}.wem"
+     },
+     {
+      "Id": "708001750",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "music_level_2_phase_2.wav",
+      "Path": "Media/708001750.wem",
+      "CachePath": "D2/{D23B472E-FA8F-5058-5319-5803ACCAFDEB}.wem"
      },
      {
       "Id": "708076404",
@@ -1125,6 +1134,15 @@
       "Location": "Memory",
       "ShortName": "Popcorn_WalkV2_03.wav",
       "CachePath": "8A/{8AC11491-18C6-6F0E-F07D-063BDDCEDCA7}.wem"
+     },
+     {
+      "Id": "894117681",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "music_level_2_phase_3.wav",
+      "Path": "Media/894117681.wem",
+      "CachePath": "E2/{E25E07EC-0C11-20D8-F864-4259933FFC88}.wem"
      },
      {
       "Id": "894360804",
@@ -1681,7 +1699,13 @@
             },
             "MediaRefs": [
              {
-              "Id": "692808300"
+              "Id": "291216082"
+             },
+             {
+              "Id": "708001750"
+             },
+             {
+              "Id": "894117681"
              }
             ]
            }
@@ -2999,6 +3023,6 @@
     ]
    }
   ],
-  "FileHash": "{F1766FCC-B1E9-62D7-93C2-77101AFF7CAE}"
+  "FileHash": "{3E3D9E58-CC6E-06BC-B07B-32312CC58B6C}"
  }
 }
