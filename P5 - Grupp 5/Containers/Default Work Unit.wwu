@@ -3046,7 +3046,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<Sound Name="Boss_VO_01" ID="{DE97874C-6644-44A5-9057-52B6E621CD1E}" ShortID="517873037">
+														<Sound Name="Boss_VO_2_01" ID="{AB3255BF-FE40-4831-830E-903208AC35BE}" ShortID="314985813">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -3056,19 +3056,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Boss_VO_01" ID="{BD57BAD5-69D6-4D2D-8AF6-D4FEA60BB47F}">
+																<AudioFileSource Name="Boss_VO_2_01" ID="{B0C825D2-6BDC-49F0-A484-B0719112C3BB}">
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_VO_01.wav</AudioFile>
+																	<AudioFile>Boss_VO_2_01.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="642625959"/>
+																		<MediaID ID="337088715"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Boss_VO_01" ID="{BD57BAD5-69D6-4D2D-8AF6-D4FEA60BB47F}" Platform="Linked"/>
+																<ActiveSource Name="Boss_VO_2_01" ID="{B0C825D2-6BDC-49F0-A484-B0719112C3BB}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Boss_VO_02" ID="{039D8DFE-7B5C-4272-8A80-656A7A919299}" ShortID="645804803">
+														<Sound Name="Boss_VO_2_02" ID="{ADF23ADF-4197-4723-9F2A-DD51CE49A54A}" ShortID="1018004455">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -3078,19 +3078,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Boss_VO_02" ID="{C1C76BA4-BF90-482D-8549-695258B5CF6D}">
+																<AudioFileSource Name="Boss_VO_2_02" ID="{5C6CAD57-0F63-49F4-8630-AC7888AE9698}">
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_VO_02.wav</AudioFile>
+																	<AudioFile>Boss_VO_2_02.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="119741178"/>
+																		<MediaID ID="134170183"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Boss_VO_02" ID="{C1C76BA4-BF90-482D-8549-695258B5CF6D}" Platform="Linked"/>
+																<ActiveSource Name="Boss_VO_2_02" ID="{5C6CAD57-0F63-49F4-8630-AC7888AE9698}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Boss_VO_03" ID="{9E63B6BB-632E-4B3E-BE91-9A6E804E00BA}" ShortID="370930159">
+														<Sound Name="Boss_VO_2_03" ID="{D92E1EFF-CA2B-400D-9DBC-ED3FAB40B0BE}" ShortID="902291798">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -3100,19 +3100,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Boss_VO_03" ID="{8268FDB0-6B52-438E-A8BF-C7A37A623AB2}">
+																<AudioFileSource Name="Boss_VO_2_03" ID="{5827C1BA-DC0E-41A3-A2AC-AFB66ECA79E4}">
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_VO_03.wav</AudioFile>
+																	<AudioFile>Boss_VO_2_03.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="333917795"/>
+																		<MediaID ID="142199530"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Boss_VO_03" ID="{8268FDB0-6B52-438E-A8BF-C7A37A623AB2}" Platform="Linked"/>
+																<ActiveSource Name="Boss_VO_2_03" ID="{5827C1BA-DC0E-41A3-A2AC-AFB66ECA79E4}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Boss_VO_04" ID="{14ACB862-67DE-4FD0-8A14-60247D1C474D}" ShortID="988821024">
+														<Sound Name="Boss_VO_2_04" ID="{9AFC627F-4A3A-4BC3-91D6-7B5C9D0F842B}" ShortID="102565265">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -3122,19 +3122,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Boss_VO_04" ID="{A0D48541-BAA6-4EB9-9832-54CB9F54543A}">
+																<AudioFileSource Name="Boss_VO_2_04" ID="{34433180-4D14-48E7-9421-704E4764041A}">
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_VO_04.wav</AudioFile>
+																	<AudioFile>Boss_VO_2_04.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="618842476"/>
+																		<MediaID ID="575091567"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Boss_VO_04" ID="{A0D48541-BAA6-4EB9-9832-54CB9F54543A}" Platform="Linked"/>
+																<ActiveSource Name="Boss_VO_2_04" ID="{34433180-4D14-48E7-9421-704E4764041A}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Boss_VO_05" ID="{76297B65-DC11-46EC-8EAC-C0BF59AD3712}" ShortID="20734875">
+														<Sound Name="Boss_VO_2_05" ID="{1F57985E-3D25-4135-B3C0-DAF65F48673D}" ShortID="350745272">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -3144,19 +3144,19 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Boss_VO_05" ID="{8590E490-351B-4B71-9017-6AD8B61D2269}">
+																<AudioFileSource Name="Boss_VO_2_05" ID="{D069B9B2-DE61-4964-A268-130BD5657670}">
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_VO_05.wav</AudioFile>
+																	<AudioFile>Boss_VO_2_05.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="105074723"/>
+																		<MediaID ID="79956619"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Boss_VO_05" ID="{8590E490-351B-4B71-9017-6AD8B61D2269}" Platform="Linked"/>
+																<ActiveSource Name="Boss_VO_2_05" ID="{D069B9B2-DE61-4964-A268-130BD5657670}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Boss_VO_06" ID="{4A7CB45A-9B0C-4B43-BD82-3D47EEFF34D6}" ShortID="29627941">
+														<Sound Name="Boss_VO_2_06" ID="{A5A69652-DA60-41BD-B913-53D5EC5355DE}" ShortID="211253616">
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -3166,16 +3166,16 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="Boss_VO_06" ID="{E300DC07-2C51-48AB-9773-BBEFC6232AE3}">
+																<AudioFileSource Name="Boss_VO_2_06" ID="{211112AA-D286-4C87-8C0C-FB1A2A4C4C88}">
 																	<Language>SFX</Language>
-																	<AudioFile>Boss_VO_06.wav</AudioFile>
+																	<AudioFile>Boss_VO_2_06.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="972751303"/>
+																		<MediaID ID="187459551"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="Boss_VO_06" ID="{E300DC07-2C51-48AB-9773-BBEFC6232AE3}" Platform="Linked"/>
+																<ActiveSource Name="Boss_VO_2_06" ID="{211112AA-D286-4C87-8C0C-FB1A2A4C4C88}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
