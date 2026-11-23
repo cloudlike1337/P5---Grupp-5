@@ -37,10 +37,10 @@
 										</Event>
 										<Event Name="Play_Boss_Scream" ID="{DDDC8314-BB32-46B3-AF9E-FFCA65A5C0D0}">
 											<ChildrenList>
-												<Action Name="" ID="{D3CF53AE-B751-4E2D-8E9A-2EFAC342AD05}" ShortID="270845663">
+												<Action Name="" ID="{B8AB7E1F-FC45-4110-AAAA-4EADE7C742F5}" ShortID="679607749">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Boss_Death_Scream" ID="{5E071078-D5D7-421C-9BAC-B738AAE8467C}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Boss_Scream" ID="{D052D5C0-7A87-487C-A431-941F44053AC7}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -226,7 +226,7 @@
 														<Action Name="" ID="{0791DA7A-21D0-40CF-9095-FC5793B250C6}" ShortID="758362727">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Ranged_Enemy_Death" ID="{17B6C3D8-3ED7-4CC5-BEAF-D7AC58CED8C6}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Ranged_Enemy_Deatha" ID="{17B6C3D8-3ED7-4CC5-BEAF-D7AC58CED8C6}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>

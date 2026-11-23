@@ -2499,35 +2499,6 @@
 														<ActiveSource Name="sfx_warning_sound" ID="{FA2593C8-0AF3-4757-9DE1-78AD0FDF0E23}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Ranged_Enemy_Death" ID="{17B6C3D8-3ED7-4CC5-BEAF-D7AC58CED8C6}" ShortID="520209259">
-													<PropertyList>
-														<Property Name="3DSpatialization" Type="int16" Value="2"/>
-														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Attenuation">
-															<ObjectRef Name="Enemy_Death_Attenuation" ID="{5FB561B0-4ECB-450E-AB78-3E0BF8AB6FC5}" WorkUnitID="{5D4DF0E3-DC5F-45B2-BFB9-0E94BB1EC5E2}"/>
-														</Reference>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Environment_Bus" ID="{01E07A53-C8C2-4A9C-8105-AC61D8B09359}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Soundly Voice Designer, Abbi 126" ID="{3550C774-08D3-4384-967B-5B05762357B6}">
-															<Language>SFX</Language>
-															<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 126.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="932445624"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Soundly Voice Designer, Abbi 126" ID="{3550C774-08D3-4384-967B-5B05762357B6}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<RandomSequenceContainer Name="SFX_Ranged_Enemy_Footstep" ID="{0B03011C-D4B4-47AD-BCA4-3B61119F14F1}" ShortID="909998710">
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2772,6 +2743,106 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_Ranged_Enemy_Death" ID="{F719DFFA-F8BA-47B6-BBC3-A5DDB75010F2}" ShortID="85227463">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Enemy_Ranged_Death01" ID="{DAF28273-EBF5-4D93-86FA-57D5384898BE}" ShortID="166900099">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Death01" ID="{C3E0D6A4-3D1E-4AC0-8859-6EA30294B5A3}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Death01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="592143505"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Death01" ID="{C3E0D6A4-3D1E-4AC0-8859-6EA30294B5A3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Death02" ID="{BFA640ED-9AE0-40B0-B968-C2FC904AFC05}" ShortID="475296070">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Death02" ID="{24378695-3070-4FAA-8A10-5E3C277B05E9}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Death02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="891185432"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Death02" ID="{24378695-3070-4FAA-8A10-5E3C277B05E9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Death03" ID="{1B88DA90-A612-49C7-9A45-02A748D29D2F}" ShortID="111552150">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Death03" ID="{7F4F9461-A980-4A59-A3CE-9D33FB46F354}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Death03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="711413363"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Death03" ID="{7F4F9461-A980-4A59-A3CE-9D33FB46F354}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Enemy_Ranged_Death04" ID="{58AE04A2-D5B1-40AD-B83C-9E3DFA8EBBD1}" ShortID="1001061256">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Enemy_Ranged_Death04" ID="{3B809090-5F03-4346-98BE-09BB8F036E1D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Enemy_Ranged_Death04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="521627699"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Enemy_Ranged_Death04" ID="{3B809090-5F03-4346-98BE-09BB8F036E1D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 										<Folder Name="Boss" ID="{FC65DE1C-4660-4DC1-BEA2-4C599C3D96C2}" ShortID="416355436">
@@ -2930,6 +3001,150 @@
 														<ActiveSource Name="Soundly Voice Designer, Abbi 14" ID="{7574FE8E-A482-4030-866B-749119AEB751}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<RandomSequenceContainer Name="SFX_Boss_Scream" ID="{D052D5C0-7A87-487C-A431-941F44053AC7}" ShortID="194402149">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Boss_VO_01" ID="{DE97874C-6644-44A5-9057-52B6E621CD1E}" ShortID="517873037">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_VO_01" ID="{BD57BAD5-69D6-4D2D-8AF6-D4FEA60BB47F}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_VO_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="642625959"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_VO_01" ID="{BD57BAD5-69D6-4D2D-8AF6-D4FEA60BB47F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Boss_VO_02" ID="{039D8DFE-7B5C-4272-8A80-656A7A919299}" ShortID="645804803">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_VO_02" ID="{C1C76BA4-BF90-482D-8549-695258B5CF6D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_VO_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="119741178"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_VO_02" ID="{C1C76BA4-BF90-482D-8549-695258B5CF6D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Boss_VO_03" ID="{9E63B6BB-632E-4B3E-BE91-9A6E804E00BA}" ShortID="370930159">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_VO_03" ID="{8268FDB0-6B52-438E-A8BF-C7A37A623AB2}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_VO_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="333917795"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_VO_03" ID="{8268FDB0-6B52-438E-A8BF-C7A37A623AB2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Boss_VO_04" ID="{14ACB862-67DE-4FD0-8A14-60247D1C474D}" ShortID="988821024">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_VO_04" ID="{A0D48541-BAA6-4EB9-9832-54CB9F54543A}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_VO_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="618842476"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_VO_04" ID="{A0D48541-BAA6-4EB9-9832-54CB9F54543A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Boss_VO_05" ID="{76297B65-DC11-46EC-8EAC-C0BF59AD3712}" ShortID="20734875">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_VO_05" ID="{8590E490-351B-4B71-9017-6AD8B61D2269}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_VO_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="105074723"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_VO_05" ID="{8590E490-351B-4B71-9017-6AD8B61D2269}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Boss_VO_06" ID="{4A7CB45A-9B0C-4B43-BD82-3D47EEFF34D6}" ShortID="29627941">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_VO_06" ID="{E300DC07-2C51-48AB-9773-BBEFC6232AE3}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_VO_06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="972751303"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_VO_06" ID="{E300DC07-2C51-48AB-9773-BBEFC6232AE3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 									</ChildrenList>
