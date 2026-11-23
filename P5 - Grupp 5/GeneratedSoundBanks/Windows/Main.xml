@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{E506B102-5DF6-D29D-6A7E-010E775ED91A}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{3191A5A4-1AF4-7ACE-AA25-00567CEEA893}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -313,7 +313,7 @@
 				</File>
 				<File Id="482818576" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_ultimate_ability_01.wav</ShortName>
-					<CachePath>3E/{3E8FA92D-474B-80EE-4C7E-E1F9C60BF26E}.wem</CachePath>
+					<CachePath>5E/{5E6FEA8A-854F-97E6-7303-080AFAA92529}.wem</CachePath>
 				</File>
 				<File Id="484300380" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Brass_Leads_115_bpm_4_4.wav</ShortName>
@@ -599,7 +599,7 @@
 				</File>
 				<File Id="846441222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_ultimate_ability_02.wav</ShortName>
-					<CachePath>B3/{B335CC00-F2C3-3758-6F21-CA5CA7B27AAA}.wem</CachePath>
+					<CachePath>47/{473A06CF-D188-A14F-DFDE-7A33F2A226B6}.wem</CachePath>
 				</File>
 				<File Id="849472346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Ranged_Attack_01.wav</ShortName>
@@ -1251,7 +1251,7 @@
 						<MediaRef Id="1063836670"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2301239065" Name="Play_Player_Use_Ultimate" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Use_Ultimate" GUID="{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}" Color="2" DurationType="OneShot" DurationMin="1.9302948" DurationMax="1.9302948">
+				<Event Id="2301239065" Name="Play_Player_Use_Ultimate" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Use_Ultimate" GUID="{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}" Color="2" DurationType="OneShot" DurationMin="1.9302917" DurationMax="1.9302917">
 					<MediaRefs>
 						<MediaRef Id="482818576"/>
 						<MediaRef Id="846441222"/>
@@ -1384,5 +1384,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B1485F6C-C58D-1E05-7E8F-9BB27AE0EE48}</FileHash>
+	<FileHash>{56D20957-72F2-C042-602E-C713B45A7537}</FileHash>
 </SoundBanksInfo>

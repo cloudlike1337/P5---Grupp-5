@@ -1648,9 +1648,16 @@
 																		<MediaID ID="482818576"/>
 																	</MediaIDList>
 																</AudioFileSource>
+																<AudioFileSource Name="sfx_player_ultimate_ability_01" ID="{0DBF481F-1A94-4724-9C12-4FCFCA2F5E3F}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_ultimate_ability_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="482818576"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_ultimate_ability_01" ID="{5395BE68-4BDB-4A2B-9BBB-371EF70AB39E}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_ultimate_ability_01" ID="{0DBF481F-1A94-4724-9C12-4FCFCA2F5E3F}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_ultimate_ability_02" ID="{8AF20E50-27EC-4E98-AAA1-9B0BEFF0A7BF}" ShortID="388227222">
@@ -1670,9 +1677,16 @@
 																		<MediaID ID="846441222"/>
 																	</MediaIDList>
 																</AudioFileSource>
+																<AudioFileSource Name="sfx_player_ultimate_ability_02" ID="{C21E3884-C447-4E43-B7D1-DF3B7C776224}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_player_ultimate_ability_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="846441222"/>
+																	</MediaIDList>
+																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_ultimate_ability_02" ID="{EB7746F3-0A3E-4DFE-A777-A17CDF7984B1}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_ultimate_ability_02" ID="{C21E3884-C447-4E43-B7D1-DF3B7C776224}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>

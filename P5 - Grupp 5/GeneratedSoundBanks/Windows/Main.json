@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{E506B102-5DF6-D29D-6A7E-010E775ED91A}",
+    "Hash": "{3191A5A4-1AF4-7ACE-AA25-00567CEEA893}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -610,7 +610,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_player_ultimate_ability_01.wav",
-      "CachePath": "3E/{3E8FA92D-474B-80EE-4C7E-E1F9C60BF26E}.wem"
+      "CachePath": "5E/{5E6FEA8A-854F-97E6-7303-080AFAA92529}.wem"
      },
      {
       "Id": "484300380",
@@ -1156,7 +1156,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_player_ultimate_ability_02.wav",
-      "CachePath": "B3/{B335CC00-F2C3-3758-6F21-CA5CA7B27AAA}.wem"
+      "CachePath": "47/{473A06CF-D188-A14F-DFDE-7A33F2A226B6}.wem"
      },
      {
       "Id": "849472346",
@@ -2844,8 +2844,8 @@
       "GUID": "{59B0FC71-B96F-4C00-BB15-4AFFAACA4FAF}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "1.9302948",
-      "DurationMax": "1.9302948",
+      "DurationMin": "1.9302917",
+      "DurationMax": "1.9302917",
       "MediaRefs": [
        {
         "Id": "482818576"
@@ -3313,6 +3313,6 @@
     ]
    }
   ],
-  "FileHash": "{CF3B6EFE-4FD1-61F6-8F37-B417E416573E}"
+  "FileHash": "{484514F3-29D7-7B2C-5C05-012BC3CC5A99}"
  }
 }

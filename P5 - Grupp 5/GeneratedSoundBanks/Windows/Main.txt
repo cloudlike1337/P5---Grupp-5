@@ -143,7 +143,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	412198939	SFX_Ambience_Level_1	.cache\89\{89FE4F2E-08C2-3B02-DF43-73F15813B1CE}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\SFX_Ambience_Level_1		715659
 	445265876	SFX_Ability_Unlocked	.cache\D8\{D8DC5A1B-747E-7955-AEF7-5F5CCEC3A52B}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Ability_Unlocked		26953
 	454996688	sfx_footsteps_grass_06	.cache\58\{587833C7-4EB9-C74C-D9C4-678E8CAAC289}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_06		4920
-	482818576	sfx_player_ultimate_ability_01	.cache\3E\{3E8FA92D-474B-80EE-4C7E-E1F9C60BF26E}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Use_Ultimate\sfx_player_ultimate_ability_01		21468
+	482818576	sfx_player_ultimate_ability_01	.cache\5E\{5E6FEA8A-854F-97E6-7303-080AFAA92529}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Use_Ultimate\sfx_player_ultimate_ability_01		23554
 	491416357	SFX_Start_Game	.cache\E4\{E4377127-60A4-1213-228C-45854F58E3E4}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Start_Game		8117
 	495955527	SFX_Player_Dash_Intro	.cache\C8\{C8985FA6-5FBB-9987-A7BD-86C790DAD676}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Dash\SFX_Player_Dash_Intro		4850
 	499847501	sfx_walls_rising_03	.cache\D4\{D4B4E0C1-FBF8-96E4-B2EE-25460F6DB475}.wem		\Containers\Default Work Unit\Audio\SFX\Environment\SFX_Walls_Lowering\sfx_walls_rising_03		29320
@@ -182,7 +182,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	830268901	sfx_player_melee_attack_05	.cache\0E\{0E7B8D51-3A9B-3761-A598-D14A55936C49}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Melee_Attack\sfx_player_melee_attack_05		4113
 	831047972	sfx_player_heal_02	.cache\FA\{FA7B087B-935E-74E8-9C31-68352AE151C0}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Heal\sfx_player_heal_02		19688
 	843318209	sfx_player_footsteps_flesh_01	.cache\03\{03E34AB3-8E11-2453-E921-F6E3AC3AF89A}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Flesh\sfx_player_footsteps_flesh_01		5210
-	846441222	sfx_player_ultimate_ability_02	.cache\B3\{B335CC00-F2C3-3758-6F21-CA5CA7B27AAA}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Use_Ultimate\sfx_player_ultimate_ability_02		20697
+	846441222	sfx_player_ultimate_ability_02	.cache\47\{473A06CF-D188-A14F-DFDE-7A33F2A226B6}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Use_Ultimate\sfx_player_ultimate_ability_02		21491
 	849472346	Enemy_Ranged_Attack_01	.cache\AA\{AAEA7E04-3DFE-07FF-91C3-C98F599D53B4}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_AOE_Attack\Enemy_Ranged_Attack_01		12728
 	850935243	SFX_Ambience_Level_2	.cache\78\{784AE547-7C1F-B331-19BD-2BF815A474F2}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\SFX_Ambience_Level_2		19346
 	855724915	sfx_player_cleave_ability_03	.cache\3F\{3F8A3CD0-9290-6CB4-745A-719B1F1E4103}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Cleave_Ability\sfx_player_cleave_ability_03		13106
