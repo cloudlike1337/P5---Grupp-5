@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{77B4353E-073A-8B25-54F4-E972B0F6875C}",
+    "Hash": "{F20D6A44-8719-E8A1-C440-2F0FBED0DBDF}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -705,14 +705,6 @@
       "CachePath": "14/{146DD9BD-A813-71BE-4799-2BCE1A537D8B}.wem"
      },
      {
-      "Id": "535972617",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Voice Designer, Abbi 22.wav",
-      "CachePath": "E0/{E04D172A-00ED-237C-D428-E0385BCD5AFC}.wem"
-     },
-     {
       "Id": "537618569",
       "Language": "SFX",
       "Streaming": "true",
@@ -838,7 +830,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_LevelUp.wav",
-      "CachePath": "DE/{DEE523FA-E5EB-9DC0-C270-A2B11DF25CAF}.wem"
+      "CachePath": "80/{803658B8-DD1F-E354-DA85-B821BF6FF36D}.wem"
      },
      {
       "Id": "614794952",
@@ -1320,6 +1312,14 @@
       "Location": "Memory",
       "ShortName": "sfx_warning_sound.wav",
       "CachePath": "2E/{2EC4DF4C-B38D-4C99-F164-5BB0651FFFAF}.wem"
+     },
+     {
+      "Id": "927526906",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Torch Burning_Loop.wav",
+      "CachePath": "6F/{6FE4BF2D-107B-C771-2A18-96885E4F6921}.wem"
      },
      {
       "Id": "933204981",
@@ -2738,8 +2738,8 @@
       "GUID": "{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "5.379854",
-      "DurationMax": "5.379854",
+      "DurationMin": "7.608667",
+      "DurationMax": "7.608667",
       "MediaRefs": [
        {
         "Id": "611567304"
@@ -2927,12 +2927,11 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Environment\\Play_Torch_Burning_Loop",
       "GUID": "{2B2138A3-B481-4AF0-8A43-902FC360F035}",
       "Color": "2",
-      "DurationType": "OneShot",
-      "DurationMin": "0.8414375",
-      "DurationMax": "0.8414375",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "535972617"
+        "Id": "927526906"
        }
       ]
      },
@@ -3313,6 +3312,6 @@
     ]
    }
   ],
-  "FileHash": "{31751270-8BA8-89D8-67A3-E30F99B6255B}"
+  "FileHash": "{9771C637-56DE-8EA0-6306-420D606C5351}"
  }
 }

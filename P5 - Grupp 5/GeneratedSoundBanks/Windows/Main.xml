@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{77B4353E-073A-8B25-54F4-E972B0F6875C}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{F20D6A44-8719-E8A1-C440-2F0FBED0DBDF}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -363,10 +363,6 @@
 					<Path>Media/529358614.wem</Path>
 					<CachePath>14/{146DD9BD-A813-71BE-4799-2BCE1A537D8B}.wem</CachePath>
 				</File>
-				<File Id="535972617" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Soundly Voice Designer, Abbi 22.wav</ShortName>
-					<CachePath>E0/{E04D172A-00ED-237C-D428-E0385BCD5AFC}.wem</CachePath>
-				</File>
 				<File Id="537618569" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Cello_Fras_3_115_bpm_4_4.wav</ShortName>
 					<Path>Media/537618569.wem</Path>
@@ -433,7 +429,7 @@
 				</File>
 				<File Id="611567304" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Player_LevelUp.wav</ShortName>
-					<CachePath>DE/{DEE523FA-E5EB-9DC0-C270-A2B11DF25CAF}.wem</CachePath>
+					<CachePath>80/{803658B8-DD1F-E354-DA85-B821BF6FF36D}.wem</CachePath>
 				</File>
 				<File Id="614794952" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Attack_05.wav</ShortName>
@@ -683,6 +679,10 @@
 				<File Id="926754824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_warning_sound.wav</ShortName>
 					<CachePath>2E/{2EC4DF4C-B38D-4C99-F164-5BB0651FFFAF}.wem</CachePath>
+				</File>
+				<File Id="927526906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Torch Burning_Loop.wav</ShortName>
+					<CachePath>6F/{6FE4BF2D-107B-C771-2A18-96885E4F6921}.wem</CachePath>
 				</File>
 				<File Id="933204981" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Violin_Fras_1_115_bpm_4_4.wav</ShortName>
@@ -1216,7 +1216,7 @@
 						<MediaRef Id="722936638"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1161564153" Name="Play_Player_LevelUp" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_LevelUp" GUID="{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}" Color="2" DurationType="OneShot" DurationMin="5.379854" DurationMax="5.379854">
+				<Event Id="1161564153" Name="Play_Player_LevelUp" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_LevelUp" GUID="{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}" Color="2" DurationType="OneShot" DurationMin="7.608667" DurationMax="7.608667">
 					<MediaRefs>
 						<MediaRef Id="611567304"/>
 					</MediaRefs>
@@ -1279,9 +1279,9 @@
 						<MediaRef Id="491416357"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="679959529" Name="Play_Torch_Burning_Loop" ObjectPath="\Events\Default Work Unit\Audio\SFX\Environment\Play_Torch_Burning_Loop" GUID="{2B2138A3-B481-4AF0-8A43-902FC360F035}" Color="2" DurationType="OneShot" DurationMin="0.8414375" DurationMax="0.8414375">
+				<Event Id="679959529" Name="Play_Torch_Burning_Loop" ObjectPath="\Events\Default Work Unit\Audio\SFX\Environment\Play_Torch_Burning_Loop" GUID="{2B2138A3-B481-4AF0-8A43-902FC360F035}" Color="2" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="535972617"/>
+						<MediaRef Id="927526906"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4145597129" Name="Play_Walls_Lowering" ObjectPath="\Events\Default Work Unit\Audio\SFX\Environment\Play_Walls_Lowering" GUID="{E114B73B-B19E-48D6-8859-2811309448FF}" Color="2" DurationType="OneShot" DurationMin="1.4834241" DurationMax="1.92161">
@@ -1384,5 +1384,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{94C22EF2-9C29-F412-2E7F-D0BEFD58BDFE}</FileHash>
+	<FileHash>{34CC1C0E-5848-8363-075B-C5BF93D7A8E2}</FileHash>
 </SoundBanksInfo>
