@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{066D1DFB-7117-E9E4-A7CB-4B20DE688AC7}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{352D9484-739A-0D8B-BF21-C686E7073579}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="3164629247" Name="Holy" ObjectPath="\Effects\Factory Effects\RoomVerb\Cathedrals\Holy" GUID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="3701691487" Name="Hall_Large_Bright" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large_Bright" GUID="{CB602948-2D1D-4977-A8D5-378184293E80}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
 				<AudioDevices>
@@ -33,10 +34,17 @@
 				</Bus>
 				<Bus Id="2246998526" Name="Main Audio Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Color="4"/>
 				<Bus Id="2680856269" Name="Music_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Music_Bus" GUID="{5E49B1A1-CEE3-4513-815D-D638D6D9580F}" Color="10"/>
-				<Bus Id="3247222208" Name="UI_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\UI_Bus" GUID="{99820C0E-0255-4B3E-8134-2332B41B8E3B}" Color="4"/>
+				<Bus Id="3247222208" Name="UI_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\UI_Bus" GUID="{86F6C2EF-C9B6-4CCE-A4EC-C2C4955A7D68}" Color="26"/>
 				<Bus Id="3319158528" Name="AMB_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\AMB_Bus" GUID="{268EEB34-EC0F-452E-A22D-473B6B39A14D}" Color="19"/>
 			</Busses>
 			<AuxBusses>
+				<AuxBus Id="1416253857" Name="Boss_Reverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Boss_Reverb" GUID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" Color="4">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3164629247"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 				<AuxBus Id="1492744757" Name="World_Reverb_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\World_Reverb_Bus" GUID="{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}" Color="4">
 					<PluginRefs>
 						<ShareSets>
@@ -68,6 +76,7 @@
 						<State Id="1290008369" Name="Level_1" ObjectPath="\States\Default Work Unit\MusicState\Level_1" GUID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
 						<State Id="1290008370" Name="Level_2" ObjectPath="\States\Default Work Unit\MusicState\Level_2" GUID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
 						<State Id="1560169506" Name="Boss" ObjectPath="\States\Default Work Unit\MusicState\Boss" GUID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
+						<State Id="1902328555" Name="Boss_Defeated" ObjectPath="\States\Default Work Unit\MusicState\Boss_Defeated" GUID="{652DF225-BEE0-4B27-98A5-53BC3A407323}"/>
 						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\MusicState\MainMenu" GUID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
 					</States>
 				</StateGroup>
@@ -233,5 +242,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{73627BB2-5CEC-F527-0109-12DBBB6FE49F}</FileHash>
+	<FileHash>{3B5320E6-C852-184E-352B-D351EC324F16}</FileHash>
 </SoundBanksInfo>

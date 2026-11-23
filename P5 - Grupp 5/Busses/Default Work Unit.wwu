@@ -257,7 +257,82 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
-						<Bus Name="UI_Bus" ID="{99820C0E-0255-4B3E-8134-2332B41B8E3B}"/>
+						<Bus Name="UI_Bus" ID="{86F6C2EF-C9B6-4CCE-A4EC-C2C4955A7D68}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}"/>
+										<StateGroupInfo Name="" ID="{1BEBEF90-FCCA-46D4-B325-586CA8DE1C45}" ShortID="491637730"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
+										<CustomState Name="" ID="{C5D8F324-6AE8-4F6A-ACD6-5F1920FB3E0F}" ShortID="665768531"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+										<CustomState Name="" ID="{4F9C591F-9896-4E22-B4F7-2228960AE220}" ShortID="478707391"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"/>
+										<CustomState Name="" ID="{73B2B1C4-B664-42CA-A347-F0403B79A94E}" ShortID="193762526"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{C32B81AC-D6C0-4F4A-BB79-62FDBB324A54}" ShortID="666429296">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Music_Volume" ID="{12D330C0-D9F2-4B58-957C-293464504C04}" WorkUnitID="{0850BDF9-7D5F-481A-8A9E-1650E171BC1D}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{04ED4010-9624-43F6-82F1-AD28681FC8D2}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<AuxBus Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{5A47681C-F76E-45BA-83BE-8BAB81C252E2}" ShortID="752682238">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+												<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>

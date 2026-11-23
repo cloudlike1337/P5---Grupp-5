@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{57B99E1E-C516-7B24-2342-BA26EF924F00}",
+    "Hash": "{DE3D356B-9531-F8EB-7D37-49F420930A61}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -119,7 +119,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_player_melee_attack_03.wav",
-      "CachePath": "7B/{7BE46608-13FF-42DA-B231-345140402B39}.wem"
+      "CachePath": "15/{15C37BF5-32D7-2616-F2A0-84235580A533}.wem"
      },
      {
       "Id": "72616946",
@@ -138,6 +138,14 @@
       "ShortName": "music_main_menu.wav",
       "Path": "Media/76275800.wem",
       "CachePath": "47/{47EA9A7D-AF1C-5B99-AADA-60D271D844EB}.wem"
+     },
+     {
+      "Id": "76478554",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Voice Designer, Abbi 27.wav",
+      "CachePath": "BC/{BC82653B-A05B-73A6-B894-0ACC87399292}.wem"
      },
      {
       "Id": "92054845",
@@ -163,6 +171,14 @@
       "Location": "Memory",
       "ShortName": "Boss_VO_05.wav",
       "CachePath": "61/{615868DB-6289-F4BD-2B6E-91BDF98FA05E}.wem"
+     },
+     {
+      "Id": "107179771",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Voice Designer, Abbi 21.wav",
+      "CachePath": "2F/{2FFAF150-F3E4-E618-93F0-8CDDFFD6DDED}.wem"
      },
      {
       "Id": "107734003",
@@ -303,7 +319,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_player_melee_attack_01.wav",
-      "CachePath": "94/{9402F1C8-EB18-4E0C-1C69-0ADE8C04C911}.wem"
+      "CachePath": "E7/{E7605FF3-F3E2-2761-9245-27AAF3771C55}.wem"
      },
      {
       "Id": "220009200",
@@ -494,14 +510,6 @@
       "CachePath": "4E/{4EC006BF-4C42-B229-E7ED-DF501734C752}.wem"
      },
      {
-      "Id": "382213229",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "sfx_player_melee_attack_06.wav",
-      "CachePath": "99/{99AA4B15-854D-EA1C-2490-1FC976CD518F}.wem"
-     },
-     {
       "Id": "385395353",
       "Language": "SFX",
       "Streaming": "true",
@@ -672,6 +680,14 @@
       "CachePath": "5E/{5E2FE1F1-1984-43F2-CF95-E7F972BD4504}.wem"
      },
      {
+      "Id": "521627699",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Ranged_Death04.wav",
+      "CachePath": "1B/{1BE3BDF9-59BC-4AA7-7ADF-DD0C72868D4E}.wem"
+     },
+     {
       "Id": "522183298",
       "Language": "SFX",
       "Streaming": "false",
@@ -687,6 +703,14 @@
       "ShortName": "Lvl1_Cymbal_Pad.wav",
       "Path": "Media/529358614.wem",
       "CachePath": "14/{146DD9BD-A813-71BE-4799-2BCE1A537D8B}.wem"
+     },
+     {
+      "Id": "535972617",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Voice Designer, Abbi 22.wav",
+      "CachePath": "E0/{E04D172A-00ED-237C-D428-E0385BCD5AFC}.wem"
      },
      {
       "Id": "537618569",
@@ -776,6 +800,22 @@
       "CachePath": "12/{12BF826A-20BF-F84A-E6B4-E10D76EBBC72}.wem"
      },
      {
+      "Id": "592143505",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Ranged_Death01.wav",
+      "CachePath": "E5/{E508A3E8-4B5B-DB5E-CC08-7744019B6870}.wem"
+     },
+     {
+      "Id": "594902861",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_melee_attack_06.wav",
+      "CachePath": "A7/{A73EF32E-685E-ED31-B1A6-DC8077B5DB86}.wem"
+     },
+     {
       "Id": "610344057",
       "Language": "SFX",
       "Streaming": "true",
@@ -807,6 +847,14 @@
       "Location": "Memory",
       "ShortName": "sfx_player_ranged_ability_04.wav",
       "CachePath": "A2/{A2CC93A8-5ECC-2CE8-9251-4FD89713CF08}.wem"
+     },
+     {
+      "Id": "619597889",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Voice Designer, Abbi 30.wav",
+      "CachePath": "F7/{F7F01C40-A1B8-27AC-E2AC-063A0A0AFFBF}.wem"
      },
      {
       "Id": "624112874",
@@ -849,6 +897,14 @@
       "Location": "Memory",
       "ShortName": "Boss_VO_01.wav",
       "CachePath": "8D/{8DFD51D2-4B4A-CE06-9041-857F86771326}.wem"
+     },
+     {
+      "Id": "652178712",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Voice Designer, Abbi 26.wav",
+      "CachePath": "A2/{A21E5FD8-E472-3BD8-51B4-A360D19DF3D2}.wem"
      },
      {
       "Id": "664316527",
@@ -952,6 +1008,14 @@
       "ShortName": "Violin_Fras_2_115_bpm_4_4.wav",
       "Path": "Media/708076404.wem",
       "CachePath": "C6/{C6CB4279-8FC5-6A42-9F82-B7CBC61E17EF}.wem"
+     },
+     {
+      "Id": "711413363",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Ranged_Death03.wav",
+      "CachePath": "72/{72803426-93E7-16EF-6C8C-74A66430FE32}.wem"
      },
      {
       "Id": "729662168",
@@ -1166,6 +1230,14 @@
       "Location": "Memory",
       "ShortName": "Popcorn_WalkV2_03.wav",
       "CachePath": "33/{33021552-E073-7057-76BB-20F191CEDDB1}.wem"
+     },
+     {
+      "Id": "891185432",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Enemy_Ranged_Death02.wav",
+      "CachePath": "67/{67C5E594-C481-7184-76C0-AC9B7AE241FB}.wem"
      },
      {
       "Id": "894117681",
@@ -1744,6 +1816,39 @@
           ]
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "1902328555",
+         "GUID": "{652DF225-BEE0-4B27-98A5-53BC3A407323}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "Switch",
+           "GroupId": "3011728793",
+           "Id": "0",
+           "GUID": "{BF5FFE5E-5AC7-4BE0-8390-7E5B2601D470}"
+          },
+          "Children": [
+           {
+            "SwitchValue": {
+             "GroupType": "Switch",
+             "GroupId": "1255199230",
+             "Id": "0",
+             "GUID": "{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}"
+            },
+            "MediaRefs": [
+             {
+              "Id": "652178712"
+             }
+            ]
+           }
+          ]
+         }
+        ]
        }
       ]
      },
@@ -1862,6 +1967,15 @@
        {
         "Id": "220009200"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1416253857",
+        "Name": "Boss_Reverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Boss_Reverb",
+        "GUID": "{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}",
+        "Color": "4"
+       }
       ]
      },
      {
@@ -1876,6 +1990,48 @@
       "MediaRefs": [
        {
         "Id": "243430538"
+       }
+      ]
+     },
+     {
+      "Id": "115077278",
+      "Name": "Play_Boss_Defeated",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\Music\\Play_Boss_Defeated",
+      "GUID": "{730672AA-86A2-4CEE-9624-4ED222097412}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "1021618141",
+        "Id": "1902328555",
+        "Name": "Boss_Defeated",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Boss_Defeated",
+        "GUID": "{652DF225-BEE0-4B27-98A5-53BC3A407323}"
+       }
+      ]
+     },
+     {
+      "Id": "2970262295",
+      "Name": "Play_Boss_Idle_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Boss\\Play_Boss_Idle_Loop",
+      "GUID": "{84F32CDF-C191-4152-AD95-9BBC0945A8EF}",
+      "Color": "2",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "76478554"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1416253857",
+        "Name": "Boss_Reverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Boss_Reverb",
+        "GUID": "{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}",
+        "Color": "4"
        }
       ]
      },
@@ -1906,6 +2062,15 @@
        },
        {
         "Id": "972751303"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1416253857",
+        "Name": "Boss_Reverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Boss_Reverb",
+        "GUID": "{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}",
+        "Color": "4"
        }
       ]
      },
@@ -1940,9 +2105,9 @@
       ]
      },
      {
-      "Id": "1327141250",
-      "Name": "Play_Chechpoint_Reached",
-      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\UI\\Play_Chechpoint_Reached",
+      "Id": "2875652371",
+      "Name": "Play_Checkpoint_Reached",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\UI\\Play_Checkpoint_Reached",
       "GUID": "{4C8CB6C1-3A0B-47B1-9815-F9B81EC67E95}",
       "Color": "2",
       "DurationType": "OneShot",
@@ -1951,6 +2116,21 @@
       "MediaRefs": [
        {
         "Id": "311015533"
+       }
+      ]
+     },
+     {
+      "Id": "1643609085",
+      "Name": "Play_Dialogue_Box_Appears",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\UI\\Play_Dialogue_Box_Appears",
+      "GUID": "{282D6CD3-40EC-4F58-8183-C62349A7CC57}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2797709",
+      "DurationMax": "1.2797709",
+      "MediaRefs": [
+       {
+        "Id": "619597889"
        }
       ]
      },
@@ -1975,7 +2155,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Popcorn\\Play_Enemy_Popcorn_Attack",
       "GUID": "{7A866C2F-C1E4-425E-80CB-788254038694}",
       "Color": "2",
-      "MaxAttenuation": "3000",
+      "MaxAttenuation": "1600",
       "DurationType": "OneShot",
       "DurationMin": "0.43272915",
       "DurationMax": "0.51916665",
@@ -2006,7 +2186,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Popcorn\\Play_Enemy_Popcorn_Death",
       "GUID": "{85BDFD62-418B-4491-95FC-05622C98CC20}",
       "Color": "2",
-      "MaxAttenuation": "2000",
+      "MaxAttenuation": "1600",
       "DurationType": "OneShot",
       "DurationMin": "0.22554167",
       "DurationMax": "0.61820835",
@@ -2031,7 +2211,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Popcorn\\Play_Enemy_Popcorn_Take_Damage",
       "GUID": "{A652FE6D-C807-4590-A9C5-A6C257FA01F9}",
       "Color": "2",
-      "MaxAttenuation": "2000",
+      "MaxAttenuation": "1600",
       "DurationType": "OneShot",
       "DurationMin": "0.27528346",
       "DurationMax": "0.27528346",
@@ -2121,10 +2301,23 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Enemy\\Ranged\\Play_Enemy_Ranged_Death",
       "GUID": "{4AD0D00D-520B-4C42-9A70-29D6F537D9D7}",
       "Color": "2",
-      "MaxAttenuation": "0",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.680625",
+      "DurationMax": "0.7610625",
+      "MediaRefs": [
+       {
+        "Id": "521627699"
+       },
+       {
+        "Id": "592143505"
+       },
+       {
+        "Id": "711413363"
+       },
+       {
+        "Id": "891185432"
+       }
+      ]
      },
      {
       "Id": "2391442630",
@@ -2215,6 +2408,21 @@
       "MediaRefs": [
        {
         "Id": "280601004"
+       }
+      ]
+     },
+     {
+      "Id": "3909938981",
+      "Name": "Play_Heal_Fruit_Fall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Environment\\Play_Heal_Fruit_Fall",
+      "GUID": "{E484288C-A721-4D57-9447-6373B7D0EA46}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9664375",
+      "DurationMax": "0.9664375",
+      "MediaRefs": [
+       {
+        "Id": "107179771"
        }
       ]
      },
@@ -2544,9 +2752,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Player\\Combat\\Play_Player_Melee_ATK",
       "GUID": "{423E9773-4675-4301-9023-69E6778B2F43}",
       "Color": "2",
-      "MaxAttenuation": "1400",
       "DurationType": "OneShot",
-      "DurationMin": "0.23988378",
+      "DurationMin": "0.2511338",
       "DurationMax": "0.49798185",
       "MediaRefs": [
        {
@@ -2559,7 +2766,7 @@
         "Id": "260636728"
        },
        {
-        "Id": "382213229"
+        "Id": "594902861"
        },
        {
         "Id": "830268901"
@@ -2715,6 +2922,21 @@
       ]
      },
      {
+      "Id": "679959529",
+      "Name": "Play_Torch_Burning_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Environment\\Play_Torch_Burning_Loop",
+      "GUID": "{2B2138A3-B481-4AF0-8A43-902FC360F035}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8414375",
+      "DurationMax": "0.8414375",
+      "MediaRefs": [
+       {
+        "Id": "535972617"
+       }
+      ]
+     },
+     {
       "Id": "4145597129",
       "Name": "Play_Walls_Lowering",
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Environment\\Play_Walls_Lowering",
@@ -2807,6 +3029,26 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "395070428",
+      "Name": "Set_Music_To_Boss_Defeated",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\Music\\Set_Music_To_Boss_Defeated",
+      "GUID": "{A1881D00-C23F-479B-B41B-E6D752FFF1EF}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "1021618141",
+        "Id": "1902328555",
+        "Name": "Boss_Defeated",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Boss_Defeated",
+        "GUID": "{652DF225-BEE0-4B27-98A5-53BC3A407323}"
+       }
+      ]
      },
      {
       "Id": "118758400",
@@ -2943,6 +3185,12 @@
         "GUID": "{55F458D8-CE6A-4445-A999-E4A749DD4646}"
        },
        {
+        "Id": "1902328555",
+        "Name": "Boss_Defeated",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Boss_Defeated",
+        "GUID": "{652DF225-BEE0-4B27-98A5-53BC3A407323}"
+       },
+       {
         "Id": "3604647259",
         "Name": "MainMenu",
         "ObjectPath": "\\States\\Default Work Unit\\MusicState\\MainMenu",
@@ -3065,6 +3313,6 @@
     ]
    }
   ],
-  "FileHash": "{79EFC4B9-6AFD-DE0D-EF39-E0DB78BF5A54}"
+  "FileHash": "{27907153-1409-EAE1-0E99-5D2F99870AD1}"
  }
 }

@@ -9,6 +9,7 @@
 						<ObjectRef Name="Play_Enemy_Summoner_Surface" ID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Dash" ID="{2822D149-B910-405E-8D54-812A341DAC1B}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Menu_Back" ID="{7ABEFD06-97CC-4097-81AC-F76068137697}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Boss_Idle_Loop" ID="{84F32CDF-C191-4152-AD95-9BBC0945A8EF}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_End_Title" ID="{B77F494D-0262-4175-BA01-704933E92961}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Music_To_Boss_Fight" ID="{C642B624-8B50-41A2-AD74-BA4CDDEA5AC4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_Spawning_Popcorn" ID="{4F653F19-142D-41BB-8617-0E7F7BFFD026}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
@@ -34,7 +35,8 @@
 						<ObjectRef Name="Set_Music_To_LevelTwo" ID="{E06E6279-2809-471A-9694-24EA1FC3C79C}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Cleave_Abillity" ID="{B9C0E051-CB86-477E-A425-58E39046CC35}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ability_Unlocked" ID="{64849D03-C85E-4781-83FA-7B9F5E619809}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Chechpoint_Reached" ID="{4C8CB6C1-3A0B-47B1-9815-F9B81EC67E95}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Set_Music_To_Boss_Defeated" ID="{A1881D00-C23F-479B-B41B-E6D752FFF1EF}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Checkpoint_Reached" ID="{4C8CB6C1-3A0B-47B1-9815-F9B81EC67E95}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Summoner_Death" ID="{6596EE04-49C0-47CE-8D8F-1616053065AD}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_Change_Phase" ID="{67F0AA2E-2D60-47E8-96D6-53BC3D44E5F4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ambience_Level_1" ID="{6A61915F-4F09-47FD-9136-D21EFA196623}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
@@ -46,6 +48,7 @@
 						<ObjectRef Name="Play_Walls_Lowering" ID="{E114B73B-B19E-48D6-8859-2811309448FF}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Popcorn_Walk" ID="{2CDFE5D2-C81E-4936-B2F6-4E1B8E354890}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_Take_Damage" ID="{D5F1D162-6C83-49EB-A996-958F87206FE0}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Torch_Burning_Loop" ID="{2B2138A3-B481-4AF0-8A43-902FC360F035}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Ranged_AOE_Attack" ID="{A2A1D4F9-2E28-4B38-A154-0212C913E5F8}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Walls_Rising" ID="{437692EF-21BF-4BC0-9F9C-EF8954049028}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_LevelUp" ID="{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
@@ -54,12 +57,15 @@
 						<ObjectRef Name="Play_Enemy_Summoner_Take_Damage" ID="{20D690AB-B732-4C58-B0BF-0C406C1B6D2C}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Heal" ID="{D5E6260B-3C78-4C78-BB6E-2D78C5A88F38}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Heal_Pickup" ID="{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Boss_Defeated" ID="{730672AA-86A2-4CEE-9624-4ED222097412}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Heal_Fruit_Fall" ID="{E484288C-A721-4D57-9447-6373B7D0EA46}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Warning_Sound" ID="{9F3CCF50-5428-4DA9-98A8-F3881EC634AD}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Ranged_Take_Damage" ID="{2371EB79-B960-4DED-AAC8-C11804550098}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Summoner_Attack" ID="{AC9DFF9A-07CA-4DFD-B1ED-037751ACBA1E}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Respawn" ID="{C47172F1-E84A-4EE3-AD85-81EA90C499AF}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_AOE_Attack" ID="{60A83385-9DDA-4F09-9929-057C2EC8851E}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ranged_Enemy_Footstep" ID="{8528C41B-5714-4F47-8046-B28C2C336432}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dialogue_Box_Appears" ID="{282D6CD3-40EC-4F58-8183-C62349A7CC57}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Initialize_Music_System" ID="{D5328475-3A7A-4F8E-904A-BC3E26956906}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_AOE_Warning" ID="{C4F24378-E52C-4FC3-9073-66879A55C468}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Music_To_LevelOne" ID="{B2719B54-351D-4FD8-AFFB-C84AE0D97779}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>

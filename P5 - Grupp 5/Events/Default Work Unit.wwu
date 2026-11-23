@@ -90,6 +90,17 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Play_Boss_Idle_Loop" ID="{84F32CDF-C191-4152-AD95-9BBC0945A8EF}">
+											<ChildrenList>
+												<Action Name="" ID="{23D43C82-BAB9-40B6-A29D-C5AB41583EE8}" ShortID="13597870">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Boss_Idle_Loop" ID="{0C1ED881-B9EB-4DB0-A930-0ECFD797F136}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Enemy" ID="{D82A25BE-83B9-4C54-A599-586D2613A9E7}" ShortID="179121366">
@@ -226,7 +237,7 @@
 														<Action Name="" ID="{0791DA7A-21D0-40CF-9095-FC5793B250C6}" ShortID="758362727">
 															<ReferenceList>
 																<Reference Name="Target">
-																	<ObjectRef Name="SFX_Ranged_Enemy_Deatha" ID="{17B6C3D8-3ED7-4CC5-BEAF-D7AC58CED8C6}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+																	<ObjectRef Name="SFX_Ranged_Enemy_Death" ID="{F719DFFA-F8BA-47B6-BBC3-A5DDB75010F2}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 																</Reference>
 															</ReferenceList>
 														</Action>
@@ -277,6 +288,28 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="SFX_Walls_Lowering" ID="{E1862F1A-0E1B-47AB-B688-158D22B10E51}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Heal_Fruit_Fall" ID="{E484288C-A721-4D57-9447-6373B7D0EA46}">
+											<ChildrenList>
+												<Action Name="" ID="{D2F8A2BC-BA82-49BC-BC17-F75DF9FA933A}" ShortID="366164724">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Heal_Fruit_Fall" ID="{62E45B43-1948-4F47-A0BF-35C2E838B8E0}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Torch_Burning_Loop" ID="{2B2138A3-B481-4AF0-8A43-902FC360F035}">
+											<ChildrenList>
+												<Action Name="" ID="{F265C164-4E7A-46F9-BB7D-7B12D562BB98}" ShortID="461566677">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Torch_Burning_Loop" ID="{61D3FE9C-784E-4150-82C1-59477A5A4709}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -455,7 +488,7 @@
 								</Folder>
 								<Folder Name="UI" ID="{58CF76B6-4384-4E12-B26E-EAD455AC20E6}" ShortID="566324393">
 									<ChildrenList>
-										<Event Name="Play_Chechpoint_Reached" ID="{4C8CB6C1-3A0B-47B1-9815-F9B81EC67E95}">
+										<Event Name="Play_Checkpoint_Reached" ID="{4C8CB6C1-3A0B-47B1-9815-F9B81EC67E95}">
 											<ChildrenList>
 												<Action Name="" ID="{0E7235BB-6401-4078-8057-96845D661516}" ShortID="469432844">
 													<ReferenceList>
@@ -549,6 +582,17 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="SFX_Player_Respawn" ID="{EE83A719-9CE7-41FA-A6CE-1C859514FA5D}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Dialogue_Box_Appears" ID="{282D6CD3-40EC-4F58-8183-C62349A7CC57}">
+											<ChildrenList>
+												<Action Name="" ID="{D32148FC-C6B9-4A9F-91AB-855ED3F6911E}" ShortID="997531275">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Dialogue_Box_Appears" ID="{259E348E-C133-439C-898D-AD83BDFAAEFF}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -651,7 +695,24 @@
 									</ChildrenList>
 								</Event>
 								<Event Name="Initialize_Music_System" ID="{D5328475-3A7A-4F8E-904A-BC3E26956906}">
+									<PropertyList>
+										<Property Name="InstanceLimit" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ChildrenList>
+										<Action Name="" ID="{47468FD5-0C96-40EF-BB37-042B5C735137}" ShortID="672048645">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_System" ID="{23A456DF-BEF7-4800-B6F5-18D408D0FA2C}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 										<Action Name="" ID="{1A2A6080-D124-4389-9B4C-9758EF54019B}" ShortID="123650910">
 											<ReferenceList>
 												<Reference Name="Target">
@@ -755,6 +816,34 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="End_Title" ID="{99015E27-4063-4274-83BA-BB5A1D709CE6}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Boss_Defeated" ID="{730672AA-86A2-4CEE-9624-4ED222097412}">
+									<ChildrenList>
+										<Action Name="" ID="{717F9DB3-C9CE-4B07-AA2B-823891203661}" ShortID="485915894">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Boss_Defeated" ID="{652DF225-BEE0-4B27-98A5-53BC3A407323}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Set_Music_To_Boss_Defeated" ID="{A1881D00-C23F-479B-B41B-E6D752FFF1EF}">
+									<ChildrenList>
+										<Action Name="" ID="{0487F5AD-E871-468B-9CD1-675D421FD270}" ShortID="503733678">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="22"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Boss_Defeated" ID="{652DF225-BEE0-4B27-98A5-53BC3A407323}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

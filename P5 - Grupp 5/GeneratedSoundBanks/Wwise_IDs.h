@@ -23,10 +23,13 @@ namespace AK
         static const AkUniqueID PLAY_BOSS_AOE_WARNING = 4219410224U;
         static const AkUniqueID PLAY_BOSS_CHANGE_PHASE = 1268859200U;
         static const AkUniqueID PLAY_BOSS_DEATH = 3695176782U;
+        static const AkUniqueID PLAY_BOSS_DEFEATED = 115077278U;
+        static const AkUniqueID PLAY_BOSS_IDLE_LOOP = 2970262295U;
         static const AkUniqueID PLAY_BOSS_SCREAM = 3326215491U;
         static const AkUniqueID PLAY_BOSS_SPAWNING_POPCORN = 763268173U;
         static const AkUniqueID PLAY_BOSS_TAKE_DAMAGE = 438645199U;
-        static const AkUniqueID PLAY_CHECHPOINT_REACHED = 1327141250U;
+        static const AkUniqueID PLAY_CHECKPOINT_REACHED = 2875652371U;
+        static const AkUniqueID PLAY_DIALOGUE_BOX_APPEARS = 1643609085U;
         static const AkUniqueID PLAY_END_TITLE = 1478662086U;
         static const AkUniqueID PLAY_ENEMY_POPCORN_ATTACK = 4254872019U;
         static const AkUniqueID PLAY_ENEMY_POPCORN_DEATH = 1966043283U;
@@ -40,6 +43,7 @@ namespace AK
         static const AkUniqueID PLAY_ENEMY_SUMMONER_DEATH = 1535617374U;
         static const AkUniqueID PLAY_ENEMY_SUMMONER_SURFACE = 1319327521U;
         static const AkUniqueID PLAY_ENEMY_SUMMONER_TAKE_DAMAGE = 2134822783U;
+        static const AkUniqueID PLAY_HEAL_FRUIT_FALL = 3909938981U;
         static const AkUniqueID PLAY_INTRO_CUTSCENE = 1049578131U;
         static const AkUniqueID PLAY_INVALID_ACTION = 2264668508U;
         static const AkUniqueID PLAY_MENU_BACK = 455571771U;
@@ -60,11 +64,13 @@ namespace AK
         static const AkUniqueID PLAY_PLAYER_VINE_ABILLITY = 2195822293U;
         static const AkUniqueID PLAY_RANGED_ENEMY_FOOTSTEP = 3979815311U;
         static const AkUniqueID PLAY_START_GAME = 3294915283U;
+        static const AkUniqueID PLAY_TORCH_BURNING_LOOP = 679959529U;
         static const AkUniqueID PLAY_WALLS_LOWERING = 4145597129U;
         static const AkUniqueID PLAY_WALLS_RISING = 1932334290U;
         static const AkUniqueID PLAY_WARNING_SOUND = 1297509074U;
         static const AkUniqueID RESUME_GAME = 1565052233U;
         static const AkUniqueID RESUME_MUSIC_SYSTEM = 1490314788U;
+        static const AkUniqueID SET_MUSIC_TO_BOSS_DEFEATED = 395070428U;
         static const AkUniqueID SET_MUSIC_TO_BOSS_FIGHT = 118758400U;
         static const AkUniqueID SET_MUSIC_TO_LEVELONE = 1056422470U;
         static const AkUniqueID SET_MUSIC_TO_LEVELTWO = 909513944U;
@@ -94,6 +100,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID BOSS = 1560169506U;
+                static const AkUniqueID BOSS_DEFEATED = 1902328555U;
                 static const AkUniqueID LEVEL_1 = 1290008369U;
                 static const AkUniqueID LEVEL_2 = 1290008370U;
                 static const AkUniqueID MAINMENU = 3604647259U;
@@ -182,6 +189,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID BOSS_REVERB = 1416253857U;
         static const AkUniqueID WORLD_REVERB_BUS = 1492744757U;
     } // namespace AUX_BUSSES
 

@@ -4,13 +4,25 @@
 		<WorkUnit Name="Default Work Unit" ID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="MusicState" ID="{C6482A08-C7DD-4C0A-B75D-535F5A89A87F}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="5.5"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{199A87F7-ED8A-4ECC-A386-6955F72BBACB}"/>
 						<State Name="MainMenu" ID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
 						<State Name="Boss" ID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
 						<State Name="Level_1" ID="{98DC2064-B770-44DC-92CF-9A1CC844B401}"/>
 						<State Name="Level_2" ID="{C41BE6D5-E34B-4A3F-BDB8-E085875DC0F3}"/>
+						<State Name="Boss_Defeated" ID="{652DF225-BEE0-4B27-98A5-53BC3A407323}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Boss" ID="{55F458D8-CE6A-4445-A999-E4A749DD4646}"/>
+							<EndState Name="Boss_Defeated" ID="{652DF225-BEE0-4B27-98A5-53BC3A407323}"/>
+							<Time>0</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="GameState" ID="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}">
 					<PropertyList>
