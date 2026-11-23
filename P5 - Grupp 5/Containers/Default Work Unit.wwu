@@ -913,9 +913,16 @@
 																<MediaID ID="852210236"/>
 															</MediaIDList>
 														</AudioFileSource>
+														<AudioFileSource Name="sfx_player_heal_fruit_pickup" ID="{47D642FD-4A15-4C41-8110-C4594B023BA2}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_player_heal_fruit_pickup.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="722936638"/>
+															</MediaIDList>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Player_Player pickup heal fruit" ID="{0E1EFD95-B389-4DDF-88F2-BF746C43F2AE}" Platform="Linked"/>
+														<ActiveSource Name="sfx_player_heal_fruit_pickup" ID="{47D642FD-4A15-4C41-8110-C4594B023BA2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<RandomSequenceContainer Name="SFX_Player_Heal" ID="{535F077F-ED97-4DF5-B581-154C7339D065}" ShortID="546835835">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{B14488EB-29BA-AB2B-1591-30C65290755D}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{E506B102-5DF6-D29D-6A7E-010E775ED91A}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -528,6 +528,10 @@
 					<ShortName>SFX_Dialogue_Box_Appear.wav</ShortName>
 					<CachePath>81/{81BE847E-DDA9-8C01-2194-2D1BF26C33E6}.wem</CachePath>
 				</File>
+				<File Id="722936638" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_player_heal_fruit_pickup.wav</ShortName>
+					<CachePath>7D/{7D705C2A-9AB4-3ABA-C56D-35F7CC27481B}.wem</CachePath>
+				</File>
 				<File Id="729662168" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_cleave_ability_01.wav</ShortName>
 					<CachePath>34/{348043F2-B46A-6121-8C3A-B58523DB6131}.wem</CachePath>
@@ -604,10 +608,6 @@
 				<File Id="850935243" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 114.wav</ShortName>
 					<CachePath>78/{784AE547-7C1F-B331-19BD-2BF815A474F2}.wem</CachePath>
-				</File>
-				<File Id="852210236" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Player pickup heal fruit.wav</ShortName>
-					<CachePath>3F/{3F2F9D44-2A96-201C-7404-3F50C4207274}.wem</CachePath>
 				</File>
 				<File Id="855724915" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_cleave_ability_03.wav</ShortName>
@@ -1211,9 +1211,9 @@
 						<MediaRef Id="1050669357"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4017243061" Name="Play_Player_Heal_Pickup" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Heal_Pickup" GUID="{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="4017243061" Name="Play_Player_Heal_Pickup" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Heal_Pickup" GUID="{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}" Color="2" MaxAttenuation="1400" DurationType="OneShot" DurationMin="0.24985416" DurationMax="0.24985416">
 					<MediaRefs>
-						<MediaRef Id="852210236"/>
+						<MediaRef Id="722936638"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1161564153" Name="Play_Player_LevelUp" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_LevelUp" GUID="{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}" Color="2" DurationType="OneShot" DurationMin="5.379854" DurationMax="5.379854">
@@ -1384,5 +1384,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8AB39BCC-1AF1-A7DF-80C2-8007D3793FFA}</FileHash>
+	<FileHash>{B1485F6C-C58D-1E05-7E8F-9BB27AE0EE48}</FileHash>
 </SoundBanksInfo>

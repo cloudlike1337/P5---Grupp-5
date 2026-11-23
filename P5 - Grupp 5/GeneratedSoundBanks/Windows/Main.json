@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{B14488EB-29BA-AB2B-1591-30C65290755D}",
+    "Hash": "{E506B102-5DF6-D29D-6A7E-010E775ED91A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1018,6 +1018,14 @@
       "CachePath": "81/{81BE847E-DDA9-8C01-2194-2D1BF26C33E6}.wem"
      },
      {
+      "Id": "722936638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_player_heal_fruit_pickup.wav",
+      "CachePath": "7D/{7D705C2A-9AB4-3ABA-C56D-35F7CC27481B}.wem"
+     },
+     {
       "Id": "729662168",
       "Language": "SFX",
       "Streaming": "false",
@@ -1165,14 +1173,6 @@
       "Location": "Memory",
       "ShortName": "Soundly Audio\\Soundly Voice Designer, Abbi 114.wav",
       "CachePath": "78/{784AE547-7C1F-B331-19BD-2BF815A474F2}.wem"
-     },
-     {
-      "Id": "852210236",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_Player pickup heal fruit.wav",
-      "CachePath": "3F/{3F2F9D44-2A96-201C-7404-3F50C4207274}.wem"
      },
      {
       "Id": "855724915",
@@ -2723,11 +2723,11 @@
       "Color": "2",
       "MaxAttenuation": "1400",
       "DurationType": "OneShot",
-      "DurationMin": "2.0535",
-      "DurationMax": "2.0535",
+      "DurationMin": "0.24985416",
+      "DurationMax": "0.24985416",
       "MediaRefs": [
        {
-        "Id": "852210236"
+        "Id": "722936638"
        }
       ]
      },
@@ -3313,6 +3313,6 @@
     ]
    }
   ],
-  "FileHash": "{6C71969F-3ED2-E85B-E717-63A72834522F}"
+  "FileHash": "{CF3B6EFE-4FD1-61F6-8F37-B417E416573E}"
  }
 }

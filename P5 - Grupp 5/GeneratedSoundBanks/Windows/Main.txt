@@ -171,6 +171,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	700148494	Enemy_Ranged_Attack_03	.cache\6C\{6CDC9B80-AE51-FFFD-9B29-22D96D50FA4C}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_AOE_Attack\Enemy_Ranged_Attack_03		18453
 	711413363	Enemy_Ranged_Death03	.cache\72\{72803426-93E7-16EF-6C8C-74A66430FE32}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_Death\Enemy_Ranged_Death03		11239
 	719679212	SFX_Dialogue_Box_Appears	.cache\81\{81BE847E-DDA9-8C01-2194-2D1BF26C33E6}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Dialogue_Box_Appears		2531
+	722936638	SFX_Player_Pickup_Heal_Fruit	.cache\7D\{7D705C2A-9AB4-3ABA-C56D-35F7CC27481B}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Pickup_Heal_Fruit		2872
 	729662168	sfx_player_cleave_ability_01	.cache\34\{348043F2-B46A-6121-8C3A-B58523DB6131}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Cleave_Ability\sfx_player_cleave_ability_01		10749
 	733830020	sfx_footsteps_grass_02	.cache\AC\{ACD96939-5893-E29F-F330-66B8B200E7A5}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_02		3812
 	777956919	Intro_Cutscene_SFX	.cache\25\{25CE45AD-9172-AD02-B95C-BD37F2A93383}.wem		\Containers\Default Work Unit\Audio\Music\Intro_Cutscene\Intro_Cutscene_SFX		153773
@@ -184,7 +185,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	846441222	sfx_player_ultimate_ability_02	.cache\B3\{B335CC00-F2C3-3758-6F21-CA5CA7B27AAA}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Use_Ultimate\sfx_player_ultimate_ability_02		20697
 	849472346	Enemy_Ranged_Attack_01	.cache\AA\{AAEA7E04-3DFE-07FF-91C3-C98F599D53B4}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_AOE_Attack\Enemy_Ranged_Attack_01		12728
 	850935243	SFX_Ambience_Level_2	.cache\78\{784AE547-7C1F-B331-19BD-2BF815A474F2}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\SFX_Ambience_Level_2		19346
-	852210236	SFX_Player_Pickup_Heal_Fruit	.cache\3F\{3F2F9D44-2A96-201C-7404-3F50C4207274}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Pickup_Heal_Fruit		19503
 	855724915	sfx_player_cleave_ability_03	.cache\3F\{3F8A3CD0-9290-6CB4-745A-719B1F1E4103}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Cleave_Ability\sfx_player_cleave_ability_03		13106
 	861398929	sfx_player_footsteps_flesh_02	.cache\2C\{2C1AEF98-AC59-9F04-92E6-47E0E3B34A3E}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Flesh\sfx_player_footsteps_flesh_02		5233
 	863383401	sfx_footsteps_grass_05	.cache\32\{32287290-9E4E-0234-23F4-2B72F9362D3C}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_05		4458
