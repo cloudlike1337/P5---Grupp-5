@@ -589,10 +589,10 @@
 										</Event>
 										<Event Name="Play_Dialogue_Box_Appears" ID="{282D6CD3-40EC-4F58-8183-C62349A7CC57}">
 											<ChildrenList>
-												<Action Name="" ID="{D32148FC-C6B9-4A9F-91AB-855ED3F6911E}" ShortID="997531275">
+												<Action Name="" ID="{6BFCEE97-0EC3-4C53-A181-2E7167801F99}" ShortID="293081584">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Dialogue_Box_Appears" ID="{259E348E-C133-439C-898D-AD83BDFAAEFF}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Dialogue_Box_Appears" ID="{1FBDAC8E-974C-4692-A7A9-7EE61A30F372}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
