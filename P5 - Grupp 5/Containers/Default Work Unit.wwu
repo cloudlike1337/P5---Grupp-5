@@ -3895,7 +3895,25 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<Sound Name="SFX_Torch_Burning_Loop" ID="{61D3FE9C-784E-4150-82C1-59477A5A4709}" ShortID="849485094">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{71BBACB4-4F35-412D-90A1-4E9E6A7BB5BA}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="9"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Torch_Attenuation" ID="{2CA92CFD-276F-4722-94E8-7FE6DCAB1899}" WorkUnitID="{5D4DF0E3-DC5F-45B2-BFB9-0E94BB1EC5E2}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 												</Reference>
@@ -3904,16 +3922,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 22" ID="{2C25A4C2-3F79-465C-AB95-BF3632640EB8}">
+												<AudioFileSource Name="SFX_Torch Burning_Loop" ID="{6883D999-22A8-40E3-9C86-4D08F565EB95}">
 													<Language>SFX</Language>
-													<AudioFile>Soundly Voice Designer, Abbi 22.wav</AudioFile>
+													<AudioFile>SFX_Torch Burning_Loop.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="535972617"/>
+														<MediaID ID="927526906"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 22" ID="{2C25A4C2-3F79-465C-AB95-BF3632640EB8}" Platform="Linked"/>
+												<ActiveSource Name="SFX_Torch Burning_Loop" ID="{6883D999-22A8-40E3-9C86-4D08F565EB95}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
