@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{7C3D0DA5-7F9E-89CD-4429-58198F6D0BF8}",
+    "Hash": "{61B2AD9E-EE2F-2154-8206-20700732A20F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -87,14 +87,6 @@
       "Location": "Memory",
       "ShortName": "Soundly Audio\\Soundly Voice Designer, Abbi 123.wav",
       "CachePath": "0A/{0AE25A72-7102-F213-008F-11B37B13A222}.wem"
-     },
-     {
-      "Id": "44636632",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player_Player level up.wav",
-      "CachePath": "C8/{C8D36FA3-737C-AFA6-7CE9-5D19DE96DF94}.wem"
      },
      {
       "Id": "55857974",
@@ -567,7 +559,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Ability_Unlocked.wav",
-      "CachePath": "29/{291B2344-18A4-5A2B-992A-EBE45FA73F6C}.wem"
+      "CachePath": "D8/{D8DC5A1B-747E-7955-AEF7-5F5CCEC3A52B}.wem"
      },
      {
       "Id": "454996688",
@@ -823,6 +815,14 @@
       "ShortName": "Choir_Lead_1_115_bpm_4_4.wav",
       "Path": "Media/610344057.wem",
       "CachePath": "7E/{7EF9AB37-2987-7638-896A-A9B36EE182CE}.wem"
+     },
+     {
+      "Id": "611567304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_LevelUp.wav",
+      "CachePath": "DE/{DEE523FA-E5EB-9DC0-C270-A2B11DF25CAF}.wem"
      },
      {
       "Id": "614794952",
@@ -1890,8 +1890,8 @@
       "GUID": "{64849D03-C85E-4781-83FA-7B9F5E619809}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "2.0535",
-      "DurationMax": "2.0535",
+      "DurationMin": "1.8430834",
+      "DurationMax": "1.8430834",
       "MediaRefs": [
        {
         "Id": "445265876"
@@ -2738,11 +2738,11 @@
       "GUID": "{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "1.5335",
-      "DurationMax": "1.5335",
+      "DurationMin": "5.379854",
+      "DurationMax": "5.379854",
       "MediaRefs": [
        {
-        "Id": "44636632"
+        "Id": "611567304"
        }
       ]
      },
@@ -3313,6 +3313,6 @@
     ]
    }
   ],
-  "FileHash": "{5B6D1758-57D7-3560-A48D-8F16EF8D3A90}"
+  "FileHash": "{A6A61E62-D36D-251D-7953-E370A154E380}"
  }
 }

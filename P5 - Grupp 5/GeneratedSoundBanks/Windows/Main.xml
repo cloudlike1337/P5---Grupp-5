@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{7C3D0DA5-7F9E-89CD-4429-58198F6D0BF8}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{61B2AD9E-EE2F-2154-8206-20700732A20F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -42,10 +42,6 @@
 				<File Id="36223790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Soundly Audio\Soundly Voice Designer, Abbi 123.wav</ShortName>
 					<CachePath>0A/{0AE25A72-7102-F213-008F-11B37B13A222}.wem</CachePath>
-				</File>
-				<File Id="44636632" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Player_Player level up.wav</ShortName>
-					<CachePath>C8/{C8D36FA3-737C-AFA6-7CE9-5D19DE96DF94}.wem</CachePath>
 				</File>
 				<File Id="55857974" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Ranged_Attack_05.wav</ShortName>
@@ -290,7 +286,7 @@
 				</File>
 				<File Id="445265876" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Ability_Unlocked.wav</ShortName>
-					<CachePath>29/{291B2344-18A4-5A2B-992A-EBE45FA73F6C}.wem</CachePath>
+					<CachePath>D8/{D8DC5A1B-747E-7955-AEF7-5F5CCEC3A52B}.wem</CachePath>
 				</File>
 				<File Id="454996688" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_06.wav</ShortName>
@@ -426,6 +422,10 @@
 					<ShortName>Choir_Lead_1_115_bpm_4_4.wav</ShortName>
 					<Path>Media/610344057.wem</Path>
 					<CachePath>7E/{7EF9AB37-2987-7638-896A-A9B36EE182CE}.wem</CachePath>
+				</File>
+				<File Id="611567304" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Player_LevelUp.wav</ShortName>
+					<CachePath>DE/{DEE523FA-E5EB-9DC0-C270-A2B11DF25CAF}.wem</CachePath>
 				</File>
 				<File Id="614794952" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Attack_05.wav</ShortName>
@@ -930,7 +930,7 @@
 					</ActionSetState>
 				</Event>
 				<Event Id="475498527" Name="Pause_Music_System" ObjectPath="\Events\Default Work Unit\Audio\Music\Pause_Music_System" GUID="{0ACD2323-E556-46D9-9CE7-7A7582725DB4}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="1528054008" Name="Play_Ability_Unlocked" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Ability_Unlocked" GUID="{64849D03-C85E-4781-83FA-7B9F5E619809}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="1528054008" Name="Play_Ability_Unlocked" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Ability_Unlocked" GUID="{64849D03-C85E-4781-83FA-7B9F5E619809}" Color="2" DurationType="OneShot" DurationMin="1.8430834" DurationMax="1.8430834">
 					<MediaRefs>
 						<MediaRef Id="445265876"/>
 					</MediaRefs>
@@ -1216,9 +1216,9 @@
 						<MediaRef Id="852210236"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1161564153" Name="Play_Player_LevelUp" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_LevelUp" GUID="{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}" Color="2" DurationType="OneShot" DurationMin="1.5335" DurationMax="1.5335">
+				<Event Id="1161564153" Name="Play_Player_LevelUp" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_LevelUp" GUID="{D7A270D9-61CC-4BC6-90CF-287E7DAE1948}" Color="2" DurationType="OneShot" DurationMin="5.379854" DurationMax="5.379854">
 					<MediaRefs>
-						<MediaRef Id="44636632"/>
+						<MediaRef Id="611567304"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2980837791" Name="Play_Player_Melee_ATK" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Play_Player_Melee_ATK" GUID="{423E9773-4675-4301-9023-69E6778B2F43}" Color="2" DurationType="OneShot" DurationMin="0.2511338" DurationMax="0.49798185">
@@ -1384,5 +1384,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A4AE8913-DD0E-94E0-F7ED-6F146FB625FC}</FileHash>
+	<FileHash>{9FC74469-2EB9-77EE-727D-7B8D9ECEFEA9}</FileHash>
 </SoundBanksInfo>
