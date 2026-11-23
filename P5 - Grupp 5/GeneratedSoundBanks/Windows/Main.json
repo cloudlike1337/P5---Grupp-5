@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{61B2AD9E-EE2F-2154-8206-20700732A20F}",
+    "Hash": "{B14488EB-29BA-AB2B-1591-30C65290755D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -140,6 +140,14 @@
       "CachePath": "BC/{BC82653B-A05B-73A6-B894-0ACC87399292}.wem"
      },
      {
+      "Id": "79956619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_VO_2_05.wav",
+      "CachePath": "63/{63F48751-EFE7-69D4-4A1E-1E99654EB4FB}.wem"
+     },
+     {
       "Id": "92054845",
       "Language": "SFX",
       "Streaming": "false",
@@ -155,14 +163,6 @@
       "ShortName": "Fras_5_115_bpm_4_4.wav",
       "Path": "Media/96983337.wem",
       "CachePath": "7A/{7A427C0E-6573-3F6C-01AB-0C2938686D1E}.wem"
-     },
-     {
-      "Id": "105074723",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Boss_VO_05.wav",
-      "CachePath": "61/{615868DB-6289-F4BD-2B6E-91BDF98FA05E}.wem"
      },
      {
       "Id": "107179771",
@@ -182,14 +182,6 @@
       "CachePath": "08/{08869F0A-BF7C-276D-B439-65579E733371}.wem"
      },
      {
-      "Id": "119741178",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Boss_VO_02.wav",
-      "CachePath": "DF/{DF66EE4B-DC02-0B86-C32B-7D7A5392294B}.wem"
-     },
-     {
       "Id": "121590885",
       "Language": "SFX",
       "Streaming": "false",
@@ -205,6 +197,22 @@
       "ShortName": "Solo_Violin_Full_115_bpm_4_4.wav",
       "Path": "Media/127462967.wem",
       "CachePath": "99/{996AF262-7834-AE9E-768A-30BBA6AE6C52}.wem"
+     },
+     {
+      "Id": "134170183",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_VO_2_02.wav",
+      "CachePath": "44/{4405F104-B6EC-35D5-9EAE-02FACBD62F95}.wem"
+     },
+     {
+      "Id": "142199530",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_VO_2_03.wav",
+      "CachePath": "8A/{8AD2A2F3-DF5C-CCFE-5F7B-3FB2855BD122}.wem"
      },
      {
       "Id": "145896481",
@@ -287,6 +295,14 @@
       "Location": "Memory",
       "ShortName": "sfx_invalid_action.wav",
       "CachePath": "6C/{6C27AD07-B41C-FCBF-C6BE-360825DAEE2C}.wem"
+     },
+     {
+      "Id": "187459551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_VO_2_06.wav",
+      "CachePath": "4F/{4F9584F1-0C9B-E6AD-2060-0AB1F6137148}.wem"
      },
      {
       "Id": "193162057",
@@ -454,14 +470,6 @@
       "CachePath": "92/{92B16CD6-9A8A-3898-B4DF-0E7F23CA640F}.wem"
      },
      {
-      "Id": "311015533",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Audio\\Soundly Voice Designer, Abbi 120.wav",
-      "CachePath": "95/{95F8A7A8-7598-DACB-F45A-F1EC96D49189}.wem"
-     },
-     {
       "Id": "327692223",
       "Language": "SFX",
       "Streaming": "false",
@@ -478,12 +486,12 @@
       "CachePath": "EA/{EA82CEA3-8CB1-F322-0344-801AC183E8CB}.wem"
      },
      {
-      "Id": "333917795",
+      "Id": "337088715",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Boss_VO_03.wav",
-      "CachePath": "D4/{D4EA6DB1-D713-93BE-06B0-1D55F8801D66}.wem"
+      "ShortName": "Boss_VO_2_01.wav",
+      "CachePath": "FB/{FBE3CC34-7AEB-75DE-E76D-D53DB692EED7}.wem"
      },
      {
       "Id": "339896044",
@@ -792,6 +800,14 @@
       "CachePath": "12/{12BF826A-20BF-F84A-E6B4-E10D76EBBC72}.wem"
      },
      {
+      "Id": "575091567",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_VO_2_04.wav",
+      "CachePath": "55/{556FD72F-94B1-280D-AA9D-259773DA8CD0}.wem"
+     },
+     {
       "Id": "592143505",
       "Language": "SFX",
       "Streaming": "false",
@@ -833,28 +849,12 @@
       "CachePath": "4B/{4BC8B775-C469-74D5-350C-11BCD1F1DC7B}.wem"
      },
      {
-      "Id": "618842476",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Boss_VO_04.wav",
-      "CachePath": "23/{235769D9-FE6B-E4EE-A6B7-A73E515989B3}.wem"
-     },
-     {
       "Id": "618988095",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_player_ranged_ability_04.wav",
       "CachePath": "A2/{A2CC93A8-5ECC-2CE8-9251-4FD89713CF08}.wem"
-     },
-     {
-      "Id": "619597889",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Soundly Voice Designer, Abbi 30.wav",
-      "CachePath": "F7/{F7F01C40-A1B8-27AC-E2AC-063A0A0AFFBF}.wem"
      },
      {
       "Id": "624112874",
@@ -889,14 +889,6 @@
       "ShortName": "Cello_Fras_2_115_bpm_4_4.wav",
       "Path": "Media/637886474.wem",
       "CachePath": "E8/{E8208DBD-BB55-0831-07F1-59822A236A96}.wem"
-     },
-     {
-      "Id": "642625959",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Boss_VO_01.wav",
-      "CachePath": "8D/{8DFD51D2-4B4A-CE06-9041-857F86771326}.wem"
      },
      {
       "Id": "652178712",
@@ -1016,6 +1008,14 @@
       "Location": "Memory",
       "ShortName": "Enemy_Ranged_Death03.wav",
       "CachePath": "72/{72803426-93E7-16EF-6C8C-74A66430FE32}.wem"
+     },
+     {
+      "Id": "719679212",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Dialogue_Box_Appear.wav",
+      "CachePath": "81/{81BE847E-DDA9-8C01-2194-2D1BF26C33E6}.wem"
      },
      {
       "Id": "729662168",
@@ -1348,6 +1348,14 @@
       "CachePath": "D9/{D999AE75-7056-21E6-0EA7-78F60546C944}.wem"
      },
      {
+      "Id": "951977194",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Checkpoint_Reached.wav",
+      "CachePath": "59/{59F5E3AD-64C9-84E0-282F-987B884B084A}.wem"
+     },
+     {
       "Id": "953585317",
       "Language": "SFX",
       "Streaming": "false",
@@ -1396,14 +1404,6 @@
       "ShortName": "Eric_Solo_2_115_bpm_4_4.wav",
       "Path": "Media/971124998.wem",
       "CachePath": "B6/{B6295410-C338-6E82-E6BB-97B992FA0F8D}.wem"
-     },
-     {
-      "Id": "972751303",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Boss_VO_06.wav",
-      "CachePath": "78/{7835D871-C33E-8C71-FF1D-1C0DF4A233CC}.wem"
      },
      {
       "Id": "1000892860",
@@ -2046,22 +2046,22 @@
       "DurationMax": "1.8699583",
       "MediaRefs": [
        {
-        "Id": "105074723"
+        "Id": "79956619"
        },
        {
-        "Id": "119741178"
+        "Id": "134170183"
        },
        {
-        "Id": "333917795"
+        "Id": "142199530"
        },
        {
-        "Id": "618842476"
+        "Id": "187459551"
        },
        {
-        "Id": "642625959"
+        "Id": "337088715"
        },
        {
-        "Id": "972751303"
+        "Id": "575091567"
        }
       ],
       "AuxBusRefs": [
@@ -2111,11 +2111,11 @@
       "GUID": "{4C8CB6C1-3A0B-47B1-9815-F9B81EC67E95}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "1.5335",
-      "DurationMax": "1.5335",
+      "DurationMin": "1.9016666",
+      "DurationMax": "1.9016666",
       "MediaRefs": [
        {
-        "Id": "311015533"
+        "Id": "951977194"
        }
       ]
      },
@@ -2126,11 +2126,11 @@
       "GUID": "{282D6CD3-40EC-4F58-8183-C62349A7CC57}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "1.2797709",
-      "DurationMax": "1.2797709",
+      "DurationMin": "0.10033333",
+      "DurationMax": "0.10033333",
       "MediaRefs": [
        {
-        "Id": "619597889"
+        "Id": "719679212"
        }
       ]
      },
@@ -3313,6 +3313,6 @@
     ]
    }
   ],
-  "FileHash": "{A6A61E62-D36D-251D-7953-E370A154E380}"
+  "FileHash": "{6C71969F-3ED2-E85B-E717-63A72834522F}"
  }
 }
