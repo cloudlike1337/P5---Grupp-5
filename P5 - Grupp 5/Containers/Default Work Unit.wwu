@@ -275,7 +275,7 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<Sound Name="sfx_footsteps_grass_01" ID="{BC097673-E284-43E9-AEE9-36E81A4B14AB}" ShortID="367632866">
+																<Sound Name="sfx_footsteps_grass_01" ID="{32864ED2-74EC-4EBE-B6F1-73CF777C8C77}" ShortID="990059352">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -285,14 +285,7 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{259F38AE-9813-4294-B50A-DC862B11424B}">
-																			<Language>SFX</Language>
-																			<AudioFile>sfx_footsteps_grass_01.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="894360804"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																		<AudioFileSource Name="sfx_footsteps_grass_02" ID="{283E2346-8DCA-4DEF-82B0-DCC8694DE542}">
+																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{6420D076-2E3B-49B7-92B4-B6C4EB75FCBE}">
 																			<Language>SFX</Language>
 																			<AudioFile>sfx_footsteps_grass_01.wav</AudioFile>
 																			<MediaIDList>
@@ -301,10 +294,10 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_02" ID="{283E2346-8DCA-4DEF-82B0-DCC8694DE542}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{6420D076-2E3B-49B7-92B4-B6C4EB75FCBE}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="sfx_footsteps_grass_02" ID="{1A2ECF8F-C62A-45DA-A6C7-E7E8CD5E9D45}" ShortID="140930292">
+																<Sound Name="sfx_footsteps_grass_02" ID="{6A47DD0E-72B6-4D2C-ACB3-C102322D19A2}" ShortID="340406752">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -314,14 +307,7 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="sfx_footsteps_grass_02" ID="{C2E25644-88F0-477B-A92A-63C65730CA07}">
-																			<Language>SFX</Language>
-																			<AudioFile>sfx_footsteps_grass_02.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="733830020"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{0F6D1859-2B9D-4B25-A1DA-1D35212B3553}">
+																		<AudioFileSource Name="sfx_footsteps_grass_02" ID="{B48DE9B9-BC03-4AA5-9946-E596D25B6890}">
 																			<Language>SFX</Language>
 																			<AudioFile>sfx_footsteps_grass_02.wav</AudioFile>
 																			<MediaIDList>
@@ -330,10 +316,10 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{0F6D1859-2B9D-4B25-A1DA-1D35212B3553}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_02" ID="{B48DE9B9-BC03-4AA5-9946-E596D25B6890}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="sfx_footsteps_grass_03" ID="{FF8D1280-509B-4276-8056-8724AB98D957}" ShortID="743815048">
+																<Sound Name="sfx_footsteps_grass_03" ID="{C51C4FF5-EE16-455E-A156-228E8E8F8FC0}" ShortID="231571194">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -343,14 +329,7 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="sfx_footsteps_grass_03" ID="{349CF21A-0BF7-42EC-ADDF-1A17A5AB735E}">
-																			<Language>SFX</Language>
-																			<AudioFile>sfx_footsteps_grass_03.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="26056301"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{62F71B3A-11DF-4829-9B37-8EB1CFC0F80C}">
+																		<AudioFileSource Name="sfx_footsteps_grass_03" ID="{D04F273A-4F08-46B6-94FB-3D6CBC39FD02}">
 																			<Language>SFX</Language>
 																			<AudioFile>sfx_footsteps_grass_03.wav</AudioFile>
 																			<MediaIDList>
@@ -359,10 +338,10 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{62F71B3A-11DF-4829-9B37-8EB1CFC0F80C}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_03" ID="{D04F273A-4F08-46B6-94FB-3D6CBC39FD02}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="sfx_footsteps_grass_04" ID="{C803E3A7-3053-432A-9337-2BB59E52B24B}" ShortID="445053514">
+																<Sound Name="sfx_footsteps_grass_04" ID="{A530DC66-07A7-4ADC-9E91-CBA0CED2404D}" ShortID="864593461">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -372,14 +351,7 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="sfx_footsteps_grass_04" ID="{37F874A1-87C9-4530-A476-3A35DD2B7245}">
-																			<Language>SFX</Language>
-																			<AudioFile>sfx_footsteps_grass_04.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="955339130"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{EF4E9C3D-E280-42BD-B1F8-9C9314596EED}">
+																		<AudioFileSource Name="sfx_footsteps_grass_04" ID="{D0195132-7EF0-41B1-A2BF-64437F847E44}">
 																			<Language>SFX</Language>
 																			<AudioFile>sfx_footsteps_grass_04.wav</AudioFile>
 																			<MediaIDList>
@@ -388,10 +360,10 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{EF4E9C3D-E280-42BD-B1F8-9C9314596EED}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_04" ID="{D0195132-7EF0-41B1-A2BF-64437F847E44}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="sfx_footsteps_grass_05" ID="{8F5D8588-0937-46AF-BFF2-38A7FFE322BA}" ShortID="358208192">
+																<Sound Name="sfx_footsteps_grass_05" ID="{EDF9BF1A-A15D-4E45-BBAA-54475B989A87}" ShortID="674249165">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -401,14 +373,7 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="sfx_footsteps_grass_05" ID="{0DE717E3-23F3-4F20-8027-C30CCD5B4CCD}">
-																			<Language>SFX</Language>
-																			<AudioFile>sfx_footsteps_grass_05.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="863383401"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{3AD83017-295E-4E63-8144-2B55D65C4B7F}">
+																		<AudioFileSource Name="sfx_footsteps_grass_05" ID="{71DE5933-6904-44EB-AA6F-5238F3F03AC2}">
 																			<Language>SFX</Language>
 																			<AudioFile>sfx_footsteps_grass_05.wav</AudioFile>
 																			<MediaIDList>
@@ -417,10 +382,10 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{3AD83017-295E-4E63-8144-2B55D65C4B7F}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_05" ID="{71DE5933-6904-44EB-AA6F-5238F3F03AC2}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="sfx_footsteps_grass_06" ID="{95782AF7-EA18-407C-A50F-819F6B9DE802}" ShortID="177082385">
+																<Sound Name="sfx_footsteps_grass_06" ID="{A1BC9882-1715-481B-870D-D866B9558017}" ShortID="329855085">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -430,14 +395,7 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="sfx_footsteps_grass_06" ID="{C42D91B0-A828-4109-AA03-3BCBB4FECA3A}">
-																			<Language>SFX</Language>
-																			<AudioFile>sfx_footsteps_grass_06.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="454996688"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{77170B61-AD18-4C62-A265-F681C8BEFAA1}">
+																		<AudioFileSource Name="sfx_footsteps_grass_06" ID="{5B0F66ED-0F63-43B4-B64A-877C9B9B82D0}">
 																			<Language>SFX</Language>
 																			<AudioFile>sfx_footsteps_grass_06.wav</AudioFile>
 																			<MediaIDList>
@@ -446,10 +404,10 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{77170B61-AD18-4C62-A265-F681C8BEFAA1}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_06" ID="{5B0F66ED-0F63-43B4-B64A-877C9B9B82D0}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="sfx_footsteps_grass_07" ID="{7D5B7D7D-5716-4AB2-A367-C426D7CBBBC7}" ShortID="867264979">
+																<Sound Name="sfx_footsteps_grass_07" ID="{04E31112-C82D-4001-8A95-3C59581465BC}" ShortID="784364722">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -459,14 +417,7 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="sfx_footsteps_grass_07" ID="{21CEBDA6-830D-48AD-93D2-3E7F1EFA11A7}">
-																			<Language>SFX</Language>
-																			<AudioFile>sfx_footsteps_grass_07.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="907292839"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{EBC4DDD9-E5DB-4A44-A647-1E82D9ADA26C}">
+																		<AudioFileSource Name="sfx_footsteps_grass_07" ID="{A02C6BA9-0B24-4C9E-A24E-9EDEAE78F48F}">
 																			<Language>SFX</Language>
 																			<AudioFile>sfx_footsteps_grass_07.wav</AudioFile>
 																			<MediaIDList>
@@ -475,10 +426,10 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{EBC4DDD9-E5DB-4A44-A647-1E82D9ADA26C}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_07" ID="{A02C6BA9-0B24-4C9E-A24E-9EDEAE78F48F}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
-																<Sound Name="sfx_footsteps_grass_08" ID="{92E128E4-D558-4C22-9D2E-3B222E1C59C5}" ShortID="257178894">
+																<Sound Name="sfx_footsteps_grass_08" ID="{B6E32F0D-49A7-4EA6-B248-69040F195DF9}" ShortID="494128221">
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -488,14 +439,7 @@
 																		</Reference>
 																	</ReferenceList>
 																	<ChildrenList>
-																		<AudioFileSource Name="sfx_footsteps_grass_08" ID="{CF489AAD-CAEC-46B6-B46C-A728495799DF}">
-																			<Language>SFX</Language>
-																			<AudioFile>sfx_footsteps_grass_08.wav</AudioFile>
-																			<MediaIDList>
-																				<MediaID ID="918166768"/>
-																			</MediaIDList>
-																		</AudioFileSource>
-																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{E6A31436-3C0D-4723-B0C6-AD84FC2F8D97}">
+																		<AudioFileSource Name="sfx_footsteps_grass_08" ID="{F1552A25-EB1C-4777-A4B9-71545750EF31}">
 																			<Language>SFX</Language>
 																			<AudioFile>sfx_footsteps_grass_08.wav</AudioFile>
 																			<MediaIDList>
@@ -504,7 +448,7 @@
 																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{E6A31436-3C0D-4723-B0C6-AD84FC2F8D97}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_08" ID="{F1552A25-EB1C-4777-A4B9-71545750EF31}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
@@ -2948,7 +2892,7 @@
 														<ActiveSource Name="Boss_boss changes phase" ID="{23DE71C1-3998-432C-B154-45C3DF9A8C2C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Boss Death_Destroyed" ID="{E4DCCCAB-F2D4-42DA-83EF-1D5A4A58458A}" ShortID="32343235">
+												<Sound Name="SFX_Boss_Death" ID="{E4DCCCAB-F2D4-42DA-83EF-1D5A4A58458A}" ShortID="32343235">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -2968,31 +2912,6 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="Boss_boss death destroyed" ID="{D0A13B80-E89B-4BFF-A8F4-49D507365C6F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="SFX_Boss_Death_Scream" ID="{5E071078-D5D7-421C-9BAC-B738AAE8467C}" ShortID="388278797">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Boss_boss death scream" ID="{E805A264-9B85-43B0-B2B3-DE19281F9898}">
-															<Language>SFX</Language>
-															<AudioFile>Boss_boss death scream.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="500720502"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Boss_boss death scream" ID="{E805A264-9B85-43B0-B2B3-DE19281F9898}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Boss_Spawns_Popcorn_Enemy" ID="{A6974784-2343-4AF6-8979-D007E3168469}" ShortID="939037374">
@@ -3073,28 +2992,6 @@
 														<ActiveSource Name="Soundly Voice Designer, Abbi 10" ID="{7D649417-DC95-4202-8431-88670250E5F8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Boss_Take_Damage" ID="{BFB8C6A7-7458-4925-ABD4-33D3043F3260}" ShortID="765311346">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Soundly Voice Designer, Abbi 14" ID="{7574FE8E-A482-4030-866B-749119AEB751}">
-															<Language>SFX</Language>
-															<AudioFile>Soundly Voice Designer, Abbi 14.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="244887224"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Soundly Voice Designer, Abbi 14" ID="{7574FE8E-A482-4030-866B-749119AEB751}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<RandomSequenceContainer Name="SFX_Boss_Scream" ID="{D052D5C0-7A87-487C-A431-941F44053AC7}" ShortID="194402149">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -3164,28 +3061,6 @@
 																<ActiveSource Name="Boss_VO_2_02" ID="{5C6CAD57-0F63-49F4-8630-AC7888AE9698}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Boss_VO_2_03" ID="{D92E1EFF-CA2B-400D-9DBC-ED3FAB40B0BE}" ShortID="902291798">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Boss_VO_2_03" ID="{5827C1BA-DC0E-41A3-A2AC-AFB66ECA79E4}">
-																	<Language>SFX</Language>
-																	<AudioFile>Boss_VO_2_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="142199530"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Boss_VO_2_03" ID="{5827C1BA-DC0E-41A3-A2AC-AFB66ECA79E4}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
 														<Sound Name="Boss_VO_2_04" ID="{9AFC627F-4A3A-4BC3-91D6-7B5C9D0F842B}" ShortID="102565265">
 															<ReferenceList>
 																<Reference Name="Conversion">
@@ -3230,28 +3105,6 @@
 																<ActiveSource Name="Boss_VO_2_05" ID="{D069B9B2-DE61-4964-A268-130BD5657670}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
-														<Sound Name="Boss_VO_2_06" ID="{A5A69652-DA60-41BD-B913-53D5EC5355DE}" ShortID="211253616">
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Boss_VO_2_06" ID="{211112AA-D286-4C87-8C0C-FB1A2A4C4C88}">
-																	<Language>SFX</Language>
-																	<AudioFile>Boss_VO_2_06.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="187459551"/>
-																	</MediaIDList>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Boss_VO_2_06" ID="{211112AA-D286-4C87-8C0C-FB1A2A4C4C88}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<Sound Name="SFX_Boss_Idle_Loop" ID="{0C1ED881-B9EB-4DB0-A930-0ECFD797F136}" ShortID="692170694">
@@ -3282,6 +3135,95 @@
 														<ActiveSource Name="Soundly Voice Designer, Abbi 27" ID="{1DDC6EB4-479B-441D-9BE8-D18B414C854F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<RandomSequenceContainer Name="SFX_Boss_Take_Damage" ID="{3B74A1D4-DB13-4A88-B7F1-8C49E59398A3}" ShortID="178966775">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Boss_VO_2_06" ID="{A5A69652-DA60-41BD-B913-53D5EC5355DE}" ShortID="211253616">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="UserAuxSend1">
+																	<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="UserAuxSend2">
+																	<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="UserAuxSend3">
+																	<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_VO_2_06" ID="{211112AA-D286-4C87-8C0C-FB1A2A4C4C88}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_VO_2_06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="187459551"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_VO_2_06" ID="{211112AA-D286-4C87-8C0C-FB1A2A4C4C88}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Boss_VO_2_03" ID="{D92E1EFF-CA2B-400D-9DBC-ED3FAB40B0BE}" ShortID="902291798">
+															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="UserAuxSend1">
+																	<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="UserAuxSend2">
+																	<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="UserAuxSend3">
+																	<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_VO_2_03" ID="{5827C1BA-DC0E-41A3-A2AC-AFB66ECA79E4}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_VO_2_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="142199530"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_VO_2_03" ID="{5827C1BA-DC0E-41A3-A2AC-AFB66ECA79E4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</Folder>
 									</ChildrenList>

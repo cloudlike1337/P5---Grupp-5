@@ -51,7 +51,14 @@
 												<Action Name="" ID="{4DE5F2E8-D0CD-4E1D-855C-5B17F41B11B9}" ShortID="609054567">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Boss Death_Destroyed" ID="{E4DCCCAB-F2D4-42DA-83EF-1D5A4A58458A}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Boss_Death" ID="{E4DCCCAB-F2D4-42DA-83EF-1D5A4A58458A}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+												<Action Name="" ID="{E6CDE42E-19C7-4BC7-8580-763D4DF30183}" ShortID="955253703">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Boss_Scream" ID="{D052D5C0-7A87-487C-A431-941F44053AC7}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -84,7 +91,7 @@
 												<Action Name="" ID="{9FAB42C7-B8D5-496A-9DF9-141AE9B04853}" ShortID="1070888060">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Boss_Take_Damage" ID="{BFB8C6A7-7458-4925-ABD4-33D3043F3260}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Boss_Take_Damage" ID="{3B74A1D4-DB13-4A88-B7F1-8C49E59398A3}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
