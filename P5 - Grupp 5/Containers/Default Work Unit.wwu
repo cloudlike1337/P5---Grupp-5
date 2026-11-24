@@ -3521,6 +3521,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Checkpoint_Reached" ID="{5EEA46DC-E5BE-460B-907D-F6F829325963}" ShortID="281539302">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
