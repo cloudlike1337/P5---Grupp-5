@@ -3569,16 +3569,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 123" ID="{AE40ACE6-887E-49CE-9CA7-EB16B5B2F311}">
+												<AudioFileSource Name="sfx_player_respawn" ID="{5215BD08-E61D-4138-AF05-150D70A7E8C7}">
 													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 123.wav</AudioFile>
+													<AudioFile>sfx_player_respawn.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="36223790"/>
+														<MediaID ID="853520324"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Soundly Voice Designer, Abbi 123" ID="{AE40ACE6-887E-49CE-9CA7-EB16B5B2F311}" Platform="Linked"/>
+												<ActiveSource Name="sfx_player_respawn" ID="{5215BD08-E61D-4138-AF05-150D70A7E8C7}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Player_Death" ID="{0566D3F9-98F2-47CA-BC81-34DF816AACBE}" ShortID="964224992">
@@ -3874,7 +3874,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Soundly Voice Designer, Abbi 21" ID="{99223D79-E351-410F-B920-34CEAE00186C}" ShortID="673608801">
+												<Sound Name="sfx_heal_fruit_fall_on_ground_01" ID="{82164683-9125-4F65-ACAC-0FB5E073097C}" ShortID="853676598">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -3884,16 +3884,60 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Soundly Voice Designer, Abbi 21" ID="{AD76D690-FF82-4416-8F4E-FF74633A7C11}">
+														<AudioFileSource Name="sfx_heal_fruit_fall_on_ground_01" ID="{2FBD53AA-2088-4989-B804-2C874A60DDEA}">
 															<Language>SFX</Language>
-															<AudioFile>Soundly Voice Designer, Abbi 21.wav</AudioFile>
+															<AudioFile>sfx_heal_fruit_fall_on_ground_01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="107179771"/>
+																<MediaID ID="922855044"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Soundly Voice Designer, Abbi 21" ID="{AD76D690-FF82-4416-8F4E-FF74633A7C11}" Platform="Linked"/>
+														<ActiveSource Name="sfx_heal_fruit_fall_on_ground_01" ID="{2FBD53AA-2088-4989-B804-2C874A60DDEA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_heal_fruit_fall_on_ground_02" ID="{0F5FF59B-CE27-4FE9-9790-C90D4ECB302D}" ShortID="148141421">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_heal_fruit_fall_on_ground_02" ID="{3FC5DA13-92D3-495C-A4C4-ACB7C30EA6D4}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_heal_fruit_fall_on_ground_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="880458391"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_heal_fruit_fall_on_ground_02" ID="{3FC5DA13-92D3-495C-A4C4-ACB7C30EA6D4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="sfx_heal_fruit_fall_on_ground_03" ID="{C0B8ED8D-4506-4693-B8AE-D0FE83224E4C}" ShortID="423270725">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="sfx_heal_fruit_fall_on_ground_03" ID="{DEC9C601-D48C-4E6A-9126-C6FF1C9B0D04}">
+															<Language>SFX</Language>
+															<AudioFile>sfx_heal_fruit_fall_on_ground_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="572314337"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="sfx_heal_fruit_fall_on_ground_03" ID="{DEC9C601-D48C-4E6A-9126-C6FF1C9B0D04}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
