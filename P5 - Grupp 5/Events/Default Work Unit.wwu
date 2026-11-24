@@ -835,20 +835,6 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Boss_Defeated" ID="{730672AA-86A2-4CEE-9624-4ED222097412}">
-									<ChildrenList>
-										<Action Name="" ID="{717F9DB3-C9CE-4B07-AA2B-823891203661}" ShortID="485915894">
-											<PropertyList>
-												<Property Name="ActionType" Type="int16" Value="22"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Boss_Defeated" ID="{652DF225-BEE0-4B27-98A5-53BC3A407323}" WorkUnitID="{E9DA7F07-DF4A-4414-B4B3-D1E3255B8E1A}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
 								<Event Name="Set_Music_To_Boss_Defeated" ID="{A1881D00-C23F-479B-B41B-E6D752FFF1EF}">
 									<ChildrenList>
 										<Action Name="" ID="{0487F5AD-E871-468B-9CD1-675D421FD270}" ShortID="503733678">

@@ -364,6 +364,31 @@
 						</CustomStateList>
 					</StateInfo>
 					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{A8357EB1-7FF8-40D0-8174-3D01C32AA9D4}" ShortID="726978222">
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+										<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+									</Reference>
+								</ReferenceList>
+								<StateInfo>
+									<CustomStateList>
+										<CustomState>
+											<StateRef Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
+											<CustomState Name="" ID="{89799C85-6985-493D-8C61-08B94D70E505}" ShortID="281637667"/>
+										</CustomState>
+										<CustomState>
+											<StateRef Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+											<CustomState Name="" ID="{56DC7679-6EC1-4D2A-837E-C48C50C76DB3}" ShortID="785719159"/>
+										</CustomState>
+										<CustomState>
+											<StateRef Name="None" ID="{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"/>
+											<CustomState Name="" ID="{DBF6ADE7-2173-4382-8C55-E9E352C1DABA}" ShortID="357883666"/>
+										</CustomState>
+									</CustomStateList>
+								</StateInfo>
+							</EffectSlot>
+						</ObjectList>
 						<ObjectList Name="RTPC">
 							<RTPC Name="" ID="{43506A67-0390-4842-A866-86A476383B55}" ShortID="264959183">
 								<PropertyList>
