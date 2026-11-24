@@ -2922,6 +2922,9 @@
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Boss_boss spawning popcorn enemy" ID="{CE647084-D437-4E5C-AE43-4A18AA8C297F}">
@@ -2937,6 +2940,23 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Boss_AOE_Warning" ID="{ED301C9E-62D0-4D92-BFA3-1F6CFB8CBEAE}" ShortID="32889116">
+													<PropertyList>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>9</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -2968,6 +2988,11 @@
 														<Property Name="UseMaxSoundPerInstance" Type="bool">
 															<ValueList>
 																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>9</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -3689,7 +3714,7 @@
 																<MediaID ID="519428921"/>
 															</MediaIDList>
 														</AudioFileSource>
-														<AudioFileSource Name="SFX_Walls_Rising" ID="{24E7501F-FBFA-4B62-87F2-8A461550D0A5}">
+														<AudioFileSource Name="SFX_Walls_Rising_01" ID="{24E7501F-FBFA-4B62-87F2-8A461550D0A5}">
 															<Language>SFX</Language>
 															<AudioFile>SFX_Walls_Rising.wav</AudioFile>
 															<MediaIDList>
@@ -3698,7 +3723,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="SFX_Walls_Rising" ID="{24E7501F-FBFA-4B62-87F2-8A461550D0A5}" Platform="Linked"/>
+														<ActiveSource Name="SFX_Walls_Rising_01" ID="{24E7501F-FBFA-4B62-87F2-8A461550D0A5}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -3963,6 +3988,7 @@
 															<ChildrenList>
 																<MusicPlaylistItem Name="" ID="{D692812E-54B8-4B97-95B7-BC99CE89634B}" ShortID="475933569">
 																	<PropertyList>
+																		<Property Name="LoopCount" Type="int16" Value="0"/>
 																		<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
@@ -6552,12 +6578,72 @@
 																			<ObjectList Name="Clips">
 																				<MusicClip Name="Lvl1_Synth_Pad_Melody" ID="{D4152BAC-10F0-4528-B51C-68D431589A7B}">
 																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="982.409558579484"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="80625"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																						<Property Name="PlayAt" Type="Real64" Value="521.739130434783"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Lvl1_Synth_Pad_Melody" ID="{8EBF0709-DF01-4822-938A-6C287F1FBBAC}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{742C6AAE-60A1-4600-A48F-07AB6004B9F9}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.98241</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>80.625</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{1A90747B-5B94-4900-8191-7F9156684B44}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.98241</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>80.625</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{F9BDC246-DA9C-4FB7-A174-DB31D2445711}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0.98241</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>80.625</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>

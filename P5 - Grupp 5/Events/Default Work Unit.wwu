@@ -65,6 +65,13 @@
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_Boss_AOE_Warning" ID="{C4F24378-E52C-4FC3-9073-66879A55C468}">
+											<PropertyList>
+												<Property Name="InstanceLimit" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ChildrenList>
 												<Action Name="" ID="{C8B778B4-2180-47D8-B274-1F9E3E1ECFC4}" ShortID="580162895">
 													<ReferenceList>
@@ -76,6 +83,13 @@
 											</ChildrenList>
 										</Event>
 										<Event Name="Play_Boss_AOE_Attack" ID="{60A83385-9DDA-4F09-9929-057C2EC8851E}">
+											<PropertyList>
+												<Property Name="InstanceLimit" Type="int16">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ChildrenList>
 												<Action Name="" ID="{412D30AC-5906-4A00-BE78-636B884A9747}" ShortID="717142759">
 													<ReferenceList>
@@ -702,13 +716,6 @@
 									</ChildrenList>
 								</Event>
 								<Event Name="Initialize_Music_System" ID="{D5328475-3A7A-4F8E-904A-BC3E26956906}">
-									<PropertyList>
-										<Property Name="InstanceLimit" Type="int16">
-											<ValueList>
-												<Value>1</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ChildrenList>
 										<Action Name="" ID="{47468FD5-0C96-40EF-BB37-042B5C735137}" ShortID="672048645">
 											<PropertyList>
