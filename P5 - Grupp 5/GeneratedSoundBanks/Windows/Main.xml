@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{12089AD3-7921-62EB-4670-FCBA5BDF5E88}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{83BB5183-291A-B1D1-D293-4ED8A85115E5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -37,7 +37,7 @@
 				</File>
 				<File Id="26056301" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_03.wav</ShortName>
-					<CachePath>A1/{A1889CA3-31FB-A9C9-B624-BE23DFC3791E}.wem</CachePath>
+					<CachePath>4C/{4C395976-92DC-9D13-6013-FB2A925B72A7}.wem</CachePath>
 				</File>
 				<File Id="55857974" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Ranged_Attack_05.wav</ShortName>
@@ -286,7 +286,7 @@
 				</File>
 				<File Id="454996688" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_06.wav</ShortName>
-					<CachePath>B3/{B373FEA9-BDF3-FC25-C894-532485412496}.wem</CachePath>
+					<CachePath>CA/{CAB6770B-C7F0-E082-A398-AAE599C15E8B}.wem</CachePath>
 				</File>
 				<File Id="461097952" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Cello_Fras_1_115_bpm_4_4.wav</ShortName>
@@ -530,7 +530,7 @@
 				</File>
 				<File Id="733830020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_02.wav</ShortName>
-					<CachePath>D9/{D9E27DEC-D621-42E4-EFF4-9EC784478FBF}.wem</CachePath>
+					<CachePath>EC/{EC5026C0-485F-1CA2-F7CD-38AA0C1A389D}.wem</CachePath>
 				</File>
 				<File Id="752030728" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Horror_Cymbaler_2_115_bpm_4_4.wav</ShortName>
@@ -615,7 +615,7 @@
 				</File>
 				<File Id="863383401" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_05.wav</ShortName>
-					<CachePath>55/{55C7BC74-046A-7A84-3853-D1E851EF8AFB}.wem</CachePath>
+					<CachePath>C6/{C6D0E1F8-300E-B40D-9F9A-AC8440B457AB}.wem</CachePath>
 				</File>
 				<File Id="870633071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_vine_abillity_04.wav</ShortName>
@@ -649,7 +649,7 @@
 				</File>
 				<File Id="894360804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_01.wav</ShortName>
-					<CachePath>9B/{9BCA0CA0-D112-BD92-7E5E-7932562E836D}.wem</CachePath>
+					<CachePath>B4/{B434BA61-FBF7-FBC5-4AB2-D0C6B3F6B4DE}.wem</CachePath>
 				</File>
 				<File Id="897422003" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Ranged_Walk_05.wav</ShortName>
@@ -665,11 +665,11 @@
 				</File>
 				<File Id="907292839" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_07.wav</ShortName>
-					<CachePath>D4/{D41CB17D-04C0-DBA6-2CEE-635D89BD086D}.wem</CachePath>
+					<CachePath>B0/{B0498C44-FE8E-2F4D-3233-F235C32446CA}.wem</CachePath>
 				</File>
 				<File Id="918166768" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_08.wav</ShortName>
-					<CachePath>19/{192F53DD-2224-5804-4709-3FD824CC1C71}.wem</CachePath>
+					<CachePath>99/{9953A112-1383-06DF-FD5E-79EA6B7FD72D}.wem</CachePath>
 				</File>
 				<File Id="922855044" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_heal_fruit_fall_on_ground_01.wav</ShortName>
@@ -716,7 +716,7 @@
 				</File>
 				<File Id="955339130" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_04.wav</ShortName>
-					<CachePath>3B/{3B6E8B41-E6E0-408E-7DD4-3F5629E2517C}.wem</CachePath>
+					<CachePath>46/{4616C999-339C-3B83-CA84-E396C8EA054A}.wem</CachePath>
 				</File>
 				<File Id="955783935" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_footsteps_flesh_07.wav</ShortName>
@@ -1394,5 +1394,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0E45E0E8-6D67-48E5-612C-D2DBC5318C52}</FileHash>
+	<FileHash>{39ECC66F-96F1-E337-AE28-FB748A88217E}</FileHash>
 </SoundBanksInfo>

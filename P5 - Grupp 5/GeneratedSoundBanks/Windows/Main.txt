@@ -99,7 +99,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	16752158	Popcorn_Death_03	.cache\07\{072C7CB6-61DF-CFA9-7CFF-DA5A1E27C70C}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Death\Popcorn_Death_03		5063
 	18914104	SFX_Ranged_Enemy_AOE_Attack_Warning	.cache\00\{00F146E6-49A4-0661-C886-D3684051AC1D}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_AOE_Attack_Warning		21087
 	22085447	sfx_player_footsteps_flesh_03	.cache\7D\{7D3E3584-8410-6A74-6612-BD179FC7DA82}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Flesh\sfx_player_footsteps_flesh_03		8434
-	26056301	sfx_footsteps_grass_03	.cache\A1\{A1889CA3-31FB-A9C9-B624-BE23DFC3791E}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_03		4330
+	26056301	sfx_footsteps_grass_03	.cache\4C\{4C395976-92DC-9D13-6013-FB2A925B72A7}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_03		4058
 	55857974	Enemy_Ranged_Attack_05	.cache\69\{69978873-C186-D0E6-DEE0-CC9651DEE5CA}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_AOE_Attack\Enemy_Ranged_Attack_05		12830
 	68353981	sfx_player_melee_attack_03	.cache\15\{15C37BF5-32D7-2616-F2A0-84235580A533}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Melee_Attack\sfx_player_melee_attack_03		5473
 	76478554	SFX_Boss_Idle_Loop	.cache\BC\{BC82653B-A05B-73A6-B894-0ACC87399292}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Boss\SFX_Boss_Idle_Loop		12907
@@ -140,7 +140,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	397979913	sfx_player_footsteps_wood_03	.cache\85\{8588108B-122E-A1ED-E2AD-8086CBEDD61A}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Wood\sfx_player_footsteps_wood_03		3656
 	412198939	SFX_Ambience_Level_1	.cache\89\{89FE4F2E-08C2-3B02-DF43-73F15813B1CE}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\SFX_Ambience_Level_1		715659
 	445265876	SFX_Ability_Unlocked	.cache\D8\{D8DC5A1B-747E-7955-AEF7-5F5CCEC3A52B}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Ability_Unlocked		26953
-	454996688	sfx_footsteps_grass_06	.cache\B3\{B373FEA9-BDF3-FC25-C894-532485412496}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_06		4420
+	454996688	sfx_footsteps_grass_06	.cache\CA\{CAB6770B-C7F0-E082-A398-AAE599C15E8B}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_06		4194
 	482818576	sfx_player_ultimate_ability_01	.cache\5E\{5E6FEA8A-854F-97E6-7303-080AFAA92529}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Use_Ultimate\sfx_player_ultimate_ability_01		23554
 	491416357	SFX_Start_Game	.cache\E4\{E4377127-60A4-1213-228C-45854F58E3E4}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Start_Game		8117
 	495955527	SFX_Player_Dash_Intro	.cache\C8\{C8985FA6-5FBB-9987-A7BD-86C790DAD676}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Dash\SFX_Player_Dash_Intro		4850
@@ -171,7 +171,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	719679212	SFX_Dialogue_Box_Appears	.cache\81\{81BE847E-DDA9-8C01-2194-2D1BF26C33E6}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Dialogue_Box_Appears		2531
 	722936638	SFX_Player_Pickup_Heal_Fruit	.cache\7D\{7D705C2A-9AB4-3ABA-C56D-35F7CC27481B}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Pickup_Heal_Fruit		2872
 	729662168	sfx_player_cleave_ability_01	.cache\34\{348043F2-B46A-6121-8C3A-B58523DB6131}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Cleave_Ability\sfx_player_cleave_ability_01		10749
-	733830020	sfx_footsteps_grass_02	.cache\D9\{D9E27DEC-D621-42E4-EFF4-9EC784478FBF}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_02		3810
+	733830020	sfx_footsteps_grass_02	.cache\EC\{EC5026C0-485F-1CA2-F7CD-38AA0C1A389D}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_02		3723
 	777956919	Intro_Cutscene_SFX	.cache\25\{25CE45AD-9172-AD02-B95C-BD37F2A93383}.wem		\Containers\Default Work Unit\Audio\Music\Intro_Cutscene\Intro_Cutscene_SFX		153773
 	781835202	sfx_player_vine_ability_02	.cache\50\{504417A8-9A2D-AE73-7E56-399466CE8DE6}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Vine_Ability\sfx_player_vine_ability_02		12962
 	793785320	SFX_Boss_AOE_Attack	.cache\67\{677B1603-EDF2-5087-BAE9-127EB792D751}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Boss\SFX_Boss_AOE_Attack		11573
@@ -186,18 +186,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	853520324	SFX_Player_Respawn	.cache\CC\{CCE89AE5-8332-A52A-8FBA-8822B25FD771}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Player_Respawn		4345
 	855724915	sfx_player_cleave_ability_03	.cache\3F\{3F8A3CD0-9290-6CB4-745A-719B1F1E4103}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Cleave_Ability\sfx_player_cleave_ability_03		13106
 	861398929	sfx_player_footsteps_flesh_02	.cache\2C\{2C1AEF98-AC59-9F04-92E6-47E0E3B34A3E}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Flesh\sfx_player_footsteps_flesh_02		5233
-	863383401	sfx_footsteps_grass_05	.cache\55\{55C7BC74-046A-7A84-3853-D1E851EF8AFB}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_05		4205
+	863383401	sfx_footsteps_grass_05	.cache\C6\{C6D0E1F8-300E-B40D-9F9A-AC8440B457AB}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_05		4218
 	870633071	sfx_player_vine_abillity_04	.cache\95\{957AC147-9897-28D4-84D7-A7DBDF543E1C}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Vine_Ability\sfx_player_vine_abillity_04		9324
 	877279286	Popcorn_WalkV2_02	.cache\47\{47C1BD17-7C7A-F8E6-3BD2-9F58D6812EE4}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_WalkV2_02		4554
 	880458391	sfx_heal_fruit_fall_on_ground_02	.cache\E7\{E7B083B1-6661-A782-C561-4EEC0F18A2F7}.wem		\Containers\Default Work Unit\Audio\SFX\Environment\SFX_Heal_Fruit_Fall\sfx_heal_fruit_fall_on_ground_02		13334
 	887490565	Popcorn_WalkV2_03	.cache\33\{33021552-E073-7057-76BB-20F191CEDDB1}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Walk\Popcorn_WalkV2_03		4383
 	891185432	Enemy_Ranged_Death02	.cache\67\{67C5E594-C481-7184-76C0-AC9B7AE241FB}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_Death\Enemy_Ranged_Death02		12285
-	894360804	sfx_footsteps_grass_01	.cache\9B\{9BCA0CA0-D112-BD92-7E5E-7932562E836D}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_01		4017
+	894360804	sfx_footsteps_grass_01	.cache\B4\{B434BA61-FBF7-FBC5-4AB2-D0C6B3F6B4DE}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_01		4278
 	897422003	Enemy_Ranged_Walk_05	.cache\19\{19B36118-18E7-BEB4-5EF1-A0A6CF98B448}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_Footstep\Enemy_Ranged_Walk_05		12668
 	898166704	Popcorn_Attack_03	.cache\C3\{C3A8A103-9474-D359-1EAB-AEAB9DE89AEC}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_03		5992
 	906769287	sfx_player_footsteps_wood_04	.cache\32\{322160CF-A644-971A-98E0-E4A84BF68ED9}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Wood\sfx_player_footsteps_wood_04		3342
-	907292839	sfx_footsteps_grass_07	.cache\D4\{D41CB17D-04C0-DBA6-2CEE-635D89BD086D}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_07		4476
-	918166768	sfx_footsteps_grass_08	.cache\19\{192F53DD-2224-5804-4709-3FD824CC1C71}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_08		3212
+	907292839	sfx_footsteps_grass_07	.cache\B0\{B0498C44-FE8E-2F4D-3233-F235C32446CA}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_07		4895
+	918166768	sfx_footsteps_grass_08	.cache\99\{9953A112-1383-06DF-FD5E-79EA6B7FD72D}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_08		2974
 	922855044	sfx_heal_fruit_fall_on_ground_01	.cache\20\{202509A9-B7FA-02A5-6F82-ED496E4E9231}.wem		\Containers\Default Work Unit\Audio\SFX\Environment\SFX_Heal_Fruit_Fall\sfx_heal_fruit_fall_on_ground_01		13432
 	922979172	sfx_player_footsteps_flesh_06	.cache\7F\{7F62F98A-FF5A-7646-C3AE-448B66AA0618}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Flesh\sfx_player_footsteps_flesh_06		4977
 	926754824	SFX_Warning_Sound	.cache\2E\{2EC4DF4C-B38D-4C99-F164-5BB0651FFFAF}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Warning_Sound		21085
@@ -205,7 +205,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	949620612	Enemy_Ranged_Walk_03	.cache\D9\{D999AE75-7056-21E6-0EA7-78F60546C944}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_Footstep\Enemy_Ranged_Walk_03		12228
 	951977194	SFX_Checkpoint_Reached	.cache\59\{59F5E3AD-64C9-84E0-282F-987B884B084A}.wem		\Containers\Default Work Unit\Audio\SFX\UI\SFX_Checkpoint_Reached		27590
 	953585317	Enemy_Ranged_Attack_04	.cache\33\{334F5CF9-1BAE-D5DE-EDFB-7BCE180EF512}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_AOE_Attack\Enemy_Ranged_Attack_04		18538
-	955339130	sfx_footsteps_grass_04	.cache\3B\{3B6E8B41-E6E0-408E-7DD4-3F5629E2517C}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_04		3642
+	955339130	sfx_footsteps_grass_04	.cache\46\{4616C999-339C-3B83-CA84-E396C8EA054A}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_04		3851
 	955783935	sfx_player_footsteps_flesh_07	.cache\65\{65BF54A4-DC76-74A6-92B1-CB552B9B6659}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Flesh\sfx_player_footsteps_flesh_07		4500
 	965461654	Popcorn_Death_04	.cache\86\{86B3DE7B-1B2E-C407-3292-7E8534D55A73}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Death\Popcorn_Death_04		7982
 	1000892860	Popcorn_Attack_02	.cache\C8\{C8E23920-0D3A-98CF-2FED-611DEEC64DDA}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_02		7527

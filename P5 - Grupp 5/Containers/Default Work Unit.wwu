@@ -292,9 +292,16 @@
 																				<MediaID ID="894360804"/>
 																			</MediaIDList>
 																		</AudioFileSource>
+																		<AudioFileSource Name="sfx_footsteps_grass_01" ID="{283E2346-8DCA-4DEF-82B0-DCC8694DE542}">
+																			<Language>SFX</Language>
+																			<AudioFile>sfx_footsteps_grass_01.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="894360804"/>
+																			</MediaIDList>
+																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{259F38AE-9813-4294-B50A-DC862B11424B}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_01" ID="{283E2346-8DCA-4DEF-82B0-DCC8694DE542}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="sfx_footsteps_grass_02" ID="{1A2ECF8F-C62A-45DA-A6C7-E7E8CD5E9D45}" ShortID="140930292">
@@ -314,9 +321,16 @@
 																				<MediaID ID="733830020"/>
 																			</MediaIDList>
 																		</AudioFileSource>
+																		<AudioFileSource Name="sfx_footsteps_grass_02" ID="{0F6D1859-2B9D-4B25-A1DA-1D35212B3553}">
+																			<Language>SFX</Language>
+																			<AudioFile>sfx_footsteps_grass_02.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="733830020"/>
+																			</MediaIDList>
+																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_02" ID="{C2E25644-88F0-477B-A92A-63C65730CA07}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_02" ID="{0F6D1859-2B9D-4B25-A1DA-1D35212B3553}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="sfx_footsteps_grass_03" ID="{FF8D1280-509B-4276-8056-8724AB98D957}" ShortID="743815048">
@@ -336,9 +350,16 @@
 																				<MediaID ID="26056301"/>
 																			</MediaIDList>
 																		</AudioFileSource>
+																		<AudioFileSource Name="sfx_footsteps_grass_03" ID="{62F71B3A-11DF-4829-9B37-8EB1CFC0F80C}">
+																			<Language>SFX</Language>
+																			<AudioFile>sfx_footsteps_grass_03.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="26056301"/>
+																			</MediaIDList>
+																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_03" ID="{349CF21A-0BF7-42EC-ADDF-1A17A5AB735E}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_03" ID="{62F71B3A-11DF-4829-9B37-8EB1CFC0F80C}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="sfx_footsteps_grass_04" ID="{C803E3A7-3053-432A-9337-2BB59E52B24B}" ShortID="445053514">
@@ -358,9 +379,16 @@
 																				<MediaID ID="955339130"/>
 																			</MediaIDList>
 																		</AudioFileSource>
+																		<AudioFileSource Name="sfx_footsteps_grass_04" ID="{EF4E9C3D-E280-42BD-B1F8-9C9314596EED}">
+																			<Language>SFX</Language>
+																			<AudioFile>sfx_footsteps_grass_04.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="955339130"/>
+																			</MediaIDList>
+																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_04" ID="{37F874A1-87C9-4530-A476-3A35DD2B7245}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_04" ID="{EF4E9C3D-E280-42BD-B1F8-9C9314596EED}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="sfx_footsteps_grass_05" ID="{8F5D8588-0937-46AF-BFF2-38A7FFE322BA}" ShortID="358208192">
@@ -380,9 +408,16 @@
 																				<MediaID ID="863383401"/>
 																			</MediaIDList>
 																		</AudioFileSource>
+																		<AudioFileSource Name="sfx_footsteps_grass_05" ID="{3AD83017-295E-4E63-8144-2B55D65C4B7F}">
+																			<Language>SFX</Language>
+																			<AudioFile>sfx_footsteps_grass_05.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="863383401"/>
+																			</MediaIDList>
+																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_05" ID="{0DE717E3-23F3-4F20-8027-C30CCD5B4CCD}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_05" ID="{3AD83017-295E-4E63-8144-2B55D65C4B7F}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="sfx_footsteps_grass_06" ID="{95782AF7-EA18-407C-A50F-819F6B9DE802}" ShortID="177082385">
@@ -402,9 +437,16 @@
 																				<MediaID ID="454996688"/>
 																			</MediaIDList>
 																		</AudioFileSource>
+																		<AudioFileSource Name="sfx_footsteps_grass_06" ID="{77170B61-AD18-4C62-A265-F681C8BEFAA1}">
+																			<Language>SFX</Language>
+																			<AudioFile>sfx_footsteps_grass_06.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="454996688"/>
+																			</MediaIDList>
+																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_06" ID="{C42D91B0-A828-4109-AA03-3BCBB4FECA3A}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_06" ID="{77170B61-AD18-4C62-A265-F681C8BEFAA1}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="sfx_footsteps_grass_07" ID="{7D5B7D7D-5716-4AB2-A367-C426D7CBBBC7}" ShortID="867264979">
@@ -424,9 +466,16 @@
 																				<MediaID ID="907292839"/>
 																			</MediaIDList>
 																		</AudioFileSource>
+																		<AudioFileSource Name="sfx_footsteps_grass_07" ID="{EBC4DDD9-E5DB-4A44-A647-1E82D9ADA26C}">
+																			<Language>SFX</Language>
+																			<AudioFile>sfx_footsteps_grass_07.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="907292839"/>
+																			</MediaIDList>
+																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_07" ID="{21CEBDA6-830D-48AD-93D2-3E7F1EFA11A7}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_07" ID="{EBC4DDD9-E5DB-4A44-A647-1E82D9ADA26C}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="sfx_footsteps_grass_08" ID="{92E128E4-D558-4C22-9D2E-3B222E1C59C5}" ShortID="257178894">
@@ -446,9 +495,16 @@
 																				<MediaID ID="918166768"/>
 																			</MediaIDList>
 																		</AudioFileSource>
+																		<AudioFileSource Name="sfx_footsteps_grass_08" ID="{E6A31436-3C0D-4723-B0C6-AD84FC2F8D97}">
+																			<Language>SFX</Language>
+																			<AudioFile>sfx_footsteps_grass_08.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="918166768"/>
+																			</MediaIDList>
+																		</AudioFileSource>
 																	</ChildrenList>
 																	<ActiveSourceList>
-																		<ActiveSource Name="sfx_footsteps_grass_08" ID="{CF489AAD-CAEC-46B6-B46C-A728495799DF}" Platform="Linked"/>
+																		<ActiveSource Name="sfx_footsteps_grass_08" ID="{E6A31436-3C0D-4723-B0C6-AD84FC2F8D97}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
