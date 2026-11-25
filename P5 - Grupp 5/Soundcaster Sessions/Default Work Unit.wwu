@@ -6,6 +6,10 @@
 				<SoundcasterSession Name="New Soundcaster Session" ID="{9323F048-FBD3-43B5-A374-4E4106976010}">
 					<ModuleList>
 						<Module>
+							<ObjectRef Name="Play_Ambience_Level_1" ID="{6A61915F-4F09-47FD-9136-D21EFA196623}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Initialize_Music_System" ID="{D5328475-3A7A-4F8E-904A-BC3E26956906}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
 							<Position X="1" Y="0"/>
 						</Module>

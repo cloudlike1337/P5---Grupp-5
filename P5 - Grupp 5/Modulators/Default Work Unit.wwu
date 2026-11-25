@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B8B21AF7-5144-4292-BFA0-7EE6A0411EFF}" SchemaVersion="133">
 	<Modulators>
-		<WorkUnit Name="Default Work Unit" ID="{B8B21AF7-5144-4292-BFA0-7EE6A0411EFF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B8B21AF7-5144-4292-BFA0-7EE6A0411EFF}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="RiverModulatorLFO" ID="{04FCAEEE-CCD1-478B-A0F5-1005B43A3021}" ShortID="506649633">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{FD96D9CD-FC34-4E70-B50E-AD736A7524F0}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.28"/>
+						<Property Name="LfoInitialPhase" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3110C260-AF0F-4FB3-94DB-0CD90A43F6F0}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="30"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoSmoothing" Type="Real64" Value="100"/>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+						<Property Name="ModulatorScope" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorLfo Name="WindModulatorLFO" ID="{D9901698-5E58-4564-905E-EB772E415446}" ShortID="417230526">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B856D2EA-167E-4830-AEA9-7D14FA2C22C0}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-50"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.1"/>
+						<Property Name="LfoInitialPhase" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5B766B81-9D3E-4DB3-817F-CC55ABD3B634}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="75"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoWaveform" Type="int32" Value="5"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
 	</Modulators>
 </WwiseDocument>

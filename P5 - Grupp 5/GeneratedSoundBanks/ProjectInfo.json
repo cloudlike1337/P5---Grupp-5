@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "P5 - Grupp 5",
+   "GUID": "{295CF70B-46C8-45C1-87C5-87F6AF49EE77}",
+   "Generator": "2025.1.11.9262"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{8E3BC95E-1136-46A9-B4E2-37D557662C47}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{F0CE079B-B913-4EEF-A8AF-FC8B7E27C243}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{599788B9-9BE1-418A-97B7-525BB8C8F517}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{66EDB78A-9EC0-5E49-9182-3A785A444619}"
+ }
+}

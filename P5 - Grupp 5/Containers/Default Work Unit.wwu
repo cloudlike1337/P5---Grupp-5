@@ -3291,14 +3291,11 @@
 												<ActiveSource Name="Soundly Voice Designer, Abbi 114" ID="{DB46DC4A-0761-49B4-8CC5-7621ADB5483F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="SFX_Ambience_Level_1" ID="{436AE15A-1F65-4D10-92A8-8E137486145B}" ShortID="848942198">
+										<BlendContainer Name="SFX_Ambience_Level_" ID="{5038D8AF-6957-460A-81A4-C2294FDE2808}" ShortID="194446328">
 											<PropertyList>
-												<Property Name="Color" Type="int16" Value="2"/>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-13</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3311,18 +3308,262 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="sfx_amb_lvl_1_loop" ID="{38EEB6D3-9817-4F7F-9C3D-84B7BE777925}">
-													<Language>SFX</Language>
-													<AudioFile>sfx_amb_lvl_1_loop.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="412198939"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="SFX_Ambience_Level_1_River" ID="{85EB0F6A-C683-419B-B12E-2ECAAFF53D4F}" ShortID="36959713">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{373D1996-E1E8-46E1-8882-77F1D534864E}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Ambience_Level_1_River" ID="{CC648B93-3769-4FB4-A1D2-9D722C00FC26}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Ambience_Level_1_River.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="521787317"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<RTPC Name="" ID="{8CDD5CFE-0D39-4957-B642-307794023838}" ShortID="155300536">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="RiverModulatorLFO" ID="{04FCAEEE-CCD1-478B-A0F5-1005B43A3021}" WorkUnitID="{B8B21AF7-5144-4292-BFA0-7EE6A0411EFF}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{2FE47BAF-0216-4906-A7AF-979A661E861B}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-4.14251</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+															<RTPC Name="" ID="{EBFE8A51-357E-4CDB-B113-99647CB77AD6}" ShortID="285834104">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="RiverModulatorLFO" ID="{04FCAEEE-CCD1-478B-A0F5-1005B43A3021}" WorkUnitID="{B8B21AF7-5144-4292-BFA0-7EE6A0411EFF}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{147ED694-FF76-4435-B1F6-33DD4D6346B7}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>24</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</ObjectList>
+													</ObjectLists>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Ambience_Level_1_River" ID="{CC648B93-3769-4FB4-A1D2-9D722C00FC26}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Ambience_Level_1_Wind" ID="{DC9B1C8D-5CEC-460A-9EC2-65190966EC25}" ShortID="164004421">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Ambience_Level_1_Wind" ID="{19B798CD-9EE9-4075-B374-34A57CE8A908}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Ambience_Level_1_Wind.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="826164769"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<RTPC Name="" ID="{F0422EB2-7E24-46D5-8C51-19971CC188A5}" ShortID="176969258">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="WindModulatorLFO" ID="{D9901698-5E58-4564-905E-EB772E415446}" WorkUnitID="{B8B21AF7-5144-4292-BFA0-7EE6A0411EFF}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{ACBEC407-CF4F-4056-9893-145B6088E7A4}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-4.89828</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+															<RTPC Name="" ID="{75E7ADD4-2567-4EA5-A355-2F23426F1FEE}" ShortID="307774180">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Highpass"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="WindModulatorLFO" ID="{D9901698-5E58-4564-905E-EB772E415446}" WorkUnitID="{B8B21AF7-5144-4292-BFA0-7EE6A0411EFF}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{B9A60B1D-FF30-4413-BC68-21A9B845C443}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>10</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</ObjectList>
+													</ObjectLists>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Ambience_Level_1_Wind" ID="{19B798CD-9EE9-4075-B374-34A57CE8A908}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Ambience_Level_1_Wind_Tonal" ID="{4D2011A6-706E-4B7F-ADAF-F86005572397}" ShortID="538527695">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_Ambience_Level_1_Wind_Tonal" ID="{860CBE34-C6FD-4E6B-9548-9C7A3CDBB943}">
+															<Language>SFX</Language>
+															<AudioFile>SFX_Ambience_Level_1_Wind_Tonal.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="423031751"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<RTPC Name="" ID="{86063A6B-4DFC-4824-9344-BE36636B77B8}" ShortID="11258474">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="WindModulatorLFO" ID="{D9901698-5E58-4564-905E-EB772E415446}" WorkUnitID="{B8B21AF7-5144-4292-BFA0-7EE6A0411EFF}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{3DBAE67C-6292-4BDE-A32F-99BDCB029058}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-8.034</YPos>
+																						<Flags>21</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>0</YPos>
+																						<Flags>53</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</ObjectList>
+													</ObjectLists>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_Ambience_Level_1_Wind_Tonal" ID="{860CBE34-C6FD-4E6B-9548-9C7A3CDBB943}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="sfx_amb_lvl_1_loop" ID="{38EEB6D3-9817-4F7F-9C3D-84B7BE777925}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</BlendContainer>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="UI" ID="{AC7D40F9-C24A-47B7-B536-1AFD3CA5EB23}" ShortID="651705942">
