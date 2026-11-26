@@ -456,6 +456,11 @@
 														<RandomSequenceContainer Name="Player_Footstep_Roots" ID="{BCC7AA14-233C-470F-95CD-7CBA559CE866}" ShortID="924040696">
 															<PropertyList>
 																<Property Name="3DSpatialization" Type="int16" Value="2"/>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
 																<Property Name="Pitch" Type="int32">
 																	<ModifierList>
 																		<ModifierInfo>
@@ -1170,20 +1175,9 @@
 																		<MediaID ID="832159461"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_02" ID="{772DEAAF-F38C-4799-958E-ECF1E65A0487}">
-																	<PropertyList>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.02839"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_melee_attack_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="215861476"/>
-																	</MediaIDList>
-																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_02" ID="{772DEAAF-F38C-4799-958E-ECF1E65A0487}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_01" ID="{663FD0B8-81E2-4FF2-BF02-00FBFB388CC2}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_02" ID="{708F5D59-DECC-4912-BE8F-FB1E0A3B295E}" ShortID="535389446">
@@ -1203,16 +1197,9 @@
 																		<MediaID ID="260636728"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{A32D7D3E-BA20-4E6F-85D9-CB8451123C53}">
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_melee_attack_02.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="260636728"/>
-																	</MediaIDList>
-																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_01" ID="{A32D7D3E-BA20-4E6F-85D9-CB8451123C53}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_02" ID="{4385685A-B0A5-4768-91FB-ED3D8BCC50C7}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_03" ID="{676A105B-6BF2-458C-931D-67B52D8A0D53}" ShortID="324689333">
@@ -1232,20 +1219,9 @@
 																		<MediaID ID="744219377"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{0A124B3A-8A38-4B3D-8287-D745D87517A6}">
-																	<PropertyList>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																		<Property Name="TrimBegin" Type="Real64" Value="0.01902"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_melee_attack_03.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="68353981"/>
-																	</MediaIDList>
-																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_01" ID="{0A124B3A-8A38-4B3D-8287-D745D87517A6}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_03" ID="{FC3DBEE9-57EF-4D63-8AC8-5B8D0CA6B0A6}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_04" ID="{3FC7693E-EEFD-4690-8C17-33A27A31AA64}" ShortID="497438977">
@@ -1265,16 +1241,9 @@
 																		<MediaID ID="1059448540"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{359594A7-3AFA-4D74-8157-4690DBE5F898}">
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_melee_attack_04.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="1059448540"/>
-																	</MediaIDList>
-																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_01" ID="{359594A7-3AFA-4D74-8157-4690DBE5F898}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_04" ID="{8EC8AE97-4966-4CB9-93EB-F2CEB55A46E5}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_05" ID="{831D41F4-36B4-4014-8016-384BC45730D3}" ShortID="360310639">
@@ -1294,16 +1263,9 @@
 																		<MediaID ID="830268901"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{5C7AB108-8DC4-4029-B0D1-F959444417E1}">
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_melee_attack_05.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="830268901"/>
-																	</MediaIDList>
-																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_01" ID="{5C7AB108-8DC4-4029-B0D1-F959444417E1}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_05" ID="{3483789A-12C0-4090-90D9-74ECD3526284}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_melee_attack_06" ID="{1A39F47B-8A06-439C-929E-29E40B0AEE47}" ShortID="1070860533">
@@ -1323,19 +1285,9 @@
 																		<MediaID ID="594902861"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_melee_attack_01" ID="{4FC91968-4631-42FA-863A-9202D0A56F9D}">
-																	<PropertyList>
-																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																	</PropertyList>
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_melee_attack_06.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="594902861"/>
-																	</MediaIDList>
-																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_melee_attack_01" ID="{4FC91968-4631-42FA-863A-9202D0A56F9D}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_melee_attack_06" ID="{D5705AA8-A769-4D75-B539-8E2B3818EE09}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 													</ChildrenList>
@@ -1648,16 +1600,9 @@
 																		<MediaID ID="482818576"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="sfx_player_ultimate_ability_02" ID="{0DBF481F-1A94-4724-9C12-4FCFCA2F5E3F}">
-																	<Language>SFX</Language>
-																	<AudioFile>sfx_player_ultimate_ability_01.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="482818576"/>
-																	</MediaIDList>
-																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
-																<ActiveSource Name="sfx_player_ultimate_ability_02" ID="{0DBF481F-1A94-4724-9C12-4FCFCA2F5E3F}" Platform="Linked"/>
+																<ActiveSource Name="sfx_player_ultimate_ability_01" ID="{5395BE68-4BDB-4A2B-9BBB-371EF70AB39E}" Platform="Linked"/>
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="sfx_player_ultimate_ability_02" ID="{F07AE277-83B2-482B-AD49-00EA1D556668}" ShortID="281452804">
@@ -3718,6 +3663,11 @@
 													<PropertyList>
 														<Property Name="3DPosition" Type="int16" Value="2"/>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="InitialDelay" Type="Real64">
 															<ValueList>
 																<Value>6</Value>
@@ -4161,20 +4111,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Menu_Start game click" ID="{02A13533-4394-4122-9CB2-73BD0463700C}">
-													<Language>SFX</Language>
-													<AudioFile>Menu_Start game click.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="467374756"/>
-													</MediaIDList>
-												</AudioFileSource>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 117" ID="{68B0BA72-2434-434F-A43B-93C47C4A9F3F}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 117.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="14434600"/>
-													</MediaIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="sfx_start_game" ID="{F9BF4F1E-8BCB-4E83-BE9E-727C7F9DD472}">
 													<Language>SFX</Language>
 													<AudioFile>sfx_start_game.wav</AudioFile>
@@ -4267,13 +4203,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 116" ID="{F8E2C58F-62C2-45CE-BD65-884703F09F55}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 116.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="236129288"/>
-													</MediaIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="sfx_menu_hover" ID="{5D44B20C-DDC8-4196-B54E-B2091B076E79}">
 													<Language>SFX</Language>
 													<AudioFile>sfx_menu_hover.wav</AudioFile>
@@ -4296,13 +4225,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 118" ID="{AB821C94-9F65-47F2-B6C3-945ACF175C1A}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 118.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="234507053"/>
-													</MediaIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="sfx_menu_confirm" ID="{E69AE648-226A-4EF3-B257-2A10FF61C7AE}">
 													<Language>SFX</Language>
 													<AudioFile>sfx_menu_confirm.wav</AudioFile>
@@ -4325,13 +4247,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 119" ID="{7802C7A2-030D-48BD-A092-F36100A3D61F}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 119.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="329786733"/>
-													</MediaIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="sfx_menu_back" ID="{22BC5698-B516-4C0A-86BD-94AD70526C5B}">
 													<Language>SFX</Language>
 													<AudioFile>sfx_menu_back.wav</AudioFile>
@@ -4361,13 +4276,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 120" ID="{80B0F3EC-D91B-4A60-B1A0-4C6263F5721A}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 120.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="311015533"/>
-													</MediaIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="SFX_Checkpoint_Reached" ID="{C83E923A-FB8E-4229-8EA5-E17A9FAD16F0}">
 													<Language>SFX</Language>
 													<AudioFile>SFX_Checkpoint_Reached.wav</AudioFile>
@@ -4390,13 +4298,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Soundly Voice Designer, Abbi 121" ID="{5794C36C-BBFC-44D0-A01B-8DD8540841E3}">
-													<Language>SFX</Language>
-													<AudioFile>Soundly Audio\Soundly Voice Designer, Abbi 121.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1062508675"/>
-													</MediaIDList>
-												</AudioFileSource>
 												<AudioFileSource Name="sfx_warning_sound" ID="{3B14A7F4-3E52-403B-8D9F-3E67431775A8}">
 													<PropertyList>
 														<Property Name="FadeInDuration" Type="Real64" Value="0.0207"/>
@@ -4539,13 +4440,6 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="SFX_Walls_Rising" ID="{A98662B1-E8B5-49FC-B2AB-0BD1ABBC08CE}">
-															<Language>SFX</Language>
-															<AudioFile>SFX_Walls_Rising.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="519428921"/>
-															</MediaIDList>
-														</AudioFileSource>
 														<AudioFileSource Name="SFX_Walls_Rising_01" ID="{24E7501F-FBFA-4B62-87F2-8A461550D0A5}">
 															<Language>SFX</Language>
 															<AudioFile>SFX_Walls_Rising.wav</AudioFile>
