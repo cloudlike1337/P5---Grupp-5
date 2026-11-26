@@ -57,7 +57,6 @@
 						<ObjectRef Name="Play_Enemy_Summoner_Take_Damage" ID="{20D690AB-B732-4C58-B0BF-0C406C1B6D2C}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Heal" ID="{D5E6260B-3C78-4C78-BB6E-2D78C5A88F38}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player_Heal_Pickup" ID="{8D4CBF82-9CAC-4C87-8CB2-99BE153C3362}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Boss_Defeated" ID="{730672AA-86A2-4CEE-9624-4ED222097412}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Heal_Fruit_Fall" ID="{E484288C-A721-4D57-9447-6373B7D0EA46}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Warning_Sound" ID="{9F3CCF50-5428-4DA9-98A8-F3881EC634AD}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Ranged_Take_Damage" ID="{2371EB79-B960-4DED-AAC8-C11804550098}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>

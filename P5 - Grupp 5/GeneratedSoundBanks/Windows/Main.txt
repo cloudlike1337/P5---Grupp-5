@@ -169,6 +169,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	668678037	Popcorn_Attack_06	.cache\CB\{CB8B6CB0-A439-DF1F-E3A6-3B70B13191B1}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_06		6309
 	680489383	Summoner_Attack_02	.cache\83\{8309BB51-ED4E-1DA2-C2BE-C000F3C22CF2}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Attack\Summoner_Attack_02		12577
 	683021478	sfx_spotsound_swamp_06	.cache\0A\{0A13573F-95D5-A90B-7FB0-DC6CCAEB7170}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\Ambience_Level_1\SpotSounds_Swamp\sfx_spotsound_swamp_06		27736
+	686110478	sfx_spotsound_elk_02	.cache\4E\{4E557AEF-6DB7-22AC-B260-35C276E312FF}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\Ambience_Level_1\SpotSounds_Elks\sfx_spotsound_elk_02		12403
 	696222301	sfx_player_heal_01	.cache\E5\{E542F45B-5624-9955-F43D-58B377CED147}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Heal\sfx_player_heal_01		19710
 	700148494	Enemy_Ranged_Attack_03	.cache\22\{22B5CCE2-777B-B76D-BF58-B1C79221C18D}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Ranged\SFX_Ranged_Enemy_AOE_Attack\Enemy_Ranged_Attack_03		11926
 	704569683	sfx_spotsound_bird_06	.cache\E9\{E929FE95-F211-0991-60D7-F698FAB48CCA}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\Ambience_Level_1\SpotSounds_Birds\sfx_spotsound_bird_06		18413
@@ -179,6 +180,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	722936638	SFX_Player_Pickup_Heal_Fruit	.cache\7D\{7D705C2A-9AB4-3ABA-C56D-35F7CC27481B}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Pickup_Heal_Fruit		2872
 	729662168	sfx_player_cleave_ability_01	.cache\34\{348043F2-B46A-6121-8C3A-B58523DB6131}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Cleave_Ability\sfx_player_cleave_ability_01		10749
 	729914545	sfx_spotsound_bird_03	.cache\FE\{FE5881E4-552E-33F6-EB15-38D5245FEE71}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\Ambience_Level_1\SpotSounds_Birds\sfx_spotsound_bird_03		48316
+	732373603	sfx_spotsound_elk_01	.cache\D4\{D4F5869C-0DAB-E805-E7C2-D2F32403278D}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\Ambience_Level_1\SpotSounds_Elks\sfx_spotsound_elk_01		57971
 	733830020	sfx_footsteps_grass_02	.cache\87\{878F030D-E2DC-944D-107A-251D7839D7D6}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Movement\Footstep_Switch_Container\Player_Footstep_Grass\sfx_footsteps_grass_02		3723
 	777956919	Intro_Cutscene_SFX	.cache\25\{25CE45AD-9172-AD02-B95C-BD37F2A93383}.wem		\Containers\Default Work Unit\Audio\Music\Intro_Cutscene\Intro_Cutscene_SFX		153773
 	781835202	sfx_player_vine_ability_02	.cache\50\{504417A8-9A2D-AE73-7E56-399466CE8DE6}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Vine_Ability\sfx_player_vine_ability_02		12962

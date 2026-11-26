@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{5E8385BD-EDCE-3B74-C9C0-EF4A4D49B96D}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{4AD38B72-8BDD-5300-6F90-9395A7EE0418}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -17,7 +17,7 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="174546974" Name="Ambience_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Ambience_Bus" GUID="{2B4249FE-7C04-4E9F-80F7-06CCA03802E3}" Color="4"/>
+				<Bus Id="174546974" Name="Ambience_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Ambience_Bus" GUID="{218F2199-D017-4D27-B3F4-B97BEE97A7A5}" Color="10"/>
 				<Bus Id="213475909" Name="SFX_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX_Bus" GUID="{80DF9B72-335B-4CB2-91A4-9AEC3C3E6BF2}" Color="2"/>
 				<Bus Id="1138681361" Name="Player_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX_Bus\Player_Bus" GUID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}" Color="2">
 					<AuxBusRefs>
@@ -256,5 +256,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0E6AE03F-93E5-B8F9-7170-483335DB6383}</FileHash>
+	<FileHash>{EF5DDDC4-99AB-96B6-B2A2-CAF10A9B7BE1}</FileHash>
 </SoundBanksInfo>

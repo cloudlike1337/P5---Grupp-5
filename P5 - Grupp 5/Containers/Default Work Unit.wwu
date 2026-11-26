@@ -1736,11 +1736,6 @@
 																<Value>True</Value>
 															</ValueList>
 														</Property>
-														<Property Name="Volume" Type="Real64">
-															<ValueList>
-																<Value>-6</Value>
-															</ValueList>
-														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -3374,6 +3369,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Boss_Weak_State_01" ID="{4372C620-B920-4CBF-A249-E2E205038068}" ShortID="590277168">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -3444,6 +3442,13 @@
 														<Value>8</Value>
 													</ValueList>
 												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D7A503D6-63B7-4121-B054-7D163CD20BAA}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-7</Value>
@@ -3455,7 +3460,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Ambience_Bus" ID="{2B4249FE-7C04-4E9F-80F7-06CCA03802E3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+													<ObjectRef Name="Ambience_Bus" ID="{218F2199-D017-4D27-B3F4-B97BEE97A7A5}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -3713,11 +3718,6 @@
 													<PropertyList>
 														<Property Name="3DPosition" Type="int16" Value="2"/>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
-														<Property Name="Inclusion" Type="bool">
-															<ValueList>
-																<Value>False</Value>
-															</ValueList>
-														</Property>
 														<Property Name="InitialDelay" Type="Real64">
 															<ValueList>
 																<Value>6</Value>
@@ -3735,10 +3735,23 @@
 														</Property>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{50872880-1505-4814-B303-BAC286CF0A39}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="50"/>
+																			<Property Name="Min" Type="Real64" Value="-100"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
 														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="15"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="20"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>

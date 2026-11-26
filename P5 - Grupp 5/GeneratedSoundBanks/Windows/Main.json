@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{9E14B88A-570A-D55B-AEE6-31FC3E5242D6}",
+    "Hash": "{08DA12A4-8807-9A1C-5858-804A47275F69}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -965,6 +965,14 @@
       "CachePath": "4B/{4BAB8944-0563-FA12-7911-EA7CE940F79D}.wem"
      },
      {
+      "Id": "686110478",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_spotsound_elk_02.wav",
+      "CachePath": "4E/{4E557AEF-6DB7-22AC-B260-35C276E312FF}.wem"
+     },
+     {
       "Id": "686397880",
       "Language": "SFX",
       "Streaming": "true",
@@ -1088,6 +1096,14 @@
       "Location": "Memory",
       "ShortName": "sfx_spotsound_bird_03.wav",
       "CachePath": "FE/{FE5881E4-552E-33F6-EB15-38D5245FEE71}.wem"
+     },
+     {
+      "Id": "732373603",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "sfx_spotsound_elk_01.wav",
+      "CachePath": "D4/{D4F5869C-0DAB-E805-E7C2-D2F32403278D}.wem"
      },
      {
       "Id": "733830020",
@@ -2067,6 +2083,9 @@
         "Id": "683021478"
        },
        {
+        "Id": "686110478"
+       },
+       {
         "Id": "704569683"
        },
        {
@@ -2074,6 +2093,9 @@
        },
        {
         "Id": "729914545"
+       },
+       {
+        "Id": "732373603"
        },
        {
         "Id": "784629409"
@@ -3506,6 +3528,6 @@
     ]
    }
   ],
-  "FileHash": "{6E90D280-9F2B-4473-C0E3-8019392C7800}"
+  "FileHash": "{D04B30B7-2E0B-3A02-08D6-8248B46A7B80}"
  }
 }

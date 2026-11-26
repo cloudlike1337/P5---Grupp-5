@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{9E14B88A-570A-D55B-AEE6-31FC3E5242D6}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{08DA12A4-8807-9A1C-5858-804A47275F69}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -499,6 +499,10 @@
 					<Path>Media/685112412.wem</Path>
 					<CachePath>4B/{4BAB8944-0563-FA12-7911-EA7CE940F79D}.wem</CachePath>
 				</File>
+				<File Id="686110478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_spotsound_elk_02.wav</ShortName>
+					<CachePath>4E/{4E557AEF-6DB7-22AC-B260-35C276E312FF}.wem</CachePath>
+				</File>
 				<File Id="686397880" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Elgitarr_Dysto_Dra_115_bpm_4_4.wav</ShortName>
 					<Path>Media/686397880.wem</Path>
@@ -563,6 +567,10 @@
 				<File Id="729914545" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_spotsound_bird_03.wav</ShortName>
 					<CachePath>FE/{FE5881E4-552E-33F6-EB15-38D5245FEE71}.wem</CachePath>
+				</File>
+				<File Id="732373603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sfx_spotsound_elk_01.wav</ShortName>
+					<CachePath>D4/{D4F5869C-0DAB-E805-E7C2-D2F32403278D}.wem</CachePath>
 				</File>
 				<File Id="733830020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_footsteps_grass_02.wav</ShortName>
@@ -1013,9 +1021,11 @@
 						<MediaRef Id="311552003"/>
 						<MediaRef Id="556168302"/>
 						<MediaRef Id="683021478"/>
+						<MediaRef Id="686110478"/>
 						<MediaRef Id="704569683"/>
 						<MediaRef Id="712123991"/>
 						<MediaRef Id="729914545"/>
+						<MediaRef Id="732373603"/>
 						<MediaRef Id="784629409"/>
 						<MediaRef Id="855286525"/>
 						<MediaRef Id="879045665"/>
@@ -1473,5 +1483,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6708B18C-53C6-783C-4B89-9C17B846501C}</FileHash>
+	<FileHash>{FF195626-AF1C-4B19-165B-D6DA1DC6C54F}</FileHash>
 </SoundBanksInfo>
