@@ -26,10 +26,10 @@
 										</Event>
 										<Event Name="Play_Boss_Spawning_Popcorn" ID="{4F653F19-142D-41BB-8617-0E7F7BFFD026}">
 											<ChildrenList>
-												<Action Name="" ID="{FD5FFC35-2265-40FA-921A-C887B82D4A54}" ShortID="1071525048">
+												<Action Name="" ID="{6F9DE865-91AF-482C-8946-D1144BF8A3D1}" ShortID="561080475">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Boss_Spawns_Popcorn_Enemy" ID="{A6974784-2343-4AF6-8979-D007E3168469}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Boss_Spawns_Popcorn_Enemy" ID="{A26DB738-0E8E-4780-B1DE-8CEB141B2F3C}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -117,6 +117,39 @@
 													<ReferenceList>
 														<Reference Name="Target">
 															<ObjectRef Name="SFX_Boss_Idle_Loop" ID="{0C1ED881-B9EB-4DB0-A930-0ECFD797F136}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Boss_GoToWeak" ID="{950149C4-6BF3-4020-BA45-25CDE2307ECA}">
+											<ChildrenList>
+												<Action Name="" ID="{14A57E7C-A2D5-4090-871D-AB8C2A0B2E4A}" ShortID="830903206">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Boss_GoToWeak_01" ID="{D3180501-F736-481D-B4C6-B5D5BEC00C83}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Boss_GoFromWeak" ID="{5BCB8EB9-1654-4F94-8EFB-2F4B163B1F14}">
+											<ChildrenList>
+												<Action Name="" ID="{C979B630-6490-43A8-AD04-3DB602B51165}" ShortID="274226440">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Boss_GoFromWeak01" ID="{7734BB62-9217-48DC-97EE-46ED57AB35FB}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Boss_WeakState" ID="{EEE8B79F-3D85-48D0-A27E-4D1024920EB6}">
+											<ChildrenList>
+												<Action Name="" ID="{6F84E177-B401-44B3-9CDF-5FBCA465824E}" ShortID="39723140">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Boss_Weak_State_01" ID="{4372C620-B920-4CBF-A249-E2E205038068}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

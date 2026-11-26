@@ -2941,31 +2941,6 @@
 														<ActiveSource Name="Boss_boss death destroyed" ID="{D0A13B80-E89B-4BFF-A8F4-49D507365C6F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="SFX_Boss_Spawns_Popcorn_Enemy" ID="{A6974784-2343-4AF6-8979-D007E3168469}" ShortID="939037374">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Boss_boss spawning popcorn enemy" ID="{CE647084-D437-4E5C-AE43-4A18AA8C297F}">
-															<Language>SFX</Language>
-															<AudioFile>Boss_boss spawning popcorn enemy.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="13463570"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Boss_boss spawning popcorn enemy" ID="{CE647084-D437-4E5C-AE43-4A18AA8C297F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<Sound Name="SFX_Boss_AOE_Warning" ID="{ED301C9E-62D0-4D92-BFA3-1F6CFB8CBEAE}" ShortID="32889116">
 													<PropertyList>
 														<Property Name="MaxSoundPerInstance" Type="int16">
@@ -3276,6 +3251,150 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SFX_Boss_Spawns_Popcorn_Enemy" ID="{A26DB738-0E8E-4780-B1DE-8CEB141B2F3C}" ShortID="305758794">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Boss_Spawning_Popcorn_01" ID="{CFDF138F-CB11-4677-8094-EF4135452967}" ShortID="93951868">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_Spawning_Popcorn_01" ID="{2AFBBA25-330F-47DF-832B-A1988D4B0A5C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_Spawning_Popcorn_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="178834723"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_Spawning_Popcorn_01" ID="{2AFBBA25-330F-47DF-832B-A1988D4B0A5C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Boss_Spawning_Popcorn_02" ID="{E9BE8E9D-D2A8-49DE-9F6D-7C39E33D7C51}" ShortID="773795162">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_Spawning_Popcorn_02" ID="{DC2A7169-32ED-445B-BFAB-51EFDAF12F12}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_Spawning_Popcorn_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="241595053"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_Spawning_Popcorn_02" ID="{DC2A7169-32ED-445B-BFAB-51EFDAF12F12}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Boss_Spawning_Popcorn_03" ID="{BFA5B39A-4818-4395-91C6-25C2110CE6ED}" ShortID="90100594">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_Spawning_Popcorn_03" ID="{A47985A7-5169-4107-A215-CE843CCE60DB}">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_Spawning_Popcorn_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="886747607"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_Spawning_Popcorn_03" ID="{A47985A7-5169-4107-A215-CE843CCE60DB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="Boss_GoFromWeak01" ID="{7734BB62-9217-48DC-97EE-46ED57AB35FB}" ShortID="1005968053">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_GoFromWeak01" ID="{674BC259-669B-4840-BD2F-ADC5DDBFA732}">
+															<Language>SFX</Language>
+															<AudioFile>Boss_GoFromWeak01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="644405884"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_GoFromWeak01" ID="{674BC259-669B-4840-BD2F-ADC5DDBFA732}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_GoToWeak_01" ID="{D3180501-F736-481D-B4C6-B5D5BEC00C83}" ShortID="756064215">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_GoToWeak_01" ID="{CC2464EC-8480-4CAF-A297-C28F48936011}">
+															<Language>SFX</Language>
+															<AudioFile>Boss_GoToWeak_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="528665901"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_GoToWeak_01" ID="{CC2464EC-8480-4CAF-A297-C28F48936011}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_Weak_State_01" ID="{4372C620-B920-4CBF-A249-E2E205038068}" ShortID="590277168">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_Weak_State_01" ID="{655E3C97-BD3B-4539-AA48-A3FC0852C244}">
+															<Language>SFX</Language>
+															<AudioFile>Boss_Weak_State_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="139243639"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_Weak_State_01" ID="{655E3C97-BD3B-4539-AA48-A3FC0852C244}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</Folder>
 									</ChildrenList>

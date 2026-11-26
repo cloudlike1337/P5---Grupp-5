@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{65873C02-A56E-7265-F6D7-345617209B84}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{9E14B88A-570A-D55B-AEE6-31FC3E5242D6}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -22,10 +22,6 @@
 				<File Id="12455639" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_spotsound_bird_04.wav</ShortName>
 					<CachePath>FB/{FB937D73-2DB6-4E6C-50F1-D4AA009459A1}.wem</CachePath>
-				</File>
-				<File Id="13463570" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Boss_boss spawning popcorn enemy.wav</ShortName>
-					<CachePath>08/{080774B3-51ED-4953-05E0-EA37D13B0037}.wem</CachePath>
 				</File>
 				<File Id="16752158" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_Death_03.wav</ShortName>
@@ -150,6 +146,10 @@
 					<ShortName>Popcorn_WalkV2_06.wav</ShortName>
 					<CachePath>20/{20F80F92-D323-D92B-A091-0A0D4D233736}.wem</CachePath>
 				</File>
+				<File Id="178834723" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss_Spawning_Popcorn_01.wav</ShortName>
+					<CachePath>0C/{0C7A8642-745C-5302-154F-1E8BC55431F7}.wem</CachePath>
+				</File>
 				<File Id="181680646" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Horror_Krar_115_bpm_4_4.wav</ShortName>
 					<Path>Media/181680646.wem</Path>
@@ -192,6 +192,10 @@
 				<File Id="227956053" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Summoner_Surface.wav</ShortName>
 					<CachePath>B3/{B3B43573-CD80-F7BC-93F0-76E743FB6E2A}.wem</CachePath>
+				</File>
+				<File Id="241595053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss_Spawning_Popcorn_02.wav</ShortName>
+					<CachePath>64/{649204C6-F356-DF44-6C2E-7C1EDE74FC23}.wem</CachePath>
 				</File>
 				<File Id="243430538" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_boss death destroyed.wav</ShortName>
@@ -678,6 +682,10 @@
 					<Path>Media/880962808.wem</Path>
 					<CachePath>1A/{1A43A870-4CF8-6327-109D-1F0BBE973454}.wem</CachePath>
 				</File>
+				<File Id="886747607" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss_Spawning_Popcorn_03.wav</ShortName>
+					<CachePath>A0/{A0985F29-4910-E577-6EB9-D9880722B36D}.wem</CachePath>
+				</File>
 				<File Id="887490565" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_WalkV2_03.wav</ShortName>
 					<CachePath>33/{33021552-E073-7057-76BB-20F191CEDDB1}.wem</CachePath>
@@ -1073,13 +1081,12 @@
 						<AuxBusRef Id="1416253857" Name="Boss_Reverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Boss_Reverb" GUID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" Color="4"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="763268173" Name="Play_Boss_Spawning_Popcorn" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_Spawning_Popcorn" GUID="{4F653F19-142D-41BB-8617-0E7F7BFFD026}" Color="2" DurationType="OneShot" DurationMin="2.0535" DurationMax="2.0535">
+				<Event Id="763268173" Name="Play_Boss_Spawning_Popcorn" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_Spawning_Popcorn" GUID="{4F653F19-142D-41BB-8617-0E7F7BFFD026}" Color="2" DurationType="OneShot" DurationMin="1.2741874" DurationMax="1.2741874">
 					<MediaRefs>
-						<MediaRef Id="13463570"/>
+						<MediaRef Id="178834723"/>
+						<MediaRef Id="241595053"/>
+						<MediaRef Id="886747607"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="1416253857" Name="Boss_Reverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Boss_Reverb" GUID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" Color="4"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="438645199" Name="Play_Boss_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_Take_Damage" GUID="{D5F1D162-6C83-49EB-A996-958F87206FE0}" Color="2" DurationType="OneShot" DurationMin="0.83102083" DurationMax="0.8918333">
 					<MediaRefs>
@@ -1466,5 +1473,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{83DE59EB-2876-0AE3-2513-A6CCB84291A9}</FileHash>
+	<FileHash>{6708B18C-53C6-783C-4B89-9C17B846501C}</FileHash>
 </SoundBanksInfo>

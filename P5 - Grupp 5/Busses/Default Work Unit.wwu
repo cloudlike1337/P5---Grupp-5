@@ -285,7 +285,70 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
-						<Bus Name="Ambience_Bus" ID="{2B4249FE-7C04-4E9F-80F7-06CCA03802E3}"/>
+						<Bus Name="Ambience_Bus" ID="{2B4249FE-7C04-4E9F-80F7-06CCA03802E3}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{3B8D3FCA-A7A0-448A-B851-E251D3B31071}"/>
+										<StateGroupInfo Name="" ID="{B025F739-AB2F-4203-8423-4EEB1829BE25}" ShortID="167996670"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Unpaused" ID="{F9004D00-A333-4204-A283-DD90C8F159C8}"/>
+										<CustomState Name="" ID="{1E556AAA-D220-42EE-A6C6-8116E480B9EF}" ShortID="556787549"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Paused" ID="{BD4ABB27-C402-4E54-A4FD-FF688FCD298E}"/>
+										<CustomState Name="" ID="{429D211E-E21C-4A0E-AA90-F6DAA4522283}" ShortID="400817419">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+												<Property Name="Volume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{65C0D360-9FB3-4EA5-91F5-EED73D5EB045}"/>
+										<CustomState Name="" ID="{C6C0EDDE-2E4F-4622-B07B-ED7CFB71E252}" ShortID="844656251"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{A56882A5-9EEF-4643-ACA8-460BCEBA06CC}" ShortID="697389502">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="AMB_Volume" ID="{4AD3C33B-306E-4294-8F22-7F32D279A0DC}" WorkUnitID="{0850BDF9-7D5F-481A-8A9E-1650E171BC1D}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{B146A120-EE53-4EAD-9945-5C7FE23B9E55}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{65873C02-A56E-7265-F6D7-345617209B84}",
+    "Hash": "{9E14B88A-570A-D55B-AEE6-31FC3E5242D6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -47,14 +47,6 @@
       "Location": "Memory",
       "ShortName": "sfx_spotsound_bird_04.wav",
       "CachePath": "FB/{FB937D73-2DB6-4E6C-50F1-D4AA009459A1}.wem"
-     },
-     {
-      "Id": "13463570",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Boss_boss spawning popcorn enemy.wav",
-      "CachePath": "08/{080774B3-51ED-4953-05E0-EA37D13B0037}.wem"
      },
      {
       "Id": "16752158",
@@ -296,6 +288,14 @@
       "CachePath": "20/{20F80F92-D323-D92B-A091-0A0D4D233736}.wem"
      },
      {
+      "Id": "178834723",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_Spawning_Popcorn_01.wav",
+      "CachePath": "0C/{0C7A8642-745C-5302-154F-1E8BC55431F7}.wem"
+     },
+     {
       "Id": "181680646",
       "Language": "SFX",
       "Streaming": "true",
@@ -377,6 +377,14 @@
       "Location": "Memory",
       "ShortName": "Summoner_Surface.wav",
       "CachePath": "B3/{B3B43573-CD80-F7BC-93F0-76E743FB6E2A}.wem"
+     },
+     {
+      "Id": "241595053",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_Spawning_Popcorn_02.wav",
+      "CachePath": "64/{649204C6-F356-DF44-6C2E-7C1EDE74FC23}.wem"
      },
      {
       "Id": "243430538",
@@ -1310,6 +1318,14 @@
       "ShortName": "Lvl1_Steam_Release.wav",
       "Path": "Media/880962808.wem",
       "CachePath": "1A/{1A43A870-4CF8-6327-109D-1F0BBE973454}.wem"
+     },
+     {
+      "Id": "886747607",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Boss_Spawning_Popcorn_03.wav",
+      "CachePath": "A0/{A0985F29-4910-E577-6EB9-D9880722B36D}.wem"
      },
      {
       "Id": "887490565",
@@ -2253,20 +2269,17 @@
       "GUID": "{4F653F19-142D-41BB-8617-0E7F7BFFD026}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "2.0535",
-      "DurationMax": "2.0535",
+      "DurationMin": "1.2741874",
+      "DurationMax": "1.2741874",
       "MediaRefs": [
        {
-        "Id": "13463570"
-       }
-      ],
-      "AuxBusRefs": [
+        "Id": "178834723"
+       },
        {
-        "Id": "1416253857",
-        "Name": "Boss_Reverb",
-        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Boss_Reverb",
-        "GUID": "{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}",
-        "Color": "4"
+        "Id": "241595053"
+       },
+       {
+        "Id": "886747607"
        }
       ]
      },
@@ -3493,6 +3506,6 @@
     ]
    }
   ],
-  "FileHash": "{589E01BE-89F9-9932-D351-D579EE59C010}"
+  "FileHash": "{6E90D280-9F2B-4473-C0E3-8019392C7800}"
  }
 }
