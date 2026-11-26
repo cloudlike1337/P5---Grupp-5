@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{09CA60D5-B289-0AD6-3E29-E2F8D80D7AEE}",
+    "Hash": "{A18FBB04-93AE-82D8-7E60-62374A6F0C4E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -61,6 +61,13 @@
      ]
     },
     "Busses": [
+     {
+      "Id": "174546974",
+      "Name": "Ambience_Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Ambience_Bus",
+      "GUID": "{2B4249FE-7C04-4E9F-80F7-06CCA03802E3}",
+      "Color": "4"
+     },
      {
       "Id": "213475909",
       "Name": "SFX_Bus",
@@ -143,13 +150,6 @@
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\UI_Bus",
       "GUID": "{86F6C2EF-C9B6-4CCE-A4EC-C2C4955A7D68}",
       "Color": "26"
-     },
-     {
-      "Id": "3319158528",
-      "Name": "AMB_Bus",
-      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\AMB_Bus",
-      "GUID": "{268EEB34-EC0F-452E-A22D-473B6B39A14D}",
-      "Color": "19"
      }
     ],
     "AuxBusses": [
@@ -172,6 +172,20 @@
       "Name": "World_Reverb_Bus",
       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\World_Reverb_Bus",
       "GUID": "{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}",
+      "Color": "4",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3701691487"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1690089400",
+      "Name": "Ambience_Reverb",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Ambience_Reverb",
+      "GUID": "{395D1D43-9061-4C99-B672-E6EA66E6DC3C}",
       "Color": "4",
       "PluginRefs": {
        "ShareSets": [
@@ -909,6 +923,6 @@
     ]
    }
   ],
-  "FileHash": "{60D8166D-ED59-89F0-BDF4-3FE3962986F6}"
+  "FileHash": "{85D10920-ACD8-ADB5-1F33-AB6B65923521}"
  }
 }

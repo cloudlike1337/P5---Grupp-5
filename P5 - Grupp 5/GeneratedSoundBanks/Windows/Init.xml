@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{09CA60D5-B289-0AD6-3E29-E2F8D80D7AEE}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{A18FBB04-93AE-82D8-7E60-62374A6F0C4E}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -17,6 +17,7 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="174546974" Name="Ambience_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Ambience_Bus" GUID="{2B4249FE-7C04-4E9F-80F7-06CCA03802E3}" Color="4"/>
 				<Bus Id="213475909" Name="SFX_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX_Bus" GUID="{80DF9B72-335B-4CB2-91A4-9AEC3C3E6BF2}" Color="2"/>
 				<Bus Id="1138681361" Name="Player_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\SFX_Bus\Player_Bus" GUID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}" Color="2">
 					<AuxBusRefs>
@@ -42,7 +43,6 @@
 				</Bus>
 				<Bus Id="2680856269" Name="Music_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Music_Bus" GUID="{5E49B1A1-CEE3-4513-815D-D638D6D9580F}" Color="10"/>
 				<Bus Id="3247222208" Name="UI_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\UI_Bus" GUID="{86F6C2EF-C9B6-4CCE-A4EC-C2C4955A7D68}" Color="26"/>
-				<Bus Id="3319158528" Name="AMB_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\AMB_Bus" GUID="{268EEB34-EC0F-452E-A22D-473B6B39A14D}" Color="19"/>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="1416253857" Name="Boss_Reverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Boss_Reverb" GUID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" Color="4">
@@ -53,6 +53,13 @@
 					</PluginRefs>
 				</AuxBus>
 				<AuxBus Id="1492744757" Name="World_Reverb_Bus" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\World_Reverb_Bus" GUID="{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}" Color="4">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3701691487"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1690089400" Name="Ambience_Reverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Ambience_Reverb" GUID="{395D1D43-9061-4C99-B672-E6EA66E6DC3C}" Color="4">
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="3701691487"/>
@@ -249,5 +256,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{50EAA0FD-4309-423E-6890-C5E0CB64CBCE}</FileHash>
+	<FileHash>{5E35D2A7-4462-E593-548C-61EF14B133D1}</FileHash>
 </SoundBanksInfo>

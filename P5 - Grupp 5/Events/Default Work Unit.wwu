@@ -632,7 +632,7 @@
 												<Action Name="" ID="{05A9EA2D-0659-47E8-9DC8-72B910E545A3}" ShortID="799451716">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Ambience_Level_" ID="{5038D8AF-6957-460A-81A4-C2294FDE2808}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="SFX_Ambience_Level_2" ID="{1CFC07C5-6DF1-4D40-8410-83D4CAE349A2}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -643,7 +643,7 @@
 												<Action Name="" ID="{A18430CD-5A04-4752-A1ED-03067DCDCCFA}" ShortID="794462636">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Ambience_Level_" ID="{5038D8AF-6957-460A-81A4-C2294FDE2808}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="Ambience_Level_1" ID="{481AC1D0-F02D-42FE-B811-727FCA90EA29}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
@@ -717,6 +717,12 @@
 								</Event>
 								<Event Name="Initialize_Music_System" ID="{D5328475-3A7A-4F8E-904A-BC3E26956906}">
 									<ChildrenList>
+										<Action Name="" ID="{DEEBF671-BE1A-4E82-ACB4-CE31D1239749}" ShortID="352313736">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="3"/>
+											</PropertyList>
+											<ReferenceList/>
+										</Action>
 										<Action Name="" ID="{47468FD5-0C96-40EF-BB37-042B5C735137}" ShortID="672048645">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>

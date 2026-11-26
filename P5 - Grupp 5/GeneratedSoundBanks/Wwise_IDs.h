@@ -176,7 +176,7 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID AMB_BUS = 3319158528U;
+        static const AkUniqueID AMBIENCE_BUS = 174546974U;
         static const AkUniqueID ENEMY_BUS = 1411040840U;
         static const AkUniqueID ENVIRONMENT_BUS = 1523166483U;
         static const AkUniqueID MAIN_AUDIO_BUS = 2246998526U;
@@ -188,6 +188,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID AMBIENCE_REVERB = 1690089400U;
         static const AkUniqueID BOSS_REVERB = 1416253857U;
         static const AkUniqueID WORLD_REVERB_BUS = 1492744757U;
     } // namespace AUX_BUSSES
