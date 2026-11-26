@@ -14,6 +14,10 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Walls_Rising" ID="{437692EF-21BF-4BC0-9F9C-EF8954049028}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Initialize_Music_System" ID="{D5328475-3A7A-4F8E-904A-BC3E26956906}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}"/>
 							<Position X="1" Y="0"/>
 						</Module>

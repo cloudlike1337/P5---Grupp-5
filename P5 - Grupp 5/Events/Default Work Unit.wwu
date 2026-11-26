@@ -327,6 +327,16 @@
 									<ChildrenList>
 										<Event Name="Play_Walls_Rising" ID="{437692EF-21BF-4BC0-9F9C-EF8954049028}">
 											<ChildrenList>
+												<Action Name="" ID="{5A38B7DE-BC9F-4328-8457-2C4E8D99FA48}" ShortID="934456034">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="35"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Stinger_Walls_Rising" ID="{3AE5C70C-32AC-42E0-A213-14F0B5FA73AB}" WorkUnitID="{ACA77AB8-461E-4A7B-87BB-4CC884FC7E20}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 												<Action Name="" ID="{846EB69D-6AE9-4D21-8051-29EBC88B27A7}" ShortID="603644074">
 													<ReferenceList>
 														<Reference Name="Target">
