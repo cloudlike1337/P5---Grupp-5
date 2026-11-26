@@ -2120,6 +2120,11 @@
 												<Sound Name="SFX_Popcorn_Enemy_Take_Damage" ID="{4A6E6D34-A8D2-4B7E-A979-1774A505DC38}" ShortID="282185085">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -4543,6 +4548,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="sfx_heal_fruit_fall_on_ground_03" ID="{C0B8ED8D-4506-4693-B8AE-D0FE83224E4C}" ShortID="423270725">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
