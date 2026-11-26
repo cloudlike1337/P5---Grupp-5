@@ -662,10 +662,10 @@
 									<ChildrenList>
 										<Event Name="Play_Ambience_Level_2" ID="{2EFB3E02-6EC4-4816-8CC8-5C67A0AE919C}">
 											<ChildrenList>
-												<Action Name="" ID="{05A9EA2D-0659-47E8-9DC8-72B910E545A3}" ShortID="799451716">
+												<Action Name="" ID="{4CB6CF07-2408-4D66-AEFE-8B038134795A}" ShortID="66211317">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="SFX_Ambience_Level_2" ID="{1CFC07C5-6DF1-4D40-8410-83D4CAE349A2}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+															<ObjectRef Name="Ambience_Level_2" ID="{4C91FE85-6F0F-43D2-8E72-6EC9E385A5E6}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>
