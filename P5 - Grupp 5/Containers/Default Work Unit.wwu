@@ -6868,6 +6868,7 @@
 														<MusicPlaylistItem Name="" ID="{3D714E1E-44AE-453C-AF3E-240D65BDBEDE}" ShortID="365830903">
 															<PropertyList>
 																<Property Name="LoopCount" Type="int16" Value="0"/>
+																<Property Name="PlayMode" Type="int16" Value="1"/>
 															</PropertyList>
 															<ChildrenList>
 																<MusicPlaylistItem Name="" ID="{3B653D2F-0B4F-44CF-9795-59B073414FCF}" ShortID="622297582">
@@ -6917,7 +6918,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<MusicTrack Name="Temp_Phases" ID="{661E5FC4-768F-47F4-B1B1-786090E12226}" ShortID="457889398">
+														<MusicTrack Name="Phase_Stems" ID="{661E5FC4-768F-47F4-B1B1-786090E12226}" ShortID="457889398">
 															<PropertyList>
 																<Property Name="IsStreamingEnabled" Type="bool">
 																	<ValueList>
@@ -6928,7 +6929,7 @@
 															</PropertyList>
 															<ReferenceList>
 																<Reference Name="DefaultSwitchOrState">
-																	<ObjectRef Name="Phase_1" ID="{014AC944-E9F0-4D83-B44A-C6C0D86769E7}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																	<ObjectRef Name="Phase_1" ID="{1998EDF1-EEC4-4C03-9EEF-713E0BF18FC1}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
 																</Reference>
 																<Reference Name="OutputBus">
 																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
@@ -6953,61 +6954,34 @@
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
-																<AudioFileSource Name="music_level_2_phase_1" ID="{25CE643D-F8B2-489B-8EFF-F33E930E12A4}">
+																<AudioFileSource Name="music_lvl2_komp_phase_2" ID="{C030993B-B0C2-4A08-860A-0E0C5A9271E3}">
 																	<Language>SFX</Language>
-																	<AudioFile>music_level_2_phase_1.wav</AudioFile>
+																	<AudioFile>music_lvl2_komp_phase_2.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="291216082"/>
+																		<MediaID ID="132421368"/>
 																	</MediaIDList>
 																</AudioFileSource>
-																<AudioFileSource Name="music_level_2_phase_2" ID="{B27C9E73-4337-4F7A-9125-4A3524D1B8E5}">
+																<AudioFileSource Name="music_lvl2_komp_phase_3" ID="{920F6D50-5C89-496F-B3C6-A1CCE1A12E7B}">
 																	<Language>SFX</Language>
-																	<AudioFile>music_level_2_phase_2.wav</AudioFile>
+																	<AudioFile>music_lvl2_komp_phase_3.wav</AudioFile>
 																	<MediaIDList>
-																		<MediaID ID="708001750"/>
-																	</MediaIDList>
-																</AudioFileSource>
-																<AudioFileSource Name="music_level_2_phase_3" ID="{B1C32938-3029-4608-B24C-1174740DAB37}">
-																	<Language>SFX</Language>
-																	<AudioFile>music_level_2_phase_3.wav</AudioFile>
-																	<MediaIDList>
-																		<MediaID ID="894117681"/>
+																		<MediaID ID="485202166"/>
 																	</MediaIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ObjectLists>
 																<ObjectList Name="Sequences">
-																	<MusicTrackSequence Name="" ID="{086BFA3E-EF42-4B06-B842-00A84C54FDCD}">
-																		<ObjectLists>
-																			<ObjectList Name="Clips">
-																				<MusicClip Name="music_level_2_phase_1" ID="{A09FDC7B-46D3-4395-BF5E-4C0041F92F4A}">
-																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="1971.47566958043"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="11999.6803596146"/>
-																						<Property Name="PlayAt" Type="Real64" Value="7574.62975463003"/>
-																					</PropertyList>
-																					<AudioSourceRef Name="music_level_2_phase_1" ID="{25CE643D-F8B2-489B-8EFF-F33E930E12A4}"/>
-																				</MusicClip>
-																			</ObjectList>
-																		</ObjectLists>
-																		<ReferenceList>
-																			<Reference Name="TrackSequenceSwitch">
-																				<ObjectRef Name="Phase_1" ID="{1998EDF1-EEC4-4C03-9EEF-713E0BF18FC1}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
-																			</Reference>
-																		</ReferenceList>
-																	</MusicTrackSequence>
 																	<MusicTrackSequence Name="" ID="{E4D3C567-B511-45AB-8B5D-256DB7D404FB}">
 																		<ObjectLists>
 																			<ObjectList Name="Clips">
-																				<MusicClip Name="music_level_2_phase_2" ID="{095BC3DE-EF1F-4C38-9009-0ECBFB487563}">
+																				<MusicClip Name="music_lvl2_komp_phase_2" ID="{F2DA2830-1773-43E8-8D62-FD2C0B769D35}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="2234.33909219116"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="11624.6903483766"/>
-																						<Property Name="PlayAt" Type="Real64" Value="7574.62975463003"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1348.90499298602"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2636.4961226545"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="music_level_2_phase_2" ID="{B27C9E73-4337-4F7A-9125-4A3524D1B8E5}"/>
+																					<AudioSourceRef Name="music_lvl2_komp_phase_2" ID="{C030993B-B0C2-4A08-860A-0E0C5A9271E3}"/>
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
@@ -7020,14 +6994,14 @@
 																	<MusicTrackSequence Name="" ID="{4FBF8031-49AB-433D-9300-F2545CA0704E}">
 																		<ObjectLists>
 																			<ObjectList Name="Clips">
-																				<MusicClip Name="music_level_2_phase_3" ID="{F459EF5B-11BF-46C9-B3CB-C158406159A3}">
+																				<MusicClip Name="music_lvl2_komp_phase_3" ID="{82FC06C1-8156-401A-B46F-78324C48CB38}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
-																						<Property Name="FadeInDuration" Type="Real64" Value="1971.47566958044"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="11624.6903483766"/>
-																						<Property Name="PlayAt" Type="Real64" Value="7574.62975463003"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1226.27726635093"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2575.18225933696"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="music_level_2_phase_3" ID="{B1C32938-3029-4608-B24C-1174740DAB37}"/>
+																					<AudioSourceRef Name="music_lvl2_komp_phase_3" ID="{920F6D50-5C89-496F-B3C6-A1CCE1A12E7B}"/>
 																				</MusicClip>
 																			</ObjectList>
 																		</ObjectLists>
@@ -7040,18 +7014,407 @@
 																</ObjectList>
 															</ObjectLists>
 														</MusicTrack>
+														<MusicTrack Name="Horror_Switch" ID="{C1B300D3-C160-426E-B7AD-C87CA0F03032}" ShortID="957698436">
+															<PropertyList>
+																<Property Name="MusicTrackType" Type="int16" Value="3"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="DefaultSwitchOrState">
+																	<ObjectRef Name="Phase_3" ID="{70B60F14-35EC-446F-B8C1-65062F980D11}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="SwitchGroupOrStateGroup">
+																	<ObjectRef Name="LevelPhase" ID="{DA49674B-CBE6-4311-82A8-C4C6B1C380EB}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																</Reference>
+																<Reference Name="TransitionRoot">
+																	<Custom>
+																		<MusicTransition Name="Root" ID="{D58B85FF-94E6-4EDA-8447-6513D46503BB}">
+																			<PropertyList>
+																				<Property Name="IsFolder" Type="bool" Value="True"/>
+																			</PropertyList>
+																			<ChildrenList>
+																				<MusicTransition Name="Transition" ID="{B4B063C7-AE32-4D21-96FC-4038A314A7B9}">
+																					<TransitionInfo/>
+																				</MusicTransition>
+																			</ChildrenList>
+																			<TransitionInfo/>
+																		</MusicTransition>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="music_lvl2_horror_phase_3" ID="{9C339CDF-7B37-4C8C-8325-F7066A2360F3}">
+																	<Language>SFX</Language>
+																	<AudioFile>music_lvl2_horror_phase_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="607057949"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists>
+																<ObjectList Name="Sequences">
+																	<MusicTrackSequence Name="" ID="{35A75875-D58C-4D7D-8E1C-CBE6129073D8}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="music_lvl2_horror_phase_3" ID="{10626DAD-CDDC-4EED-A016-D252393B25ED}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1287.59112966848"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2575.18225933696"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="music_lvl2_horror_phase_3" ID="{9C339CDF-7B37-4C8C-8325-F7066A2360F3}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																		<ReferenceList>
+																			<Reference Name="TrackSequenceSwitch">
+																				<ObjectRef Name="Phase_3" ID="{70B60F14-35EC-446F-B8C1-65062F980D11}" WorkUnitID="{99A3736E-C74B-4872-84E0-A96883CA1631}"/>
+																			</Reference>
+																		</ReferenceList>
+																	</MusicTrackSequence>
+																</ObjectList>
+															</ObjectLists>
+														</MusicTrack>
+														<MusicTrack Name="Bells_Pad" ID="{7CD2AC97-DD48-4B2B-8300-4D1EC0B8D2A3}" ShortID="470140983">
+															<PropertyList>
+																<Property Name="MusicTrackType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="TransitionRoot">
+																	<Custom>
+																		<MusicTransition Name="Root" ID="{85C0DDB0-6E10-47D1-A251-DA3469F9A80C}">
+																			<PropertyList>
+																				<Property Name="IsFolder" Type="bool" Value="True"/>
+																			</PropertyList>
+																			<TransitionInfo/>
+																		</MusicTransition>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="lvl2_bells_pad_01" ID="{85E144A3-0E99-45AF-A0BB-58BDE58FE628}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_bells_pad_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="622920933"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="lvl2_bells_pad_04" ID="{38A24BE9-1B0D-4454-B8B6-CF3E396F43F0}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_bells_pad_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="251761951"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="lvl2_bells_pad_05" ID="{25EC7CF1-DFC4-4FA9-9E6B-F6716E035B23}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_bells_pad_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="627406204"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists>
+																<ObjectList Name="Sequences">
+																	<MusicTrackSequence Name="" ID="{122FE74A-1009-4CF6-94C6-2D62AF55485F}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_bells_pad_01" ID="{B5E297B9-78B6-45D8-8F6F-3B01517B499B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1226.27726635093"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_bells_pad_01" ID="{85E144A3-0E99-45AF-A0BB-58BDE58FE628}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																	<MusicTrackSequence Name="" ID="{06E8EE21-4BA7-4057-AE07-92D9FA0194BE}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_bells_pad_05" ID="{CC650B8D-7A76-4911-A729-A002F82F2088}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1287.59112966848"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2628.77442273535"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_bells_pad_05" ID="{25EC7CF1-DFC4-4FA9-9E6B-F6716E035B23}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																	<MusicTrackSequence Name="" ID="{9C51064D-D674-4A41-9930-C05A35BB111E}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_bells_pad_04" ID="{52DCE40E-411A-4FB9-B61F-CCCDE2F0F782}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1287.59112966848"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2557.72646536413"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_bells_pad_04" ID="{38A24BE9-1B0D-4454-B8B6-CF3E396F43F0}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</ObjectList>
+															</ObjectLists>
+														</MusicTrack>
+														<MusicTrack Name="Violin_Pad" ID="{D9D14E2C-3B1C-4A70-AAF5-2D462D0F887C}" ShortID="762421280">
+															<PropertyList>
+																<Property Name="MusicTrackType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="TransitionRoot">
+																	<Custom>
+																		<MusicTransition Name="Root" ID="{36F59FE0-56A9-4736-A47F-4261E3D0A30C}">
+																			<PropertyList>
+																				<Property Name="IsFolder" Type="bool" Value="True"/>
+																			</PropertyList>
+																			<TransitionInfo/>
+																		</MusicTransition>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="lvl2_violin_pad_01" ID="{AC904F2B-CF16-462A-A7C4-81D0074CABE0}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_violin_pad_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="46055768"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="lvl2_violin_pad_02" ID="{64B62E4D-E8D7-48E3-93EC-9F905E18E529}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_violin_pad_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="696946437"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="lvl2_violin_pad_03" ID="{A852A90E-4E65-47B8-AE33-AA11B424B926}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_violin_pad_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="472672620"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists>
+																<ObjectList Name="Sequences">
+																	<MusicTrackSequence Name="" ID="{A49ACEBF-4D52-4750-9B13-66211F441F38}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_violin_pad_01" ID="{93FF22F6-A476-4163-B53B-DDF1FA1BFB9E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1287.59112966848"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2557.72646536412"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_violin_pad_01" ID="{AC904F2B-CF16-462A-A7C4-81D0074CABE0}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																	<MusicTrackSequence Name="" ID="{1D35C077-5B65-42E6-83A4-A192FA757B17}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_violin_pad_02" ID="{10DCA7D5-B6C2-44E7-9D94-3E028FEC6FB2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1287.59112966848"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2486.67850799288"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_violin_pad_02" ID="{64B62E4D-E8D7-48E3-93EC-9F905E18E529}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																	<MusicTrackSequence Name="" ID="{257AED15-051E-4D10-9C87-FE733FAE9A1A}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_violin_pad_03" ID="{34D4340E-0536-4482-AD90-625B74A207B9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1410.21885630357"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2270.18410436535"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_violin_pad_03" ID="{A852A90E-4E65-47B8-AE33-AA11B424B926}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</ObjectList>
+															</ObjectLists>
+														</MusicTrack>
+														<MusicTrack Name="Ethiopian_Pad" ID="{AB6AF01D-7330-4A6C-87B4-A13AF7E81B2D}" ShortID="548420363">
+															<PropertyList>
+																<Property Name="MusicTrackType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="TransitionRoot">
+																	<Custom>
+																		<MusicTransition Name="Root" ID="{9DFDB437-1E7F-41F5-BD74-022AC9D6F1F5}">
+																			<PropertyList>
+																				<Property Name="IsFolder" Type="bool" Value="True"/>
+																			</PropertyList>
+																			<TransitionInfo/>
+																		</MusicTransition>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="lvl2_ethiopian_pad_01" ID="{5416A4A6-6930-4AF9-B113-9057393FBE78}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_ethiopian_pad_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="702160197"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="lvl2_ethiopian_pad_02" ID="{2FF631B7-26EB-427D-81D1-CA441F03BE16}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_ethiopian_pad_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="496961361"/>
+																	</MediaIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="lvl2_ethiopian_pad_03" ID="{1A973A31-23EF-4FD5-ADC1-B12091B14847}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_ethiopian_pad_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="402255390"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists>
+																<ObjectList Name="Sequences">
+																	<MusicTrackSequence Name="" ID="{420EAE59-50EC-46FB-BD7C-188AF7D39EAD}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_ethiopian_pad_01" ID="{A9EE443B-C687-4D01-AD8F-7FEACB9CD68B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1410.21885630357"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2389.66747827931"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_ethiopian_pad_01" ID="{5416A4A6-6930-4AF9-B113-9057393FBE78}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																	<MusicTrackSequence Name="" ID="{2B7EC05E-4F65-440B-80B8-948D9A5FC6A9}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_ethiopian_pad_02" ID="{CA3D0DBA-F993-4FD6-9900-1A61794D3A52}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1348.90499298602"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2389.66747827932"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_ethiopian_pad_02" ID="{2FF631B7-26EB-427D-81D1-CA441F03BE16}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																	<MusicTrackSequence Name="" ID="{0DEAB460-BE1E-47E6-A57A-C52B0D30FFB5}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_ethiopian_pad_03" ID="{E976C431-5D11-4122-9D8F-7509698B6ECD}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1348.90499298602"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2389.66747827932"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_ethiopian_pad_03" ID="{1A973A31-23EF-4FD5-ADC1-B12091B14847}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</ObjectList>
+															</ObjectLists>
+														</MusicTrack>
+														<MusicTrack Name="Steam" ID="{7A56B552-94D1-49AA-9966-7CCC191E8BD5}" ShortID="296642167">
+															<PropertyList>
+																<Property Name="MusicTrackType" Type="int16" Value="1"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+																<Reference Name="TransitionRoot">
+																	<Custom>
+																		<MusicTransition Name="Root" ID="{8FE4F2A8-AAD5-42BC-817C-BC5C818F2EF6}">
+																			<PropertyList>
+																				<Property Name="IsFolder" Type="bool" Value="True"/>
+																			</PropertyList>
+																			<TransitionInfo/>
+																		</MusicTransition>
+																	</Custom>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="lvl2_music_steam" ID="{A159A5A3-2723-4FA1-91F3-3F962B546B39}">
+																	<Language>SFX</Language>
+																	<AudioFile>lvl2_music_steam.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="930928911"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists>
+																<ObjectList Name="Sequences">
+																	<MusicTrackSequence Name="" ID="{503E967B-E01A-4C88-8065-26997FDE2A10}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<MusicClip Name="lvl2_music_steam" ID="{A5BA63F5-6A85-4587-887B-274DEC6D232A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="50000"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="1410.21885630357"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2628.63422610725"/>
+																						<Property Name="PlayAt" Type="Real64" Value="5000"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="lvl2_music_steam" ID="{A159A5A3-2723-4FA1-91F3-3F962B546B39}"/>
+																				</MusicClip>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																	<MusicTrackSequence Name="" ID="{71B3E302-1FAB-424B-957B-DCD05FE91038}"/>
+																</ObjectList>
+															</ObjectLists>
+														</MusicTrack>
 													</ChildrenList>
 													<ObjectLists>
 														<ObjectList Name="Cues">
 															<MusicCue Name="Entry Cue" ID="{838E31F6-9F42-4849-B761-A5E424BD08D7}">
 																<PropertyList>
-																	<Property Name="TimeMs" Type="Real64" Value="9677.53713551583"/>
+																	<Property Name="TimeMs" Type="Real64" Value="6428.57142857143"/>
 																</PropertyList>
 															</MusicCue>
 															<MusicCue Name="Exit Cue" ID="{11809F72-A2EE-43E2-9B37-6E2C3532AF49}">
 																<PropertyList>
 																	<Property Name="CueType" Type="int16" Value="1"/>
-																	<Property Name="TimeMs" Type="Real64" Value="43963.2514212301"/>
+																	<Property Name="TimeMs" Type="Real64" Value="52142.8571428571"/>
 																</PropertyList>
 															</MusicCue>
 														</ObjectList>
