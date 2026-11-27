@@ -9030,7 +9030,7 @@
 																		<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
 																		<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 																		<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-																		<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+																		<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 																		<Property Name="SourceContextType" Type="int16" Value="2"/>
 																	</PropertyList>
 																	<ReferenceList>
@@ -9045,6 +9045,7 @@
 																		<SourceFadeOut>
 																			<MusicFade Name="Source Fade-out" ID="{8A1A0850-E21D-415D-8C20-AE65F2051DDA}">
 																				<PropertyList>
+																					<Property Name="FadeCurve" Type="int16" Value="6"/>
 																					<Property Name="FadeOffset" Type="Real64" Value="1"/>
 																					<Property Name="FadeTime" Type="Real64" Value="1"/>
 																					<Property Name="FadeType" Type="int16" Value="1"/>
@@ -9054,8 +9055,9 @@
 																		<DestinationFadeIn>
 																			<MusicFade Name="Destination Fade-in" ID="{F52800E0-A97C-43E1-B1FB-2444ED71036B}">
 																				<PropertyList>
-																					<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-																					<Property Name="FadeTime" Type="Real64" Value="1"/>
+																					<Property Name="FadeCurve" Type="int16" Value="7"/>
+																					<Property Name="FadeOffset" Type="Real64" Value="-0.7"/>
+																					<Property Name="FadeTime" Type="Real64" Value="0.7"/>
 																				</PropertyList>
 																			</MusicFade>
 																		</DestinationFadeIn>
@@ -9067,7 +9069,7 @@
 																		<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
 																		<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 																		<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-																		<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+																		<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 																		<Property Name="SourceContextType" Type="int16" Value="2"/>
 																	</PropertyList>
 																	<ReferenceList>
@@ -9082,6 +9084,7 @@
 																		<SourceFadeOut>
 																			<MusicFade Name="Source Fade-out" ID="{727753CA-6FA6-44CD-9D23-7C83F694F70D}">
 																				<PropertyList>
+																					<Property Name="FadeCurve" Type="int16" Value="6"/>
 																					<Property Name="FadeOffset" Type="Real64" Value="1"/>
 																					<Property Name="FadeTime" Type="Real64" Value="1"/>
 																					<Property Name="FadeType" Type="int16" Value="1"/>
@@ -9091,8 +9094,9 @@
 																		<DestinationFadeIn>
 																			<MusicFade Name="Destination Fade-in" ID="{226CE03E-E6C4-4F99-8923-29AFA2E9113D}">
 																				<PropertyList>
-																					<Property Name="FadeOffset" Type="Real64" Value="-1"/>
-																					<Property Name="FadeTime" Type="Real64" Value="1"/>
+																					<Property Name="FadeCurve" Type="int16" Value="7"/>
+																					<Property Name="FadeOffset" Type="Real64" Value="-0.7"/>
+																					<Property Name="FadeTime" Type="Real64" Value="0.7"/>
 																				</PropertyList>
 																			</MusicFade>
 																		</DestinationFadeIn>
@@ -9209,7 +9213,8 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{36CD2EE0-6365-421F-AEBE-C10031571B91}">
+																			<MusicTrackSequence Name="" ID="{36CD2EE0-6365-421F-AEBE-C10031571B91}"/>
+																			<MusicTrackSequence Name="" ID="{682A7E0E-F2B9-4406-9FDB-491B2A67998C}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Cymbaler_1_115_bpm_4_4" ID="{BC80E62D-2B48-4FD3-AFFB-F7AAE743B910}">
@@ -9224,7 +9229,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{682A7E0E-F2B9-4406-9FDB-491B2A67998C}">
+																			<MusicTrackSequence Name="" ID="{602BD1F8-7C49-4C62-94AA-D47CB5E12B16}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Cymbaler_2_115_bpm_4_4" ID="{15B5481A-5C73-4FFB-9923-A09178C79DDA}">
@@ -9239,7 +9244,6 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{602BD1F8-7C49-4C62-94AA-D47CB5E12B16}"/>
 																		</ObjectList>
 																	</ObjectLists>
 																</MusicTrack>
@@ -9286,7 +9290,8 @@
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
 																			<MusicTrackSequence Name="" ID="{412A8FF8-DBE4-48F3-84F4-49301A2F183A}"/>
-																			<MusicTrackSequence Name="" ID="{036D94D9-1124-416D-926F-F3E35B89F2C5}">
+																			<MusicTrackSequence Name="" ID="{036D94D9-1124-416D-926F-F3E35B89F2C5}"/>
+																			<MusicTrackSequence Name="" ID="{1798B350-A388-4C10-BA3F-813FDC03C2AB}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Bassoon_Fras_1_115_bpm_4_4" ID="{7FE1A5FD-C93D-46EB-8E92-74DDDFD313E1}">
@@ -9301,7 +9306,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{1798B350-A388-4C10-BA3F-813FDC03C2AB}">
+																			<MusicTrackSequence Name="" ID="{EF53EE96-869F-4277-87DD-8F7E180236B9}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Bassoon_Fras_2_115_bpm_4_4" ID="{96EC9AF5-8B31-4BA3-9520-E2C4134B7627}">
@@ -9312,6 +9317,30 @@
 																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
 																							</PropertyList>
 																							<AudioSourceRef Name="Bassoon_Fras_2_115_bpm_4_4" ID="{F43E7460-2F4B-4589-885A-0CA2E69201CE}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{07B34D00-9525-4D0B-BC22-C1FD70EAA075}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Bassoon_Fras_2_115_bpm_4_4" ID="{5AD0905E-5B6B-4D3C-85F3-E846B0D00779}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Bassoon_Fras_2_115_bpm_4_4" ID="{F43E7460-2F4B-4589-885A-0CA2E69201CE}"/>
+																						</MusicClip>
+																						<MusicClip Name="Bassoon_Fras_1_115_bpm_4_4" ID="{1290A3A2-7B0D-4C0F-800F-185278AB3F8A}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Bassoon_Fras_1_115_bpm_4_4" ID="{D8B7D967-FB0D-412C-ACCB-4F76BD2A6455}"/>
 																						</MusicClip>
 																					</ObjectList>
 																				</ObjectLists>
@@ -9601,7 +9630,9 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{41A94B43-2A27-4214-992C-0E92BF1DE69A}">
+																			<MusicTrackSequence Name="" ID="{41A94B43-2A27-4214-992C-0E92BF1DE69A}"/>
+																			<MusicTrackSequence Name="" ID="{F5BFF35F-02EC-4164-91CC-6BA448CA2FC4}"/>
+																			<MusicTrackSequence Name="" ID="{9E50A41F-6EDA-4827-9818-3333D7B23FBD}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Choir_Lead_1_115_bpm_4_4" ID="{73B04ECA-F5BF-44A2-A593-4AB26C3C8556}">
@@ -9616,7 +9647,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{F5BFF35F-02EC-4164-91CC-6BA448CA2FC4}">
+																			<MusicTrackSequence Name="" ID="{BFF13E3C-E494-4BA0-862B-91E0BACB0161}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Choir_Lead_2_115_bpm_4_4" ID="{47955F95-A7B1-4AF4-9BA1-0CB204578CFE}">
@@ -9631,18 +9662,9 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{9E50A41F-6EDA-4827-9818-3333D7B23FBD}">
+																			<MusicTrackSequence Name="" ID="{9A1EBCDE-A2F7-406C-9687-5F44EF2CFE9B}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
-																						<MusicClip Name="Choir_Lead_2_115_bpm_4_4" ID="{602B915B-92C4-45BE-9110-07C5C9C4A0E9}">
-																							<PropertyList>
-																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
-																								<Property Name="FadeInMode" Type="int16" Value="0"/>
-																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
-																							</PropertyList>
-																							<AudioSourceRef Name="Choir_Lead_2_115_bpm_4_4" ID="{086DBC7C-8EF6-40CB-BF2A-B6B653B49884}"/>
-																						</MusicClip>
 																						<MusicClip Name="Choir_Lead_1_115_bpm_4_4" ID="{AC8AD714-339C-4BB4-A2AD-9A6F4EE09ECE}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
@@ -9651,6 +9673,15 @@
 																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
 																							</PropertyList>
 																							<AudioSourceRef Name="Choir_Lead_1_115_bpm_4_4" ID="{6F077F6E-59F2-41F0-8786-2321AEEEE452}"/>
+																						</MusicClip>
+																						<MusicClip Name="Choir_Lead_2_115_bpm_4_4" ID="{602B915B-92C4-45BE-9110-07C5C9C4A0E9}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Choir_Lead_2_115_bpm_4_4" ID="{086DBC7C-8EF6-40CB-BF2A-B6B653B49884}"/>
 																						</MusicClip>
 																					</ObjectList>
 																				</ObjectLists>
@@ -9890,15 +9921,30 @@
 																			<MusicTrackSequence Name="" ID="{0D5BCE88-1C6D-416C-9096-29E81E413D6A}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
-																						<MusicClip Name="Violin_Fras_3_115_bpm_4_4" ID="{F8BF40FE-B027-4E9B-92F2-6E1EB3800A4C}">
+																						<MusicClip Name="Violin_Fras_2_115_bpm_4_4" ID="{C48790F8-68A7-4E89-BF0A-FF435AAEBD6F}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
 																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
 																							</PropertyList>
-																							<AudioSourceRef Name="Violin_Fras_3_115_bpm_4_4" ID="{F98C452B-30D5-4234-A6DA-7D75242FC90B}"/>
+																							<AudioSourceRef Name="Violin_Fras_2_115_bpm_4_4" ID="{BF80581D-7346-4B1A-8635-04C34679B746}"/>
 																						</MusicClip>
+																						<MusicClip Name="Violin_Fras_1_115_bpm_4_4" ID="{E39C5DB9-CE96-49E9-8871-C114997E337D}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Violin_Fras_1_115_bpm_4_4" ID="{DD62AABD-C00B-4E7C-B29F-14E0831E12D7}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{6D8C6449-DD72-4ADD-91F8-E08A71353DF3}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
 																						<MusicClip Name="Violin_Fras_1_115_bpm_4_4" ID="{4097B3AA-BAB9-4467-B800-167B36931DAB}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
@@ -9907,6 +9953,15 @@
 																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
 																							</PropertyList>
 																							<AudioSourceRef Name="Violin_Fras_1_115_bpm_4_4" ID="{DD62AABD-C00B-4E7C-B29F-14E0831E12D7}"/>
+																						</MusicClip>
+																						<MusicClip Name="Violin_Fras_3_115_bpm_4_4" ID="{F8BF40FE-B027-4E9B-92F2-6E1EB3800A4C}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Violin_Fras_3_115_bpm_4_4" ID="{F98C452B-30D5-4234-A6DA-7D75242FC90B}"/>
 																						</MusicClip>
 																					</ObjectList>
 																				</ObjectLists>
@@ -10087,6 +10142,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -10114,7 +10170,23 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{A0D392A0-3998-4F76-84D6-88BCEDA8D522}">
+																			<MusicTrackSequence Name="" ID="{A0D392A0-3998-4F76-84D6-88BCEDA8D522}"/>
+																			<MusicTrackSequence Name="" ID="{257FAE39-901A-436A-B0EB-D15E4B3B49A6}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Brass_Leads_115_bpm_4_4" ID="{B9979719-0A3F-4D11-8FE6-33733F57677F}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Brass_Leads_115_bpm_4_4" ID="{FB1B37B7-81B0-46F0-BACD-94853F82DE0E}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{F668D9E3-53A3-4A89-BA72-9AD7932C5D1F}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Brass_Leads_115_bpm_4_4" ID="{81DA38A5-7AD5-44D6-B915-8AFC1B4EE7E7}">
@@ -10139,6 +10211,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -10166,10 +10239,26 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{B29D9341-E74F-440A-AAAC-8CB506BC0749}">
+																			<MusicTrackSequence Name="" ID="{B29D9341-E74F-440A-AAAC-8CB506BC0749}"/>
+																			<MusicTrackSequence Name="" ID="{53533C0D-4A61-4A11-8295-0581A67F6842}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Brass_Swells_115_bpm_4_4" ID="{A9505538-FBC5-486D-8F10-E0D4426377DB}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Brass_Swells_115_bpm_4_4" ID="{1040D638-87ED-4E36-9B39-D9ADDA751673}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{BF13F4FC-5C50-4D55-9C3F-D19AE18C7833}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Brass_Swells_115_bpm_4_4" ID="{FE23253A-9DAB-42CE-81EA-B545BA9E8641}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -10191,6 +10280,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -10218,7 +10308,9 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{D01E321C-7EB9-4E6B-B284-3A29E2219EE6}">
+																			<MusicTrackSequence Name="" ID="{D01E321C-7EB9-4E6B-B284-3A29E2219EE6}"/>
+																			<MusicTrackSequence Name="" ID="{6BC5BB1B-2357-48E6-8A1F-A4F460A94457}"/>
+																			<MusicTrackSequence Name="" ID="{A255AAD0-2CFD-4F5A-A4FA-36876694ABB3}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Violins_Bow_Mess_115_bpm_4_4" ID="{4A01E7E0-A254-4E1A-A2D8-44DA8357A830}">
@@ -10243,6 +10335,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -10270,10 +10363,41 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{E790173F-40CE-40FE-84E2-0ADA0FC5D66C}">
+																			<MusicTrackSequence Name="" ID="{E790173F-40CE-40FE-84E2-0ADA0FC5D66C}"/>
+																			<MusicTrackSequence Name="" ID="{9280398F-2DCF-42D8-A37F-36732C805E10}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Violins_Picking_Mess_115_bpm_4_4" ID="{36F9367B-7AF5-4CBC-B17A-0255E89588F9}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Horror_Violins_Picking_Mess_115_bpm_4_4" ID="{858B4C8B-4922-4573-A978-498C723DC630}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{1F063200-0C10-4B2A-8861-898ECB4CBFBE}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Horror_Violins_Picking_Mess_115_bpm_4_4" ID="{0ADB31B8-D943-4A25-8516-DB46E132840E}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Horror_Violins_Picking_Mess_115_bpm_4_4" ID="{858B4C8B-4922-4573-A978-498C723DC630}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{5646F600-EF14-4037-8926-80E29BB3C4A5}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Horror_Violins_Picking_Mess_115_bpm_4_4" ID="{44CEF67A-1E87-4260-9C51-02F9D330700E}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -10295,6 +10419,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -10322,7 +10447,9 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{0F43FDCB-BC16-4744-9569-C27A648A47D8}">
+																			<MusicTrackSequence Name="" ID="{0F43FDCB-BC16-4744-9569-C27A648A47D8}"/>
+																			<MusicTrackSequence Name="" ID="{76EBFB54-F12A-4012-9061-E7A0CAB628FC}"/>
+																			<MusicTrackSequence Name="" ID="{A087CE43-B77F-4C33-9613-41C45A734561}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Solo_Violin_Full_115_bpm_4_4" ID="{698A6334-C8CB-41E5-AEE2-2CB8875B23B4}">
@@ -10347,6 +10474,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -10374,10 +10502,42 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{0B10C25E-C145-420E-9152-15B0DDAD6A4A}">
+																			<MusicTrackSequence Name="" ID="{0B10C25E-C145-420E-9152-15B0DDAD6A4A}"/>
+																			<MusicTrackSequence Name="" ID="{6C41CB02-0238-47B7-AB52-194E9EA14041}"/>
+																			<MusicTrackSequence Name="" ID="{4EA2079F-F82D-4BC5-B428-75775CECDCFE}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="String_Fras_1_115_bpm_4_4" ID="{90EC1425-F3A7-4849-A491-CF74A3B17D71}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="String_Fras_1_115_bpm_4_4" ID="{BFE68931-5F0C-4618-8110-90E55B37D326}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{30BDBE99-6FDB-4A66-923C-E797C1A42BF0}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="String_Fras_1_115_bpm_4_4" ID="{FD6EE2D0-E6D4-49C5-9CBD-6F8C4B37C27B}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="String_Fras_1_115_bpm_4_4" ID="{BFE68931-5F0C-4618-8110-90E55B37D326}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{70F1273F-F7A5-4DD5-B64F-0B990742C8ED}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="String_Fras_1_115_bpm_4_4" ID="{D74B7AF8-8817-4E24-AFCE-F6FE1CEE129E}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -10607,7 +10767,8 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{34372F4A-A057-41C0-AA35-1F4634F5C8D1}">
+																			<MusicTrackSequence Name="" ID="{34372F4A-A057-41C0-AA35-1F4634F5C8D1}"/>
+																			<MusicTrackSequence Name="" ID="{CF774918-E2FE-4BA7-8FCB-79DAF37DE33E}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Cymbaler_1_115_bpm_4_4" ID="{888C8F2C-5C58-4048-B180-2D749406DB47}">
@@ -10622,7 +10783,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{CF774918-E2FE-4BA7-8FCB-79DAF37DE33E}">
+																			<MusicTrackSequence Name="" ID="{05AA2AEF-0377-4E21-AEB4-8D53019E2B52}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Cymbaler_2_115_bpm_4_4" ID="{C9920ABD-D8A9-4485-A1F4-C6129D3DAA50}">
@@ -10637,7 +10798,6 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{05AA2AEF-0377-4E21-AEB4-8D53019E2B52}"/>
 																		</ObjectList>
 																	</ObjectLists>
 																</MusicTrack>
@@ -10684,7 +10844,8 @@
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
 																			<MusicTrackSequence Name="" ID="{22E4D811-9840-4505-8D38-8EAF9E6CD8F3}"/>
-																			<MusicTrackSequence Name="" ID="{BA1CC2BB-90B8-4862-90D4-744FD7D656C6}">
+																			<MusicTrackSequence Name="" ID="{BA1CC2BB-90B8-4862-90D4-744FD7D656C6}"/>
+																			<MusicTrackSequence Name="" ID="{5C78E713-F499-48CD-A086-48F3E5C30375}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Bassoon_Fras_1_115_bpm_4_4" ID="{F3791164-C41D-4EFA-AF37-AF50DD16DA2F}">
@@ -10699,7 +10860,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{5C78E713-F499-48CD-A086-48F3E5C30375}">
+																			<MusicTrackSequence Name="" ID="{C4389E33-06DD-45B8-A115-CFBBD8BF4F15}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Bassoon_Fras_2_115_bpm_4_4" ID="{2BA3B3AF-8404-4A16-B402-303D5990DCB9}">
@@ -10710,6 +10871,30 @@
 																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
 																							</PropertyList>
 																							<AudioSourceRef Name="Bassoon_Fras_2_115_bpm_4_4" ID="{25320EAB-4DF9-42AE-879C-884FE12E46BE}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{15A77E91-9787-4762-B478-10B415ADC090}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Bassoon_Fras_2_115_bpm_4_4" ID="{B2375663-5C0D-4BF3-9C66-779205CF8204}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Bassoon_Fras_2_115_bpm_4_4" ID="{25320EAB-4DF9-42AE-879C-884FE12E46BE}"/>
+																						</MusicClip>
+																						<MusicClip Name="Bassoon_Fras_1_115_bpm_4_4" ID="{675EBE6F-F741-40F8-A045-7A0789978EBA}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Bassoon_Fras_1_115_bpm_4_4" ID="{FDD78726-9C7B-4CDC-AA35-327DA267E925}"/>
 																						</MusicClip>
 																					</ObjectList>
 																				</ObjectLists>
@@ -10999,7 +11184,9 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{B62AC496-FF6F-4A67-BF93-F743F951875F}">
+																			<MusicTrackSequence Name="" ID="{B62AC496-FF6F-4A67-BF93-F743F951875F}"/>
+																			<MusicTrackSequence Name="" ID="{27DA3E8E-7A20-4D30-AFF9-EC4D7356F061}"/>
+																			<MusicTrackSequence Name="" ID="{F4516118-7095-4C44-8675-97F77F7261ED}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Choir_Lead_1_115_bpm_4_4" ID="{E78983F9-7F13-40BD-9AE6-DCE00E7DF7E4}">
@@ -11014,7 +11201,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{27DA3E8E-7A20-4D30-AFF9-EC4D7356F061}">
+																			<MusicTrackSequence Name="" ID="{75E755B7-AA4F-4A89-8FA6-E4CCF7779F49}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Choir_Lead_2_115_bpm_4_4" ID="{05947BDA-1282-4977-A745-11D8ED190615}">
@@ -11029,18 +11216,9 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{F4516118-7095-4C44-8675-97F77F7261ED}">
+																			<MusicTrackSequence Name="" ID="{1218A830-46CF-4E91-A74F-E99B51C759D3}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
-																						<MusicClip Name="Choir_Lead_2_115_bpm_4_4" ID="{8EF35FE1-A203-455D-8110-DD31FCEEAE64}">
-																							<PropertyList>
-																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
-																								<Property Name="FadeInMode" Type="int16" Value="0"/>
-																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
-																							</PropertyList>
-																							<AudioSourceRef Name="Choir_Lead_2_115_bpm_4_4" ID="{82F344CF-0972-47DE-A006-419F816E4D0F}"/>
-																						</MusicClip>
 																						<MusicClip Name="Choir_Lead_1_115_bpm_4_4" ID="{A7B89E61-D044-40BC-BAB7-F183149C5BE5}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
@@ -11049,6 +11227,15 @@
 																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
 																							</PropertyList>
 																							<AudioSourceRef Name="Choir_Lead_1_115_bpm_4_4" ID="{2DD57A7D-4540-428B-9A47-2188B7DF97AB}"/>
+																						</MusicClip>
+																						<MusicClip Name="Choir_Lead_2_115_bpm_4_4" ID="{8EF35FE1-A203-455D-8110-DD31FCEEAE64}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Choir_Lead_2_115_bpm_4_4" ID="{82F344CF-0972-47DE-A006-419F816E4D0F}"/>
 																						</MusicClip>
 																					</ObjectList>
 																				</ObjectLists>
@@ -11485,6 +11672,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -11512,10 +11700,26 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{4F6908DD-093A-42BD-9395-252F92A1498E}">
+																			<MusicTrackSequence Name="" ID="{4F6908DD-093A-42BD-9395-252F92A1498E}"/>
+																			<MusicTrackSequence Name="" ID="{29D969AA-4AAF-4BC9-9967-1F220FA3E68E}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Brass_Leads_115_bpm_4_4" ID="{EE598E00-F300-4D49-BE3E-ED523187026F}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Brass_Leads_115_bpm_4_4" ID="{F8028769-4E24-42B2-B518-C70EB405140D}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{927191D6-0200-42FE-AAC3-2A34EC9E8576}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Brass_Leads_115_bpm_4_4" ID="{A8B9D43A-2704-41FB-993F-071065F995DD}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -11537,6 +11741,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -11564,10 +11769,26 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{8E92653C-EA8A-488B-8384-BC7360678BA8}">
+																			<MusicTrackSequence Name="" ID="{8E92653C-EA8A-488B-8384-BC7360678BA8}"/>
+																			<MusicTrackSequence Name="" ID="{5E40877D-2ED8-4EC2-B59B-599737CBE0D2}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Brass_Swells_115_bpm_4_4" ID="{F2952CD4-7513-44CF-BD97-702682BE61B4}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Brass_Swells_115_bpm_4_4" ID="{498F5081-1C30-4D95-8D2A-78E83C4D3569}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{DCDEEDD6-CFD9-4E64-9B24-7D90CE54541F}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Brass_Swells_115_bpm_4_4" ID="{108F6D8B-F0CC-4A8A-8EED-DDF38417A642}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -11589,6 +11810,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -11616,7 +11838,9 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{2E898BF8-11C7-49B6-9D57-BCF69FC90692}">
+																			<MusicTrackSequence Name="" ID="{2E898BF8-11C7-49B6-9D57-BCF69FC90692}"/>
+																			<MusicTrackSequence Name="" ID="{682A0594-C697-4E46-A8A3-88B577BB2D7D}"/>
+																			<MusicTrackSequence Name="" ID="{D2397D8C-987A-454B-9EC8-45D174C33DDC}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Violins_Bow_Mess_115_bpm_4_4" ID="{B4A01477-77E1-40EF-AE77-29BA2C9F1924}">
@@ -11641,6 +11865,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -11668,10 +11893,27 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{81E0F8CB-ED37-4DBA-8B65-961EF2DE0E5E}">
+																			<MusicTrackSequence Name="" ID="{81E0F8CB-ED37-4DBA-8B65-961EF2DE0E5E}"/>
+																			<MusicTrackSequence Name="" ID="{A8B60FFA-193A-4B53-971A-2AA588F5AE2D}"/>
+																			<MusicTrackSequence Name="" ID="{BE665EB1-BA6E-4C15-B722-10180EAE0BCA}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Violins_Picking_Mess_115_bpm_4_4" ID="{F71B3416-0670-442E-BE5C-986626391BE8}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Horror_Violins_Picking_Mess_115_bpm_4_4" ID="{31F0D2AF-2CD9-413F-BA62-CE1EEF2E3343}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{23B60583-8B80-4777-AD44-F7CBB3B19CC1}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Horror_Violins_Picking_Mess_115_bpm_4_4" ID="{CD5CCBD0-6A43-44D1-9747-4A89D6E41162}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -11693,6 +11935,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -11720,7 +11963,9 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{6DCCD792-4315-4D8E-8304-4CF53321F025}">
+																			<MusicTrackSequence Name="" ID="{6DCCD792-4315-4D8E-8304-4CF53321F025}"/>
+																			<MusicTrackSequence Name="" ID="{7E0209D2-CF90-4F39-87ED-7A248E9CC68D}"/>
+																			<MusicTrackSequence Name="" ID="{8608D8E6-7406-4CD0-91AA-667E529CE73B}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Solo_Violin_Full_115_bpm_4_4" ID="{9039F99A-42FE-422A-B253-2933BCDE5BD7}">
@@ -11745,6 +11990,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -11772,10 +12018,42 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{C361A48F-EF6C-482D-8C2B-D97DB7094496}">
+																			<MusicTrackSequence Name="" ID="{C361A48F-EF6C-482D-8C2B-D97DB7094496}"/>
+																			<MusicTrackSequence Name="" ID="{248DD0DB-2FF5-470D-97CF-B748B8751124}"/>
+																			<MusicTrackSequence Name="" ID="{578B2CB0-C651-498D-AE82-75461A191B2F}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="String_Fras_1_115_bpm_4_4" ID="{B44B8CEF-64E1-453F-B6F6-F6B6FEA9EC4E}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="String_Fras_1_115_bpm_4_4" ID="{33196416-0B2A-42AB-899F-E76DA7780FEF}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{EADE0F2E-BC90-430D-8A9A-0A435200691F}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="String_Fras_1_115_bpm_4_4" ID="{5ED0EAC2-9FA1-43BC-B3F7-A3BA8BD99A57}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="String_Fras_1_115_bpm_4_4" ID="{33196416-0B2A-42AB-899F-E76DA7780FEF}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{B3042574-EE85-4A71-9F1F-FDA1C61E92AB}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="String_Fras_1_115_bpm_4_4" ID="{3758CA14-505B-48CF-A917-19CA014A30A8}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -12005,7 +12283,8 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{5936143F-3042-46B9-8327-D7C6CBEA0676}">
+																			<MusicTrackSequence Name="" ID="{5936143F-3042-46B9-8327-D7C6CBEA0676}"/>
+																			<MusicTrackSequence Name="" ID="{091B3907-96AD-499C-8D74-9320F5256DD0}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Cymbaler_1_115_bpm_4_4" ID="{730C4E1C-3EC0-48A4-ADEB-2A45473E0327}">
@@ -12020,7 +12299,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{091B3907-96AD-499C-8D74-9320F5256DD0}">
+																			<MusicTrackSequence Name="" ID="{2F3C7855-FFD0-4220-AD77-33102885857A}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Cymbaler_2_115_bpm_4_4" ID="{8FCC72B4-93D9-4E51-9FE6-C3B112DF5FD7}">
@@ -12035,7 +12314,6 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{2F3C7855-FFD0-4220-AD77-33102885857A}"/>
 																		</ObjectList>
 																	</ObjectLists>
 																</MusicTrack>
@@ -12228,7 +12506,8 @@
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
 																			<MusicTrackSequence Name="" ID="{D2D4235E-CF54-4152-B46D-76FDA8C18ED4}"/>
-																			<MusicTrackSequence Name="" ID="{4B5F2E88-E22C-43D9-AFFC-B1E834164468}">
+																			<MusicTrackSequence Name="" ID="{4B5F2E88-E22C-43D9-AFFC-B1E834164468}"/>
+																			<MusicTrackSequence Name="" ID="{9715E0DC-1FA1-4EE6-A454-C0D32868F617}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Bassoon_Fras_1_115_bpm_4_4" ID="{BCE7F34A-601D-4CD2-AD4E-2B99F96B2A54}">
@@ -12243,7 +12522,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{9715E0DC-1FA1-4EE6-A454-C0D32868F617}">
+																			<MusicTrackSequence Name="" ID="{55C8FE89-1B8E-419A-BE2E-E29BC1D6EDB3}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Bassoon_Fras_2_115_bpm_4_4" ID="{80ED4FFD-6773-4AD7-A29E-3F3ABC684A40}">
@@ -12254,6 +12533,30 @@
 																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
 																							</PropertyList>
 																							<AudioSourceRef Name="Bassoon_Fras_2_115_bpm_4_4" ID="{97B33EE1-1DEB-443C-9609-5A7DFBB004B9}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{847DA866-4EFA-43D3-93E4-0A2632643C58}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Bassoon_Fras_2_115_bpm_4_4" ID="{A18E1B5E-BDBC-4470-BA2B-B0C76876D8FA}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Bassoon_Fras_2_115_bpm_4_4" ID="{97B33EE1-1DEB-443C-9609-5A7DFBB004B9}"/>
+																						</MusicClip>
+																						<MusicClip Name="Bassoon_Fras_1_115_bpm_4_4" ID="{673E3A19-130B-4A55-B139-0EBF3CFA1073}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Bassoon_Fras_1_115_bpm_4_4" ID="{3ACEB302-15E2-490B-BC01-D8C2B2842D00}"/>
 																						</MusicClip>
 																					</ObjectList>
 																				</ObjectLists>
@@ -12543,7 +12846,9 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{12DEA8CD-A6E5-4161-8744-B5D58BCFBF4F}">
+																			<MusicTrackSequence Name="" ID="{12DEA8CD-A6E5-4161-8744-B5D58BCFBF4F}"/>
+																			<MusicTrackSequence Name="" ID="{1AA8B535-ABED-4D03-B861-6522FD51A90B}"/>
+																			<MusicTrackSequence Name="" ID="{524A6626-A3BB-44C8-A434-FFFDF8A48ACD}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Choir_Lead_1_115_bpm_4_4" ID="{0E209A94-19D7-4B07-BB62-75E6124AE0E8}">
@@ -12558,7 +12863,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{1AA8B535-ABED-4D03-B861-6522FD51A90B}">
+																			<MusicTrackSequence Name="" ID="{5EECC539-4006-4F8D-ABAE-FC5165DD8A23}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Choir_Lead_2_115_bpm_4_4" ID="{7306BCAD-BC17-40CB-9346-F746CAEE0D80}">
@@ -12573,7 +12878,7 @@
 																					</ObjectList>
 																				</ObjectLists>
 																			</MusicTrackSequence>
-																			<MusicTrackSequence Name="" ID="{524A6626-A3BB-44C8-A434-FFFDF8A48ACD}">
+																			<MusicTrackSequence Name="" ID="{57ED8FBF-88C2-4F4C-9F3D-A74D6EA0BF8B}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Choir_Lead_2_115_bpm_4_4" ID="{0FE123B7-D2B0-4D58-8575-8EBB778F4D82}">
@@ -13195,6 +13500,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -13222,7 +13528,23 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{388318B0-7B26-4967-94DC-90EFBB610B9E}">
+																			<MusicTrackSequence Name="" ID="{388318B0-7B26-4967-94DC-90EFBB610B9E}"/>
+																			<MusicTrackSequence Name="" ID="{C3B32A61-CE85-4D6F-8017-901F50650B22}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Brass_Leads_115_bpm_4_4" ID="{44BDDB14-D001-45F8-9AB2-2173E25BA955}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Brass_Leads_115_bpm_4_4" ID="{EA52E6CB-C1E9-4775-BF3F-B3895961B638}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{57B5C9AF-8894-4E41-A378-FA99F4A99083}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Brass_Leads_115_bpm_4_4" ID="{58218B04-D148-44FE-8027-CFDF00CE1F72}">
@@ -13247,6 +13569,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -13274,10 +13597,26 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{0F51F207-2490-4655-81DC-474C07D26B62}">
+																			<MusicTrackSequence Name="" ID="{0F51F207-2490-4655-81DC-474C07D26B62}"/>
+																			<MusicTrackSequence Name="" ID="{033E055B-ED5D-4DA0-A6A6-6DFAB22CE610}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Brass_Swells_115_bpm_4_4" ID="{1012707E-3297-4C3B-BB71-D503F4B4F4E4}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="Brass_Swells_115_bpm_4_4" ID="{441C1E76-81D7-4029-819B-552ABA17CEC6}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{606D1031-C37D-4639-BA60-34FD40AF8313}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="Brass_Swells_115_bpm_4_4" ID="{67BE5A20-5A26-4BD6-B7BB-4BC2F435BF1F}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -13437,6 +13776,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -13464,7 +13804,9 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{731CFB86-1916-4501-A72E-D7DF78FF29B5}">
+																			<MusicTrackSequence Name="" ID="{731CFB86-1916-4501-A72E-D7DF78FF29B5}"/>
+																			<MusicTrackSequence Name="" ID="{44240DD3-5962-4436-8799-4603A1D8332C}"/>
+																			<MusicTrackSequence Name="" ID="{07AAB6D0-9397-42D7-9C89-34CF7A6EB6D8}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Violins_Bow_Mess_115_bpm_4_4" ID="{2BCEACAB-1D02-48D5-B774-9C0BC8823592}">
@@ -13489,6 +13831,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -13516,7 +13859,10 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{E90F85FD-4D86-4CA7-8A7B-400AE6C570DA}">
+																			<MusicTrackSequence Name="" ID="{E90F85FD-4D86-4CA7-8A7B-400AE6C570DA}"/>
+																			<MusicTrackSequence Name="" ID="{89A9F092-84BD-4669-9A62-ADBED56B25D3}"/>
+																			<MusicTrackSequence Name="" ID="{7232B085-2AFE-48E0-BE0A-0659763507BF}"/>
+																			<MusicTrackSequence Name="" ID="{4F7E0A33-805C-4D5E-8C18-EDC6E4F155B5}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Horror_Violins_Picking_Mess_115_bpm_4_4" ID="{A7EF1813-844B-43DE-9817-D917676109BC}">
@@ -13541,6 +13887,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -13568,7 +13915,9 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{8DBCAB97-7367-4F52-BEAC-70D4BC7C4C93}">
+																			<MusicTrackSequence Name="" ID="{8DBCAB97-7367-4F52-BEAC-70D4BC7C4C93}"/>
+																			<MusicTrackSequence Name="" ID="{C3D640D0-4BB3-48F0-A4CB-D236225761D4}"/>
+																			<MusicTrackSequence Name="" ID="{6EA5A444-421D-4BF1-84DC-B2AB1E4BD2DF}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="Solo_Violin_Full_115_bpm_4_4" ID="{6257D1B7-36A4-4550-AA5E-22209FD3EACE}">
@@ -13593,6 +13942,7 @@
 																				<Value>True</Value>
 																			</ValueList>
 																		</Property>
+																		<Property Name="MusicTrackType" Type="int16" Value="1"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="OutputBus">
@@ -13620,10 +13970,42 @@
 																	</ChildrenList>
 																	<ObjectLists>
 																		<ObjectList Name="Sequences">
-																			<MusicTrackSequence Name="" ID="{AE2DA8D1-AB68-4F84-B4C6-5F6E741F8F57}">
+																			<MusicTrackSequence Name="" ID="{AE2DA8D1-AB68-4F84-B4C6-5F6E741F8F57}"/>
+																			<MusicTrackSequence Name="" ID="{BCFB5805-33C9-414A-860F-C4D4957077E2}"/>
+																			<MusicTrackSequence Name="" ID="{4D576B6E-8B7E-417E-B379-E976AE5B0B96}">
 																				<ObjectLists>
 																					<ObjectList Name="Clips">
 																						<MusicClip Name="String_Fras_1_115_bpm_4_4" ID="{FB4573DE-8AD4-40DB-9043-B4D488079E3D}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="String_Fras_1_115_bpm_4_4" ID="{8CF2C9E4-18D2-4ECE-9F58-9A82F12DD235}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{5BD111EE-7E0C-446A-B113-7C931D707139}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="String_Fras_1_115_bpm_4_4" ID="{A0F6A056-8168-49B3-9D34-543A8AEB91CB}">
+																							<PropertyList>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="27135.1989695188"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="String_Fras_1_115_bpm_4_4" ID="{8CF2C9E4-18D2-4ECE-9F58-9A82F12DD235}"/>
+																						</MusicClip>
+																					</ObjectList>
+																				</ObjectLists>
+																			</MusicTrackSequence>
+																			<MusicTrackSequence Name="" ID="{B2F11031-7291-4936-AB5E-339BDD704BAF}">
+																				<ObjectLists>
+																					<ObjectList Name="Clips">
+																						<MusicClip Name="String_Fras_1_115_bpm_4_4" ID="{96E72AB6-D314-4730-A06E-FE793BF0B921}">
 																							<PropertyList>
 																								<Property Name="EndTrimOffset" Type="Real64" Value="100173.922902494"/>
 																								<Property Name="FadeInMode" Type="int16" Value="0"/>
