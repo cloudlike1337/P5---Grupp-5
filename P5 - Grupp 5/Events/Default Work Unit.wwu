@@ -135,6 +135,16 @@
 										</Event>
 										<Event Name="Play_Boss_GoFromWeak" ID="{5BCB8EB9-1654-4F94-8EFB-2F4B163B1F14}">
 											<ChildrenList>
+												<Action Name="" ID="{66F8425A-863F-44BF-8E53-11C23DA47001}" ShortID="227285054">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Boss_Weak_State_01" ID="{4372C620-B920-4CBF-A249-E2E205038068}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
 												<Action Name="" ID="{C979B630-6490-43A8-AD04-3DB602B51165}" ShortID="274226440">
 													<ReferenceList>
 														<Reference Name="Target">
