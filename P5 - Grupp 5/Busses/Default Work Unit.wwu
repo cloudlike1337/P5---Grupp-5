@@ -21,6 +21,13 @@
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="Player_Bus" ID="{EF8A304E-46F2-4B07-9434-3F16F27BAEDF}">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="UserAuxSend0">
 											<ObjectRef Name="World_Reverb_Bus" ID="{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
@@ -28,6 +35,13 @@
 									</ReferenceList>
 								</Bus>
 								<Bus Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-30</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="UserAuxSend0">
 											<ObjectRef Name="World_Reverb_Bus" ID="{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
@@ -35,6 +49,13 @@
 									</ReferenceList>
 								</Bus>
 								<Bus Name="Environment_Bus" ID="{01E07A53-C8C2-4A9C-8105-AC61D8B09359}">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-35</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="UserAuxSend0">
 											<ObjectRef Name="World_Reverb_Bus" ID="{CFB7F189-F476-49D7-B3A8-C0828CFC09CE}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>

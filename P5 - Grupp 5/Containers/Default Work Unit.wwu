@@ -1474,6 +1474,13 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="SFX_Player_Vine_Ability" ID="{50D7243A-44D0-4BB9-92C3-2B2EFD6AC240}" ShortID="6472970">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
@@ -3438,9 +3445,9 @@
 														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-														<Property Name="Volume" Type="Real64">
+														<Property Name="UserAuxSendVolume0" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>3</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -6845,6 +6852,11 @@
 										</MusicPlaylistContainer>
 										<MusicPlaylistContainer Name="Level_2" ID="{138992B7-7F13-4682-A8E2-6F24B60F1814}" ShortID="1038455205">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="MaxSoundPerInstance" Type="int16">
 													<ValueList>
 														<Value>1</Value>
