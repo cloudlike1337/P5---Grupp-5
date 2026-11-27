@@ -263,38 +263,37 @@ Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	
 	181680646	Horror Kirar	.cache\B7\{B71701E7-8A04-3076-AB05-CE1B726460E2}.wem	181680646.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Horror Kirar	
 	193162057	Harp	.cache\0A\{0AA50338-6421-E2C2-9611-A11B880E4551}.wem	193162057.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Harp	
 	220032456	Eric_Solo	.cache\08\{08AB5B47-3C6D-C818-B420-5A69D1BEA0A8}.wem	220032456.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Eric_Solo	
-	264384307	Komp	.cache\DA\{DA2F30DE-027D-0F80-0E53-CFA6E258C97A}.wem	264384307.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Komp	
-	299421971	Komp	.cache\92\{92B16CD6-9A8A-3898-B4DF-0E7F23CA640F}.wem	299421971.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Komp	
+	264384307	Komp	.cache\B1\{B13B413B-7784-AC4E-DB4D-1082D983084B}.wem	264384307.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Komp	
+	277749236	Phrases	.cache\85\{8507892D-300A-6495-8B1A-199D9C782C62}.wem	277749236.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Phrases	
+	299421971	Komp	.cache\A3\{A3FAF3A6-9E50-13B3-9F4B-ECDF0E6E43DB}.wem	299421971.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Komp	
 	385395353	Lvl1_Bass_Drum 34	.cache\02\{024FDF71-3555-BEBD-D30E-9FE569245D4F}.wem	385395353.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Bass_Drum 34	
 	395798576	Lvl1_Flute_Pad	.cache\DD\{DDF51F09-56F1-8CC9-A963-B6C1BFA39BBF}.wem	395798576.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Flute_Pad	
-	402599882	Phrases	.cache\1F\{1F172612-F90E-9878-029F-BADC504D0B8D}.wem	402599882.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Phrases	
+	402599882	Phrases	.cache\1F\{1F172612-F90E-9878-029F-BADC504D0B8D}.wem	402599882.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Phrases	
+	410237599	Phrases	.cache\8D\{8D18296E-5DAF-BBB1-EB4F-34F6B1964397}.wem	410237599.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Phrases	
 	437323805	Cello	.cache\2E\{2EF1B4F3-F83F-C4A9-1364-391E158A5EC8}.wem	437323805.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Cello	
 	461097952	Cello	.cache\72\{72BFB8AB-95D6-8430-A1D3-3616584AE7ED}.wem	461097952.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Cello	
 	480085336	Lvl1_ViolinFX_Pad	.cache\71\{71831ECE-A014-BD4F-DDA2-1C391FE27127}.wem	480085336.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_ViolinFX_Pad	
 	482808002	Eric Pug Riser	.cache\A8\{A8C888D9-329A-2B38-F18A-980CAED225D6}.wem	482808002.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Eric Pug Riser	
 	484300380	Brass_Leads	.cache\BD\{BD4AFC11-D632-97AC-783C-E0150238C7C6}.wem	484300380.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Brass_Leads	
 	487269058	Violin Horror - Picking	.cache\3E\{3E5546EE-A911-963C-2FA3-C1FD82C2B2F6}.wem	487269058.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Violin Horror - Picking	
-	493590723	Phrases	.cache\33\{33EE790F-F319-84ED-5841-844957635075}.wem	493590723.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Phrases	
+	493590723	Phrases	.cache\33\{33EE790F-F319-84ED-5841-844957635075}.wem	493590723.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Phrases	
 	529358614	Lvl1_Cymbal_Pad	.cache\14\{146DD9BD-A813-71BE-4799-2BCE1A537D8B}.wem	529358614.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Cymbal_Pad	
 	537618569	Cello	.cache\B3\{B3A2C54C-2643-A58A-9444-4A3BB27989F3}.wem	537618569.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Cello	
 	539508559	Lvl1_DaGamba_Pad	.cache\73\{7355179E-D7BA-03DC-5B54-F35B1771FC7E}.wem	539508559.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_DaGamba_Pad	
 	549677282	Horror_Cymbals	.cache\C3\{C3B0D535-9DE6-3A41-A9FC-E5B2F276E526}.wem	549677282.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Horror_Cymbals	
-	552004172	Phrases	.cache\7F\{7FC1C432-F3D3-7647-6F98-3A6DACBAD207}.wem	552004172.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Phrases	
+	552004172	Phrases	.cache\7F\{7FC1C432-F3D3-7647-6F98-3A6DACBAD207}.wem	552004172.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Phrases	
 	552081443	Phrases	.cache\7E\{7E76FB74-EAAC-BF29-6976-6E06D89ACA3A}.wem	552081443.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Phrases	
 	568299548	Cello	.cache\56\{56D70D92-F37F-B2E6-3345-D53E5171ED6D}.wem	568299548.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Cello	
 	568910748	Violin Horror - Bow	.cache\3A\{3AC86485-2AFB-7407-FFA3-C56D8571F1AC}.wem	568910748.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Violin Horror - Bow	
-	610344057	Choir Lead	.cache\7E\{7EF9AB37-2987-7638-896A-A9B36EE182CE}.wem	610344057.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Choir Lead	
+	610344057	Choir Lead	.cache\7E\{7EF9AB37-2987-7638-896A-A9B36EE182CE}.wem	610344057.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Choir Lead	
 	624112874	Lvl1_Bass_Sus_Sord	.cache\50\{5015B320-533F-DD7A-7037-3D934FA9087D}.wem	624112874.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Bass_Sus_Sord	
 	637886474	Cello	.cache\E8\{E8208DBD-BB55-0831-07F1-59822A236A96}.wem	637886474.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Cello	
 	669123136	Electric Guitar Spam	.cache\1A\{1AF99141-BD7E-2900-1F16-4DBDE449A49F}.wem	669123136.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Electric Guitar Spam	
 	685112412	Lvl1_Shaker	.cache\4B\{4BAB8944-0563-FA12-7911-EA7CE940F79D}.wem	685112412.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Shaker	
-	686397880	Electric Guitar - Dra	.cache\9A\{9A4106F0-B07E-47FB-C380-1EC546381220}.wem	686397880.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Electric Guitar - Dra	
 	692343264	Lvl1_Harp_Ostinato	.cache\CE\{CEED8E38-4E5E-693F-5A69-24FAA0809015}.wem	692343264.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Harp_Ostinato	
-	705176322	Bassoon	.cache\54\{54D11629-AD37-EC1C-1164-0C21695C5F1F}.wem	705176322.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_2\Boss_Phase_2\Bassoon	
 	708076404	Violin Phrases	.cache\C6\{C6CB4279-8FC5-6A42-9F82-B7CBC61E17EF}.wem	708076404.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Violin Phrases	
 	752030728	Horror_Cymbals	.cache\63\{63EB0BDF-2289-84C1-9B8D-EAB6882D4EA5}.wem	752030728.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Horror_Cymbals	
 	784528339	Brass_Swells	.cache\17\{17EEB041-F98F-1EA3-87E1-E20DD13043F2}.wem	784528339.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Brass_Swells	
-	804639612	Bassoon	.cache\CC\{CC04BAC5-AF20-9654-4B4E-55404ECE9FA6}.wem	804639612.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Bassoon	
 	817066489	Choir Lead	.cache\B3\{B3CC0E88-C443-1D47-0E8B-39E0AFE50E60}.wem	817066489.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_1\Boss_Phase_1\Choir Lead	
 	818765956	Phrases	.cache\6C\{6CB41137-EA25-C555-C3D5-9E08EF7A8802}.wem	818765956.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Boss_Phases\Boss_Phase_3\Boss_Phase_3\Phrases	
 	880962808	Lvl1_Steam_Release	.cache\1A\{1A43A870-4CF8-6327-109D-1F0BBE973454}.wem	880962808.wem	\Containers\Default Work Unit\Audio\Music\Music_System\Level_1\Level_1\Lvl1_Steam_Release	

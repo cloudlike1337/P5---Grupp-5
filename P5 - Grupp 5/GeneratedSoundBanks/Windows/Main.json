@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{5B09A121-83DD-715B-3052-9D627F254057}",
+    "Hash": "{1D79C5A8-F7FD-4B58-24A8-B8C3BD97BE48}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -425,7 +425,7 @@
       "Location": "Loose",
       "ShortName": "Komp_Kaos_Allt_Fas_1_115bpm_4_4.wav",
       "Path": "Media/264384307.wem",
-      "CachePath": "DA/{DA2F30DE-027D-0F80-0E53-CFA6E258C97A}.wem"
+      "CachePath": "B1/{B13B413B-7784-AC4E-DB4D-1082D983084B}.wem"
      },
      {
       "Id": "269731886",
@@ -434,6 +434,15 @@
       "Location": "Memory",
       "ShortName": "sfx_player_vine_ability_03.wav",
       "CachePath": "4F/{4F9BA62B-1A48-8B6E-34E1-67F1CA8B9703}.wem"
+     },
+     {
+      "Id": "277749236",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Fras_7_115_bpm_4_4.wav",
+      "Path": "Media/277749236.wem",
+      "CachePath": "85/{8507892D-300A-6495-8B1A-199D9C782C62}.wem"
      },
      {
       "Id": "280601004",
@@ -474,7 +483,7 @@
       "Location": "Loose",
       "ShortName": "Komp_Kaos_Allt_Fas_2_115bpm_4_4.wav",
       "Path": "Media/299421971.wem",
-      "CachePath": "92/{92B16CD6-9A8A-3898-B4DF-0E7F23CA640F}.wem"
+      "CachePath": "A3/{A3FAF3A6-9E50-13B3-9F4B-ECDF0E6E43DB}.wem"
      },
      {
       "Id": "311552003",
@@ -558,6 +567,15 @@
       "ShortName": "Fras_1_115_bpm_4_4.wav",
       "Path": "Media/402599882.wem",
       "CachePath": "1F/{1F172612-F90E-9878-029F-BADC504D0B8D}.wem"
+     },
+     {
+      "Id": "410237599",
+      "Language": "SFX",
+      "Streaming": "true",
+      "Location": "Loose",
+      "ShortName": "Fras_8_115_bpm_4_4.wav",
+      "Path": "Media/410237599.wem",
+      "CachePath": "8D/{8D18296E-5DAF-BBB1-EB4F-34F6B1964397}.wem"
      },
      {
       "Id": "437323805",
@@ -972,15 +990,6 @@
       "CachePath": "4B/{4BAB8944-0563-FA12-7911-EA7CE940F79D}.wem"
      },
      {
-      "Id": "686397880",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "Elgitarr_Dysto_Dra_115_bpm_4_4.wav",
-      "Path": "Media/686397880.wem",
-      "CachePath": "9A/{9A4106F0-B07E-47FB-C380-1EC546381220}.wem"
-     },
-     {
       "Id": "692343264",
       "Language": "SFX",
       "Streaming": "true",
@@ -1012,15 +1021,6 @@
       "Location": "Memory",
       "ShortName": "sfx_spotsound_bird_06.wav",
       "CachePath": "E9/{E929FE95-F211-0991-60D7-F698FAB48CCA}.wem"
-     },
-     {
-      "Id": "705176322",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "Bassoon_Fras_2_115_bpm_4_4.wav",
-      "Path": "Media/705176322.wem",
-      "CachePath": "54/{54D11629-AD37-EC1C-1164-0C21695C5F1F}.wem"
      },
      {
       "Id": "707042199",
@@ -1160,15 +1160,6 @@
       "Location": "Memory",
       "ShortName": "Enemy_Ranged_Walk_04.wav",
       "CachePath": "63/{6355BA9B-B3C8-0561-A865-FC2371E0DC01}.wem"
-     },
-     {
-      "Id": "804639612",
-      "Language": "SFX",
-      "Streaming": "true",
-      "Location": "Loose",
-      "ShortName": "Bassoon_Fras_1_115_bpm_4_4.wav",
-      "Path": "Media/804639612.wem",
-      "CachePath": "CC/{CC04BAC5-AF20-9654-4B4E-55404ECE9FA6}.wem"
      },
      {
       "Id": "817066489",
@@ -1786,7 +1777,13 @@
                     "Id": "264384307"
                    },
                    {
+                    "Id": "277749236"
+                   },
+                   {
                     "Id": "402599882"
+                   },
+                   {
+                    "Id": "410237599"
                    },
                    {
                     "Id": "437323805"
@@ -1828,9 +1825,6 @@
                     "Id": "637886474"
                    },
                    {
-                    "Id": "705176322"
-                   },
-                   {
                     "Id": "708076404"
                    },
                    {
@@ -1838,9 +1832,6 @@
                    },
                    {
                     "Id": "784528339"
-                   },
-                   {
-                    "Id": "804639612"
                    },
                    {
                     "Id": "817066489"
@@ -1903,10 +1894,16 @@
                     "Id": "193162057"
                    },
                    {
+                    "Id": "277749236"
+                   },
+                   {
                     "Id": "299421971"
                    },
                    {
                     "Id": "402599882"
+                   },
+                   {
+                    "Id": "410237599"
                    },
                    {
                     "Id": "437323805"
@@ -1948,9 +1945,6 @@
                     "Id": "637886474"
                    },
                    {
-                    "Id": "705176322"
-                   },
-                   {
                     "Id": "708076404"
                    },
                    {
@@ -1958,9 +1952,6 @@
                    },
                    {
                     "Id": "784528339"
-                   },
-                   {
-                    "Id": "804639612"
                    },
                    {
                     "Id": "817066489"
@@ -2029,6 +2020,9 @@
                     "Id": "402599882"
                    },
                    {
+                    "Id": "410237599"
+                   },
+                   {
                     "Id": "437323805"
                    },
                    {
@@ -2074,12 +2068,6 @@
                     "Id": "669123136"
                    },
                    {
-                    "Id": "686397880"
-                   },
-                   {
-                    "Id": "705176322"
-                   },
-                   {
                     "Id": "708076404"
                    },
                    {
@@ -2087,9 +2075,6 @@
                    },
                    {
                     "Id": "784528339"
-                   },
-                   {
-                    "Id": "804639612"
                    },
                    {
                     "Id": "817066489"
@@ -3844,6 +3829,6 @@
     ]
    }
   ],
-  "FileHash": "{7554E56A-5AEB-C2AF-1CA6-E957153B689C}"
+  "FileHash": "{B90CAC34-ABFF-ACC4-9588-D450D4F75F47}"
  }
 }

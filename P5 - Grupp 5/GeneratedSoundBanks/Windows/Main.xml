@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{5B09A121-83DD-715B-3052-9D627F254057}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{1D79C5A8-F7FD-4B58-24A8-B8C3BD97BE48}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -216,11 +216,16 @@
 				<File Id="264384307" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Komp_Kaos_Allt_Fas_1_115bpm_4_4.wav</ShortName>
 					<Path>Media/264384307.wem</Path>
-					<CachePath>DA/{DA2F30DE-027D-0F80-0E53-CFA6E258C97A}.wem</CachePath>
+					<CachePath>B1/{B13B413B-7784-AC4E-DB4D-1082D983084B}.wem</CachePath>
 				</File>
 				<File Id="269731886" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_player_vine_ability_03.wav</ShortName>
 					<CachePath>4F/{4F9BA62B-1A48-8B6E-34E1-67F1CA8B9703}.wem</CachePath>
+				</File>
+				<File Id="277749236" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Fras_7_115_bpm_4_4.wav</ShortName>
+					<Path>Media/277749236.wem</Path>
+					<CachePath>85/{8507892D-300A-6495-8B1A-199D9C782C62}.wem</CachePath>
 				</File>
 				<File Id="280601004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_enemy_take_damage.wav</ShortName>
@@ -241,7 +246,7 @@
 				<File Id="299421971" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Komp_Kaos_Allt_Fas_2_115bpm_4_4.wav</ShortName>
 					<Path>Media/299421971.wem</Path>
-					<CachePath>92/{92B16CD6-9A8A-3898-B4DF-0E7F23CA640F}.wem</CachePath>
+					<CachePath>A3/{A3FAF3A6-9E50-13B3-9F4B-ECDF0E6E43DB}.wem</CachePath>
 				</File>
 				<File Id="311552003" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_spotsound_swamp_01.wav</ShortName>
@@ -285,6 +290,11 @@
 					<ShortName>Fras_1_115_bpm_4_4.wav</ShortName>
 					<Path>Media/402599882.wem</Path>
 					<CachePath>1F/{1F172612-F90E-9878-029F-BADC504D0B8D}.wem</CachePath>
+				</File>
+				<File Id="410237599" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>Fras_8_115_bpm_4_4.wav</ShortName>
+					<Path>Media/410237599.wem</Path>
+					<CachePath>8D/{8D18296E-5DAF-BBB1-EB4F-34F6B1964397}.wem</CachePath>
 				</File>
 				<File Id="437323805" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Cello_Fras_5_115_bpm_4_4.wav</ShortName>
@@ -502,11 +512,6 @@
 					<Path>Media/685112412.wem</Path>
 					<CachePath>4B/{4BAB8944-0563-FA12-7911-EA7CE940F79D}.wem</CachePath>
 				</File>
-				<File Id="686397880" Language="SFX" Streaming="true" Location="Loose">
-					<ShortName>Elgitarr_Dysto_Dra_115_bpm_4_4.wav</ShortName>
-					<Path>Media/686397880.wem</Path>
-					<CachePath>9A/{9A4106F0-B07E-47FB-C380-1EC546381220}.wem</CachePath>
-				</File>
 				<File Id="692343264" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Lvl1_Harp_Ostinato.wav</ShortName>
 					<Path>Media/692343264.wem</Path>
@@ -523,11 +528,6 @@
 				<File Id="704569683" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_spotsound_bird_06.wav</ShortName>
 					<CachePath>E9/{E929FE95-F211-0991-60D7-F698FAB48CCA}.wem</CachePath>
-				</File>
-				<File Id="705176322" Language="SFX" Streaming="true" Location="Loose">
-					<ShortName>Bassoon_Fras_2_115_bpm_4_4.wav</ShortName>
-					<Path>Media/705176322.wem</Path>
-					<CachePath>54/{54D11629-AD37-EC1C-1164-0C21695C5F1F}.wem</CachePath>
 				</File>
 				<File Id="707042199" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Walls_Lowering.wav</ShortName>
@@ -599,11 +599,6 @@
 				<File Id="793808890" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Ranged_Walk_04.wav</ShortName>
 					<CachePath>63/{6355BA9B-B3C8-0561-A865-FC2371E0DC01}.wem</CachePath>
-				</File>
-				<File Id="804639612" Language="SFX" Streaming="true" Location="Loose">
-					<ShortName>Bassoon_Fras_1_115_bpm_4_4.wav</ShortName>
-					<Path>Media/804639612.wem</Path>
-					<CachePath>CC/{CC04BAC5-AF20-9654-4B4E-55404ECE9FA6}.wem</CachePath>
 				</File>
 				<File Id="817066489" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Choir_Lead_2_115_bpm_4_4.wav</ShortName>
@@ -907,7 +902,9 @@
 																		<MediaRef Id="181680646"/>
 																		<MediaRef Id="193162057"/>
 																		<MediaRef Id="264384307"/>
+																		<MediaRef Id="277749236"/>
 																		<MediaRef Id="402599882"/>
+																		<MediaRef Id="410237599"/>
 																		<MediaRef Id="437323805"/>
 																		<MediaRef Id="461097952"/>
 																		<MediaRef Id="484300380"/>
@@ -921,11 +918,9 @@
 																		<MediaRef Id="568910748"/>
 																		<MediaRef Id="610344057"/>
 																		<MediaRef Id="637886474"/>
-																		<MediaRef Id="705176322"/>
 																		<MediaRef Id="708076404"/>
 																		<MediaRef Id="752030728"/>
 																		<MediaRef Id="784528339"/>
-																		<MediaRef Id="804639612"/>
 																		<MediaRef Id="817066489"/>
 																		<MediaRef Id="818765956"/>
 																		<MediaRef Id="924405913"/>
@@ -951,8 +946,10 @@
 																		<MediaRef Id="127462967"/>
 																		<MediaRef Id="181680646"/>
 																		<MediaRef Id="193162057"/>
+																		<MediaRef Id="277749236"/>
 																		<MediaRef Id="299421971"/>
 																		<MediaRef Id="402599882"/>
+																		<MediaRef Id="410237599"/>
 																		<MediaRef Id="437323805"/>
 																		<MediaRef Id="461097952"/>
 																		<MediaRef Id="484300380"/>
@@ -966,11 +963,9 @@
 																		<MediaRef Id="568910748"/>
 																		<MediaRef Id="610344057"/>
 																		<MediaRef Id="637886474"/>
-																		<MediaRef Id="705176322"/>
 																		<MediaRef Id="708076404"/>
 																		<MediaRef Id="752030728"/>
 																		<MediaRef Id="784528339"/>
-																		<MediaRef Id="804639612"/>
 																		<MediaRef Id="817066489"/>
 																		<MediaRef Id="818765956"/>
 																		<MediaRef Id="924405913"/>
@@ -998,6 +993,7 @@
 																		<MediaRef Id="193162057"/>
 																		<MediaRef Id="220032456"/>
 																		<MediaRef Id="402599882"/>
+																		<MediaRef Id="410237599"/>
 																		<MediaRef Id="437323805"/>
 																		<MediaRef Id="461097952"/>
 																		<MediaRef Id="482808002"/>
@@ -1013,12 +1009,9 @@
 																		<MediaRef Id="610344057"/>
 																		<MediaRef Id="637886474"/>
 																		<MediaRef Id="669123136"/>
-																		<MediaRef Id="686397880"/>
-																		<MediaRef Id="705176322"/>
 																		<MediaRef Id="708076404"/>
 																		<MediaRef Id="752030728"/>
 																		<MediaRef Id="784528339"/>
-																		<MediaRef Id="804639612"/>
 																		<MediaRef Id="817066489"/>
 																		<MediaRef Id="818765956"/>
 																		<MediaRef Id="924405913"/>
@@ -1595,5 +1588,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CCDFF5A2-2A0B-34D7-5AD6-82B5F27486C3}</FileHash>
+	<FileHash>{868AEF5D-EFE3-DEDE-D5A8-D50ABD633A4D}</FileHash>
 </SoundBanksInfo>
