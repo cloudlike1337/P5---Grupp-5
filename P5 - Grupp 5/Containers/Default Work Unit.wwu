@@ -2884,6 +2884,9 @@
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Boss_boss death destroyed" ID="{D0A13B80-E89B-4BFF-A8F4-49D507365C6F}">
@@ -2990,18 +2993,9 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
 														<Reference Name="UserAuxSend0">
-															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-														<Reference Name="UserAuxSend1">
-															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-														<Reference Name="UserAuxSend2">
-															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
-														</Reference>
-														<Reference Name="UserAuxSend3">
 															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
 													</ReferenceList>
@@ -3219,7 +3213,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
 														<Reference Name="UserAuxSend0">
 															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
@@ -3300,7 +3294,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
 														<Reference Name="UserAuxSend0">
 															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
@@ -3325,7 +3319,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
 														<Reference Name="UserAuxSend0">
 															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
@@ -3353,7 +3347,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+															<ObjectRef Name="Enemy_Bus" ID="{2AF1ADF7-7470-44FF-B3A6-2E39CF186F39}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
 														<Reference Name="UserAuxSend0">
 															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
@@ -9514,6 +9508,7 @@
 																	<ChildrenList>
 																		<MusicPlaylistItem Name="" ID="{C6C0235E-FDB4-46B1-B82F-6E245477EE97}" ShortID="1064458274">
 																			<PropertyList>
+																				<Property Name="LoopCount" Type="int16" Value="0"/>
 																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																			</PropertyList>
 																			<ReferenceList>
@@ -11552,6 +11547,7 @@
 																	<ChildrenList>
 																		<MusicPlaylistItem Name="" ID="{BDA45833-CF75-4368-872F-BF3D3312BF5D}" ShortID="392887481">
 																			<PropertyList>
+																				<Property Name="LoopCount" Type="int16" Value="0"/>
 																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																			</PropertyList>
 																			<ReferenceList>
@@ -13691,6 +13687,7 @@
 																	<ChildrenList>
 																		<MusicPlaylistItem Name="" ID="{C4E88604-7B6A-468D-B8C1-3F6B36CF83FE}" ShortID="43252789">
 																			<PropertyList>
+																				<Property Name="LoopCount" Type="int16" Value="0"/>
 																				<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 																			</PropertyList>
 																			<ReferenceList>
