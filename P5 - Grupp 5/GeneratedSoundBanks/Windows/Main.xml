@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="172">
 	<SoundBanks>
-		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{7FEA7075-1FB1-3392-49FC-00DB10F50D5E}">
+		<SoundBank Id="3161908922" Type="User" GUID="{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}" Language="SFX" Hash="{5B09A121-83DD-715B-3052-9D627F254057}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -236,7 +236,7 @@
 				</File>
 				<File Id="294735641" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sfx_boss_AOE_warning.wav</ShortName>
-					<CachePath>1F/{1FA9A697-7B48-DFC8-AD03-FD1143509AED}.wem</CachePath>
+					<CachePath>FE/{FE02E22F-9F5B-1E1D-466B-51C1F8EC0708}.wem</CachePath>
 				</File>
 				<File Id="299421971" Language="SFX" Streaming="true" Location="Loose">
 					<ShortName>Komp_Kaos_Allt_Fas_2_115bpm_4_4.wav</ShortName>
@@ -1141,7 +1141,7 @@
 						<MediaRef Id="793785320"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4219410224" Name="Play_Boss_AOE_Warning" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_AOE_Warning" GUID="{C4F24378-E52C-4FC3-9073-66879A55C468}" Color="2" DurationType="OneShot" DurationMin="2.434739" DurationMax="2.434739">
+				<Event Id="4219410224" Name="Play_Boss_AOE_Warning" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_AOE_Warning" GUID="{C4F24378-E52C-4FC3-9073-66879A55C468}" Color="2" DurationType="OneShot" DurationMin="1.84001" DurationMax="1.84001">
 					<MediaRefs>
 						<MediaRef Id="294735641"/>
 					</MediaRefs>
@@ -1170,11 +1170,17 @@
 					<MediaRefs>
 						<MediaRef Id="644405884"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1416253857" Name="Boss_Reverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Boss_Reverb" GUID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" Color="4"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2763303885" Name="Play_Boss_GoToWeak" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_GoToWeak" GUID="{950149C4-6BF3-4020-BA45-25CDE2307ECA}" Color="2" DurationType="OneShot" DurationMin="2.7362916" DurationMax="2.7362916">
 					<MediaRefs>
 						<MediaRef Id="528665901"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1416253857" Name="Boss_Reverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Boss_Reverb" GUID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" Color="4"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2970262295" Name="Play_Boss_Idle_Loop" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_Idle_Loop" GUID="{84F32CDF-C191-4152-AD95-9BBC0945A8EF}" Color="2" DurationType="Infinite">
 					<MediaRefs>
@@ -1201,6 +1207,9 @@
 						<MediaRef Id="241595053"/>
 						<MediaRef Id="886747607"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1416253857" Name="Boss_Reverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Boss_Reverb" GUID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" Color="4"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="438645199" Name="Play_Boss_Take_Damage" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Play_Boss_Take_Damage" GUID="{D5F1D162-6C83-49EB-A996-958F87206FE0}" Color="2" DurationType="OneShot" DurationMin="0.83102083" DurationMax="0.8918333">
 					<MediaRefs>
@@ -1215,6 +1224,9 @@
 					<MediaRefs>
 						<MediaRef Id="139243639"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="1416253857" Name="Boss_Reverb" ObjectPath="\Busses\Default Work Unit\Main Audio Bus\Boss_Reverb" GUID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" Color="4"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="2875652371" Name="Play_Checkpoint_Reached" ObjectPath="\Events\Default Work Unit\Audio\SFX\UI\Play_Checkpoint_Reached" GUID="{4C8CB6C1-3A0B-47B1-9815-F9B81EC67E95}" Color="2" DurationType="OneShot" DurationMin="1.9016666" DurationMax="1.9016666">
 					<MediaRefs>
@@ -1301,7 +1313,7 @@
 						<MediaRef Id="554111737"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1319327521" Name="Play_Enemy_Summoner_Surface" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Surface" GUID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}" Color="2" MaxAttenuation="3000" DurationType="OneShot" DurationMin="1.973125" DurationMax="1.973125">
+				<Event Id="1319327521" Name="Play_Enemy_Summoner_Surface" ObjectPath="\Events\Default Work Unit\Audio\SFX\Enemy\Summoner\Play_Enemy_Summoner_Surface" GUID="{A795B2E3-9656-4050-AC34-7664B10D0FB9}" Color="2" MaxAttenuation="3000" DurationType="OneShot" DurationMin="4.973125" DurationMax="4.973125">
 					<MediaRefs>
 						<MediaRef Id="227956053"/>
 					</MediaRefs>
@@ -1531,6 +1543,7 @@
 						<ActionSetStateEntry GroupId="1021618141" Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\MusicState\MainMenu" GUID="{02CEDB86-D2E6-4984-BBE0-EC55CEBACE5E}"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="3346947221" Name="Stop_Boss_Idle_Loop" ObjectPath="\Events\Default Work Unit\Audio\SFX\Boss\Stop_Boss_Idle_Loop" GUID="{A86EEEE4-85F0-47AB-90E6-0AE3ABE03A2F}" Color="2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3230625255" Name="Stop_Music_System" ObjectPath="\Events\Default Work Unit\Audio\Music\Stop_Music_System" GUID="{3AAE6521-7849-4456-844F-E02F8A99F6AE}" Color="10" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2643068714" Name="Stop_Player_Dash" ObjectPath="\Events\Default Work Unit\Audio\SFX\Player\Combat\Stop_Player_Dash" GUID="{914EE7F8-D5FD-46D2-8694-AA7117C8DFD7}" Color="2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -1582,5 +1595,5 @@
 			</Triggers>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F739A387-169F-CB02-C15E-DACD3D50858A}</FileHash>
+	<FileHash>{CCDFF5A2-2A0B-34D7-5AD6-82B5F27486C3}</FileHash>
 </SoundBanksInfo>

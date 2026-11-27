@@ -2316,6 +2316,11 @@
 												<Sound Name="SFX_Summoner_Surface" ID="{89887965-6A50-43BA-8FDB-DF212472797D}" ShortID="830802177">
 													<PropertyList>
 														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
 														<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="60"/>
 													</PropertyList>
 													<ReferenceList>
@@ -2921,6 +2926,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="sfx_boss_AOE_warning" ID="{3EAE8437-9D7B-4FF9-A451-89363399EE9E}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.7024"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="1.84001"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>sfx_boss_AOE_warning.wav</AudioFile>
 															<MediaIDList>
@@ -3211,6 +3221,9 @@
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
 														<Sound Name="Boss_Spawning_Popcorn_01" ID="{CFDF138F-CB11-4677-8094-EF4135452967}" ShortID="93951868">
@@ -3289,6 +3302,9 @@
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Boss_GoFromWeak01" ID="{674BC259-669B-4840-BD2F-ADC5DDBFA732}">
@@ -3310,6 +3326,9 @@
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -3335,6 +3354,9 @@
 														</Reference>
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Boss_Reverb" ID="{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -4075,6 +4097,246 @@
 														</Position>
 													</PositioningInfo>
 												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="SpotSounds_Branches" ID="{71A9EDBF-75FB-4FBA-9ECB-276D89B494C5}" ShortID="317974247">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{9515CE38-FDAE-4667-9737-0358353C11BC}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="5"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Ambience_Reverb" ID="{395D1D43-9061-4C99-B672-E6EA66E6DC3C}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="sfx_spotsound_branches_01" ID="{DDBE9EAA-CB7E-42BB-8F69-98809AD208CD}" ShortID="95495977">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_branches_01" ID="{BD0182DB-4E0B-4663-A0A0-05F8440F3096}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_branches_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="407653392"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_branches_01" ID="{BD0182DB-4E0B-4663-A0A0-05F8440F3096}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_branches_02" ID="{D57E5AC5-7EEC-44F3-BA67-0FEDB86F0D27}" ShortID="111514711">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_branches_02" ID="{DB457EED-F200-4783-BC94-6A7524923317}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_branches_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1061455006"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_branches_02" ID="{DB457EED-F200-4783-BC94-6A7524923317}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_branches_03" ID="{35D212CD-04A7-43F8-B51B-238A200CF792}" ShortID="998733702">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_branches_03" ID="{585C938A-D9CA-4A52-9EF6-AD3342E402F4}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_branches_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="981048130"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_branches_03" ID="{585C938A-D9CA-4A52-9EF6-AD3342E402F4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_branches_04" ID="{77297F70-DB48-438C-A0E8-95B851BA2E96}" ShortID="831216156">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_branches_04" ID="{A2BE0B8B-3DB9-4FB5-9205-DCB48F27EEB0}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_branches_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="633662490"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_branches_04" ID="{A2BE0B8B-3DB9-4FB5-9205-DCB48F27EEB0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_branches_05" ID="{7EEAACDB-5D48-478B-87E8-052E6BF8A643}" ShortID="222608776">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_branches_05" ID="{EDFB8FDD-6F21-4BB2-B636-7A23E759D530}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_branches_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="566576289"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_branches_05" ID="{EDFB8FDD-6F21-4BB2-B636-7A23E759D530}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_branches_06" ID="{0237F6EC-9E93-441B-872E-3EE3FCF20321}" ShortID="491873649">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_branches_06" ID="{B37CE0C4-6478-4E0C-A268-A84D95EDD345}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_branches_06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="155366661"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_branches_06" ID="{B37CE0C4-6478-4E0C-A268-A84D95EDD345}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_branches_07" ID="{E2240806-5FAB-49C8-9A7E-05B1FF95DBB4}" ShortID="953780452">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_branches_07" ID="{E57B6FC0-7376-422F-B920-5204FBB00405}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_branches_07.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="482193357"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_branches_07" ID="{E57B6FC0-7376-422F-B920-5204FBB00405}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{2557A807-2BB5-42B9-A4FB-AB068CECB6D9}">
+															<PropertyList>
+																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="SpotSounds_Swamp_Path" ID="{8ECFF854-30B2-46C3-A29C-D68D9093BE78}">
+																	<PointList>
+																		<Point>
+																			<XPos>-4.06091</XPos>
+																			<YPos>7.62712</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="SpotSounds_Swamp_Path_01" ID="{33C5B3DD-7A47-4440-AF71-FD077165C219}">
+																	<PointList>
+																		<Point>
+																			<XPos>3.04569</XPos>
+																			<YPos>7.62712</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</BlendContainer>
 										<BlendContainer Name="Ambience_Level_2" ID="{4C91FE85-6F0F-43D2-8E72-6EC9E385A5E6}" ShortID="349638264">
@@ -4199,6 +4461,135 @@
 														<ActiveSource Name="SFX_Ambience_Level_2_Wood_Chimes_Loop" ID="{64BF4BA0-0B02-4214-850B-7C3E816EB230}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<RandomSequenceContainer Name="SpotSounds_Cursed_Swamp" ID="{B1E30A63-5340-4A9F-B499-2A020FB39BFF}" ShortID="972381060">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="sfx_spotsound_cursed_swamp_01" ID="{24B3CF8B-09AA-41EC-8B69-9BF6F3BA0AAD}" ShortID="142802027">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_cursed_swamp_01" ID="{C12F9BD6-E14E-43C5-9D9D-F767916DF593}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_cursed_swamp_01.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="888943405"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_cursed_swamp_01" ID="{C12F9BD6-E14E-43C5-9D9D-F767916DF593}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_cursed_swamp_02" ID="{F8D9A2A4-C8DA-47BF-9E25-68ADCE815384}" ShortID="878303622">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_cursed_swamp_02" ID="{D974ED5E-4176-4BA0-BBAA-14B3E10E5F9F}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_cursed_swamp_02.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="349873581"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_cursed_swamp_02" ID="{D974ED5E-4176-4BA0-BBAA-14B3E10E5F9F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_cursed_swamp_03" ID="{D8E82DE5-810A-43F3-B5CD-B083094B1A9C}" ShortID="67961073">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_cursed_swamp_03" ID="{5D50D75D-E7BE-4923-A19F-4828562E0C52}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_cursed_swamp_03.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1064688644"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_cursed_swamp_03" ID="{5D50D75D-E7BE-4923-A19F-4828562E0C52}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_cursed_swamp_04" ID="{EB452C77-0A25-4839-A7AF-758E7D923BDB}" ShortID="536298254">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_cursed_swamp_04" ID="{3C3B4C45-C1DF-4C10-A68F-0FA1166AD78A}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_cursed_swamp_04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="187407118"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_cursed_swamp_04" ID="{3C3B4C45-C1DF-4C10-A68F-0FA1166AD78A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="sfx_spotsound_cursed_swamp_05" ID="{DCC8102D-2321-4B20-AFDF-475AFB6AA89B}" ShortID="583305903">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9187518E-D472-4FED-A6BA-FA1A1396B538}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F1D4426D-0661-4A53-94C3-9D96057727C1}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="sfx_spotsound_cursed_swamp_05" ID="{E71BEA66-0BD0-4B24-83BE-E08A20A88051}">
+																	<Language>SFX</Language>
+																	<AudioFile>sfx_spotsound_cursed_swamp_05.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="198394824"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="sfx_spotsound_cursed_swamp_05" ID="{E71BEA66-0BD0-4B24-83BE-E08A20A88051}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</BlendContainer>
 									</ChildrenList>

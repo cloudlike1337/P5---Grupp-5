@@ -165,6 +165,20 @@
 												</Action>
 											</ChildrenList>
 										</Event>
+										<Event Name="Stop_Boss_Idle_Loop" ID="{A86EEEE4-85F0-47AB-90E6-0AE3ABE03A2F}">
+											<ChildrenList>
+												<Action Name="" ID="{D492F9DF-7AB3-471D-8E11-13A632B5AC1C}" ShortID="1012768481">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_Boss_Idle_Loop" ID="{0C1ED881-B9EB-4DB0-A930-0ECFD797F136}" WorkUnitID="{047A23BF-DDD2-4E98-9177-9D0E7911E119}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
 									</ChildrenList>
 								</Folder>
 								<Folder Name="Enemy" ID="{D82A25BE-83B9-4C54-A599-586D2613A9E7}" ShortID="179121366">

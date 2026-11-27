@@ -37,6 +37,7 @@
 						<ObjectRef Name="Play_Player_Cleave_Abillity" ID="{B9C0E051-CB86-477E-A425-58E39046CC35}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Ability_Unlocked" ID="{64849D03-C85E-4781-83FA-7B9F5E619809}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_Music_To_Boss_Defeated" ID="{A1881D00-C23F-479B-B41B-E6D752FFF1EF}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Boss_Idle_Loop" ID="{A86EEEE4-85F0-47AB-90E6-0AE3ABE03A2F}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Checkpoint_Reached" ID="{4C8CB6C1-3A0B-47B1-9815-F9B81EC67E95}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy_Summoner_Death" ID="{6596EE04-49C0-47CE-8D8F-1616053065AD}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Boss_Change_Phase" ID="{67F0AA2E-2D60-47E8-96D6-53BC3D44E5F4}" WorkUnitID="{9F8B1ED4-1FFC-4B51-9DFE-28A89E5FFB27}" Origin="Manual" Filter="7"/>

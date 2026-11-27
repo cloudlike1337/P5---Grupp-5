@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87C5527E-AAA9-44A6-82AF-ADD64F3369EB}",
     "Language": "SFX",
-    "Hash": "{7FEA7075-1FB1-3392-49FC-00DB10F50D5E}",
+    "Hash": "{5B09A121-83DD-715B-3052-9D627F254057}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -465,7 +465,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "sfx_boss_AOE_warning.wav",
-      "CachePath": "1F/{1FA9A697-7B48-DFC8-AD03-FD1143509AED}.wem"
+      "CachePath": "FE/{FE02E22F-9F5B-1E1D-466B-51C1F8EC0708}.wem"
      },
      {
       "Id": "299421971",
@@ -2407,8 +2407,8 @@
       "GUID": "{C4F24378-E52C-4FC3-9073-66879A55C468}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "2.434739",
-      "DurationMax": "2.434739",
+      "DurationMin": "1.84001",
+      "DurationMax": "1.84001",
       "MediaRefs": [
        {
         "Id": "294735641"
@@ -2488,6 +2488,15 @@
        {
         "Id": "644405884"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1416253857",
+        "Name": "Boss_Reverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Boss_Reverb",
+        "GUID": "{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}",
+        "Color": "4"
+       }
       ]
      },
      {
@@ -2502,6 +2511,15 @@
       "MediaRefs": [
        {
         "Id": "528665901"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1416253857",
+        "Name": "Boss_Reverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Boss_Reverb",
+        "GUID": "{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}",
+        "Color": "4"
        }
       ]
      },
@@ -2579,6 +2597,15 @@
        {
         "Id": "886747607"
        }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1416253857",
+        "Name": "Boss_Reverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Boss_Reverb",
+        "GUID": "{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}",
+        "Color": "4"
+       }
       ]
      },
      {
@@ -2618,6 +2645,15 @@
       "MediaRefs": [
        {
         "Id": "139243639"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1416253857",
+        "Name": "Boss_Reverb",
+        "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Boss_Reverb",
+        "GUID": "{A3479D23-65F2-40F0-AD5C-05B3DB2F2410}",
+        "Color": "4"
        }
       ]
      },
@@ -2899,8 +2935,8 @@
       "Color": "2",
       "MaxAttenuation": "3000",
       "DurationType": "OneShot",
-      "DurationMin": "1.973125",
-      "DurationMax": "1.973125",
+      "DurationMin": "4.973125",
+      "DurationMax": "4.973125",
       "MediaRefs": [
        {
         "Id": "227956053"
@@ -3607,6 +3643,17 @@
       ]
      },
      {
+      "Id": "3346947221",
+      "Name": "Stop_Boss_Idle_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Audio\\SFX\\Boss\\Stop_Boss_Idle_Loop",
+      "GUID": "{A86EEEE4-85F0-47AB-90E6-0AE3ABE03A2F}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "3230625255",
       "Name": "Stop_Music_System",
       "ObjectPath": "\\Events\\Default Work Unit\\Audio\\Music\\Stop_Music_System",
@@ -3797,6 +3844,6 @@
     ]
    }
   ],
-  "FileHash": "{224BB846-3443-C639-B5D5-F07428F89047}"
+  "FileHash": "{7554E56A-5AEB-C2AF-1CA6-E957153B689C}"
  }
 }

@@ -51,6 +51,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3230625255	Stop_Music_System			\Default Work Unit\Audio\Music\Stop_Music_System	
 	3294915283	Play_Start_Game			\Default Work Unit\Audio\SFX\UI\Play_Start_Game	
 	3326215491	Play_Boss_Scream			\Default Work Unit\Audio\SFX\Boss\Play_Boss_Scream	
+	3346947221	Stop_Boss_Idle_Loop			\Default Work Unit\Audio\SFX\Boss\Stop_Boss_Idle_Loop	
 	3453525588	Play_Enemy_Popcorn_Walk			\Default Work Unit\Audio\SFX\Enemy\Popcorn\Play_Enemy_Popcorn_Walk	
 	3499502665	Play_Enemy_Ranged_AOE_Warning			\Default Work Unit\Audio\SFX\Enemy\Ranged\Play_Enemy_Ranged_AOE_Warning	
 	3695176782	Play_Boss_Death			\Default Work Unit\Audio\SFX\Boss\Play_Boss_Death	
@@ -144,7 +145,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	280601004	SFX_Summoner_Take_Damage	.cache\6B\{6B4DD57B-E66B-9190-EF35-04FDCA851291}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Summoner\SFX_Summoner_Take_Damage		4641
 	285235228	Intro_Cutscene	.cache\F1\{F10CAD50-423B-958E-E559-9D5BCD9BF026}.wem		\Containers\Default Work Unit\Audio\Music\Intro_Cutscene\Intro_Cutscene		271729
 	294414217	Popcorn_Attack_04	.cache\B1\{B1C2C5AE-2958-0E65-B097-FD99743C172D}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_04		7549
-	294735641	SFX_Boss_AOE_Warning	.cache\1F\{1FA9A697-7B48-DFC8-AD03-FD1143509AED}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Boss\SFX_Boss_AOE_Warning		34947
+	294735641	SFX_Boss_AOE_Warning	.cache\FE\{FE02E22F-9F5B-1E1D-466B-51C1F8EC0708}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Boss\SFX_Boss_AOE_Warning		26513
 	311552003	sfx_spotsound_swamp_01	.cache\89\{8982385E-6233-21FE-D96C-C7AC3A505A77}.wem		\Containers\Default Work Unit\Audio\SFX\Ambience\Ambience_Level_1\SpotSounds_Swamp\sfx_spotsound_swamp_01		29805
 	327692223	Popcorn_Attack_01	.cache\6F\{6FA4CF48-B2F7-E7A5-656D-44753636C080}.wem		\Containers\Default Work Unit\Audio\SFX\Enemy\Popcorn\SFX_Popcorn_Attack\Popcorn_Attack_01		8603
 	330506489	sfx_player_vine_ability_01	.cache\EA\{EA82CEA3-8CB1-F322-0344-801AC183E8CB}.wem		\Containers\Default Work Unit\Audio\SFX\Player\Combat\SFX_Player_Vine_Ability\sfx_player_vine_ability_01		8920
